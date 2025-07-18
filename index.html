@@ -339,7 +339,7 @@
         const animeLinks = data.animes;
 
         // جلب جميع ملفات الأنمي الفردية بالتوازي مع تحديد حد للطلبات المتزامنة
-        const concurrencyLimit = 5; // يمكنك تعديل هذه القيمة حسب الحاجة
+        const concurrencyLimit = 50; // يمكنك تعديل هذه القيمة حسب الحاجة
         const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, concurrencyLimit);
 
         const fetchedEpisodes = [];

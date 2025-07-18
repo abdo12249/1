@@ -102,7 +102,7 @@
         النوع:
         <select id="typeSelect" class="watch-button" onchange="applyFilters()">
           <option value="all">الكل</option>
-        </label>
+        </select>
       </label>
 
       <label>
@@ -460,6 +460,12 @@
      */
     function fillSelect(id, values) {
       const select = document.getElementById(id);
+      // Add a check to ensure the select element exists
+      if (!select) {
+        console.error(`❌ العنصر المحدد بالمعرف "${id}" لم يتم العثور عليه.`);
+        return; // Exit the function if the element is not found
+      }
+
       // Clear current options except the first one ("All" or "View All")
       while (select.children.length > 1) {
         select.removeChild(select.lastChild);

@@ -394,9 +394,9 @@
 
         /**
          * Fetches data from the API, compares it with cached data, and updates if changed.
+         * This function no longer calls showLoading() at the beginning.
          */
         async function fetchAndUpdateDataIfChanged() {
-            showLoading(); // Show loading screen
             let networkData = null;
             try {
                 // Fetch الجديد.json (new.json)
@@ -468,7 +468,7 @@
 
             const cachedObject = await readFromIndexedDB(CACHE_KEY);
 
-            if (cachedObject && cachedObject.episodes) {
+            if (cachedObject && cachedObject.episodes && cachedObject.episodes.length > 0) {
                 allEpisodes = cachedObject.episodes.map(ep => ({
                     ...ep,
                     date: new Date(ep.date) // Convert date back to Date object
@@ -478,12 +478,15 @@
                 const currentPage = getPageFromURL();
                 renderPage(currentPage);
                 setupPagination(allEpisodes.length, currentPage);
+                // Fetch updates in the background without showing loading screen initially
+                fetchAndUpdateDataIfChanged();
             } else {
                 console.log("لا توجد بيانات في IndexedDB. جلب البيانات من الشبكة.");
+                // Show loading screen only if no cached data is available
+                showLoading();
+                // Then fetch data from the network
+                fetchAndUpdateDataIfChanged();
             }
-
-            // Always try to fetch the latest data from the network and compare
-            await fetchAndUpdateDataIfChanged();
         }
 
         init(); // Start initialization when the page loads

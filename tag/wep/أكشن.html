@@ -7,7 +7,79 @@
   <link rel="stylesheet" href="../../CSS/style.css" />
   <script src="../../navbar.js" defer></script>
   <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
-  
+  <style>
+    /* Pagination styling for the navigation buttons */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 20px 0;
+    }
+    .pagination button {
+      padding: 6px 12px;
+      background-color: var(--primary-color, #ef4444);
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+    }
+    .pagination button:hover {
+      background-color: #dc2626; /* Slightly darker on hover */
+    }
+    .pagination button.active {
+      background-color: #b91c1c; /* Active button color */
+    }
+    .pagination span {
+      padding: 6px 12px;
+      color: #888;
+    }
+
+    /* Loading overlay styles */
+    .loading-overlay {
+      position: fixed; /* Fixed position to cover the entire viewport */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+      display: flex; /* Use flexbox for centering content */
+      flex-direction: column; /* Stack items vertically */
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+      z-index: 1000; /* Ensure it's on top of other content */
+      color: white; /* Text color */
+      font-size: 1.2em; /* Larger font size for text */
+    }
+
+    /* Spinner animation */
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3); /* Light border for the spinner */
+      border-top: 4px solid #fff; /* White top border for animation */
+      border-radius: 50%; /* Make it circular */
+      width: 40px; /* Spinner width */
+      height: 40px; /* Spinner height */
+      animation: spin 1s linear infinite; /* Spin animation */
+      margin-bottom: 15px; /* Space below the spinner */
+    }
+
+    /* Keyframes for the spin animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Anime card image loading transition */
+    .anime-image img {
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
+    }
+
+    .anime-image img.loaded {
+      opacity: 1; /* Fully visible when loaded */
+    }
+  </style>
 </head>
 <body>
   <div id="navbar-container"></div>
@@ -17,7 +89,7 @@
       <h1>تصنيفات الأنمي</h1>
     </div>
 
-    <!-- فلاتر الأنمي -->
+    <!-- Anime filters section -->
     <div id="filters">
       <label>
         التصنيف:
@@ -50,37 +122,41 @@
       <button onclick="resetFilters()" class="watch-button">إعادة ضبط الفلاتر</button>
     </div>
 
-    <!-- شبكة الأنميات -->
+    <!-- Anime grid display area -->
     <div class="anime-grid" id="animeGrid"></div>
 
-    <!-- أزرار الصفحات -->
+    <!-- Pagination buttons area -->
     <div id="pagination" style="text-align: center; margin-top: 20px;"></div>
   </main>
 
-  <!-- شاشة التحميل -->
+  <!-- Loading screen overlay -->
   <div id="loadingOverlay" class="loading-overlay" style="display: none;">
     <div class="spinner"></div>
     <span>جاري تحميل الأنمي...</span>
   </div>
 
   <script>
+    // Get URL parameters
     const urlParams = new URLSearchParams(window.location.search);
-    let currentPage = parseInt(urlParams.get("page")) || 1;
-    const itemsPerPage = 30;
-    let allAnimes = []; // قائمة الأنميات بعد تطبيق الفلاتر
-    let originalAnimes = []; // القائمة الأصلية لجميع الأنميات التي تم جلبها
+    let currentPage = parseInt(urlParams.get("page")) || 1; // Current page, defaults to 1
+    const itemsPerPage = 30; // Number of items to display per page
+    let allAnimes = []; // List of animes after applying filters
+    let originalAnimes = []; // Original list of all fetched animes
 
-    const cacheDuration = 24 * 60 * 60 * 1000; // 24 ساعة بالمللي ثانية
+    const cacheDuration = 24 * 60 * 60 * 1000; // Cache duration: 24 hours in milliseconds
 
-    // ثوابت IndexedDB
-    const DB_NAME = 'AnimeCategoriesDB'; // اسم قاعدة بيانات مختلفة لتجنب التعارض
+    // IndexedDB constants
+    const DB_NAME = 'AnimeCategoriesDB'; // Different database name to avoid conflicts
     const DB_VERSION = 1;
     const STORE_NAME = 'animeDataCache';
     const CACHE_KEY = 'cachedAnimeCategories';
 
-    let db; // متغير للاحتفاظ بنسخة قاعدة بيانات IndexedDB
+    let db; // Variable to hold the IndexedDB database instance
 
-    // دالة لفتح قاعدة بيانات IndexedDB
+    /**
+     * Opens the IndexedDB database.
+     * @returns {Promise<IDBDatabase>} A promise that resolves with the database instance.
+     */
     function openDatabase() {
       return new Promise((resolve, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
@@ -104,7 +180,11 @@
       });
     }
 
-    // دالة لقراءة البيانات من IndexedDB
+    /**
+     * Reads data from IndexedDB.
+     * @param {string} key The key of the data to retrieve.
+     * @returns {Promise<any>} A promise that resolves with the retrieved data.
+     */
     async function readFromIndexedDB(key) {
       if (!db) {
         await openDatabase();
@@ -125,7 +205,12 @@
       });
     }
 
-    // دالة لكتابة البيانات إلى IndexedDB
+    /**
+     * Writes data to IndexedDB.
+     * @param {string} key The key to store the data under.
+     * @param {any} data The data to store.
+     * @returns {Promise<void>} A promise that resolves when the data is written.
+     */
     async function writeToIndexedDB(key, data) {
       if (!db) {
         await openDatabase();
@@ -146,18 +231,26 @@
       });
     }
 
-    // دالة لإظهار شاشة التحميل
+    /**
+     * Displays the loading screen.
+     */
     function showLoading() {
       document.getElementById('loadingOverlay').style.display = 'flex';
     }
 
-    // دالة لإخفاء شاشة التحميل
+    /**
+     * Hides the loading screen.
+     */
     function hideLoading() {
       document.getElementById('loadingOverlay').style.display = 'none';
     }
 
+    /**
+     * Updates the page number and filter selections in the URL.
+     * @param {number} page The current page number.
+     */
     function updatePageInURL(page) {
-      // تجنب استخدام pushState في بيئات مثل blob: URLs لتجنب SecurityError
+      // Avoid using pushState in environments like blob: URLs to prevent SecurityError
       if (window.location.protocol !== 'blob:') {
         const url = new URL(window.location);
         url.searchParams.set("page", page);
@@ -171,16 +264,28 @@
       }
     }
 
+    /**
+     * Adjusts the image path to correctly resolve relative URLs.
+     * This function is crucial if your image paths are relative to the current HTML file's location
+     * and the HTML file itself might be served from a different base path (e.g., from GitHub Pages).
+     * @param {string} path The original image path.
+     * @returns {string} The adjusted image path.
+     */
     function adjustPath(path) {
-      // هذه الدالة تعدل المسار ليتناسب مع هيكل المجلدات الخاص بك.
-      // إذا كانت صورك في نفس المجلد أو مسار نسبي مختلف، فقد تحتاج إلى تعديل هذا.
+      // This function adjusts the path to fit your folder structure.
+      // If your images are in the same folder or a different relative path, you might need to adjust this.
       return path.startsWith('../') ? path.replace('../', '../../') : path;
     }
 
+    /**
+     * Creates and returns an anime card element.
+     * @param {object} anime The anime data object.
+     * @returns {HTMLElement} The created anime card div.
+     */
     function displayAnime(anime) {
       const card = document.createElement('div');
       card.className = 'anime-card';
-      const categories = anime.tags || anime.categories || [];
+      const categories = anime.tags || anime.categories || []; // Use 'tags' or 'categories' for compatibility
 
       card.innerHTML = `
         <a href="../../test1/Anime Page Dynamic.html?id=${anime.id}" style="text-decoration: none; color: inherit;">
@@ -199,9 +304,13 @@
       return card;
     }
 
+    /**
+     * Displays a specific page of anime cards.
+     * @param {number} page The page number to display.
+     */
     function showPage(page) {
       const animeGrid = document.getElementById('animeGrid');
-      animeGrid.innerHTML = "";
+      animeGrid.innerHTML = ""; // Clear existing content
 
       const startIndex = (page - 1) * itemsPerPage;
       const endIndex = startIndex + itemsPerPage;
@@ -212,31 +321,36 @@
         animeGrid.appendChild(card);
       });
 
-      // إضافة مراقب للتحميل التدريجي للصور بعد عرض الصفحة
+      // Add IntersectionObserver for lazy loading images after rendering the page
       const lazyImages = document.querySelectorAll('#animeGrid img[loading="lazy"]');
       if ('IntersectionObserver' in window) {
         const observer = new IntersectionObserver((entries, observer) => {
           entries.forEach(entry => {
             if (entry.isIntersecting) {
               const img = entry.target;
-              img.classList.add('loaded');
-              observer.unobserve(img);
+              img.classList.add('loaded'); // Add 'loaded' class for opacity transition
+              observer.unobserve(img); // Stop observing after loading
             }
           });
         });
         lazyImages.forEach(img => observer.observe(img));
       } else {
+        // Fallback for browsers that don't support IntersectionObserver
         lazyImages.forEach(img => img.classList.add('loaded'));
       }
     }
 
+    /**
+     * Creates and updates the pagination buttons.
+     */
     function createPagination() {
       const pagination = document.getElementById('pagination');
-      pagination.innerHTML = "";
+      pagination.innerHTML = ""; // Clear existing pagination buttons
 
       const totalPages = Math.ceil(allAnimes.length / itemsPerPage);
-      const maxVisiblePages = 5;
+      const maxVisiblePages = 5; // Maximum number of pagination buttons to show
 
+      // "Previous" button
       if (currentPage > 1) {
         const prevBtn = document.createElement('button');
         prevBtn.textContent = "← السابق";
@@ -250,17 +364,19 @@
         pagination.appendChild(prevBtn);
       }
 
+      // Calculate the range of page numbers to display
       let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
       let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
       if (endPage - startPage < maxVisiblePages - 1) {
         startPage = Math.max(1, endPage - maxVisiblePages + 1);
       }
 
+      // Page number buttons
       for (let i = startPage; i <= endPage; i++) {
         const button = document.createElement('button');
         button.textContent = i;
         button.className = "watch-button";
-        if (i === currentPage) button.classList.add("active");
+        if (i === currentPage) button.classList.add("active"); // Add 'active' class to current page button
         button.onclick = () => {
           currentPage = i;
           updatePageInURL(currentPage);
@@ -270,12 +386,14 @@
         pagination.appendChild(button);
       }
 
+      // "..." dots if there are hidden pages after the current range
       if (endPage < totalPages) {
         const dots = document.createElement('span');
         dots.textContent = "...";
         dots.style.margin = "0 10px";
         pagination.appendChild(dots);
 
+        // Last page button
         const lastBtn = document.createElement('button');
         lastBtn.textContent = totalPages;
         lastBtn.className = "watch-button";
@@ -288,6 +406,7 @@
         pagination.appendChild(lastBtn);
       }
 
+      // "Next" button
       if (currentPage < totalPages) {
         const nextBtn = document.createElement('button');
         nextBtn.textContent = "التالي →";
@@ -302,39 +421,46 @@
       }
     }
 
+    /**
+     * Generates and populates the filter options based on the available anime data.
+     */
     function generateFilterOptions() {
       const categorySet = new Set();
       const typeSet = new Set();
       const statusSet = new Set();
-      const seasonMap = new Map();
+      const seasonMap = new Map(); // Using a Map to preserve order and uniqueness
 
       originalAnimes.forEach(anime => {
         (anime.tags || anime.categories || []).forEach(tag => categorySet.add(tag));
         if (anime.type) typeSet.add(anime.type);
         if (anime.status) statusSet.add(anime.status);
-        if (anime.season) seasonMap.set(anime.season.trim(), true);
+        if (anime.season) seasonMap.set(anime.season.trim(), true); // Trim to handle potential whitespace
       });
 
+      // Define a custom order for seasons (Winter, Spring, Summer, Fall)
       const seasonOrder = { "شتاء": 1, "ربيع": 2, "صيف": 3, "خريف": 4 };
       const sortedSeasons = [...seasonMap.keys()]
         .map(season => {
-          const parts = season.split(" ");
-          return { season, year: parseInt(parts[1]), order: seasonOrder[parts[0]] || 99 };
+          const parts = season.split(" "); // Split "Spring 2023" into ["Spring", "2023"]
+          return { season, year: parseInt(parts[1]), order: seasonOrder[parts[0]] || 99 }; // Parse year and get custom order
         })
-        .sort((a, b) => a.year - b.year || a.order - b.order)
-        .map(item => item.season);
+        .sort((a, b) => a.year - b.year || a.order - b.order) // Sort by year, then by custom season order
+        .map(item => item.season); // Get back the original season string
 
       fillSelect("categorySelect", categorySet);
       fillSelect("typeSelect", typeSet);
       fillSelect("statusSelect", statusSet);
       fillSelect("seasonSelect", sortedSeasons);
-
-      // setFiltersFromURL(); // سيتم استدعاؤها في init
     }
 
+    /**
+     * Populates a select element with options from a given set or array.
+     * @param {string} id The ID of the select element.
+     * @param {Set<string>|string[]} values The values to populate the select options.
+     */
     function fillSelect(id, values) {
       const select = document.getElementById(id);
-      // مسح الخيارات الحالية باستثناء "عرض الكل" أو "الكل"
+      // Clear current options except the first one ("All" or "View All")
       while (select.children.length > 1) {
         select.removeChild(select.lastChild);
       }
@@ -346,24 +472,30 @@
       });
     }
 
+    /**
+     * Sets the filter dropdowns based on URL parameters.
+     */
     function setFiltersFromURL() {
       const category = urlParams.get("category");
       const type = urlParams.get("type");
       const status = urlParams.get("status");
       const season = urlParams.get("season");
 
-      // التأكد من وجود العناصر قبل محاولة تعيين القيمة
       const categorySelect = document.getElementById("categorySelect");
       const typeSelect = document.getElementById("typeSelect");
       const statusSelect = document.getElementById("statusSelect");
       const seasonSelect = document.getElementById("seasonSelect");
 
+      // Check if the select element and the option exist before setting the value
       if (category && categorySelect && Array.from(categorySelect.options).some(opt => opt.value === category)) categorySelect.value = category;
       if (type && typeSelect && Array.from(typeSelect.options).some(opt => opt.value === type)) typeSelect.value = type;
       if (status && statusSelect && Array.from(statusSelect.options).some(opt => opt.value === status)) statusSelect.value = status;
       if (season && seasonSelect && Array.from(seasonSelect.options).some(opt => opt.value === season)) seasonSelect.value = season;
     }
 
+    /**
+     * Applies the selected filters to the anime list and re-renders the page.
+     */
     function applyFilters() {
       const selectedCategory = document.getElementById("categorySelect").value;
       const selectedType = document.getElementById("typeSelect").value;
@@ -379,31 +511,67 @@
         return categoryMatch && typeMatch && statusMatch && seasonMatch;
       });
 
-      currentPage = parseInt(urlParams.get("page")) || 1; // إعادة تعيين الصفحة الحالية من URL بعد تطبيق الفلاتر
+      currentPage = 1; // Reset to first page when filters are applied
       showPage(currentPage);
       createPagination();
-      updatePageInURL(currentPage); // تحديث URL بعد تطبيق الفلاتر
+      updatePageInURL(currentPage); // Update URL after applying filters
     }
 
+    /**
+     * Resets all filters to their default "all" state.
+     */
     function resetFilters() {
       document.getElementById("categorySelect").value = "all";
       document.getElementById("typeSelect").value = "all";
       document.getElementById("statusSelect").value = "all";
       document.getElementById("seasonSelect").value = "all";
-      currentPage = 1;
-      applyFilters(); // تطبيق الفلاتر بعد إعادة الضبط
+      currentPage = 1; // Reset to first page
+      applyFilters(); // Apply filters after resetting
     }
 
-    async function init() {
-        showLoading(); // إظهار شاشة التحميل
+    /**
+     * Fetches URLs with a concurrency limit.
+     * @param {string[]} urls An array of URLs to fetch.
+     * @param {number} limit The maximum number of concurrent requests.
+     * @returns {Promise<any[]>} A promise that resolves with an array of fetched data.
+     */
+    async function fetchWithConcurrencyLimit(urls, limit) {
+        const results = [];
+        const queue = [...urls]; // Create a mutable copy of the URLs
 
-        await openDatabase(); // التأكد من فتح IndexedDB
+        async function worker() {
+            while (queue.length > 0) {
+                const url = queue.shift(); // Get the next URL from the queue
+                if (!url) continue; // Skip if queue is empty
+
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    results.push(data);
+                } catch (error) {
+                    console.error(`فشل تحميل: ${url}`, error);
+                    results.push(null); // Push null for failed requests
+                }
+            }
+        }
+
+        // Start 'limit' number of workers
+        const workers = Array(limit).fill(null).map(() => worker());
+        await Promise.all(workers); // Wait for all workers to complete
+        return results;
+    }
+
+    /**
+     * Initializes the application by loading data from IndexedDB or network.
+     */
+    async function init() {
+        await openDatabase(); // Ensure IndexedDB is open
 
         let cachedAnimesData = null;
         let networkAnimesData = null;
-        let renderedFromCache = false; // علامة للتحقق مما إذا كان العرض الأولي قد تم من الكاش
+        let renderedFromCache = false; // Flag to check if initial render happened from cache
 
-        // 1. محاولة التحميل من IndexedDB أولاً للعرض السريع
+        // 1. Attempt to load from IndexedDB first for quick display
         try {
             const cachedObject = await readFromIndexedDB(CACHE_KEY);
             const now = Date.now();
@@ -411,9 +579,9 @@
                 cachedAnimesData = cachedObject.animes;
                 originalAnimes = [...cachedAnimesData];
                 allAnimes = [...cachedAnimesData];
-                generateFilterOptions(); // توليد خيارات الفلاتر بناءً على البيانات المخزنة
-                setFiltersFromURL(); // تطبيق الفلاتر من URL
-                applyFilters(); // عرض البيانات المخزنة مؤقتًا
+                generateFilterOptions(); // Generate filter options based on cached data
+                setFiltersFromURL(); // Apply filters from URL
+                applyFilters(); // Display cached data
                 renderedFromCache = true;
                 console.log("✅ تم تحميل بيانات الأنمي من IndexedDB.");
             } else {
@@ -423,7 +591,12 @@
             console.error("❌ خطأ في قراءة IndexedDB أثناء التحميل الأولي:", error);
         }
 
-        // 2. دائمًا حاول جلب البيانات من الشبكة
+        // 2. Always attempt to fetch data from the network
+        // Show loading only if nothing was rendered from cache
+        if (!renderedFromCache) {
+            showLoading();
+        }
+
         try {
             console.log("🔄 جلب بيانات الأنمي من الشبكة...");
             const response = await fetch("https://abdo12249.github.io/1/test1/animes.json");
@@ -432,14 +605,14 @@
             const data = await response.json();
             networkAnimesData = Object.entries(data).map(([id, anime]) => ({ id, ...anime }));
 
-            // فرز البيانات لضمان مقارنة متسقة
+            // Sort data to ensure consistent comparison
             networkAnimesData.sort((a, b) => a.id.localeCompare(b.id));
 
-            // الحصول على البيانات الحالية للمقارنة (سواء من الكاش أو فارغة إذا لم يكن هناك كاش صالح)
+            // Get current data for comparison (either from cache or empty if no valid cache)
             let currentDataForComparison = cachedAnimesData ? [...cachedAnimesData] : [];
             currentDataForComparison.sort((a, b) => a.id.localeCompare(b.id));
 
-            // مقارنة البيانات الجديدة من الشبكة مع البيانات الحالية
+            // Compare new network data with current data
             if (JSON.stringify(networkAnimesData) !== JSON.stringify(currentDataForComparison)) {
                 console.log("✅ تم اكتشاف تغييرات في البيانات. تحديث IndexedDB والواجهة.");
                 const cacheObject = {
@@ -448,19 +621,19 @@
                 };
                 await writeToIndexedDB(CACHE_KEY, cacheObject);
 
-                // تحديث المتغيرات العالمية بالبيانات الجديدة
+                // Update global variables with new data
                 originalAnimes = [...networkAnimesData];
                 allAnimes = [...networkAnimesData];
 
-                // إعادة توليد الفلاتر وتطبيقها وعرض الواجهة بالبيانات الجديدة
+                // Re-generate filters, apply them, and render the UI with new data
                 generateFilterOptions();
                 setFiltersFromURL();
                 applyFilters();
             } else {
                 console.log("✅ البيانات من الشبكة مطابقة للبيانات المخزنة مؤقتًا. لا حاجة للتحديث.");
-                // إذا لم يتم العرض من الكاش في البداية ولكن البيانات مطابقة، يجب أن نعرضها الآن.
+                // If not rendered from cache initially but data is identical, we still need to render it.
                 if (!renderedFromCache && allAnimes.length === 0 && originalAnimes.length === 0) {
-                    originalAnimes = [...networkAnimesData]; // استخدام بيانات الشبكة إذا لم يتم عرض الكاش
+                    originalAnimes = [...networkAnimesData]; // Use network data if cache wasn't rendered
                     allAnimes = [...networkAnimesData];
                     generateFilterOptions();
                     setFiltersFromURL();
@@ -470,11 +643,11 @@
 
         } catch (networkError) {
             console.error("❌ خطأ في جلب البيانات من الشبكة:", networkError);
-            // إذا فشل جلب الشبكة ولم يتم العرض من الكاش في البداية، حاول التحميل من الكاش كخيار احتياطي (حتى لو انتهت الصلاحية)
+            // If network fetch fails and nothing was rendered from cache initially, try loading from cache as fallback (even if expired)
             if (!renderedFromCache) {
                 try {
                     const cachedObject = await readFromIndexedDB(CACHE_KEY);
-                    if (cachedObject && cachedObject.animes) {
+                    if (cachedObject && cachedObject.animes && cachedObject.animes.length > 0) {
                         originalAnimes = [...cachedObject.animes];
                         allAnimes = [...cachedObject.animes];
                         generateFilterOptions();
@@ -483,26 +656,26 @@
                         console.log("⚠️ تم تحميل بيانات الأنمي من IndexedDB كخيار احتياطي بسبب فشل الشبكة.");
                     } else {
                         console.error("❌ لا توجد بيانات في IndexedDB. لا يمكن عرض أي أنميات.");
-                        // يمكنك عرض رسالة خطأ للمستخدم هنا
+                        // You can display an error message to the user here
                     }
                 } catch (dbFallbackError) {
                     console.error("❌ خطأ في قراءة IndexedDB كخيار احتياطي:", dbFallbackError);
                 }
             }
         } finally {
-            hideLoading(); // إخفاء شاشة التحميل
+            hideLoading(); // Always hide loading screen
         }
     }
 
-    // بدء التهيئة عند تحميل الصفحة
+    // Start initialization when the page loads
     init();
   </script>
 
   <script>
-    // تحميل شريط التنقل (navbar)
-    // تم افتراض أن navbar.js يتعامل مع تحميل شريط التنقل.
-    // إذا كنت تستخدم ملف navbar.html بشكل مباشر، قم بإلغاء التعليق على السطر أدناه
-    // وتأكد من أن المسار صحيح.
+    // Load the navbar content
+    // It's assumed that navbar.js handles loading the navbar.
+    // If you're directly injecting navbar.html, uncomment the line below
+    // and ensure the path is correct.
     fetch('../../navbar.html')
       .then(response => response.text())
       .then(data => document.getElementById('navbar-container').innerHTML = data)

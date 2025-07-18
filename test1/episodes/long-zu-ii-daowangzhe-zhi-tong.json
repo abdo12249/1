@@ -55,51 +55,51 @@
       ]
     },
     {
-      "number": 2,
-      "title": "الحلقة 2",
-      "date": "2025-07-18 13:51:17",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=2",
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-07-18 13:51:20",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=1",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
         {
           "serverName": "megamax",
-          "url": "https://megamax.me/iframe/R0MEQdBlI7TVg"
+          "url": "https://megamax.me/iframe/zEM8WrwSeybit"
         },
         {
           "serverName": "mega بدون اعلانات",
-          "url": "https://mega.nz/embed/nINByDJY!uVWvFsoTt18f1ha5vVr1Qu_ezOTOJKtDbt6zMxVnSnA"
+          "url": "https://mega.nz/embed/DcVnjJ6Q!UQbRy2IrIWx9cGm4M_AFKtB_glJQaq6dTQOQP8TUxuE"
         },
         {
           "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239455&autoplay=1"
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239454&hash=0024f1ed69cd0b95&autoplay=1"
         },
         {
           "serverName": "videa",
-          "url": "https://videa.hu/player?v=CWky48HYO5iwYTjb"
-        },
-        {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.to/embed-n1igst53yihf.html"
+          "url": "https://videa.hu/player?v=8sb2A4vDO7auv1cZ"
         },
         {
           "serverName": "voe.sx",
-          "url": "https://voe.sx/e/3cbqoqvqrlqo"
+          "url": "https://voe.sx/e/zrtviqeb55xo"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hgi3ddh2lm2k.html"
         },
         {
           "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/embed-fx0z3o9mny16.html"
+          "url": "https://www.mp4upload.com/embed-hqvqlsxribjp.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
-          "url": "https://mega.nz/embed/6FUUUT6C!gj9ftOGVEG6BScXb9nZhXL4_yhizIRdCt6rEW8sW7Lk"
+          "url": "https://mega.nz/embed/SINBEKhB!T-PFu-GGEtJjlgJojC57qgTw76fS4vxY86bHLwU1Leo"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
-          "url": "https://mega.nz/embed/7Nsy3SJC!70LABnbMv0ygMkE9RtQy2ITcUJRUN-clNR4hNmEYBiY"
+          "url": "https://mega.nz/embed/ad02xZjB!FUY00_pXgKPsK0UCFIrf0mupYNwI0myBaclcJ9dzhyg"
         },
         {
           "serverName": "Mp4upload - SD",
-          "url": "https://www.mp4upload.com/embed-8xqa3u37bjac.html"
+          "url": "https://www.mp4upload.com/embed-bngdjejh53k9.html"
         }
       ]
     }

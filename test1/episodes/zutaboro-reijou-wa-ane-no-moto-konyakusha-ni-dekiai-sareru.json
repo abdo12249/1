@@ -106,13 +106,17 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-18 18:56:03",
+      "date": "2025-07-18 19:30:27",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=3",
       "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/Vy7StfaXxqZHW"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/bd9wnRra!lxbFmfrdDc2G2tvWU91WWkhOlnZS12vQNXxQp_KKUD4"
         },
         {
           "serverName": "vk",
@@ -123,12 +127,32 @@
           "url": "https://videa.hu/player?v=Z9GuVtcP8fHrzGX5"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nhwogrra4h34"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-os9qz3xn5rfj.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ebldpli5o1i4.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/zI8XXI6I!hH18a9NZYZfcoDJ-S1joXWvzEKMpRTCWYwNdLKE8qa8"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-i2qq32x4qozk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/jo4BhD6I!6pfe1zj4ztf2zu4cpb085fMPMgNkt3YLElz102gnY8Y"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ld4ewpa6ogjo.html"
         }
       ]
     }

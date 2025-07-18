@@ -53,6 +53,59 @@
           "url": "https://www.mp4upload.com/embed-o5odc84gbagl.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-18 17:46:11",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=arknights-rise-from-ember&episode=3",
+      "image": "https://abdo12249.github.io/1/images/arknights-rise-from-ember.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/W5J6tc1VTuPPI"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/WYMjkYCZ!S8EEjUeb1V2LW7dhkxHK4-3Fwk9HwMQ0rMSrvoreuyQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239459&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=PmhXeeaDSMGMnvSW"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/kf8dcgjewlne"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-pi9hbrbmmzi4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-46ivraf9v47l.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/yAlEjArD!5ktq_sAquMCy8ZR66tt5ms8gKzagNKgQOuUqaFTAkHQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-3i422dzi59qi.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PIknTbCa!q3DuPaaEkxlfRLx8-UtAnTU3GqpWvwlGBvWxcwKXh38"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ci427ej7258x.html"
+        }
+      ]
     }
   ]
 }

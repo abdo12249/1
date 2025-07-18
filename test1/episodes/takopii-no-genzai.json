@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-a3zqh9iqw808.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-18 16:57:23",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=takopii-no-genzai&episode=4",
+      "image": "https://abdo12249.github.io/1/images/takopii-no-genzai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/879luBEhVuJHr"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/6IMySTKT!V_Hs6j092JdRWwpvt7nAz1Hm8Z0JQk0_lQ0Eu_pb2Bo"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239457&hash=cc00eb4b132877e3&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=X9cJOnDv1JdQ5Ift"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-mgxgmws5n6ry.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/xp0zpbasycwg"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-2zztpyx211o2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/mJVUFBzC!_gTcZrDu3SApvPbcoPsMp3iSFaX7ofRpIT9tkoQasl4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-nw2hi0y3soi0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/GYM1kZ5I!sSUAfEtKbnbRBlLxC4qJzHjvLaz-Se7qhl90fK5yb_8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wduyfuflz6eb.html"
+        }
+      ]
     }
   ]
 }

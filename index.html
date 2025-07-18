@@ -10,6 +10,56 @@
           <meta name="description" content="شاهد أحدث حلقات الأنمي مجاناً بجودة عالية عبر موقع AMK4UP. بدون إعلانات مزعجة وبتصميم بسيط.">
         <script src="navbar.js" defer></script>
         <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon">
+
+ <style>     
+
+        /* Loading overlay styles */
+        .loading-overlay {
+            position: fixed; /* Fixed position to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            display: flex; /* Use flexbox for centering content */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            z-index: 1000; /* Ensure it's on top of other content */
+            color: white; /* Text color */
+            font-size: 1.2em; /* Larger font size for text */
+        }
+
+        /* Spinner animation */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3); /* Light border for the spinner */
+            border-top: 4px solid #fff; /* White top border for animation */
+            border-radius: 50%; /* Make it circular */
+            width: 40px; /* Spinner width */
+            height: 40px; /* Spinner height */
+            animation: spin 1s linear infinite; /* Spin animation */
+            margin-bottom: 15px; /* Space below the spinner */
+        }
+
+        /* Keyframes for the spin animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Anime card image loading transition */
+        .anime-image img {
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
+        }
+
+        .anime-image img.loaded {
+            opacity: 1; /* Fully visible when loaded */
+        }
+    </style>
+
+
+
     </head>
     
 <body>
@@ -103,7 +153,10 @@
 
     let db; // متغير للاحتفاظ بنسخة قاعدة بيانات IndexedDB
 
-    // دالة لفتح قاعدة بيانات IndexedDB
+    /**
+     * دالة لفتح قاعدة بيانات IndexedDB.
+     * @returns {Promise<IDBDatabase>} وعد يتم حله بنسخة قاعدة البيانات.
+     */
     function openDatabase() {
       return new Promise((resolve, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION);
@@ -128,7 +181,11 @@
       });
     }
 
-    // دالة لقراءة البيانات من IndexedDB
+    /**
+     * دالة لقراءة البيانات من IndexedDB.
+     * @param {string} key المفتاح لاسترداد البيانات.
+     * @returns {Promise<any>} وعد يتم حله بالبيانات المستردة.
+     */
     async function readFromIndexedDB(key) {
       if (!db) {
         await openDatabase(); // التأكد من فتح قاعدة البيانات قبل القراءة
@@ -149,7 +206,12 @@
       });
     }
 
-    // دالة لكتابة البيانات إلى IndexedDB
+    /**
+     * دالة لكتابة البيانات إلى IndexedDB.
+     * @param {string} key المفتاح لتخزين البيانات تحته.
+     * @param {any} data البيانات المراد تخزينها.
+     * @returns {Promise<void>} وعد يتم حله عند كتابة البيانات.
+     */
     async function writeToIndexedDB(key, data) {
       if (!db) {
         await openDatabase(); // التأكد من فتح قاعدة البيانات قبل الكتابة
@@ -170,17 +232,23 @@
       });
     }
 
-    // دالة لإظهار شاشة التحميل
+    /**
+     * دالة لإظهار شاشة التحميل.
+     */
     function showLoading() {
       document.getElementById('loadingOverlay').style.display = 'flex';
     }
 
-    // دالة لإخفاء شاشة التحميل
+    /**
+     * دالة لإخفاء شاشة التحميل.
+     */
     function hideLoading() {
       document.getElementById('loadingOverlay').style.display = 'none';
     }
 
-    // دالة لعرض الحلقات في الشبكة
+    /**
+     * دالة لعرض الحلقات في الشبكة.
+     */
     function renderEpisodes() {
       const animeGrid = document.getElementById("animeGridNew");
       animeGrid.innerHTML = ""; // مسح المحتوى الحالي
@@ -225,9 +293,42 @@
       }
     }
 
-    // دالة لجلب البيانات من API ومقارنتها مع البيانات المخزنة، ثم التحديث إذا تغيرت
+    /**
+     * دالة لجلب عناوين URL بحد أقصى للطلبات المتزامنة.
+     * @param {string[]} urls مصفوفة من عناوين URL المراد جلبها.
+     * @param {number} limit الحد الأقصى لعدد الطلبات المتزامنة.
+     * @returns {Promise<any[]>} وعد يتم حله بمصفوفة من البيانات التي تم جلبها.
+     */
+    async function fetchWithConcurrencyLimit(urls, limit) {
+        const results = [];
+        const queue = [...urls]; // إنشاء نسخة قابلة للتعديل من عناوين URL
+
+        async function worker() {
+            while (queue.length > 0) {
+                const url = queue.shift(); // الحصول على عنوان URL التالي من قائمة الانتظار
+                if (!url) continue; // تخطي إذا كانت قائمة الانتظار فارغة
+
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    results.push(data);
+                } catch (error) {
+                    console.error(`فشل تحميل: ${url}`, error);
+                    results.push(null); // إضافة null للطلبات الفاشلة
+                }
+            }
+        }
+
+        // بدء عدد 'limit' من العمال
+        const workers = Array(limit).fill(null).map(() => worker());
+        await Promise.all(workers); // انتظار جميع العمال لإكمال عملهم
+        return results;
+    }
+
+    /**
+     * دالة لجلب البيانات من API ومقارنتها مع البيانات المخزنة، ثم التحديث إذا تغيرت.
+     */
     async function fetchAndCompareAndUpdate() {
-      showLoading(); // إظهار شاشة التحميل
       let networkEpisodes = [];
       let shouldRender = false; // علامة لتحديد ما إذا كان عرض الواجهة مطلوبًا
 
@@ -237,21 +338,12 @@
         const data = await response.json();
         const animeLinks = data.animes;
 
-        // جلب جميع ملفات الأنمي الفردية بالتوازي
-        const results = await Promise.all(
-          animeLinks.map(async link => {
-            try {
-              const res = await fetch(link);
-              return await res.json();
-            } catch (err) {
-              console.error("فشل تحميل:", link, err);
-              return null;
-            }
-          })
-        );
+        // جلب جميع ملفات الأنمي الفردية بالتوازي مع تحديد حد للطلبات المتزامنة
+        const concurrencyLimit = 5; // يمكنك تعديل هذه القيمة حسب الحاجة
+        const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, concurrencyLimit);
 
         const fetchedEpisodes = [];
-        results.forEach(animeData => {
+        fetchedAnimeData.forEach(animeData => {
           if (!animeData) return; // تخطي البيانات الفارغة
 
           animeData.episodes.forEach(ep => {
@@ -324,23 +416,32 @@
       }
     }
 
-    // دالة للتهيئة
+    /**
+     * دالة للتهيئة.
+     */
     async function init() {
       await openDatabase(); // فتح IndexedDB عند التهيئة
 
       const cachedObject = await readFromIndexedDB(CACHE_KEY);
       const now = Date.now();
+      let renderedFromCache = false;
 
       // حاول التحميل من الكاش أولاً للعرض الفوري
-      if (cachedObject && cachedObject.episodes && (now - cachedObject.timestamp) < cacheDuration) {
+      if (cachedObject && cachedObject.episodes && cachedObject.episodes.length > 0 && (now - cachedObject.timestamp) < cacheDuration) {
         allEpisodes = cachedObject.episodes.map(ep => ({
           ...ep,
           date: new Date(ep.date)
         }));
         console.log("تم تحميل البيانات الأولية من IndexedDB.");
         renderEpisodes(); // العرض فورًا من الكاش
+        renderedFromCache = true;
       } else {
         console.log("لا توجد بيانات في IndexedDB أو انتهت صلاحيتها. سيتم جلب البيانات من الشبكة.");
+      }
+
+      // إظهار شاشة التحميل فقط إذا لم يتم العرض من الكاش
+      if (!renderedFromCache) {
+        showLoading();
       }
 
       // دائمًا حاول جلب البيانات وتحديثها من الشبكة في الخلفية
@@ -349,9 +450,9 @@
     }
 
     init(); // بدء التهيئة عند تحميل الصفحة
-
   </script>
 </main>
+
 
 
    <!-- Auto slideshow-->

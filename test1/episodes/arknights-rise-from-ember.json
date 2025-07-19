@@ -57,7 +57,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 06:07:09",
+      "date": "2025-07-19 11:29:03",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=arknights-rise-from-ember&episode=3",
       "image": "https://abdo12249.github.io/1/images/arknights-rise-from-ember.webp",
       "servers": [
@@ -84,6 +84,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-pi9hbrbmmzi4.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/c7abwcue3ju7"
         },
         {
           "serverName": "Mp4upload",

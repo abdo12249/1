@@ -143,7 +143,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-19 01:59:49",
+      "date": "2025-07-19 11:28:48",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=4",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
@@ -170,6 +170,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/i90ob000pojq"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/uaiqjsspq3yc"
         },
         {
           "serverName": "Mp4upload",
@@ -200,7 +204,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-19 11:28:45",
+      "date": "2025-07-19 05:13:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=5",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
@@ -227,10 +231,6 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/frspq45wefuo"
-        },
-        {
-          "serverName": "DoodStream",
-          "url": "https://vide0.net/e/kroi17qzsab8"
         },
         {
           "serverName": "Mp4upload",

@@ -57,7 +57,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-19 06:08:26",
+      "date": "2025-07-19 11:30:29",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sakamoto-days-part-2&episode=2",
       "image": "https://abdo12249.github.io/1/images/sakamoto-days-part-2.webp",
       "servers": [
@@ -84,6 +84,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239430&hd=2&hash=e763c91149cd79be&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/a4357h65jv83"
         },
         {
           "serverName": "Mp4upload",

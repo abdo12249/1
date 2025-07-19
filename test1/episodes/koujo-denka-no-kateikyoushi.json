@@ -167,7 +167,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-19 17:40:01",
+      "date": "2025-07-19 18:51:49",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=4",
       "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
       "servers": [
@@ -210,6 +210,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-5guayjbpa1ou.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/WswUVYoC!_JRfmdRegGlCdPe7HMboQ4Blor7BNwsAd6jd5uvthVA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-lbq5p01wmczc.html"
         }
       ]
     }

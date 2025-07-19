@@ -106,6 +106,35 @@
           "url": "https://www.mp4upload.com/embed-pa36iyrknq4r.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-19 23:39:54",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaoru-hana-wa-rin-to-saku&episode=3",
+      "image": "https://abdo12249.github.io/1/images/kaoru-hana-wa-rin-to-saku.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/3vUE9VJ39F326"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=U6hOuxk05FIO8jwz"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239481&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ThJS0JqJ!oKJGl7l2hzCf0rmOHFhcXV7mPfXvlkdzsnAS9Mdi83w"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-z7afholt6kq2.html"
+        }
+      ]
     }
   ]
 }

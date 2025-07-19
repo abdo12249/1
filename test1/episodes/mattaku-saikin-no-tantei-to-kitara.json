@@ -110,7 +110,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 06:08:18",
+      "date": "2025-07-19 11:30:19",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mattaku-saikin-no-tantei-to-kitara&episode=3",
       "image": "https://abdo12249.github.io/1/images/mattaku-saikin-no-tantei-to-kitara.webp",
       "servers": [
@@ -137,6 +137,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239433&hd=2&hash=79f1621b5476aa6e&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/si99bb85w218"
         },
         {
           "serverName": "Mp4upload",

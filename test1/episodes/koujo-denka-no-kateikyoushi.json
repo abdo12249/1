@@ -163,6 +163,55 @@
           "url": "https://www.mp4upload.com/embed-k79frrwautlr.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-19 17:40:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=4",
+      "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/22eGaHsmV8oWG"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/GwwW0JBI!kvt2j3cehQAd4zHwWv-SQrcqEok2h7n3aNVYraycoHE"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239478&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Si9DTX1hCsEmS3qJ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hzlhhtobivpk"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3loil3ud68fr.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/c20chvl7z22t"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-m60jny75vhuw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GoRF3bKa!rouYu9Gcgj1CDOCcifBAYXDYHaLfFLD2l56a-e522YA"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-5guayjbpa1ou.html"
+        }
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-07-19 06:07:47",
+      "date": "2025-07-19 11:29:44",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=1",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
@@ -29,6 +29,10 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239444&hd=2&hash=062a619b49b5e237&autoplay=1"
         },
         {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/c5u9fq8l55i0"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-goe8xd7nmp5i.html"
         },
@@ -45,7 +49,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-19 11:29:30",
+      "date": "2025-07-17 20:22:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=2",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
@@ -72,10 +76,6 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239450&hd=2&hash=94909d80de8fa743&autoplay=1"
-        },
-        {
-          "serverName": "DoodStream",
-          "url": "https://vide0.net/e/3evwapp5yala"
         },
         {
           "serverName": "Mp4upload",

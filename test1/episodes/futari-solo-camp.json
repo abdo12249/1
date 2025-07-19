@@ -53,7 +53,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-19 06:07:36",
+      "date": "2025-07-19 11:29:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=2",
       "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
       "servers": [
@@ -76,6 +76,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239449&hd=2&hash=43e53a53b5d78501&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/nepvhc2ceeh2"
         },
         {
           "serverName": "Mp4upload",

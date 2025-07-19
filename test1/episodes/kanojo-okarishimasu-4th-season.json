@@ -4,7 +4,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 06:08:24",
+      "date": "2025-07-19 11:30:26",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kanojo-okarishimasu-4th-season&episode=3",
       "image": "https://abdo12249.github.io/1/images/kanojo-okarishimasu-4th-season.webp",
       "servers": [
@@ -31,6 +31,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239432&hd=2&hash=56c3f9b4b79fa34f&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/ovcbnfi38dsl"
         },
         {
           "serverName": "Mp4upload",

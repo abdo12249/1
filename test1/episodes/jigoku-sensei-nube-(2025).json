@@ -163,7 +163,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-19 06:07:50",
+      "date": "2025-07-19 11:29:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jigoku-sensei-nube-(2025)&episode=4",
       "image": "https://abdo12249.github.io/1/images/jigoku-sensei-nube-(2025).webp",
       "servers": [
@@ -186,6 +186,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239443&hash=bd0e8f8611e74f7d&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/kt54whyqusqp"
         },
         {
           "serverName": "Mp4upload",

@@ -110,7 +110,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 16:50:20",
+      "date": "2025-07-19 17:40:07",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sono-bisque-doll-wa-koi-wo-suru-season-2&episode=3",
       "image": "https://abdo12249.github.io/1/images/sono-bisque-doll-wa-koi-wo-suru-season-2.webp",
       "servers": [
@@ -119,8 +119,44 @@
           "url": "https://megamax.me/iframe/DahW83XcwVy5l"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/H5Y3CYRZ!gSDPK5osyrmQcgO7KJ42bY4RdPu_q0SFuYhGdjL35Z0"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239476&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Rt2pjzgzCM8JhOV8"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/a7s5npma25t0"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/b6jxcmnpan3o"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-tm8begieq6vg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/3x43HbQR!M2DJfaBQQeyihCN49wQmHNtc0FtwrolHXjjIxycH8Bg"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-vjsqwyl5gzqg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/alpAEDzJ!BbuVbxLfVF1242lBqD202CavLjzNehYpbGPQslhY00s"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-l0bn4fudh8ls.html"
         }
       ]
     }

@@ -53,7 +53,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-19 06:07:12",
+      "date": "2025-07-19 11:29:06",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=2",
       "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
       "servers": [
@@ -80,6 +80,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-5yljav63llu6.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/3of0ygk5q2vm"
         },
         {
           "serverName": "Mp4upload",

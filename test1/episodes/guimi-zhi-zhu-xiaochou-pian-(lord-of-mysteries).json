@@ -224,7 +224,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-19 08:49:35",
+      "date": "2025-07-19 11:28:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=guimi-zhi-zhu-xiaochou-pian-(lord-of-mysteries)&episode=5",
       "image": "https://abdo12249.github.io/1/images/guimi-zhi-zhu-xiaochou-pian-(lord-of-mysteries).webp",
       "servers": [
@@ -251,6 +251,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239470&hd=2&hash=011272cdbb6ccb50&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/mwzxri6drt5k"
         },
         {
           "serverName": "Mp4upload",

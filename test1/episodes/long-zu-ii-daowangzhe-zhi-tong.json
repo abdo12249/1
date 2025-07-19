@@ -2,59 +2,6 @@
   "animeTitle": "Long Zu II: Daowangzhe Zhi Tong",
   "episodes": [
     {
-      "number": 3,
-      "title": "الحلقة 3",
-      "date": "2025-07-18 13:51:13",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=3",
-      "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
-      "servers": [
-        {
-          "serverName": "megamax",
-          "url": "https://megamax.me/iframe/9npxCa7yykbgV"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "https://mega.nz/embed/udV2AAgZ!gBsnDww7PZz1MgIXDbBDO4b0CUukZt9r21I9Cg6lyDw"
-        },
-        {
-          "serverName": "videa",
-          "url": "https://videa.hu/player?v=mstKAy9LYbnxmpaZ"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239456&autoplay=1"
-        },
-        {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.to/embed-hd7djot775fz.html"
-        },
-        {
-          "serverName": "voe.sx",
-          "url": "https://voe.sx/e/oxr5gnuapryw"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/embed-qruh02dnwbfk.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات - FHD",
-          "url": "https://mega.nz/embed/3M9m0DZb!QFNhqy8qlfQ6PFIdVM0ErwpndByLS-qnuPGS7JrpIQ4"
-        },
-        {
-          "serverName": "Mp4upload - FHD",
-          "url": "https://www.mp4upload.com/embed-z80vcohzlvhx.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات - SD",
-          "url": "https://mega.nz/embed/SFlziDRY!PnUu6EVFHpYSeclT6HnfRYdJas_V6__E3dHVl0dJKPQ"
-        },
-        {
-          "serverName": "Mp4upload - SD",
-          "url": "https://www.mp4upload.com/embed-j11fd3avbzk5.html"
-        }
-      ]
-    },
-    {
       "number": 1,
       "title": "الحلقة 1",
       "date": "2025-07-18 13:51:20",
@@ -149,6 +96,59 @@
         {
           "serverName": "Mp4upload - SD",
           "url": "https://www.mp4upload.com/embed-8xqa3u37bjac.html"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Long Zu II: Daowangzhe Zhi Tong الحلقة 3",
+      "date": "2025-07-19 05:44:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=3",
+      "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/9npxCa7yykbgV"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/udV2AAgZ!gBsnDww7PZz1MgIXDbBDO4b0CUukZt9r21I9Cg6lyDw"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=mstKAy9LYbnxmpaZ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239456&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hd7djot775fz.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/oxr5gnuapryw"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-qruh02dnwbfk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/3M9m0DZb!QFNhqy8qlfQ6PFIdVM0ErwpndByLS-qnuPGS7JrpIQ4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-z80vcohzlvhx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/SFlziDRY!PnUu6EVFHpYSeclT6HnfRYdJas_V6__E3dHVl0dJKPQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-j11fd3avbzk5.html"
         }
       ]
     }

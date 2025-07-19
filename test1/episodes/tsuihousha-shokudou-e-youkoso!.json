@@ -110,7 +110,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 06:07:41",
+      "date": "2025-07-19 11:29:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuihousha-shokudou-e-youkoso!&episode=3",
       "image": "https://abdo12249.github.io/1/images/tsuihousha-shokudou-e-youkoso!.webp",
       "servers": [
@@ -133,6 +133,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239446&hd=2&hash=74195362d204b2c4&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/e341takvxs81"
         },
         {
           "serverName": "Mp4upload",

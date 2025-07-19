@@ -110,7 +110,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-19 06:07:06",
+      "date": "2025-07-19 11:29:00",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=3",
       "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
       "servers": [
@@ -133,6 +133,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239461&hd=2&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/7u9qbv6p7zds"
         },
         {
           "serverName": "Mp4upload",

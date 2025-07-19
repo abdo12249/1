@@ -53,7 +53,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-17 17:25:37",
+      "date": "2025-07-19 11:30:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=city-the-animation&episode=2",
       "image": "https://abdo12249.github.io/1/images/city-the-animation.webp",
       "servers": [
@@ -80,6 +80,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230631757&id=456239072&hd=2&hash=94319d571b697f09&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/nrb49pu0yv10"
         },
         {
           "serverName": "Mp4upload",

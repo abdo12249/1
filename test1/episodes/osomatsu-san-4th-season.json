@@ -57,7 +57,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-07-19 06:08:12",
+      "date": "2025-07-19 11:30:13",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=2",
       "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
       "servers": [
@@ -84,6 +84,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239435&hd=2&hash=6088cacd0dd288ae&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/jrq51g4aa502"
         },
         {
           "serverName": "Mp4upload",

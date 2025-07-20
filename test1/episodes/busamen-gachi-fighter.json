@@ -106,6 +106,63 @@
           "url": "https://www.mp4upload.com/embed-m1y9hj4txkex.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-20 16:48:37",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busamen-gachi-fighter&episode=3",
+      "image": "https://abdo12249.github.io/1/images/busamen-gachi-fighter.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/mPcZQisNs8YUy"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/vxpSRTYa!VDsoyQP7e4s2vPaDEYy_5bTE8JFCU6-1AJI-SmzJU_M"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239492&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=hLaKYOVIg5TYVblK"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hgkacezi0lsv"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tbk8hsngtnky.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/0awhu23ohnyi"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-qeno9gf13k6d.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/m95imAiA!5xzrR3c85W3i-7JZzDo2kLZTv5zEkWPlHZdJMn57_HU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-wh9ytgeer7gj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/iggQSbCa!ELN4EOSlOnuvkNJfqFozAPEEZaBxiz30RcuaQFVPVf4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-31vpksby71js.html"
+        }
+      ]
     }
   ]
 }

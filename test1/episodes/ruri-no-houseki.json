@@ -102,6 +102,63 @@
           "url": "https://www.mp4upload.com/embed-ozx5qsrbn64k.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-20 14:39:44",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ruri-no-houseki&episode=3",
+      "image": "https://abdo12249.github.io/1/images/ruri-no-houseki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/qMCgKdFzgqa0o"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qpwmFDBY!aZDR8SPj7R5Tp6SGTn_ecZyRvtEmk8w0KvY_l5O48eY"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239488&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=lakeVPn4r19t9m3h"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/whp5kmobaqzr"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-y1lxto93bsdw.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/809oxz00zz74"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-kdrizh5rcojl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ioA3QY5K!YSOAs_cWZDbM2gQGVWPghPvOE3AHKMNwdn2vJx1FvUk"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-k5847a6i3njx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/G4BG3RaZ!oJoa2CnS5sgtlxgsXYS6RpjibrVwEx6ibeqcXksQQ98"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-lurwcyy486n6.html"
+        }
+      ]
     }
   ]
 }

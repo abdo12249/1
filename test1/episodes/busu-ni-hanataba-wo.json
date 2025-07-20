@@ -98,6 +98,63 @@
           "url": "https://www.mp4upload.com/embed-4i559ksrb18w.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-20 08:49:36",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busu-ni-hanataba-wo&episode=3",
+      "image": "https://abdo12249.github.io/1/images/busu-ni-hanataba-wo.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/KPOwdwfKDQ0wg"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/C4wjATrA!ZC60dro9W0iC_rlYR9pf6HWYdNPr0FRvTagzLxKwXSo"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/phiwrwzbizht"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vtou0cal1bdl.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=2AYpEJ6tcP1G8DGj"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239483&hash=5ebb384737318854&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/6ddec0hpr1h7"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-d32ldhsehuiq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/61oUmIBY!boB_7gwUJv8Z4Od8_bzpbqhBFpsm3vqv6gZ4ehlIZY4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-364i4efijjjq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/GppWybLR!w7UXUWhU7E00bhXXhjXEY_jv3Ks8RXOueqFbuEnjF_Y"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ywmpwu6day29.html"
+        }
+      ]
     }
   ]
 }

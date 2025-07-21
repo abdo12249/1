@@ -106,6 +106,63 @@
           "url": "https://www.mp4upload.com/embed-36jn4h1lv082.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-21 09:52:10",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=city-the-animation&episode=3",
+      "image": "https://abdo12249.github.io/1/images/city-the-animation.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/cWAprd50XZK4w"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/q9JnRZbB!pqtxk5N6l57M22I5kTH-Lsxr9aFpEde6WnRNk4Flghk"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-8bigz3jduibl.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/l1k42pkti48s"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=LKORCT0rn8fbpAQP"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239498&hd=2&hash=4c6a86708cbb6210&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/xlkc9gut0tgh"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-mp9vjn0m2hlv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/j04UGRYK!sbKrwuJf77b0DU6BEa1yCx7SiGgwH4t34BQl_P_PyNw"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-wt0v9dksur39.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/K0JhhQaI!31SuLnAG0lmxZM2v7J74a_PdlyjvMRc42tNzr61rfRQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-9z82tp2njpf7.html"
+        }
+      ]
     }
   ]
 }

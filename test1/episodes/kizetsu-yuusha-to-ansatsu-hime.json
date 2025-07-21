@@ -106,6 +106,63 @@
           "url": "https://www.mp4upload.com/embed-3nsznauihvug.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-21 10:52:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=3",
+      "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/W9uTjmRZcmVL9"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/7hIVnBDC!RYpuqZfPvKahOcFd1KA3iYxiGY1LdfXbX2ZnI5g3mOY"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/e9l0vwchmptt"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vg24vxdy162j.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ylnDt3hssTsQLnjj"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239499&hd=2&hash=0b969be95aac6319&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/hcjc6zt3g7rc"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ukygxbzlty3z.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/axwjAARS!VkRVaicpxHaiYBmRw36n_dWyFyoy66bq7GtGRZ0HYAU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-z5noxoweyfeb.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/KtRxGKRY!R_k_MfPPMgagmqn9APFrq07E2Lvs8OvL7HzQR_pMMLI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ick0tibmam8h.html"
+        }
+      ]
     }
   ]
 }

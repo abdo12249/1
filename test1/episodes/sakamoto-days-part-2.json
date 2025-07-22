@@ -118,7 +118,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-22 07:41:08",
+      "date": "2025-07-22 10:51:55",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sakamoto-days-part-2&episode=3",
       "image": "https://abdo12249.github.io/1/images/sakamoto-days-part-2.webp",
       "servers": [
@@ -161,6 +161,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-3ozzvyq7hgef.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/nsJwnQYB!By6Ndg25E5JXYd75YV9fFykVNfu-LX4s2sfqNHRD2Cw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ra7htfol0l6l.html"
         }
       ]
     }

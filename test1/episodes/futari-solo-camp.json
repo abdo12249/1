@@ -98,7 +98,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-24 16:54:38",
+      "date": "2025-07-24 16:56:16",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=3",
       "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
       "servers": [
@@ -107,12 +107,32 @@
           "url": "https://megamax.me/iframe/5mTa8ZL5dLne5"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/oMIwGa7L!V3fqKRgEkugIsUcKLOvUB3FQoDsmAjfG5pioFKLPcBQ"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239524&hash=ff3a366576f289d0&autoplay=1"
         },
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=5TyYsUARn5nc8pWG"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rmkyma4ozmq4"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-l4m7svpgkwry.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/ghehg8b2tpfn"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-3hg9a1d4n7m8.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",

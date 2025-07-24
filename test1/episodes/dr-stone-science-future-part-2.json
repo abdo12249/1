@@ -49,7 +49,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-24 14:53:22",
+      "date": "2025-07-24 15:40:58",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dr-stone-science-future-part-2&episode=3",
       "image": "https://abdo12249.github.io/1/images/dr-stone-science-future-part-2.webp",
       "servers": [
@@ -88,6 +88,14 @@
         {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/9dRmBZAR!2T1nD1k1ZgMBQv4bY0iQy4sT15860Rl_pAAiKiai0WI"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/MRxG2BTZ!WuqmKxmb3t5K1crABwczbtEK-bZzSc9WXIjobRFH-wM"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-qcl4zkvh16nr.html"
         }
       ]
     }

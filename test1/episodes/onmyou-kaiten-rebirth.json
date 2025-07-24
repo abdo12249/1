@@ -155,6 +155,63 @@
           "url": "https://www.mp4upload.com/embed-3bwz4xjjk8d9.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-24 08:59:39",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=onmyou-kaiten-rebirth&episode=4",
+      "image": "https://abdo12249.github.io/1/images/onmyou-kaiten-rebirth.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/1ukjdUrVt3uyJ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/v44DQbSB!0G7DbnMb8a5ZdwWdm7PWPdq8Wv3h3JHcHDc_WbIYvTM"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bhelposakvu3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-m9ijib3sis2t.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=tnjv4Mg8wLafh3kS"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239517&hd=2&hash=15e487c64ec07828&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/ovcuwqrqtfu5"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-n7g9x6a6g4yl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ehoxDbpA!5zapuNg_Uc7bATKrYpEw3euz-UsbafZSffCwrxDrRrU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-h4cgawvp41dr.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/7oJzhQwB!tOW84uKWeXJyr8f41bc3pT6GwWOuz0m4CJIPU9gu5ng"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-kqtdq3xdvje4.html"
+        }
+      ]
     }
   ]
 }

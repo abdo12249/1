@@ -98,7 +98,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-24 16:56:16",
+      "date": "2025-07-24 17:44:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=3",
       "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
       "servers": [
@@ -141,6 +141,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-l6px46wgsw2x.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/gBhiDLDY!8p8ZrePswfUE7ZcmNOB65L0ADU8F5CT4Oys8PgHsXN0"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6zafggnf5335.html"
         }
       ]
     }

@@ -110,6 +110,63 @@
           "url": "https://www.mp4upload.com/embed-ci427ej7258x.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-25 18:57:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=arknights-rise-from-ember&episode=4",
+      "image": "https://abdo12249.github.io/1/images/arknights-rise-from-ember.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/QaYqtIdREnO78"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/wEJ2QSBR!nSW5R2CF7DnvdhOX63DB1ueL177HvrSLcAtipAr3HNg"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239530&hash=1bb4635366b3debb&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=HnZzX55cVhv5fn7v"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-izrq4dxcvjlf.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/gxw1gigyt8yi"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/lv2z72dh5bti"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-kymlvp9sbtbo.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/MA5AQR6R!25p2pKqukUjiLgH7QELpmqyy2QfqC_MtfsDi7jyNyrk"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-y8l3weo462t7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/4MBBHawC!C2fWt0Xhde5DNGCqaSX2qo1FxkTO-mHjPPOvh8fAsHg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-om7r621ixjdj.html"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "animeTitle": "Karaoke Iko!",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-07-25 08:55:45",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=karaoke-iko!&episode=1",
+      "image": "https://abdo12249.github.io/1/images/karaoke-iko!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/PpZrRyjhf0F3f"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/gAYRnQYD!pStOHjmqeMKgVz7gPf2XmuEMkGwrGxpLHzMjVKY1nYc"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/jkcf51f8oxbk"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-c7ogc0tcsn4g.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=reX43RdkBe7mK5ZJ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239528&hd=2&hash=5c787f2bb4ee480a&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://vide0.net/e/81nuis7xup8i"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-xho0m3wpybuu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/gAJhmToA!5akEXawREPaWfDqjCjDShF_A-kPj8F266yJfseCehio"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-xrdi7ldmo1jh.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/8ZpBiYgY!Tgm6Xx6KbSJ2BEMc6UWLhFgycO8G71v20zNsFzD8cls"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-nl5ky1v8ga2g.html"
+        }
+      ]
+    }
+  ]
+}

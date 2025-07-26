@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-4vq165374b8t.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-26 18:55:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hikaru-ga-shinda-natsu&episode=4",
+      "image": "https://abdo12249.github.io/1/images/hikaru-ga-shinda-natsu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/JENIDbTEfL4qF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/IAJ0mBoQ!sK7O-o-quOhtAOp1Rw23-zU5V_6XRbLfMjpQXVYSGGs"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vo8atnj9pjrh.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/meej4tmt34mw"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=1Ige0IZzh32CtfKu"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239545&hd=2&hash=3830a36497da497c&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-z3frufcd5qpi.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/8cB2kR5C!DdpeaThVlRTouABEf3_GnHgtIWBhL0hPG_AhMD9jyZE"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-3ars9dlbzrk1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/oZhgUYzQ!OMc8a-rlhqqYSzVMqI-YmrTvnWexDE0Igvkpg5l8nRU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-q8prwqbo2icv.html"
+        }
+      ]
     }
   ]
 }

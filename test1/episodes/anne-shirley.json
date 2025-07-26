@@ -996,7 +996,7 @@
     {
       "number": 17,
       "title": "الحلقة 17",
-      "date": "2025-07-26 15:41:35",
+      "date": "2025-07-26 16:51:04",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=anne-shirley&episode=17",
       "image": "https://abdo12249.github.io/1/images/anne-shirley.webp",
       "servers": [
@@ -1019,6 +1019,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/f4py5aprqqnf"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=yclMKpDTD3HqYjsg"
         },
         {
           "serverName": "Mp4upload",

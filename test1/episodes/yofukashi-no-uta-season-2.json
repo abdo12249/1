@@ -155,6 +155,59 @@
           "url": "https://www.mp4upload.com/embed-8ko46jgnpy0g.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-26 13:42:57",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yofukashi-no-uta-season-2&episode=4",
+      "image": "https://abdo12249.github.io/1/images/yofukashi-no-uta-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/0GiSSfmOCy5cE"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ZB5jET4J!wcz5LejWbwqZtWJmc0qXnHdpt8Qj0qyq_QJD-7a9row"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ETedJYiT4NNK9DFI"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239538&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ru021julqbkv"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-qe4vcznl2h82.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-gjh2lprsrw9n.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/8VBHDZgT!U7wRNdt88qMCeiRKcqIGf07ZLgeEIbJdooOI81V8R7s"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-47h4c8zvay75.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/4RoEmKJC!hDNXq3biVah60ing6KE6z2niKpvAeaJNuJBdj3EZuWU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-cxx5xaoe68kj.html"
+        }
+      ]
     }
   ]
 }

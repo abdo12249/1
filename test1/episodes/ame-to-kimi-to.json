@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-u22nxs2duibw.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-26 18:55:29",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ame-to-kimi-to&episode=4",
+      "image": "https://abdo12249.github.io/1/images/ame-to-kimi-to.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/66LdBNl4rqHYD"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/wdBmyTAa!myO2E49Ua5bRqWti_g_0vPkGy59lLsSNTgG7MMeTYLw"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/b8qfum5axjvb"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-8yx3le2fjcv8.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ffKwEPKrIl2QquUO"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239546&hd=2&hash=462c6c31408edda8&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-gh5l6qbsc667.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/hQAihabI!E578gkeq4U8DhqN8_RatwT3BJGsjS2s4AX6uJw7osG4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-y1453vvde9pe.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/hBByFLSK!cPDaBRLSOh0rimAT3FTmVg-geRP4lLC3hOdidnvK9_U"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ekolvxik7prh.html"
+        }
+      ]
     }
   ]
 }

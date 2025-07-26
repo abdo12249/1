@@ -992,6 +992,55 @@
           "url": "https://www.mp4upload.com/embed-z950br8vwpj7.html"
         }
       ]
+    },
+    {
+      "number": 17,
+      "title": "الحلقة 17",
+      "date": "2025-07-26 15:41:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=anne-shirley&episode=17",
+      "image": "https://abdo12249.github.io/1/images/anne-shirley.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Z1H0RfoTly3UQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/NI4ETYIb!ZiRLt3szSKRjC4yst6cgt8SQnx7IHpYmJpoVDCnQ4e4"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239540&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ppb0esheo00h.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/f4py5aprqqnf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-7q717ybta3qg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/FdwVHBIQ!Cbv_zeBIzRSNEV6_hruQzuKQXi2e0vt6W7ZfIDQHT1A"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-2475vghevpwh.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/QABklIbB!r4AF2RlKbnp9TRgOF_H43qE9DtW4bDuHvnYzBAElPyk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-qu8nr5o35547.html"
+        }
+      ]
     }
   ]
 }

@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-f94anf9zu8si.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-27 14:40:18",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dekin-no-mogura&episode=4",
+      "image": "https://abdo12249.github.io/1/images/dekin-no-mogura.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/6f32SR11FAaUf"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/hY4HmZ7R!9GkYo2mSMttjwhJeS2s5_UB3zGeZBFUw8bfXa7G61Ks"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/yutafzmlkorn"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tm6qt6jgl59p.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=LoEcmeAFB5mJ7SMe"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239555&hd=2&hash=ae70198413e81060&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-jdlvp3zsfgrn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/lBIQiDYQ!rRbTHYctYr42AACAMA9-3N3wHo5bhjgDBb-TtLfh__s"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-z2c9pq54nk9o.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/sRRH0Y7a!6vUOiVO-mKBEewd918u5A36Tj8uume3AHDy1lr0xUkg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-yvrf15wreoqw.html"
+        }
+      ]
     }
   ]
 }

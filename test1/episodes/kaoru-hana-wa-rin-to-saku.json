@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-t1m6ta1c5i9w.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-27 09:39:08",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaoru-hana-wa-rin-to-saku&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kaoru-hana-wa-rin-to-saku.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/j79z2jbryMSst"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/BIwFAK7Y!UOfSw-SfSXeJq8JX1mTOT3pZ0DOe0QveGmuR5NNfv3Q"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/tfqt5cjodydg"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-oiuyn5is1ark.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=VsGPGLQskGBxE20M"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239550&hd=2&hash=fc592a6e15c8cde5&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-p4d8did3v65x.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/1UZgzS7D!n5-szWzZ2EH6Y4zjKWOez7bd7BkLlrfQeDDUkZwu7X4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-2h0gxdiktpdg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/YcYEHLRJ!Kz88_ITrtnkLMkQ5HVIsF0A1Ap9XTRIKKMlP-q475m8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-xybxhjyr52py.html"
+        }
+      ]
     }
   ]
 }

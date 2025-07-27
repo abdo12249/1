@@ -114,13 +114,17 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-07-27 15:38:19",
+      "date": "2025-07-27 16:51:00",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=3",
       "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/lHwN8SxwF9tAt"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ENRznaQS!dnYNGUsPGccRroU_v3_Bb4roh619Sk88GnwQZcnnKRY"
         },
         {
           "serverName": "videa",
@@ -131,12 +135,32 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239560&hash=f62391fa2c9d669c&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wgetnt4r3s5x"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-8oam5f8c80ki.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ldtes9gsa7xp.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/RY5BQS5D!ZKOW6Sz3KZpWJCcctr-hoh3iqqt3EjT-fT2JzB8LD44"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-virgnfe597z7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/1VoRRRiQ!qUubM3IR7dvk7EGe7WMTCa8IQEoVoWmyUw6LNdojRxI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-e0rplqul27b7.html"
         }
       ]
     }

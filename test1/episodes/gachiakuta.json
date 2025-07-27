@@ -110,6 +110,35 @@
           "url": "https://www.mp4upload.com/embed-dqswsgb76cvj.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-07-27 15:38:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=3",
+      "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/lHwN8SxwF9tAt"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=3BsmZwVOuuSxz11S"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239560&hash=f62391fa2c9d669c&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/RY5BQS5D!ZKOW6Sz3KZpWJCcctr-hoh3iqqt3EjT-fT2JzB8LD44"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-virgnfe597z7.html"
+        }
+      ]
     }
   ]
 }

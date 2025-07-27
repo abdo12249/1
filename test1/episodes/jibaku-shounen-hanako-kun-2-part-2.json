@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-1eozign1fq96.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-27 10:45:14",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jibaku-shounen-hanako-kun-2-part-2&episode=4",
+      "image": "https://abdo12249.github.io/1/images/jibaku-shounen-hanako-kun-2-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/nxlmwMBCW9vrM"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/lA52CZIT!8Nk7Y8aHy0wsaYHLs9PP4teHgkmeN5aQoy8X5i4A9H0"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/reyawwvfzhms"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-f3w4lvp6numu.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=IlqmNZCdbyjDYwIU"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239552&hash=80adcdbee471bc0e&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wvzsvwewdo5t.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/0QQkQR6I!gr5uTBIKmwJQcVwzJHFsIHLBP-JEQVrwRE-mDvcEMiI"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-kdafsa7efjo2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/cNYBlJrQ!fVDscKl7XR-FVOX27veQB6Gg-HlMyqQg1eUCJusQ66w"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-xoikbx6psxuq.html"
+        }
+      ]
     }
   ]
 }

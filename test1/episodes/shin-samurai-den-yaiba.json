@@ -903,6 +903,55 @@
           "url": "https://www.mp4upload.com/embed-6k551y2j5bf5.html"
         }
       ]
+    },
+    {
+      "number": 16,
+      "title": "الحلقة 16",
+      "date": "2025-07-27 20:40:56",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shin-samurai-den-yaiba&episode=16",
+      "image": "https://abdo12249.github.io/1/images/shin-samurai-den-yaiba.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/kL4hNQZxYaWmj"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/xFQFyKRK!V0CYpGkhVNgYAMwGMlk-SCz9M6sz12UxpsBpgOMo5to"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/t7ytiepn0t3w"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-g6033hxz0qty.html"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239567&hash=1b88788f814ff3f6&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-w1ezd8t5yi4o.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/4JRmiYiR!W_yW9MjLo-GLT83KMIgPn7StcC5pQut8C-lcv4haQgY"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-q4hi5vwhw5wp.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/lVpUXR4Z!wKB3vbYLpL4_1psJ3E9Z-fEd4GRF174wH6zBc1lUguU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-l5m3n3p3gj1d.html"
+        }
+      ]
     }
   ]
 }

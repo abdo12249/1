@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-9z82tp2njpf7.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-28 10:52:20",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=city-the-animation&episode=4",
+      "image": "https://abdo12249.github.io/1/images/city-the-animation.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/zsvcwLX6XqNUU"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/kAhnQBYS!UWYI04wrlyQTYcIVXfUMyrXibtJeOflkIGzQsSjOU6s"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/txan5wzf8cpe"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-dp818bvwa860.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=62JB5ccJjHMbShjG"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239569&hd=2&hash=399b8f1559cb9a8c&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-55rowy53iwcp.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/xAZGCDII!qjn6cW4F9cY6Jil_hh0XAxHJMow7LrRr2V7K-MfQAxs"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1cmv4fq2kgcn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/NVhXUIKA!7I_HiI580OP4OrTITElvUXhNqMn2SagM5pUJEN2F4sk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-y27f0vm547xq.html"
+        }
+      ]
     }
   ]
 }

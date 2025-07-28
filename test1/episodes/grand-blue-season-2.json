@@ -171,13 +171,17 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-28 16:58:45",
+      "date": "2025-07-28 18:58:45",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=grand-blue-season-2&episode=4",
       "image": "https://abdo12249.github.io/1/images/grand-blue-season-2.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/BziLul6Ns6S5k"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/QMxUjKIT!8xzwi2FSfaUBjXpqeZ-eFnV5dQoGslgayuPIa9AJIX0"
         },
         {
           "serverName": "vk",
@@ -188,12 +192,32 @@
           "url": "https://videa.hu/player?v=jjwlds8qhuKkQw2o"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-lxt39jkjyisj.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/v4ide7uo3w4m"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-c8olyeqcts0h.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/VcZGwKzR!_wDqW6Ehf5uw6UDzd66KJVkI8Yp2q-PyX-hgdTL78_M"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ifdyumo1w7dw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/EZxECCKC!HlGGHSojpQghWOZ71KthtK424ORigqr7qk5o7K12xzs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-4bve1k0xr46j.html"
         }
       ]
     }

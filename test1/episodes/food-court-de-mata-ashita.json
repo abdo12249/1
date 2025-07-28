@@ -171,13 +171,17 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-28 15:47:12",
+      "date": "2025-07-28 16:58:50",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=food-court-de-mata-ashita&episode=4",
       "image": "https://abdo12249.github.io/1/images/food-court-de-mata-ashita.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/lUzKO9JJIdH83"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/1YgHAbhZ!_OQLyW9oXeHB5-HWus7_rmYi-a8HNRjTCcLmY1OB4zw"
         },
         {
           "serverName": "vk",
@@ -188,12 +192,32 @@
           "url": "https://videa.hu/player?v=TygJUf0grZ91ueC8"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fdk7dyqst1qx"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-lea8g04f5yk4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-yvcbd5b6n9lq.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/MIwggCpB!iUy58YjtPaKIOEjalHq_mLpmTiTa0awmqe1jkkMu20E"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-wqp0r1zd6nvr.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/sUZHEDaD!vXjWtFJzHTtHa7-4LWCtX5PoNyizJGfalBqys4UvNtM"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6as2esnzf5db.html"
         }
       ]
     }

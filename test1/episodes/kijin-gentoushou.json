@@ -947,7 +947,7 @@
     {
       "number": 16,
       "title": "الحلقة 16",
-      "date": "2025-07-28 19:32:56",
+      "date": "2025-07-28 20:46:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kijin-gentoushou&episode=16",
       "image": "https://abdo12249.github.io/1/images/kijin-gentoushou.webp",
       "servers": [
@@ -986,6 +986,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-e3es6kpryapv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/lEwSGCgY!umxrF0DCuITHC5OCfQ25UfsBQhfHvUVhZknq2gfqaJU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2200u7o7eig8.html"
         }
       ]
     }

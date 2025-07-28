@@ -216,6 +216,59 @@
           "url": "https://www.mp4upload.com/embed-nm1tcp29obm0.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-28 08:58:57",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=5",
+      "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/bOyd9TB0HSKZD"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/0VwmXZwB!VFNAMrsI0WOdRw7QteSC3YM37RstAqXlFbTbEro0sio"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/4tbsny7ssri7"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-syyqzmxv6byl.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=QLyIIP1M0MqBkKI5"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239568&hd=2&hash=9d7aa3c8530a7610&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-kbjwpm28q4y5.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/8dRSwTyB!qa4crFT_8-TXKgcpYR5eWzt5YKSHRc-tGK-_lRghFaU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-w6oxrm6wx2zu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/0FA1TQBB!ZTOCzackkUadv3VSOeVNjXVfpUAYTkZGJTGohQv3b-0"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-vgrjpmb1lsvp.html"
+        }
+      ]
     }
   ]
 }

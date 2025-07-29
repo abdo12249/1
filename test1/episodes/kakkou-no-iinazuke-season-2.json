@@ -167,6 +167,59 @@
           "url": "https://www.mp4upload.com/embed-awmkn95mwdb0.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-29 16:58:21",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kakkou-no-iinazuke-season-2&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kakkou-no-iinazuke-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/vO0pGf38tIXDj"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/kZ4QATIB!S4RVH6YQWS2-4WF87VNdos_3und3oOsQg2kPe3f_lBY"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=d5PpjbOuZTnv1J8C"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239577&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fpeseaw5icet"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-53d07m4i7jj0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-61yxjyf5izof.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/sERTASyS!cVsecMmmSgdxK_blK5Y4qdlYM5js4rT0Ej79LM2MNgg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-76uzz0ekgiok.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/8Iw03LQZ!liu29gtagugxDo95stv5fiLkOCbCpQgazLKHZQaERw4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-jmawzfmfo5c9.html"
+        }
+      ]
     }
   ]
 }

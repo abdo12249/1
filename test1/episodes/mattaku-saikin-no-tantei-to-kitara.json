@@ -224,7 +224,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-29 16:58:18",
+      "date": "2025-07-29 17:49:34",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mattaku-saikin-no-tantei-to-kitara&episode=5",
       "image": "https://abdo12249.github.io/1/images/mattaku-saikin-no-tantei-to-kitara.webp",
       "servers": [
@@ -233,12 +233,44 @@
           "url": "https://megamax.me/iframe/FpqBfajcxoK5V"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/JURzURYR!YFujF1Adz9f_z4e4MBJkfNT2fbKGOkTrrfnktWbQdwI"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239578&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=c4Cv6vR6IQdjqexf"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jjxfnijycv96.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rv33vfgsutjf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-avoeibzwgdio.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/1VpRDIDY!8GTwDF9_Boa70K3tc0br_HLWPlLUn7k32JQO9ZboihE"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-hw779sqiv75s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/BIRnWCJJ!nb39JfUYOBu6W9m5eQcPA8-8lItd3Stljt-XZyYxlRk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-s4wx2dxz1249.html"
         }
       ]
     }

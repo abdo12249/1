@@ -220,6 +220,59 @@
           "url": "https://www.mp4upload.com/embed-oav02lpoybyf.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-29 17:49:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=necronomico-no-cosmic-horror-show&episode=5",
+      "image": "https://abdo12249.github.io/1/images/necronomico-no-cosmic-horror-show.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/KZhS5a54r82jq"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/tBhkhZBB!nMirzTaFmhqypD9Ui25azaG7p8SA0oxanw9FWiODJms"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239579&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Q68c1OfpgqimFBN8"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hnzzv1z6fweu"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-h2l1cpela73m.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-7wacnf0cuwrn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/EcBCzAwL!T-WehhbwJyeVfBdCoMK84r_rFOD65j78iycrz3O_rVQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tqt2mbwzgu47.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/YUYV3BjK!N7SOEB3F5xZxXqXBHdfLTTPvpjVJ3VGDw_u1pPL2t34"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-zq6djvc61uet.html"
+        }
+      ]
     }
   ]
 }

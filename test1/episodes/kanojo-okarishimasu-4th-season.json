@@ -114,6 +114,59 @@
           "url": "https://www.mp4upload.com/embed-cagss72w5o0e.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-29 16:58:23",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kanojo-okarishimasu-4th-season&episode=5",
+      "image": "https://abdo12249.github.io/1/images/kanojo-okarishimasu-4th-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/qHsRvTkIEEf1w"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/pMZFDRKB!9okKsGvLSI-66vtyfxu_4ZFmbauCcDRncRKhlqAPa_8"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239576&hash=dfb717a4cff5d960&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=I4cYi0InLSaPIblV"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/aiyaglyog5ov"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3cshf3jlgcvi.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-v38glv87z6hj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/AB4kCAwD!zva6GqvSr616O7XJ1Em94oG-HcSJFCsYgajxVq0XRWw"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-o73viiotak6h.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/hJYnwJYD!5E6VydhGrE5DsM6b8oEZaYRk5gSCdrNqfh5kcYRNlds"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-v5k3k7x7tc3x.html"
+        }
+      ]
     }
   ]
 }

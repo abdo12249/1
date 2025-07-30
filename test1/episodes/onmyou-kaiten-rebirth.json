@@ -216,7 +216,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 18:59:42",
+      "date": "2025-07-30 19:33:07",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=onmyou-kaiten-rebirth&episode=5",
       "image": "https://abdo12249.github.io/1/images/onmyou-kaiten-rebirth.webp",
       "servers": [
@@ -255,6 +255,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-tc82nsw83en7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/RAREgBxT!sEazjdEMJyxPDEEL0S5-o2UVBecoodVguQ3RkUQ06zE"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-q5uzr33l9wbg.html"
         }
       ]
     }

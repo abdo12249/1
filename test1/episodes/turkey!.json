@@ -159,6 +159,59 @@
           "url": "https://www.mp4upload.com/embed-081gkq3fmmw2.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-30 13:53:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=turkey!&episode=4",
+      "image": "https://abdo12249.github.io/1/images/turkey!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/6DCmwzbR8ET68"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ZNpzHZob!CXLkXlPG3uvDOYkEcMvr5dmR7XE997FTp_47n_a6GdE"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239581&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=4YmUp3vKatbWuCc1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cqftjdobjza9"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-geww7qwnb5r0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-i8y6v2iao60c.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/MZZXRbiZ!RMvvIO3J0ZMlVUH9TTwwvMN-0Wz79-OGcU9-Ns2lK94"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-x0gauwx8oudu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/BUwwjLAb!R6qDahxDzlax58mu6XdAyCBdJKdC9_MxHADcZGfPnMg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-x7div6qf36sm.html"
+        }
+      ]
     }
   ]
 }

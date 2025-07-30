@@ -228,13 +228,17 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 14:51:07",
+      "date": "2025-07-30 15:47:43",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season&episode=5",
       "image": "https://abdo12249.github.io/1/images/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/2NjfTiCYWHjoB"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/1EYCCJqK!j9KIpD6XY6yaRiQc00rwiZJlJJZUz1DTEErtX6fBE1M"
         },
         {
           "serverName": "vk",
@@ -245,12 +249,32 @@
           "url": "https://videa.hu/player?v=99YyWOkrpJeXfowt"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dyrwb4ms70t2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-4dyl8lr9hpyu.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-88t7lccw9l2k.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/JVQEESIQ!jjs_aSM1M-KOx-lOZI4kKa2SB591vN68lXimtZiegRo"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-mhv30qiykcnj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/xQITlKQA!lGOY4gUivHuMs8D8JaoWW_jzGimln4kQt9db8EhRyZw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-q89rthel5eyt.html"
         }
       ]
     }

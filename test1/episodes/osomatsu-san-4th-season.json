@@ -171,7 +171,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-30 10:51:42",
+      "date": "2025-07-30 11:34:41",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=4",
       "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
       "servers": [
@@ -180,12 +180,28 @@
           "url": "https://megamax.me/iframe/jElUQvt2NPE9S"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/IYhAjK5D!RuiAsHGrm2Zvn71_MrT7neDpYsIc6_Czcvag2obk-A8"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=10EMyP78BTNe5B2r"
         },
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239580&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/d40zvkymorig"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-nc1mhkou4xx5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-j51hawknly3o.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",

@@ -212,6 +212,51 @@
           "url": "https://www.mp4upload.com/embed-kqtdq3xdvje4.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-30 18:59:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=onmyou-kaiten-rebirth&episode=5",
+      "image": "https://abdo12249.github.io/1/images/onmyou-kaiten-rebirth.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/owDWmHwT3NhHt"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/VVJnQBbS!MzK2Lrzq4CWE9AdP-6lbUoKLyM6sYg2iz-2ZgKNuV7I"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239587&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=CvKqohwywNXOjtXW"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/b3bkewaqh6gi"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vha96oa0pyx4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-95xvrha1zmp7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ccInFKZA!DzdCFtXb25wU78M0wnfagXQ-f7lYIrWyZTr3GCxjOTU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tc82nsw83en7.html"
+        }
+      ]
     }
   ]
 }

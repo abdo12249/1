@@ -163,6 +163,59 @@
           "url": "https://www.mp4upload.com/embed-ick0tibmam8h.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-31 13:52:06",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/g57Md18AQuzSm"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/1RBRQB5A!Annpiw15-Xazs7BIl7Q7yxwgEPJ_uH8UgekfcuyoKzQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239589&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=LbE1mnq2Trxv5CX1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/tabvreykaqn5"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-8h6nzw7ir8ab.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-h4p1mgue617q.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/VQ4XgLCQ!6rRr5NZozsU6sBus0NuxMuplciGUiX5ix57XbFkZttE"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-d4ldd7gd7wkm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/QBJ1EDLD!8AEFcqDUP4c5Z6f_Bz5-Ln7_StpZDJOfrAobuLyjANs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-fikrdu6sdvjx.html"
+        }
+      ]
     }
   ]
 }

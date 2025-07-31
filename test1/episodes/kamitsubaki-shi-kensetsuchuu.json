@@ -212,6 +212,59 @@
           "url": "https://www.mp4upload.com/embed-njbe7tffmifr.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-31 18:58:33",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kamitsubaki-shi-kensetsuchuu&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kamitsubaki-shi-kensetsuchuu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/NViiC7IAzCYMB"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/z4xH3IbQ!Mpenzks6Bk9vLhXlkKgtjN81d6_pol9a6qoLb86Nj8g"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wcxgpbelniav"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-k281t2g4ojol.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=gzUgg6IZ62w1i0NN"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239597&hd=2&hash=96f4b34013da70f1&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-cmk3o0ezoyc2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/C1xA0Cyb!Sza66S8XmGMi0czQEvhH5cpzA57tmYtR3ttYn4vs0Jg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-kkg6ww3zycbf.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/j85EUTYD!LNneFmg1E-5g5go8uKBGrjGeQGlfXcBqCioZSC0eTw8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2wy7bzrpq3sl.html"
+        }
+      ]
     }
   ]
 }

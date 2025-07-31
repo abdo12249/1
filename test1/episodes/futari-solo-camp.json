@@ -151,6 +151,59 @@
           "url": "https://www.mp4upload.com/embed-6zafggnf5335.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-07-31 18:58:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=4",
+      "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/y9gul4U9ObFkM"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qo5zQDxB!ZCLdzhhXb56_35PkUMo6sL8xFUrjT44KpGuDQT6w81k"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-4siclytys9ba.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/x171fymcb49p"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=hnnKgPXGh7xkhJ8K"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239596&hd=2&hash=66ac3d10da2c7300&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-4szu16qqih5c.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/LhIURTQR!zr6bz1FovnBY8sYVRIMCFtevTKisBrJa1wB3K643cp0"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-4w4riyig25zk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ShQhEI4T!PYeji7724u8l7v_lFav7-Wfd_Kho3X_sOpiLyDvzAtU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2k8n2yvjtzrt.html"
+        }
+      ]
     }
   ]
 }

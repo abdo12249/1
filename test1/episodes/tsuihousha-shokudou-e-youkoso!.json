@@ -208,6 +208,35 @@
           "url": "https://www.mp4upload.com/embed-3e9antgug05j.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-31 14:52:37",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuihousha-shokudou-e-youkoso!&episode=5",
+      "image": "https://abdo12249.github.io/1/images/tsuihousha-shokudou-e-youkoso!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/ZSiSWKCI34DdN"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239593&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Qo2ggKsfbhKfylnq"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/21IFESCK!JpeRcFCK0EqlNahQgCoZTHDPFKP3jBGPaOZhU_fCXF8"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-6ldh22zidd3k.html"
+        }
+      ]
     }
   ]
 }

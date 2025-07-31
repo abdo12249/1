@@ -196,6 +196,59 @@
           "url": "https://www.mp4upload.com/embed-mphunsphxa55.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-07-31 17:46:12",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=5",
+      "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/LsHYfrUq2tgZQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Xto2AKib!THuaAVVz2PPvFKIRmqBNnQ8SmcyQquKBQos79dj4GQg"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-002iz5y4kjax.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/pwg4lhmba8o6"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=1Vsf3JECKcFfzPZA"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239594&hash=b2069931b0453ece&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-kathkeikbpw2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/W5gR0AyI!5buioYK8mlZLfvqUR6dWcENuZQTdQewmDochsT-dOPg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ktyzkjv5itsk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/vwgHnK5B!GYx-hIuhD-D9F2eS115rF0Xf4RPI0T2sDSxsqb65gls"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-vy4ap4sbzt4t.html"
+        }
+      ]
     }
   ]
 }

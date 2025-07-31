@@ -57,6 +57,59 @@
           "url": "https://www.mp4upload.com/embed-nl5ky1v8ga2g.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-07-31 14:52:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=karaoke-iko!&episode=2",
+      "image": "https://abdo12249.github.io/1/images/karaoke-iko!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/sreSzTmTOnhnl"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/gRgHkQwY!BpZi0CoSazmsM4PUQCxG5EBwGPCOY6kRavPxgSTIIAA"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239591&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=AKT77gutpUqJhRJn"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/biqqcgkxlih8"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hc8otnitojer.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-xxe094uj0nwd.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/QBAC1ZDK!p1D4-uMs_jBudEfKKRHX-COVi4D7t1cdrGQNtSj-AC4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-3ly31n892en7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/lcI1gAiC!oooFw7AMjXTYmy4pcbycKOsatmrhlKDSCgin7k-Vupo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-kxh0dxmh4evp.html"
+        }
+      ]
     }
   ]
 }

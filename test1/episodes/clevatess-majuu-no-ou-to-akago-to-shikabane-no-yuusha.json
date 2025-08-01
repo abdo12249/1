@@ -204,7 +204,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 13:53:53",
+      "date": "2025-08-01 16:57:30",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha&episode=5",
       "image": "https://abdo12249.github.io/1/images/clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha.webp",
       "servers": [
@@ -231,6 +231,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/h9ihwxsrfak9"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/nu38s1hp4w4c"
         },
         {
           "serverName": "Mp4upload",

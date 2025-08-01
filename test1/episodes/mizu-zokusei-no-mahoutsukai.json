@@ -212,7 +212,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-31 20:45:43",
+      "date": "2025-08-01 16:56:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mizu-zokusei-no-mahoutsukai&episode=5",
       "image": "https://abdo12249.github.io/1/images/mizu-zokusei-no-mahoutsukai.webp",
       "servers": [
@@ -239,6 +239,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239598&hd=2&hash=2578bc1c8f330dda&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/6uyl841x7ls4"
         },
         {
           "serverName": "Mp4upload",

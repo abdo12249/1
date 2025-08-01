@@ -216,7 +216,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 19:33:07",
+      "date": "2025-08-01 16:57:18",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=onmyou-kaiten-rebirth&episode=5",
       "image": "https://abdo12249.github.io/1/images/onmyou-kaiten-rebirth.webp",
       "servers": [
@@ -243,6 +243,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-vha96oa0pyx4.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/pcvese9ggq8b"
         },
         {
           "serverName": "Mp4upload",

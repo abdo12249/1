@@ -228,7 +228,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 15:47:43",
+      "date": "2025-08-01 16:57:28",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season&episode=5",
       "image": "https://abdo12249.github.io/1/images/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season.webp",
       "servers": [
@@ -255,6 +255,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-4dyl8lr9hpyu.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/1ppxgjn43kui"
         },
         {
           "serverName": "Mp4upload",

@@ -200,7 +200,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-30 19:33:04",
+      "date": "2025-08-01 16:57:15",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuyokute-new-saga&episode=5",
       "image": "https://abdo12249.github.io/1/images/tsuyokute-new-saga.webp",
       "servers": [
@@ -227,6 +227,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-kzgi815jgune.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/vxfglfr27r71"
         },
         {
           "serverName": "Mp4upload",

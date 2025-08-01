@@ -4,7 +4,7 @@
     {
       "number": 16,
       "title": "الحلقة 16",
-      "date": "2025-07-29 15:49:56",
+      "date": "2025-08-01 16:57:49",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kijin-gentoushou&episode=16",
       "image": "https://abdo12249.github.io/1/images/kijin-gentoushou.webp",
       "servers": [
@@ -31,6 +31,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-xgnkrshnyqgx.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/wyhxuz0en3xk"
         },
         {
           "serverName": "Mp4upload",

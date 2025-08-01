@@ -216,6 +216,35 @@
           "url": "https://www.mp4upload.com/embed-6de9chdgoghf.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-01 16:56:43",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=5",
+      "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/SYpXZLI8YYyvF"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=6DQph55ZNNWLsdVX"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239603&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/OwgiCLyB!7qD-RtXjMDN54gw1cdALBJi51dt-LU4IAlT6FWZiyxY"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ijat6k8txwij.html"
+        }
+      ]
     }
   ]
 }

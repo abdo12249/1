@@ -175,7 +175,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-29 04:12:46",
+      "date": "2025-08-01 16:57:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sakamoto-days-part-2&episode=4",
       "image": "https://abdo12249.github.io/1/images/sakamoto-days-part-2.webp",
       "servers": [
@@ -202,6 +202,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-19lapl5nh78g.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/fl2jsmxbfd2s"
         },
         {
           "serverName": "Mp4upload",

@@ -212,7 +212,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-31 17:46:15",
+      "date": "2025-08-01 16:57:06",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuihousha-shokudou-e-youkoso!&episode=5",
       "image": "https://abdo12249.github.io/1/images/tsuihousha-shokudou-e-youkoso!.webp",
       "servers": [
@@ -243,6 +243,10 @@
         {
           "serverName": "uqload",
           "url": "https://uqload.cx/embed-xdxwrewmu6pm.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/eirfb72jjhcx"
         },
         {
           "serverName": "Mp4upload",

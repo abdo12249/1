@@ -224,7 +224,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-29 17:49:34",
+      "date": "2025-08-01 16:57:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mattaku-saikin-no-tantei-to-kitara&episode=5",
       "image": "https://abdo12249.github.io/1/images/mattaku-saikin-no-tantei-to-kitara.webp",
       "servers": [
@@ -251,6 +251,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/rv33vfgsutjf"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/xymwrjjlf8fr"
         },
         {
           "serverName": "Mp4upload",

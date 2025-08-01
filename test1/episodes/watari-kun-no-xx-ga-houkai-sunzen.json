@@ -220,13 +220,17 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-01 16:56:43",
+      "date": "2025-08-01 17:47:38",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=5",
       "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/SYpXZLI8YYyvF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/K4wwlYwA!G_gPzZJZC6qhbY2S51WRCzdov8ygcByI_e0zK58KScA"
         },
         {
           "serverName": "videa",
@@ -237,12 +241,40 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239603&autoplay=1"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-d3m4jqi6egn7.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/9vs7limmuzpa"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/p9eh07mool3q"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ff0ic1ngo05t.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-kw5l0hnccu01.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/OwgiCLyB!7qD-RtXjMDN54gw1cdALBJi51dt-LU4IAlT6FWZiyxY"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ijat6k8txwij.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/P8hXVY5C!Ne3ZQSWgHRlBbqQKzsewRUkJ4zQjXDDMF7d6SFWVOO0"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-y5d0nhjmguw1.html"
         }
       ]
     }

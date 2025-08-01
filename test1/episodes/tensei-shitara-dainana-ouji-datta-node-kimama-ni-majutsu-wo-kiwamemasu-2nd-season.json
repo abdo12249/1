@@ -171,7 +171,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-30 18:59:46",
+      "date": "2025-08-01 16:57:23",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season&episode=4",
       "image": "https://abdo12249.github.io/1/images/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season.webp",
       "servers": [
@@ -198,6 +198,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-be6hbnbkig2z.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/erpb1ys3vlid"
         },
         {
           "serverName": "Mp4upload",

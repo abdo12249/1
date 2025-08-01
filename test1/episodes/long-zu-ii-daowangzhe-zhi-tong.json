@@ -220,6 +220,35 @@
           "url": "https://www.mp4upload.com/embed-22ba8gt1gahl.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-01 13:51:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=5",
+      "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/TJbwYqKRWsOtt"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239599&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=F0R4rL6xwH9sMoQt"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Ox5UmJgb!bQfy5ulph4nx9vVyAjJFtZTOGzD7gHsVoyAATIi2RNM"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-dds4stpip0ga.html"
+        }
+      ]
     }
   ]
 }

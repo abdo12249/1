@@ -224,7 +224,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-01 14:50:36",
+      "date": "2025-08-01 16:56:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=5",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
@@ -251,6 +251,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-3ugtxvfksfn6.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/rx513e3zxre5"
         },
         {
           "serverName": "Mp4upload",

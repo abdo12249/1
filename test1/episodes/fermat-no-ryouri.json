@@ -167,7 +167,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-28 19:32:58",
+      "date": "2025-08-01 16:57:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=4",
       "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
       "servers": [
@@ -194,6 +194,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/lpsqfeh5hgae"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/30mwkofsw6j0"
         },
         {
           "serverName": "Mp4upload",

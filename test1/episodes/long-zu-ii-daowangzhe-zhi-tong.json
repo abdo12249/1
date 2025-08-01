@@ -224,13 +224,17 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-01 13:51:07",
+      "date": "2025-08-01 14:50:36",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=5",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/TJbwYqKRWsOtt"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/OxxUAY4Z!nvyqhjxPG9fUS4SgA4mPhubCziAEnmHQzL7-ZnbX98Y"
         },
         {
           "serverName": "vk",
@@ -241,12 +245,32 @@
           "url": "https://videa.hu/player?v=F0R4rL6xwH9sMoQt"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/zze6ii0sleq3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3ugtxvfksfn6.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-nx37s6okb4xv.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/Ox5UmJgb!bQfy5ulph4nx9vVyAjJFtZTOGzD7gHsVoyAATIi2RNM"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-dds4stpip0ga.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/u1YgwLxS!k85teqBAVwY2IGp83e3rpiwRAqRIcL-mujZTPhOzM64"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-zltulfcreov9.html"
         }
       ]
     }

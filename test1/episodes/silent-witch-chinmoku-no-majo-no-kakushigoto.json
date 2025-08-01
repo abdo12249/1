@@ -224,13 +224,17 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-01 17:47:35",
+      "date": "2025-08-01 18:58:05",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=5",
       "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/3x7rD6sh7poDF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/O0RjRbBR!BeKvRgs_D-kVQ1KB2OcdM3UDnr7PoZkLNjb72ptXmB4"
         },
         {
           "serverName": "videa",
@@ -241,8 +245,40 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239604&autoplay=1"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ex85faum7u06.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hncq2o06nivj"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/55y92gmncd77"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-etu1903em3o3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ec84jwslpshj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/fpQmCDIR!HQ08NgRbOz9Jf5lwvOJ9TC13PVz6pS5ouCA_74fvoCQ"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-3fx4w2xxq8et.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/71RUwYjb!u2XfwJfcYLeeErNBVxCz8foziCuztUDW3BK9WIMdV8M"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-1ke5hctckn94.html"
         }
       ]
     }

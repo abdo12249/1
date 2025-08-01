@@ -171,7 +171,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-29 16:58:21",
+      "date": "2025-08-01 16:57:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kakkou-no-iinazuke-season-2&episode=4",
       "image": "https://abdo12249.github.io/1/images/kakkou-no-iinazuke-season-2.webp",
       "servers": [
@@ -198,6 +198,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-53d07m4i7jj0.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/9ll3sg4zovn6"
         },
         {
           "serverName": "Mp4upload",

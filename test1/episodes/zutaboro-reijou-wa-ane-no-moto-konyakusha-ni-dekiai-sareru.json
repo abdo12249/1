@@ -216,6 +216,67 @@
           "url": "https://www.mp4upload.com/embed-x74vb6xfjlh2.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-01 20:44:30",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=5",
+      "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/HyjGe2wJze1G5"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/n9ZCiZjY!_6tGAkTbwmd8QDfjKmnUFRgeCA32Ra2fU1tiVrAr8vQ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wggu3gklixbf"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jn7a3qwui350.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=1oG5yVqTEmOemX2S"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239605&hd=2&hash=4eb2e25c11c10b05&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-sdl999oho335.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/tk4l9n2kvk6e"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-gxlhaghmoofx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/XhgQFY4T!NKZrPC2TpuCJayhBs7_r4bemT2QMcLBs23tKWRglZRs"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-xc1pxr3p8k7c.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/O0QAHTra!j95W3qqdKqn4VJVA5ZCiNlkH0TGX2d9WCn7HR_UcZDc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-251820m4plsc.html"
+        }
+      ]
     }
   ]
 }

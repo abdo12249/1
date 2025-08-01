@@ -216,7 +216,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-31 18:58:33",
+      "date": "2025-08-01 16:56:58",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kamitsubaki-shi-kensetsuchuu&episode=4",
       "image": "https://abdo12249.github.io/1/images/kamitsubaki-shi-kensetsuchuu.webp",
       "servers": [
@@ -243,6 +243,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239597&hd=2&hash=96f4b34013da70f1&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/uv8h9y5d8yjo"
         },
         {
           "serverName": "Mp4upload",

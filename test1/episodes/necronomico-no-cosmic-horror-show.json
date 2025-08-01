@@ -224,7 +224,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-07-29 17:49:31",
+      "date": "2025-08-01 16:57:37",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=necronomico-no-cosmic-horror-show&episode=5",
       "image": "https://abdo12249.github.io/1/images/necronomico-no-cosmic-horror-show.webp",
       "servers": [
@@ -251,6 +251,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-h2l1cpela73m.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/mjali1zi1z8k"
         },
         {
           "serverName": "Mp4upload",

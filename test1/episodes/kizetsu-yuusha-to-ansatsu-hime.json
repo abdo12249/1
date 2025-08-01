@@ -167,7 +167,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-07-31 13:52:06",
+      "date": "2025-08-01 16:57:13",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=4",
       "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
       "servers": [
@@ -194,6 +194,10 @@
         {
           "serverName": "vidmoly",
           "url": "https://vidmoly.to/embed-8h6nzw7ir8ab.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/i4rb4urgyplc"
         },
         {
           "serverName": "Mp4upload",

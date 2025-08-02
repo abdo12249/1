@@ -212,6 +212,63 @@
           "url": "https://www.mp4upload.com/embed-e3j64xf875ji.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-02 16:52:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai&episode=5",
+      "image": "https://abdo12249.github.io/1/images/seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/d7wS8bTLtHew9"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/7kRDnD4B!Cx03BlZn3fPVAHwWZom3EQrgQKrcYLfO2Qq8CvjfwDs"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239610&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=JKHW138KmkanOHe0"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/kgqz1cgkrnor"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jymwuktrmkqd.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-y3ysqalumay5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-k8yikijxce5p.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/elYDRL7R!9MYc__7S0XCe1ncI7MhLULhK-B4WJ0QKajtrOAMN05o"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-m40my8fr90b6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/21h2wKrK!XecaRrdsZruQWrr0T5exZvmN6A7208_JIauBs03Tf9s"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-gnkz88djdu08.html"
+        }
+      ]
     }
   ]
 }

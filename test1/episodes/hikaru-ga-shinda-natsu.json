@@ -216,6 +216,67 @@
           "url": "https://www.mp4upload.com/embed-q8prwqbo2icv.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-02 20:40:26",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hikaru-ga-shinda-natsu&episode=5",
+      "image": "https://abdo12249.github.io/1/images/hikaru-ga-shinda-natsu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/hhJ7AKeWgoZEY"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/fpgxUaYZ!kLRK6t0CH19hcDV67ZYauSfXeo5mBt6cxRW0WS2gRG4"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hj2z4kzl09i3.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fpbku1wbh8n2"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=wYj8wy3HJPojNex4"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239614&hash=0ef9c46e5e59068a&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-b8kl9cat0dzu.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/zlflszjd28x5"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ss5ldiipaa0j.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/60QmVbyT!nrzxwz0ITDtZ6NE-Qb9GOkl1l2YA0QuJXAzoPWDDC_I"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-5roey1p42iwq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/HxA3jCZR!v8w_hO2Le2HALTVJTCWjxhwMsnppQulBvWKUF5DPxxQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-8bwjp8davoz1.html"
+        }
+      ]
     }
   ]
 }

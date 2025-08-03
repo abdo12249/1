@@ -220,7 +220,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-03 16:52:37",
+      "date": "2025-08-03 17:42:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busamen-gachi-fighter&episode=5",
       "image": "https://abdo12249.github.io/1/images/busamen-gachi-fighter.webp",
       "servers": [
@@ -229,12 +229,44 @@
           "url": "https://megamax.me/iframe/fr0djRcR8vekv"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/P5IjDagY!81HW0Eu9wHBNTqszIFZrtGvI7mE5FWk41IVGOW_8C1o"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/9nsuufpb7vx0"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-wwvtvyl1r5mi.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-56dixbqvc4h5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/486r41kxhq5b"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-efsw2lohnmib.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/mwZgHJJR!VNN1sG7rPPTWkb83V_gcaB9MLwtwbYW1qCP9hM8mVpQ"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-1czffnvtp8l4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/f4RA1STR!QbKwFnlR9xkR7_guh9iYd3IbSBIbfqvCqswF_QhKOHc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-3bbgwxej1mn6.html"
         }
       ]
     }

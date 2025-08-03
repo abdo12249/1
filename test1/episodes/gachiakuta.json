@@ -167,7 +167,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-08-03 15:41:11",
+      "date": "2025-08-03 16:52:41",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=4",
       "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
       "servers": [
@@ -176,12 +176,44 @@
           "url": "https://megamax.me/iframe/jckjmLv7L1VKs"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/6pRUyD6J!2AQ2xVV8qo5Lkj1OndocBN475PixI07fKdxCKt_yfO0"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1nsldluf60ef"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-sz1s74blq07b.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-lv2s3x9c4mq7.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/aozv62prri0e"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-61mxtsgu8uxk.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/n9phXI5L!K28dH8D6ZjRTIzJ6BeDBSs2dXAbauOVNkmNmXq1hw-M"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-dtz4gbwmzw34.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/b9BEkYiT!DnPZ5rUdU89v9O2gaLzz6ZC4kTzXvQ1FveE3BecXuT4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-gx0wfkpkrj31.html"
         }
       ]
     }

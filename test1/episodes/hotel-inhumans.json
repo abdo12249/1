@@ -220,7 +220,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-03 17:42:37",
+      "date": "2025-08-03 18:54:52",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hotel-inhumans&episode=5",
       "image": "https://abdo12249.github.io/1/images/hotel-inhumans.webp",
       "servers": [
@@ -229,12 +229,44 @@
           "url": "https://megamax.me/iframe/KjnLR32EmmikI"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/flgAQRxL!byDjN1VYTAKohxkUGHuR8LobVDKIPQQ8dztgjPuLzyY"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/08lz28lfn0ng"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vcwnmaaluuh6.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-kd2my4s5s0vg.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/i7bqoh7k7aph"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-v8s0rpeqw1yn.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/z4hzWKLR!d-Cys1bl70Gw51Y5Giii22eEFhJ-63Ub60oIWGo-MJc"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-q9s8enffl8sd.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/4BgFwBLA!HPR1G2rp6WlJoLR0qKLUon7xMwUp8eMgEnEsYufiQHk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-70xtwythrui1.html"
         }
       ]
     }

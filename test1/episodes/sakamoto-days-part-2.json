@@ -228,6 +228,63 @@
           "url": "https://www.mp4upload.com/embed-c7lxmntemqwb.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-04 22:49:04",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sakamoto-days-part-2&episode=5",
+      "image": "https://abdo12249.github.io/1/images/sakamoto-days-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/cduoqX1nuUyah"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/4RgQ2RTR!_NXWvjf5niIZ3RqakI3l4FNNsK651kqcqhl06pkkZ_8"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239626&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/usdlme8cc4bs"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-e7oznkfjwapr.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-77rbjgqdtf4y.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/lm5wdnc3npdj"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-chewx0t5rvvp.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/QV4BVD7C!3XJKOcQumshjr4j5VhVomEbmTH3pYJJOHtGW6AQ3WWA"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-q12fmok1lmtt.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ERYkHYDR!cwBmJtu3JHaKdnMljB01rzuHkgn4cV4nj5m8ck9FDjM"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-97rfl17ybmnc.html"
+        }
+      ]
     }
   ]
 }

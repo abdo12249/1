@@ -224,6 +224,35 @@
           "url": "https://www.mp4upload.com/embed-4bve1k0xr46j.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-04 22:49:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=grand-blue-season-2&episode=5",
+      "image": "https://abdo12249.github.io/1/images/grand-blue-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/BKDiAdyrNg7g9"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239627&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=1BBtlV4mjufHzIc1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/IJxU2TJD!8jq2eXIpFle0tHrIZl9jC9nj956w1sXG34g4T5TpDp4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-0x1obsyo8a0p.html"
+        }
+      ]
     }
   ]
 }

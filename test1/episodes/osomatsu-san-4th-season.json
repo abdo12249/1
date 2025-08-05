@@ -228,13 +228,17 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-08-05 17:46:51",
+      "date": "2025-08-05 19:01:40",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=5",
       "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/xwTvjgCN29XVZ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/YdonTSRZ!chIlgHI0L1iEpsAVwa5oOJb2Ut1fgxVPSV4T2P26zO8"
         },
         {
           "serverName": "vk",
@@ -245,8 +249,40 @@
           "url": "https://videa.hu/player?v=3zclUgeZEYUK9kzy"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jouh06jspia9.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cwcctqijbhac"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-jtllpqqvedyj.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/0tkl3vz5ejje"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-89w3tado7tlr.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/RV4yBTaL!HaQxgLoJN-4AEkHRWt3rg4iXUiG8a-UPAc3VqBn0VgY"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-pxw2tt14srk7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/EZ5gQB4b!i6l0pMz8O_WEGYS6HfH24WGhUHtEgHDPABzs54d9PXw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-oolzcbgeidjv.html"
         }
       ]
     }

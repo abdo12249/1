@@ -224,6 +224,31 @@
           "url": "https://www.mp4upload.com/embed-4jvm3z3jodjk.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-05 17:46:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=5",
+      "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/xwTvjgCN29XVZ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239634&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=3zclUgeZEYUK9kzy"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-pxw2tt14srk7.html"
+        }
+      ]
     }
   ]
 }

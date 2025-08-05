@@ -224,6 +224,35 @@
           "url": "https://www.mp4upload.com/embed-jmawzfmfo5c9.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-05 14:54:46",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kakkou-no-iinazuke-season-2&episode=5",
+      "image": "https://abdo12249.github.io/1/images/kakkou-no-iinazuke-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/KUbyVuK2v5prf"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239631&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Y8TgPj4Jdvu2Ce4L"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/kUADyRbJ!haFHQXtNEf1idKCvzhShBJgv3brd_JUI9Y6iJSfK7Zg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-6ljsnctus5j7.html"
+        }
+      ]
     }
   ]
 }

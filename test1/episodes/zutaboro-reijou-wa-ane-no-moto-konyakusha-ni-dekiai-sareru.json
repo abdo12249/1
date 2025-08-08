@@ -277,6 +277,67 @@
           "url": "https://www.mp4upload.com/embed-251820m4plsc.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-08 18:55:04",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=6",
+      "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/q5nWuyDzhrPCi"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/RVQBTYYC!9PgRErr99PqgEsy2S8C48mQLQsjkJDiznjDQKUvsR3Q"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239654&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=aRYoIpTouTRs8DM0"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/istybepv0var"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-a3lm6976cp6s.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ezyrdczcfzrd.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/rmfzof6ia8jk"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-odb2fdwha9cr.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/UAQQiDIb!0KyQJs3QHjbi4XmWV7YgOHuoYQvpnFfKoyfKWuNmOAc"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ww7k3q3etf9p.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/tEphHB5S!byR944w4BtM5-DgbMXre3jv3E4H1TXhYP7YtVAK7oMc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-p5pnuc529brp.html"
+        }
+      ]
     }
   ]
 }

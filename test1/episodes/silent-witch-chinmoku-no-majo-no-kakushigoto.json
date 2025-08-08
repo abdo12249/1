@@ -285,13 +285,17 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-08 17:38:13",
+      "date": "2025-08-08 18:55:06",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=6",
       "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/wSFsbQMDZbmXZ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/IRwFGKxY!Sz03X9bEfVa9oGEPrcrjkYkMBCeZDMsG-GwOooZx0Ms"
         },
         {
           "serverName": "vk",
@@ -302,12 +306,40 @@
           "url": "https://videa.hu/player?v=YpbUYLa6YRZtcis0"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/6ld649y1fdij"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ygj8r53k2i57.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ih59lzwiwsqz.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/bp7e4rx0f7wr"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-51r49cavp6la.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/QBxXUBYS!k83XJcZy_1ksj69YHXqE5BgK2ondz7exQA9EsSPxtak"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-7xacpry2yyii.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/NdhBWIIR!rjft1Y2Ky82pwgGGF0fopKYmPBmICaDjCceeRmCTA4s"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-4jq92biu5kgf.html"
         }
       ]
     }

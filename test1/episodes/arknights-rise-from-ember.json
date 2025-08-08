@@ -228,6 +228,67 @@
           "url": "https://www.mp4upload.com/embed-vi9pn3v4rgzw.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-08 16:48:30",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=arknights-rise-from-ember&episode=6",
+      "image": "https://abdo12249.github.io/1/images/arknights-rise-from-ember.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/qKAuAp4Z63wHu"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/FERklaZC!p2I6exwyOHz6QVtkrTFN5i6RXDa1IHjTUgLgr6bsP-o"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239650&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=yxyCw71SwPjf6dAG"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/difbaatlaxhn"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-9qo5vietmdlf.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/yhk3w0hlcohl"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-il7wrjh14ka4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-4vapsu826xg8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/9Bh1FTxC!tpwqvGn3Y1PRxDIs-fN40vCJovRDhFTXsFYDeSexaok"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ef5vu3djqiuc.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/lYBzXTYQ!WM6cPJE1gcLCDrM5Ph-awOVIEJMCQX3aehLzcbs6PPs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-h08rthkhwy5f.html"
+        }
+      ]
     }
   ]
 }

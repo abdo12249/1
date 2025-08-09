@@ -285,13 +285,17 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-09 18:53:29",
+      "date": "2025-08-09 19:27:04",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=6",
       "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/UdLCXBv3dZ0FV"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/6H5lHD7Y!jK11CxqbOld-Y28guX7ayFOyxwgzpw3eSA_cAnjDdc0"
         },
         {
           "serverName": "vk",
@@ -302,12 +306,40 @@
           "url": "https://videa.hu/player?v=UUAU7rAkClMUZqz3"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/h5msssfgfrfp"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-98hdve0ucps3.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-97rxsu9xmflg.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/62socoooutm1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-x6ypvr86jhxt.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/KCA03Kqa!d1ci_yEBUuh2N8XynPp8H6hNYMFb-sKaCGoceCDWH0A"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-5dt1rllj4ru1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/eLo2mCpY!2cLAGp0VrAP8bWQZlS5zRMHKAbWX52xv73RG3WU1Zsw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-cuoc0r7ltcwi.html"
         }
       ]
     }

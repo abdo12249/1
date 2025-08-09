@@ -273,6 +273,67 @@
           "url": "https://www.mp4upload.com/embed-l8ubrlmxc9ah.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-09 19:27:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ame-to-kimi-to&episode=6",
+      "image": "https://abdo12249.github.io/1/images/ame-to-kimi-to.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/We3fqL2UmSPcE"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/yThUWYpQ!TOa_H-N2Td2RwQMBusWaTitqmpgdxn4YZkVgsKvgPf8"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239664&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=NeeDWkP84PChlS0T"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rbfa32ll8ijy"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3tus75y1jtw7.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/rr1y2wtzc3px"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-joa463488kuo.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ihyrogzdx0pz.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/PfZQ0BxD!tqR4-YT4S6intDeGew_hmtT6laM-VXjPDC5owR9coW8"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-wqquwtjhx98o.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/6SwBFYTI!A50kf7Y2Cds5a8BTgzkMeBVH1e4pFob4fpMybIOyRJI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-n8er3ad7ywt1.html"
+        }
+      ]
     }
   ]
 }

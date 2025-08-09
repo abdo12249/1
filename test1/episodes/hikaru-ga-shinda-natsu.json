@@ -277,6 +277,35 @@
           "url": "https://www.mp4upload.com/embed-8bwjp8davoz1.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-09 19:27:00",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hikaru-ga-shinda-natsu&episode=6",
+      "image": "https://abdo12249.github.io/1/images/hikaru-ga-shinda-natsu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/r0qxyQVuqp1JR"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239665&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=WGIhCvPIY1ev0MWe"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/fe4AgSqZ!_fhxNGFP7uSq79zY0K9pFnInb5tGTVOFl7MsDr7yjW0"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-34fv3f0i10tn.html"
+        }
+      ]
     }
   ]
 }

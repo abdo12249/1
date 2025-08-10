@@ -1,65 +1,70 @@
-document.addEventListener("DOMContentLoaded", function () {
+// وظيفة للتحقق من وجود العناصر وإعادة المحاولة إذا لزم الأمر
+function initializeElements() {
+// عنصر تبديل الثيم
+const themeToggle = document.getElementById('themeToggle');
 
-    // وظيفة للتحقق من وجود العناصر وإعادة المحاولة إذا لزم الأمر
-    function initializeElements() {
-        // عنصر تبديل الثيم
-        const themeToggle = document.getElementById('themeToggle');
+// دالة لتطبيق الثيم بناءً على التخزين المحلي
+function applyTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    } else {
+        // إذا لم يكن هناك ثيم محفوظ، يمكن تعيين الثيم الافتراضي
+        document.body.classList.add('dark-mode'); // أو 'dark-mode' حسب الرغبة
+    }
+}
 
-        // دالة لتطبيق الثيم بناءً على التخزين المحلي
-        function applyTheme() {
-            const savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                document.body.classList.add(savedTheme);
-            } else {
-                document.body.classList.add('dark-mode'); // ثيم افتراضي
-            }
-        }
+// تطبيق الثيم عند تحميل الصفحة
+applyTheme();
 
-        // تطبيق الثيم عند تحميل الصفحة
-        applyTheme();
-
-        if (themeToggle) {
-            themeToggle.addEventListener('click', function () {
-                if (document.body.classList.contains('dark-mode')) {
-                    document.body.classList.add('light-mode');
-                    document.body.classList.remove('dark-mode');
-                    localStorage.setItem('theme', 'light-mode');
-                } else {
-                    document.body.classList.add('dark-mode');
-                    document.body.classList.remove('light-mode');
-                    localStorage.setItem('theme', 'dark-mode');
-                }
-            });
+if (themeToggle) {
+    themeToggle.addEventListener('click', function () {
+        // التبديل بين الثيمات
+        if (document.body.classList.contains('dark-mode')) {
+            document.body.classList.add('light-mode');
+            document.body.classList.remove('dark-mode');
+            // حفظ الثيم في localStorage
+            localStorage.setItem('theme', 'light-mode');
         } else {
-            console.log("لم يتم العثور على themeToggle. سيتم المحاولة مرة أخرى بعد 1 ثانية...");
-            setTimeout(initializeElements, 1000);
-            return;
+            document.body.classList.add('dark-mode');
+            document.body.classList.remove('light-mode');
+            // حفظ الثيم في localStorage
+            localStorage.setItem('theme', 'dark-mode');
         }
+    });
+} else {
+    console.log("لم يتم العثور على themeToggle. سيتم المحاولة مرة أخرى بعد 5 ثوانٍ...");
+    setTimeout(initializeElements, 1000); // إعادة المحاولة بعد 5 ثوانٍ
+    return;
+}
 
-        // عنصر القائمة الجانبية للموبايل
-        const menuBtn = document.getElementById('menu-btn');
-        const sidebar = document.getElementById('sidebar');
-        if (menuBtn && sidebar) {
-            menuBtn.addEventListener('click', () => {
-                sidebar.classList.toggle('active');
-            });
-        } else {
-            console.log("لم يتم العثور على menu-btn أو sidebar. سيتم المحاولة مرة أخرى بعد 1 ثانية...");
-            setTimeout(initializeElements, 1000);
-            return;
-        }
 
-        console.log("تم العثور على جميع العناصر المطلوبة وتفعيل الأحداث.");
+    // عنصر القائمة الجانبية الموبيل
+    const menuBtn = document.getElementById('menu-btn');
+    const sidebar = document.getElementById('sidebar');
+    if (menuBtn && sidebar) {
+        menuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active'); // فتح أو غلق القائمة
+        });
+    } else {
+        console.log("لم يتم العثور على menu-btn أو sidebar. سيتم المحاولة مرة أخرى بعد 5 ثوانٍ...");
+        setTimeout(initializeElements, 1000); // إعادة المحاولة بعد 5 ثوانٍ
+        return;
     }
 
-    // استدعاء الوظيفة لأول مرة
-    initializeElements();
+    console.log("تم العثور على جميع العناصر المطلوبة وتفعيل الأحداث.");
+}
+
+// استدعاء الوظيفة لأول مرة
+initializeElements();
 
 
-    // ====== كود المفضلة ======
+// تفضيلت 
+
+document.addEventListener("DOMContentLoaded", function () {
     let currentPage = {
         url: window.location.href,
-        title: document.title
+        title: document.title // اسم الموقع الحالي
     };
 
     let savedSites = localStorage.getItem("savedSites") ? JSON.parse(localStorage.getItem("savedSites")) : [];
@@ -71,11 +76,11 @@ document.addEventListener("DOMContentLoaded", function () {
         let isSaved = savedSites.some(site => site.url === currentPage.url);
 
         if (isSaved) {
-            button.textContent = "إزالة من المفضلة";
+            button.textContent = "إزالة من للمفضل";
             button.classList.add("saved");
             button.classList.remove("not-saved");
         } else {
-            button.textContent = "إضافة للمفضلة";
+            button.textContent = "اضافة للمفضل ";
             button.classList.add("not-saved");
             button.classList.remove("saved");
         }
@@ -85,9 +90,9 @@ document.addEventListener("DOMContentLoaded", function () {
         let index = savedSites.findIndex(site => site.url === currentPage.url);
 
         if (index === -1) {
-            savedSites.push(currentPage);
+            savedSites.push(currentPage); // إضافة الموقع
         } else {
-            savedSites.splice(index, 1);
+            savedSites.splice(index, 1); // إزالة الموقع
         }
 
         localStorage.setItem("savedSites", JSON.stringify(savedSites));
@@ -106,7 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
             let anchor = document.createElement("a");
             anchor.href = site.url;
             anchor.textContent = site.title;
-            anchor.target = "_blank";
+            anchor.target = "_blank"; // فتح الرابط في نافذة جديدة
+
             listItem.appendChild(anchor);
             list.appendChild(listItem);
         });
@@ -117,83 +123,16 @@ document.addEventListener("DOMContentLoaded", function () {
         loadLinks();
     }
 
+    // إذا كان الزر موجودًا في الصفحة، قم بتحديث حالته
     if (document.getElementById("saveButton")) {
         updateButtonState();
         document.getElementById("saveButton").addEventListener("click", toggleLink);
     }
 
+    // إذا كان هناك قائمة للروابط المحفوظة، قم بتحميلها
     if (document.getElementById("linksList")) {
         loadLinks();
         let clearButton = document.getElementById("clearButton");
         if (clearButton) clearButton.addEventListener("click", clearLinks);
     }
-
-    // ====== كود البحث ======
-   const searchInput = document.getElementById("searchInput");
-   const animeList = document.getElementById("animeList");
-
-let animesData = {};
-
-if (searchInput && animeList) {
-    fetch("test1/animes.json")
-        .then(response => response.json())
-        .then(data => {
-            animesData = data;
-        })
-        .catch(error => console.error("حدث خطأ أثناء تحميل ملف الأنمي:", error));
-
-    // عند الكتابة
-    searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase().trim();
-        animeList.innerHTML = "";
-
-        if (query.length === 0) return;
-
-        const results = Object.keys(animesData).filter(key =>
-            animesData[key].title.toLowerCase().includes(query)
-        );
-
-        if (results.length === 0) {
-            animeList.innerHTML = "<p>لم يتم العثور على نتائج</p>";
-            return;
-        }
-
-        results.forEach(key => {
-            const anime = animesData[key];
-            const animeItem = document.createElement("div");
-            animeItem.classList.add("anime-item");
-            animeItem.style.cursor = "pointer";
-            animeItem.innerHTML = `
-                <img src="${anime.image}" alt="${anime.title}" width="50">
-                <span>${anime.title}</span>
-            `;
-
-            // لو ضغطت على العنصر ينقلك لصفحة الأنمي
-            animeItem.addEventListener("click", () => {
-                window.location.href = anime.url; // تأكد إن animes.json فيه "url"
-            });
-
-            animeList.appendChild(animeItem);
-        });
-    });
-
-    // عند الضغط على Enter
-    searchInput.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") {
-            const query = searchInput.value.toLowerCase().trim();
-            if (query.length === 0) return;
-
-            // البحث عن أنمي بالاسم المطابق
-            const matchKey = Object.keys(animesData).find(key =>
-                animesData[key].title.toLowerCase() === query
-            );
-
-            if (matchKey) {
-                window.location.href = animesData[matchKey].url;
-            } else {
-                alert("لم يتم العثور على أنمي بالاسم المكتوب.");
-            }
-        }
-    });
-}
-}); // ← ودي بتقفل document.addEventListener
+});

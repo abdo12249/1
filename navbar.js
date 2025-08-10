@@ -128,8 +128,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (clearButton) clearButton.addEventListener("click", clearLinks);
     }
 
-    const searchInput = document.getElementById("searchInput");
-const animeList = document.getElementById("animeList");
+    // ====== كود البحث ======
+   const searchInput = document.getElementById("searchInput");
+   const animeList = document.getElementById("animeList");
 
 let animesData = {};
 
@@ -141,7 +142,7 @@ if (searchInput && animeList) {
         })
         .catch(error => console.error("حدث خطأ أثناء تحميل ملف الأنمي:", error));
 
-    // لما المستخدم يكتب
+    // عند الكتابة
     searchInput.addEventListener("input", () => {
         const query = searchInput.value.toLowerCase().trim();
         animeList.innerHTML = "";
@@ -167,7 +168,7 @@ if (searchInput && animeList) {
                 <span>${anime.title}</span>
             `;
 
-            // عند الضغط على النتيجة، يروح لصفحة الأنمي
+            // لو ضغطت على العنصر ينقلك لصفحة الأنمي
             animeItem.addEventListener("click", () => {
                 window.location.href = anime.url; // تأكد إن animes.json فيه "url"
             });
@@ -175,4 +176,24 @@ if (searchInput && animeList) {
             animeList.appendChild(animeItem);
         });
     });
+
+    // عند الضغط على Enter
+    searchInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+            const query = searchInput.value.toLowerCase().trim();
+            if (query.length === 0) return;
+
+            // البحث عن أنمي بالاسم المطابق
+            const matchKey = Object.keys(animesData).find(key =>
+                animesData[key].title.toLowerCase() === query
+            );
+
+            if (matchKey) {
+                window.location.href = animesData[matchKey].url;
+            } else {
+                alert("لم يتم العثور على أنمي بالاسم المكتوب.");
+            }
+        }
+    });
 }
+}); // ← ودي بتقفل document.addEventListener

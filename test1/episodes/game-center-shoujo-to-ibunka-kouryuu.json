@@ -273,13 +273,17 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-10 17:35:38",
+      "date": "2025-08-10 18:51:17",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=game-center-shoujo-to-ibunka-kouryuu&episode=6",
       "image": "https://abdo12249.github.io/1/images/game-center-shoujo-to-ibunka-kouryuu.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/tjIsEIQMhzwDl"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/vSYy0KRS!zkUBP5D5rPvFA4mvxCfrtrOIdcQzY8YxwqtiQk7S3H8"
         },
         {
           "serverName": "vk",
@@ -290,12 +294,40 @@
           "url": "https://videa.hu/player?v=AJXHMxXiMowsMhol"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/tu1tzizvetss"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7fk0c436z1d5.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-275ogdryx5do.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/p2s3i6ulcdkd"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-57r0cm1h5292.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/fKxlEAQA!nnBYGRt8DuY8nC7JXAapyxPatC8BuUktI7sapmcvpmk"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-j3fmexmfifl9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/OOQXyDyI!zwvn2NHgtETLpMFZJutHcff0K8IKP-V1bT-PM6TyPuo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-es3pwwi0o9ie.html"
         }
       ]
     }

@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const animeList = document.getElementById("animeList");
 
     let animesData = {};
-  
+   
     // تحميل ملف JSON
     fetch("test1/animes.json")
         .then(response => response.json())

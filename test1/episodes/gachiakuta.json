@@ -216,6 +216,67 @@
           "url": "https://www.mp4upload.com/embed-gx0wfkpkrj31.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-10 16:49:38",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=5",
+      "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/bGipqLZo02lvE"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/XLZ2AZ5K!jOQhkgzuDyAlupUiTh7kxoIba_ryim4_M1WKOZD4R64"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239673&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=8HGauNCS7TEU8KaG"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/oip0zptl2ng7"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-r57ldr0qo6t8.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ow0vy73r4ub5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/5p6mtck1aw8r"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-6e10l4uq5ctv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/jLYQHLxY!viNEAeTRPXR8zeV-2yJ3MLHkYHOSi3N7V1inh5AmXHU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-djqtega0cr5v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/zbZ03AIT!v6S60pU7weaNstewsLJ1oIzuE9BV_G0wbWPPnqvDwU8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-riwncutau3mw.html"
+        }
+      ]
     }
   ]
 }

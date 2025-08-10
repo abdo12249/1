@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let animesData = {};
 
     // تحميل ملف JSON
-    fetch("animes.json")
+    fetch("test1/animes.json")
         .then(response => response.json())
         .then(data => {
             animesData = data;

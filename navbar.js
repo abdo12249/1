@@ -128,46 +128,51 @@ document.addEventListener("DOMContentLoaded", function () {
         if (clearButton) clearButton.addEventListener("click", clearLinks);
     }
 
-    // ====== كود البحث ======
     const searchInput = document.getElementById("searchInput");
-    const animeList = document.getElementById("animeList");
+const animeList = document.getElementById("animeList");
 
-    let animesData = {};
+let animesData = {};
 
-    if (searchInput && animeList) {
-        fetch("test1/animes.json")
-            .then(response => response.json())
-            .then(data => {
-                animesData = data;
-            })
-            .catch(error => console.error("حدث خطأ أثناء تحميل ملف الأنمي:", error));
+if (searchInput && animeList) {
+    fetch("test1/animes.json")
+        .then(response => response.json())
+        .then(data => {
+            animesData = data;
+        })
+        .catch(error => console.error("حدث خطأ أثناء تحميل ملف الأنمي:", error));
 
-        searchInput.addEventListener("input", () => {
-            const query = searchInput.value.toLowerCase().trim();
-            animeList.innerHTML = "";
+    // لما المستخدم يكتب
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase().trim();
+        animeList.innerHTML = "";
 
-            if (query.length === 0) return;
+        if (query.length === 0) return;
 
-            const results = Object.keys(animesData).filter(key =>
-                animesData[key].title.toLowerCase().includes(query)
-            );
+        const results = Object.keys(animesData).filter(key =>
+            animesData[key].title.toLowerCase().includes(query)
+        );
 
-            if (results.length === 0) {
-                animeList.innerHTML = "<p>لم يتم العثور على نتائج</p>";
-                return;
-            }
+        if (results.length === 0) {
+            animeList.innerHTML = "<p>لم يتم العثور على نتائج</p>";
+            return;
+        }
 
-            results.forEach(key => {
-                const anime = animesData[key];
-                const animeItem = document.createElement("div");
-                animeItem.classList.add("anime-item");
-                animeItem.innerHTML = `
-                    <img src="${anime.image}" alt="${anime.title}" width="50">
-                    <span>${anime.title}</span>
-                `;
-                animeList.appendChild(animeItem);
+        results.forEach(key => {
+            const anime = animesData[key];
+            const animeItem = document.createElement("div");
+            animeItem.classList.add("anime-item");
+            animeItem.style.cursor = "pointer";
+            animeItem.innerHTML = `
+                <img src="${anime.image}" alt="${anime.title}" width="50">
+                <span>${anime.title}</span>
+            `;
+
+            // عند الضغط على النتيجة، يروح لصفحة الأنمي
+            animeItem.addEventListener("click", () => {
+                window.location.href = anime.url; // تأكد إن animes.json فيه "url"
             });
-        });
-    }
 
-});
+            animeList.appendChild(animeItem);
+        });
+    });
+}

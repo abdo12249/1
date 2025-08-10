@@ -136,3 +136,48 @@ document.addEventListener("DOMContentLoaded", function () {
         if (clearButton) clearButton.addEventListener("click", clearLinks);
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("searchInput");
+    const animeList = document.getElementById("animeList");
+
+    let animesData = {};
+
+    // تحميل ملف JSON
+    fetch("animes.json")
+        .then(response => response.json())
+        .then(data => {
+            animesData = data;
+        })
+        .catch(error => console.error("حدث خطأ أثناء تحميل ملف الأنمي:", error));
+
+    // البحث أثناء الكتابة
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase().trim();
+        animeList.innerHTML = "";
+
+        if (query.length === 0) return;
+
+        const results = Object.keys(animesData).filter(key =>
+            animesData[key].title.toLowerCase().includes(query)
+        );
+
+        if (results.length === 0) {
+            animeList.innerHTML = "<p>لم يتم العثور على نتائج</p>";
+            return;
+        }
+
+        results.forEach(key => {
+            const anime = animesData[key];
+            const animeItem = document.createElement("div");
+            animeItem.classList.add("anime-item");
+            animeItem.innerHTML = `
+                <img src="${anime.image}" alt="${anime.title}" width="50">
+                <span>${anime.title}</span>
+            `;
+            animeList.appendChild(animeItem);
+        });
+
+    });
+});
+

@@ -338,6 +338,67 @@
           "url": "https://www.mp4upload.com/embed-5vdp86bg0kgl.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-12 18:55:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=necronomico-no-cosmic-horror-show&episode=7",
+      "image": "https://abdo12249.github.io/1/images/necronomico-no-cosmic-horror-show.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Nt4TrasYqWSWh"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qeBClCzY!4FjRtrgGuYdLffrTvOqUuRljOZf4AA-DlDc7FzxPY-A"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239691&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ZuQT0EpdyRmAT4XD"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/solb4flalouc"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-fa6t4rc7ovy6.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-v07qj1b9rz98.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/77tewnnsda9g"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-a90skesedbmd.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/3aIxXb4D!YU989zFE9s4X4rvR7Uk-ZWumdNBpLdbgirx130rxKJ0"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-9juk71rsghle.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/2CQAnRiJ!1NJfw5FE9ohBCnDnafC78Por7BR6gQvF_SkyvUArnM4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ih25lo97bclj.html"
+        }
+      ]
     }
   ]
 }

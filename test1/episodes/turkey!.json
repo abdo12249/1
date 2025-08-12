@@ -277,6 +277,67 @@
           "url": "https://www.mp4upload.com/embed-5sdphw34qrx6.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-12 19:28:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=turkey!&episode=6",
+      "image": "https://abdo12249.github.io/1/images/turkey!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/JrcJGfd0G9d63"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/2ThGxQZC!zRA0QLMhRzeZ2SpIcwXugY7hCtLLQFcdpI4An7QImCc"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=gNRtzoHByPuXG2Po"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239694&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/b8egnbnokvte"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-d2gj6hpdjjwy.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-5elmrh5w5mxg.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/w7xxpodk1s30"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-6lpskejzrjd2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Pfg2UY7T!H-FE6-hnqRteMaU0tVJgySPaPBMa9HtjcnQlY5h6ofs"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-40jnl1unuvm7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/fbJEmD6D!FtNBFrkp085d8OES0YX7EqrfSRSI0GR8QoXghfhKHDk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-cb92el9amqbd.html"
+        }
+      ]
     }
   ]
 }

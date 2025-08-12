@@ -220,6 +220,67 @@
           "url": "https://www.mp4upload.com/embed-josigljcdees.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-08-12 20:40:50",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=5",
+      "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Qup6apfvQFT0M"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/WOQiibIB!SNTQ9SW_k7o2QV1GinIvZUC4l1ErwTfxTauyVOGuaOA"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239695&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=wlB2FJh3ssRsX685"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-bx51ffc3b7jf.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/o0wgquto18q3"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/z62wvu0qpdlq"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-t18gcewvv0uz.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-0san9kc0pqgr.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/eawXCL4D!Nkj4HideEjRF2XulBaqS0qeTVriMLE_rDeYc6HrWqFY"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-xtbzxurrymoj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/KCYjQCoa!AaefwFae1qbKhDAZe8skHZnntUhxRCxxQdvoQEz62-E"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-i47zln74o87n.html"
+        }
+      ]
     }
   ]
 }

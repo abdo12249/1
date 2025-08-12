@@ -136,3 +136,20 @@ document.addEventListener("DOMContentLoaded", function () {
         if (clearButton) clearButton.addEventListener("click", clearLinks);
     }
 });
+
+// تحميل gtag.js مرة واحدة فقط
+if (!document.querySelector('script[src*="www.googletagmanager.com/gtag/js"]')) {
+    const gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-BX7750CBQ5';
+    document.head.appendChild(gtagScript);
+}
+
+// تعريف dataLayer و gtag مرة واحدة فقط
+if (!window.dataLayer) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag; // حفظها في window للتأكد إنها متاحة
+    gtag('js', new Date());
+    gtag('config', 'G-BX7750CBQ5');
+}

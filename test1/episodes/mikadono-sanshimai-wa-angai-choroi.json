@@ -338,6 +338,67 @@
           "url": "https://www.mp4upload.com/embed-b11bc6k0eqm1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-13 18:54:20",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikadono-sanshimai-wa-angai-choroi&episode=7",
+      "image": "https://abdo12249.github.io/1/images/mikadono-sanshimai-wa-angai-choroi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/q912OvA8pm0fH"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/y9BFUIZB!Pxplqrk1B1QGYPfpBi_OSN3t7hcqQmwpY6k3nFdjv5M"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=arYbUOGICM69fCX9"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239700&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ejyxrj5l8fdp"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tdrdkq31yynb.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-6d1cbcciesie.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/df0pqg8b651k"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-oolrfjv0d1b8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/D0IB1KYA!HO5ie8rWSfqdYljVFfwXGtJ6q8uCQ7fZkLO5LRbMV18"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-l8tvgx3cne2f.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/XxBlyLCL!lCTzGTTk10uTH-LKLE7ufKu2UD1lIFYhQUckurWa07k"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wlewgxwmecyx.html"
+        }
+      ]
     }
   ]
 }

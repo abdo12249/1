@@ -285,7 +285,7 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-13 17:32:14",
+      "date": "2025-08-13 18:54:23",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season&episode=6",
       "image": "https://abdo12249.github.io/1/images/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season.webp",
       "servers": [
@@ -294,12 +294,52 @@
           "url": "https://megamax.me/iframe/R9DSO8PBWpBfw"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/3xQxyJCK!HBXRMIu5F5u1E1H27hJTHAqCmVHEaXWaMK-ZY1Gz-_Y"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=3dBjBftPQQ4kpa2X"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239699&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/no9pwec5hetl"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tc6fdbriglzb.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-s4yezl9ueb4z.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/wi6lcyb4pgtx"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-pg1uwvdrome8.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/aoAi1ITZ!8U4SBuowVI-qUoCMFv2dfYGn5SZo03kGCW8EqOoGhx4"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-0lbxtnlt26gz.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/SxZVlJDA!mB2St55o1j8MfAqBWGPdSdpOtD3LTFScDHmzmb7IFhs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wmaehhric7dn.html"
         }
       ]
     }

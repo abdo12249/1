@@ -318,7 +318,7 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-14 16:51:10",
+      "date": "2025-08-14 17:40:11",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=7",
       "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
       "servers": [
@@ -365,6 +365,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-d44owzjjkxws.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/S0J0kJaa!Bxal2K3i_eTk_U9LajI3xR6VFhBXjsZg17LKhrY0y0Q"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-apb58dynuske.html"
         }
       ]
     }

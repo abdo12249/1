@@ -58,16 +58,26 @@
         <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <script type="text/javascript">
-	atOptions = {
-		'key' : 'fcb1605c77b3fd33d38ff238d2ffbd00',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/fcb1605c77b3fd33d38ff238d2ffbd00/invoke.js"></script>
+<div style="max-width:100%;overflow:hidden;">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'fcb1605c77b3fd33d38ff238d2ffbd00',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/fcb1605c77b3fd33d38ff238d2ffbd00/invoke.js"></script>
+</div>
+
+<style>
+iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
+
       
       <div class="navigation-buttons">
         <button id="prev-btn">السابق</button>
@@ -271,4 +281,5 @@
   
 </body>
 </html>
+
 

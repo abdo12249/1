@@ -440,6 +440,27 @@
           "url": "https://www.mp4upload.com/embed-yekc5b57wxxi.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-08-14 13:48:15",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=9",
+      "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/DKIyJuSAE1BL1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/7txHwLSS!CO8M4-VPK1yR2-VphdtmS7Oko7ukU4heEvdSMZHix_U"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-hg0kpjv1yxr9.html"
+        }
+      ]
     }
   ]
 }

@@ -269,6 +269,35 @@
           "url": "https://www.mp4upload.com/embed-b7xoa10kubjt.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-14 17:40:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=6",
+      "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/jnum1Y6C8ptJY"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239709&hash=0da82eb4fb9056f5&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=HZySUW0CU1hCzHE3"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/CwA3FbaL!EUNnGSyIJ2O8e1a1NUTo_-eyrI0FUJN3NgpcRCv4lfo"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1pdab8lsmpmb.html"
+        }
+      ]
     }
   ]
 }

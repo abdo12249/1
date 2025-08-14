@@ -330,6 +330,67 @@
           "url": "https://www.mp4upload.com/embed-3kyic7a4hjyk.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-14 15:42:00",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuihousha-shokudou-e-youkoso!&episode=7",
+      "image": "https://abdo12249.github.io/1/images/tsuihousha-shokudou-e-youkoso!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/deGZpJNbjFjZQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/C0pABDIY!zS4l8bP9XlETNBLmvC7aftaplbzPDwNvQ8PfEcqtgpk"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239707&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ETNmLkPwtOaWepRH"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-npwqxjmw4x1s.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/sciaavf2fd0n"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/xdw56cxj4fsc"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-rwato8knhe99.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-zp7xx2est8jo.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/rw5w0aqb!wt3Ucs3isrEDVR4S6wEnbnkDKX5aNJD2rJ8Q-SE9gwk"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-q0s656s9rdpo.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/LpQCnJ7C!G3yLYN6nFokUkNrxJwG0Gw8hQJgK_V2TWbh0nNbvyPw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-k2jzvlflxwru.html"
+        }
+      ]
     }
   ]
 }

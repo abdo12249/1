@@ -444,7 +444,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-08-14 13:48:15",
+      "date": "2025-08-14 14:45:05",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=9",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
@@ -453,12 +453,52 @@
           "url": "https://megamax.me/iframe/DKIyJuSAE1BL1"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/e1BB1YgA!sMA__qp1Z7muC4ZzbNKM3DtVy7cH9ze10KZSh0Rapys"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=kcJvJxRy3DNEYMcQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239704&hash=028ce0d238a50f7f&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bekotgl1djpv"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-kyfg7tcm57oc.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-u3j31qvaq11a.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/rbs4jbg5u25t"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-fu2mrlprt48x.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/7txHwLSS!CO8M4-VPK1yR2-VphdtmS7Oko7ukU4heEvdSMZHix_U"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-hg0kpjv1yxr9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/qhA1VZhI!-8gjDMxXLPczZeygL43Z_A4jnyI4U8GmKR9x2nvZVRk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-tmec1zzdjj90.html"
         }
       ]
     }

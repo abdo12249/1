@@ -562,6 +562,35 @@
           "url": "https://www.mp4upload.com/embed-olwwgr5drk7q.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-08-15 22:41:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=11",
+      "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/mwc4bsPG0gp17"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=GDR9NXHhwXCF7rAB"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239720&hash=d331bebb62b3aecf&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/P05W2KCb!Lcmc9f5E9-4XYlXp1EdtVj0J1pkzw3MkFlgEys4u58M"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-wbw4ena4e50m.html"
+        }
+      ]
     }
   ]
 }

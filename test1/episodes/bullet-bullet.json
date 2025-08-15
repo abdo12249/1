@@ -566,13 +566,17 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-08-15 22:41:19",
+      "date": "2025-08-15 23:32:36",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bullet-bullet&episode=11",
       "image": "https://abdo12249.github.io/1/images/bullet-bullet.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/mwc4bsPG0gp17"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/agw23QTR!n1KFk2XJGLc1caMqqhlut_nXn_jXHBT_3svO6rEQQyg"
         },
         {
           "serverName": "videa",
@@ -583,12 +587,40 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239720&hash=d331bebb62b3aecf&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ts4fqy1plup1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-d6j8v8v6friz.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-qy8ebs3lcv09.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/ve4w5tr30b4k"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-v0wd7wplm6gv.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/P05W2KCb!Lcmc9f5E9-4XYlXp1EdtVj0J1pkzw3MkFlgEys4u58M"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-wbw4ena4e50m.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/rx5kDJCQ!LAVb1DS3rk6wMBt33FstXLR8oRVQUilP7p8MBqMRfhs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-tg11lk3z8b1p.html"
         }
       ]
     }

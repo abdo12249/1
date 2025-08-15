@@ -342,7 +342,7 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-15 16:50:35",
+      "date": "2025-08-15 17:38:26",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=7",
       "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
       "servers": [
@@ -389,6 +389,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ac5yo6ucfmbj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/rkx3kAhB!XwzGs3l_2fvSboJPlm5P7vqYak_ghJ4KI1hM42yZdKY"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-kzxwex1ob3zl.html"
         }
       ]
     }

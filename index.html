@@ -125,6 +125,22 @@
             .catch(error => console.error('خطأ في تحميل الصفحات:', error));
     </script>
 </main>
+
+<div id="ad-container">
+    <p>إعلان بديل</p>
+</div>
+
+<script>
+window.addEventListener('load', function(){
+    const ad = document.getElementById('ad-container');
+    if (ad && ad.offsetHeight === 0) {
+        ad.innerHTML = '<a href="https://link.com"><img src="/images/backup.jpg"></a>';
+    }
+});
+</script>
+
+
+
     
 <div style="max-width:100%;overflow:hidden;">
     <script type="text/javascript">
@@ -593,6 +609,7 @@ iframe {
     
 </body>
 </html>
+
 
 
 

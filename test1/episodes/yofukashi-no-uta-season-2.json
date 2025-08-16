@@ -179,7 +179,7 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-16 16:43:36",
+      "date": "2025-08-16 20:17:32",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yofukashi-no-uta-season-2&episode=7",
       "image": "https://abdo12249.github.io/1/images/yofukashi-no-uta-season-2.webp",
       "servers": [
@@ -226,6 +226,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-mev8t7nk7r3u.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/6Is0GITZ!sea9sC3GZT_Socir2aKtqZvUhnZIVXLyxmtBgDDP_4k"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-p7q5nkd4pjod.html"
         }
       ]
     }

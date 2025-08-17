@@ -334,7 +334,7 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-17 16:20:00",
+      "date": "2025-08-17 17:14:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busamen-gachi-fighter&episode=7",
       "image": "https://abdo12249.github.io/1/images/busamen-gachi-fighter.webp",
       "servers": [
@@ -381,6 +381,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-67k08ghhp4wm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/yZF1TZiK!8WEmf9kD30IChLYnjWqWZl0dgt7Huw_B_lvZYn3fS74"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-jzu3muj7notc.html"
         }
       ]
     }

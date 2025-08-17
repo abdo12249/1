@@ -334,13 +334,17 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-17 14:15:14",
+      "date": "2025-08-17 15:16:48",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku&episode=7",
       "image": "https://abdo12249.github.io/1/images/isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/6izAAvDDloLXp"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/jdUDUKwS!QwPxzi-H027gulWenkgdivoF8-bZt8jT3RL7q1y3CoM"
         },
         {
           "serverName": "vk",
@@ -351,12 +355,40 @@
           "url": "https://videa.hu/player?v=Lq1hkJBBvNJfpGjl"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/h5sldc1ciwxx"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-30d2q3nalu57.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-lzchicnu1el5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/f02t5o9hlthf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ur2z1nk1uptq.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/2FlxTDhJ!vmc6xshU9rwpBmnmNbUeqAQ3IHLdvFeKJ1JsoB7PKzQ"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-3bstwmxkfxgz.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/TAVUEZQT!CLzM2aCDZmk3eYI_2tcBm_cAH6Q3Rmjnd-djqnXOZjA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-3wmy0bgd4w8t.html"
         }
       ]
     }

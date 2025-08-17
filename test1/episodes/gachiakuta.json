@@ -281,7 +281,7 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-17 15:16:26",
+      "date": "2025-08-17 16:20:03",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=6",
       "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
       "servers": [
@@ -290,8 +290,56 @@
           "url": "https://megamax.me/iframe/1CjmuSw6PHdbR"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/aBlXQLrI!0aDpM4mB-1g425gOMYqZbjz1OAFFScII9tk6QG-mC14"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9oxovu"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=BZh8CTxPb7bPnlFM"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239743&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/icwaz8jmsm9o"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ss3ysxd7ba7i.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-nty36c6c1spw.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/7axtmfivgsec"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ce79etz7j6s5.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/iZ11lArS!Rkrj6jeCA8OZOGlgQDFnIgW8P00VVLWyb0kbSscFCVw"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-rn6htzz39x9t.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/uEN2DKIB!4Aa2UQy8BFUp2eOa491_GFpAs-T-LAw6P5-nlXOmivo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-l6cztgmy9jvu.html"
         }
       ]
     }

@@ -326,6 +326,67 @@
           "url": "https://www.mp4upload.com/embed-0s9aws2hbq35.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-17 14:15:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dekin-no-mogura&episode=7",
+      "image": "https://abdo12249.github.io/1/images/dekin-no-mogura.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Y7pzpfhD7sinp"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/adVGXbaY!B4c9h2_FQcegJ5t6lMVr176uiVTQ7Z2isL8jCeencLY"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239739&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=cmwNFQqKSKCSz8Ei"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/e5paz7td5isp"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-u267asdu48m0.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-fmv1tcri360q.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/3opgjxyoap09"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-bvnbiphlca16.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/6NczyArQ!wlWa1uudQER4FUq76OrS0KkDi6jWsXi8D5RjSWWMgbs"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-iaa6l895mqwu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/7MMlnDbL!KlYYeIX1OHXanG8nG18M2Pc24u6sG_jtMkjgQMahsYU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-i5n4md178vkk.html"
+        }
+      ]
     }
   ]
 }

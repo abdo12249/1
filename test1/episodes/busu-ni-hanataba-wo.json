@@ -265,6 +265,35 @@
           "url": "https://www.mp4upload.com/embed-vixqb97v9hlb.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-08-18 21:15:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busu-ni-hanataba-wo&episode=6",
+      "image": "https://abdo12249.github.io/1/images/busu-ni-hanataba-wo.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/3xIzQcDgUoV0N"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=27JRlRJ39EoWqLx9"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239751&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GcNxQRzT!qm55yeOoU055q-dGQcbpGGGdSf0MthZINxWyWii-CYE"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-8v5a6nz4ml78.html"
+        }
+      ]
     }
   ]
 }

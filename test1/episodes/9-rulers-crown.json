@@ -395,7 +395,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-08-18 01:38:11",
+      "date": "2025-08-18 03:27:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=8",
       "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
       "servers": [
@@ -404,8 +404,52 @@
           "url": "https://megamax.me/iframe/afPizzNBRB1ng"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/LJ9xkIDT!N8vQoqs2rf6bjP-DUo2lxXz6z4zdEwMAgcmlqJ7QHGg"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239748&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=2WDzdjhOKnhuwqHD"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/q8uc3hovkxkf"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jv810bykaijd.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-zkpmsxj89834.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/2jo2bmih06r4"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ww2lnrqyxzd6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/DQcUXKZR!a4eq35S2yk4jHdhm7iMs-EYgmtFswUZ_XoUoMc8dgLw"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-yvt722tjpr05.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/DQU1QTzB!8m4sGle1g0aW3rMSCu0K7Rn_UDkVjtq0JlHOmQ8lRdU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2m0xnn6znxc8.html"
         }
       ]
     }

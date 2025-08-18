@@ -269,13 +269,17 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-08-18 21:15:19",
+      "date": "2025-08-18 22:15:06",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busu-ni-hanataba-wo&episode=6",
       "image": "https://abdo12249.github.io/1/images/busu-ni-hanataba-wo.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/3xIzQcDgUoV0N"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/DUMSiDSR!giNScNEXiks4YvCM9cmHwttEcwiHZakuf_go8rdcmiQ"
         },
         {
           "serverName": "videa",
@@ -286,12 +290,40 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239751&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/o7ebhhn0t0th"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-avvw09ctd3r0.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-44ond61lxpbi.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/l6rbfr611zt7"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-756f31zw13i2.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/GcNxQRzT!qm55yeOoU055q-dGQcbpGGGdSf0MthZINxWyWii-CYE"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-8v5a6nz4ml78.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/3N9TkRaT!V-yDVXhVsHxxw3M5wGPglx-gPKPn36g6JFcWxM9PyjA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-stnz2bdzm50d.html"
         }
       ]
     }

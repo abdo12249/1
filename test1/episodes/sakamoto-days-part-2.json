@@ -346,6 +346,71 @@
           "url": "https://www.mp4upload.com/embed-zt1esnpaxoli.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-18 23:16:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sakamoto-days-part-2&episode=7",
+      "image": "https://abdo12249.github.io/1/images/sakamoto-days-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/RaFJizG4zF260"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/KJdnFarA!nl_pt8Pq0v8appk1admaU_-6jnRL-oyktqesIMFJPCk"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9p0toq"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239754&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=BQyysjn3mPzkm0ds"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/op7azwvohqb0"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-an2mvw2et15e.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-9fmp3lbrq268.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/ydfnhgk24auv"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-bcsgmd1xy8er.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/rYVh2bxA!YqohbEUMKE5oHl7NyayKr0oAKYxJLonrbcL3wJihqnw"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-b6m7iissm4nd.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/jUlTQL6a!f6zx1h39jT8dLv0uoRncYEFj6XakVs-uq4pOt2r-Yuo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-l3mvxykrwako.html"
+        }
+      ]
     }
   ]
 }

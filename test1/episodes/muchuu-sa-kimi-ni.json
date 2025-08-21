@@ -1,0 +1,66 @@
+{
+  "animeTitle": "Muchuu sa Kimi ni.",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-08-21 14:17:57",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=muchuu-sa-kimi-ni&episode=1",
+      "image": "https://abdo12249.github.io/1/images/muchuu-sa-kimi-ni.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/6SyVjtYpSbB4C"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/DXgUDSwC!OXobQnQ-IhwE_D1EU7YjAabKx7Nv0ckZxhtH3olvfCk"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239774&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=JiW7DIjxlnjeLOvY"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/vdaaycqzkqq8"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-xf0a9rw0du1p.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-i84gxmxgi2z3.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/ijd4ex463ypo"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-2dohx48smyld.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/7KY1TIoS!fYa5HUwf93DdBr3J7GDhfMS9NRFVkCoVTRMYHt-M3fQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-kdinhprcor0e.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/zbgwGAYJ!TghbbfOfxpP3iF6d9FVngnWxnD7gsOg67cOKnRZMoNo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-81yh89ipmelp.html"
+        }
+      ]
+    }
+  ]
+}

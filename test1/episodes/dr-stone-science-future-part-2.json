@@ -277,6 +277,71 @@
           "url": "https://www.mp4upload.com/embed-iw8zwmheesc1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-08-21 16:25:36",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dr-stone-science-future-part-2&episode=7",
+      "image": "https://abdo12249.github.io/1/images/dr-stone-science-future-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/CBh2dLch9XbsF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/mL4AnJIA!1zVuvk3C5V4KqkDzbdcSeEsnuirYzmLEWpXODxNbsXI"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9p7h70"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239775&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=I0JMRHtHGpH29CJZ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ztglsusaahjw"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-iabtk0xjv2xe.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-2n5uo6521v0t.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/d7kdgrgzkz8z"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-v9rv4187hmtu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Pf5TRRjb!hpXgFLMG2B3kDrRrxQ5XlZARycmy0ufWQgxjLTeQIBE"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-l7puydkwqxmv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/bHQjyCZY!48vrk2hscwrc544kv1V07leuWRzz4tdqUfTiPn6GaT4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6cjippb2yhbf.html"
+        }
+      ]
     }
   ]
 }

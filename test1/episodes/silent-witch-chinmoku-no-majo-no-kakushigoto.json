@@ -403,6 +403,67 @@
           "url": "https://www.mp4upload.com/embed-0l4lh5wwfwhw.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-08-22 18:23:49",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=8",
+      "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/695yb2LMQToNu"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/GS4n1ZpY!p7xsWKEaGhS0GiY7Mluj2vO-xkBM1NKITZKFFKfx2Ok"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hs2zxsh2yggj"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-kuilvbrtjnwn.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=PcrLJ6wYcsUdklS4"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239786&hd=2&hash=4e4750713fc925d8&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/cnxgopg8g5pm"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-mxdj19a5dsyp.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ynookfhsg4fx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/SaYl2KZS!o-sTVBr2XLJ_wzeCCj5Yk5ULQ7PLg8nqfGzUktKZ3Y0"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-klpzixc5ftex.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/2H5zmAiI!-SuSD8VmQdH-VdC-5HmzvJyz_AzMLJZQP1va7jPPUk8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-er4an1ak0z8x.html"
+        }
+      ]
     }
   ]
 }

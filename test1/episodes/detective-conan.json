@@ -175,6 +175,67 @@
           "url": "https://www.mp4upload.com/embed-8h805qkbf1dg.html"
         }
       ]
+    },
+    {
+      "number": 1172,
+      "title": "الحلقة 1172",
+      "date": "2025-08-23 14:14:12",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1172",
+      "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/K1b4sXZ5wSjzB"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/2K5l2DxK!YtlKhhZ5URM4ScDGyZJIoTqMu0pZgwjAs8EIxajNbn8"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/2fpbbeao3axi"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7gzfw0ailkrp.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=bS1Q3czaPmiK3tca"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239789&hd=2&hash=41cd75038620e072&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-nxqv50so42f5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/nmtt5fcok59l"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-fyyp0ggfd3dq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/rPo1TBbY!7OxeOO7bv4EVbRadeKKvRFebSI0FONKZ2DTWHxE4CfQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-e3s475vpxcpk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/LOhS2AZI!GXyVALxg-MkChUT2-NJdMExvtuClEbh6g9mHgEqmycw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2d5fp2yegtjd.html"
+        }
+      ]
     }
   ]
 }

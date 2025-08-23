@@ -391,6 +391,67 @@
           "url": "https://www.mp4upload.com/embed-2epo3xfsp0ak.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-08-23 17:12:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai&episode=8",
+      "image": "https://abdo12249.github.io/1/images/seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/UIMpmZy7Fmbdl"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/uLJBDbTI!D5f6445Z9qBwMyX6WMr4OclBXMoqAiIfAKyJ9Mn6FyA"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/k8lqyb3urray"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-jaxifjczwofp.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=pruVkXXAYGJor7So"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239793&hd=2&hash=f27210f213f5e58f&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ekc2k8j8a6b8.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/gw24azprw6v8"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-j6gbugnr69zk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/yLYRVSiQ!PeVf1tGydObfgS29C_PU0DZl1UeseLbOv6DHGe1GMV8"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-0yb4893jy0t0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PCQCka5J!xiSDiI-TFlWeKi1QXbjfJx0iblclqwrRQjfNMYIS5fs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5ukhbjcdxtvu.html"
+        }
+      ]
     }
   ]
 }

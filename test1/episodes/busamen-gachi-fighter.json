@@ -391,6 +391,35 @@
           "url": "https://www.mp4upload.com/embed-jzu3muj7notc.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-08-24 16:18:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busamen-gachi-fighter&episode=8",
+      "image": "https://abdo12249.github.io/1/images/busamen-gachi-fighter.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/COgwz3XpKCrz1"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239812&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ZILpoWxeBssVMOTR"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ypBShY6D!bYCP-f1CXom6AJxhU7P4pKee2TviBFd5cT56srHc14Q"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ylo15xtppber.html"
+        }
+      ]
     }
   ]
 }

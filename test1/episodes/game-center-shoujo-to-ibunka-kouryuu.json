@@ -334,7 +334,7 @@
     {
       "number": 7,
       "title": "الحلقة 7",
-      "date": "2025-08-24 15:15:28",
+      "date": "2025-08-24 16:19:00",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=game-center-shoujo-to-ibunka-kouryuu&episode=7",
       "image": "https://abdo12249.github.io/1/images/game-center-shoujo-to-ibunka-kouryuu.webp",
       "servers": [
@@ -381,6 +381,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-38jack4uk5de.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/2pADBIqQ!Wsl8bi69TYg04vw7mWEZPi1dcW_jESmLHfsoOag-EHA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-okarx8lxk5wc.html"
         }
       ]
     }

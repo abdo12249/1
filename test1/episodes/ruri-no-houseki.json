@@ -387,6 +387,67 @@
           "url": "https://www.mp4upload.com/embed-3l3ujkyxajmd.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-08-24 14:14:05",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ruri-no-houseki&episode=8",
+      "image": "https://abdo12249.github.io/1/images/ruri-no-houseki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/3FWaD2ekkPJMY"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/30RXWRBR!tikEaDPdjekMP8xAZfynFEB8iLCzjwiKnZPEscPXFiQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239807&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=MXV4KKq39MNn1j1x"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-dlzhxzplsl1q.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/syf7a9h5pcqd"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-qz5fj33aug8s.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/zts9wk6tvw06"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-b1dagh7bw0tt.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/TaRygITA!BTLVc7MQ6Yp2_hZnHDXocCwlaTdIxHm0RFbx7bT_i8k"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tkxhtzbmjvu9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/2lJUxILS!hpxPdopLs1abhavGWSg4vVrvROmB2hxh35eM-z8RfYo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-jtqi1ep3ns30.html"
+        }
+      ]
     }
   ]
 }

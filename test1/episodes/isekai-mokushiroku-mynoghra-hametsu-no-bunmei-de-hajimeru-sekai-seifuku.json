@@ -395,7 +395,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-08-24 14:14:02",
+      "date": "2025-08-24 15:15:35",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku&episode=8",
       "image": "https://abdo12249.github.io/1/images/isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku.webp",
       "servers": [
@@ -442,6 +442,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-utcfadov6igw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/npAwHKKQ!lrgOOS84AxsdiJ06fLkvMEH25KJxSjMCaeqhM4zkqoc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-0ts975zetpw5.html"
         }
       ]
     }

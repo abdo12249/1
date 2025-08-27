@@ -440,7 +440,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-08-27 18:23:25",
+      "date": "2025-08-27 19:13:58",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuyokute-new-saga&episode=9",
       "image": "https://abdo12249.github.io/1/images/tsuyokute-new-saga.webp",
       "servers": [
@@ -487,6 +487,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-r79tnf8ufix8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/Osw3DKIZ!7b7DC3w-U3FAUwflFyxn4KOInQ3lPwDizheC1UCh4sA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-zawvc4mswhaj.html"
         }
       ]
     }

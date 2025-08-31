@@ -452,6 +452,67 @@
           "url": "https://www.mp4upload.com/embed-0ts975zetpw5.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-08-31 14:13:33",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku&episode=9",
+      "image": "https://abdo12249.github.io/1/images/isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Nm25AQfOGUJ5Z"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/i5wm2JoK!6pNP1s6BRFabPHLZK-Qc7ek8hdxRO7P5tOdJLfUgFvY"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239868&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=yYMB56IgUrDrjJTu"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/f3eognge3yys"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-1wmqa6fgfz6u.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/t5tbmqbpyr59"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-v6dikz6q25al.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-yycgg7d8uf2l.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/6hgh1ZJQ!MXaUN9LpA2IPR2DZgLSNJCs93y8xhu0gWqqkSlJ7LXA"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-heybg6yfpr09.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PtRzwYoA!Kv9tvfzKt1lMt4V50wjFLx0iujLJDZ3fdn77U32AE0I"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-a461i9s8tfza.html"
+        }
+      ]
     }
   ]
 }

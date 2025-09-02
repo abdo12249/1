@@ -63,7 +63,7 @@ onAuthStateChanged(auth, (user) => {
     if (user) {
         loginButton.style.display = "none";
         logoutButton.style.display = "inline-block";
-        userInfo.innerHTML = مرحبًا، ${user.displayName};
+       userInfo.innerHTML = "مرحبًا، " + user.displayName;
     } else {
         loginButton.style.display = "inline-block";
         logoutButton.style.display = "none";
@@ -117,3 +117,4 @@ function initializeElements() {
     }
 }
 initializeElements();
+

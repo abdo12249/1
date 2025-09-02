@@ -75,9 +75,9 @@ window.addEventListener('DOMContentLoaded', () => {
 // متابعة حالة تسجيل الدخول
 onAuthStateChanged(auth, (user) => {
     if (user) {
-        loginButton.style.display = "none";
-        logoutButton.style.display = "inline-block";
-        userInfo.innerHTML = "مرحبًا، " + user.displayName;
+        if (loginButton) loginButton.style.display = "none";
+        if (logoutButton) logoutButton.style.display = "inline-block";
+        if (userInfo) userInfo.innerHTML = "مرحبًا، " + user.displayName;
 
         // تحديث LocalStorage إذا تغير المستخدم
         localStorage.setItem("user", JSON.stringify({

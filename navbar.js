@@ -10,8 +10,8 @@ const firebaseConfig = {
   measurementId: "G-ER2GCC7BK4"
 };
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
@@ -112,4 +112,5 @@ function initializeElements() {
     }
 }
 initializeElements();
+
 

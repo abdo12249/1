@@ -1,51 +1,43 @@
-
 <nav class="navbar">
 
     <div class="nav-container">
 
+        <!-- اللوجو -->
         <div class="logo">
-
             <a href="https://abdo12249.github.io/1/">
-
                 <img src="https://abdo12249.github.io/1/navbar/logo.WebP" alt="Logo" width="100" height="37">
-
             </a>
-
         </div>
-           <!--البحث -->
+
+        <!-- البحث -->
         <div class="search-bar">
-
             <input type="text" id="searchInput" placeholder="ابحث عن الانمي المفضل لديك...">
-
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
-
                 <circle cx="11" cy="11" r="8"></circle>
-
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-
             </svg>
-
             <div id="animeList"></div>
-            <script src="navbar.js"></script>
         </div>
-           <!--الكمبيوتر -->
+
+        <!-- الكمبيوتر -->
         <div class="nav-buttons">
-
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/أكشن.html" style="color: inherit;">قائمة الأنمي</a></button>
-
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=Movie" style="color: inherit;">أفلام الأنمي</a></button>
-
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=شتاء 2025" style="color: inherit;">أنميات الموسم</a></button>
-
             <button class="icon-button"><a href="https://abdo12249.github.io/1/navbar/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA.html" style="color: inherit;">مواعيد الحلقات</a></button>
             <button class="icon-button"><a href="https://abdo12249.github.io/1/%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%D8%A7%D8%AA.html" style="color: inherit;">المفضلات</a></button>
-
             <button class="icon-button"><a href="https://abdo12249.github.io/1/test/%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9.HTML" style="color: inherit;">سجل المشاهدة</a></button>
 
-
+            <!-- تسجيل الدخول -->
+            <div class="auth-buttons" style="display:inline-flex;align-items:center;gap:10px;">
+                <button id="loginButton" class="icon-button">تسجيل الدخول</button>
+                <button id="logoutButton" class="icon-button" style="display:none;">تسجيل الخروج</button>
+                <span id="userInfo" style="font-size:14px;"></span>
+            </div>
         </div>
-           <!--تبديل -->
-           <div>
+
+        <!-- تبديل الثيم -->
+        <div>
             <button id="themeToggle" class="icon-button" aria-label="تغيير وضع الثيم" title="تغيير وضع الثيم">
                 <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="5" />
@@ -53,23 +45,23 @@
                 </svg>
             </button>            
         </div>
-        
 
-           <!--الموبيل -->
+        <!-- الموبايل -->
         <div>
-                <button id="menu-btn" class="menu-btn">☰</button>
-                <nav id="sidebar" class="sidebar">
-                    <ul>
-                        <li><a href="https://abdo12249.github.io/1/tag/wep/أكشن.html">قائمة الأنمي</a></li>
-                        <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=Movie">أفلام الأنمي</a></li>
-                        <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=شتاء 2025">أنميات الموسم</a></li>
-                        <li><a href="https://abdo12249.github.io/1/navbar/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA.html">مواعيد الحلقات</a></li>
-                        <li><a href="https://abdo12249.github.io/1/%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%D8%A7%D8%AA.html">المفضلات</a></li>
-                        <li><a href="https://abdo12249.github.io/1/test/%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9.HTML">سجل المشاهدة</a></li>
-                    </ul>
-                </nav>
+            <button id="menu-btn" class="menu-btn">☰</button>
+            <nav id="sidebar" class="sidebar">
+                <ul>
+                    <li><a href="https://abdo12249.github.io/1/tag/wep/أكشن.html">قائمة الأنمي</a></li>
+                    <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=Movie">أفلام الأنمي</a></li>
+                    <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=شتاء 2025">أنميات الموسم</a></li>
+                    <li><a href="https://abdo12249.github.io/1/navbar/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA.html">مواعيد الحلقات</a></li>
+                    <li><a href="https://abdo12249.github.io/1/%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%D8%A7%D8%AA.html">المفضلات</a></li>
+                    <li><a href="https://abdo12249.github.io/1/test/%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9.HTML">سجل المشاهدة</a></li>
+                </ul>
+            </nav>
         </div>
-
-        
+    </div>
 </nav>
 
+<!-- تحميل ملف JS -->
+<script type="module" src="navbar.js"></script>

@@ -1,4 +1,4 @@
-
+// Firebase Config
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
   authDomain: "wep1-25124.firebaseapp.com",
@@ -10,51 +10,58 @@ const firebaseConfig = {
   measurementId: "G-ER2GCC7BK4"
 };
 
+// ✅ تهيئة Firebase (v8)
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
+
+const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
 
 // عناصر تسجيل الدخول
 const loginButton = document.getElementById("loginButton");
 const logoutButton = document.getElementById("logoutButton");
 const userInfo = document.getElementById("userInfo");
 
-// تسجيل الدخول بجوجل
+// تسجيل الدخول
 if (loginButton) {
-    loginButton.addEventListener("click", async () => {
-        try {
-            const result = await signInWithPopup(auth, provider);
-            const user = result.user;
-            console.log("تم تسجيل الدخول:", user);
+    loginButton.addEventListener("click", () => {
+        auth.signInWithPopup(provider)
+            .then(result => {
+                const user = result.user;
+                console.log("تم تسجيل الدخول:", user);
 
-            // حفظ بيانات المستخدم في LocalStorage
-            localStorage.setItem("user", JSON.stringify({
-                name: user.displayName,
-                email: user.email,
-                photo: user.photoURL
-            }));
-        } catch (error) {
-            console.error("خطأ أثناء تسجيل الدخول:", error);
-        }
+                // حفظ بيانات المستخدم
+                localStorage.setItem("user", JSON.stringify({
+                    name: user.displayName,
+                    email: user.email,
+                    photo: user.photoURL
+                }));
+
+                userInfo.innerHTML = `مرحبًا، ${user.displayName}`;
+            })
+            .catch(error => {
+                console.error("خطأ أثناء تسجيل الدخول:", error);
+            });
     });
 }
 
 // تسجيل الخروج
 if (logoutButton) {
-    logoutButton.addEventListener("click", async () => {
-        try {
-            await signOut(auth);
-            console.log("تم تسجيل الخروج");
-            localStorage.removeItem("user");
-        } catch (error) {
-            console.error("خطأ أثناء تسجيل الخروج:", error);
-        }
+    logoutButton.addEventListener("click", () => {
+        auth.signOut()
+            .then(() => {
+                console.log("تم تسجيل الخروج");
+                localStorage.removeItem("user");
+                userInfo.innerHTML = "";
+            })
+            .catch(error => {
+                console.error("خطأ أثناء تسجيل الخروج:", error);
+            });
     });
 }
 
 // متابعة حالة تسجيل الدخول
-onAuthStateChanged(auth, (user) => {
+auth.onAuthStateChanged(user => {
     if (user) {
         loginButton.style.display = "none";
         logoutButton.style.display = "inline-block";
@@ -65,52 +72,3 @@ onAuthStateChanged(auth, (user) => {
         userInfo.innerHTML = "";
     }
 });
-
-// ------------------ كود الثيم + الموبايل + المفضلات ------------------
-// (نفس الكود اللي عندك، ما غيرتهش، خليته شغال مع تسجيل الدخول)
-
-// وظيفة للتحقق من وجود العناصر وإعادة المحاولة إذا لزم الأمر
-function initializeElements() {
-    const themeToggle = document.getElementById('themeToggle');
-
-    function applyTheme() {
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            document.body.classList.add(savedTheme);
-        } else {
-            document.body.classList.add('dark-mode');
-        }
-    }
-    applyTheme();
-
-    if (themeToggle) {
-        themeToggle.addEventListener('click', function () {
-            if (document.body.classList.contains('dark-mode')) {
-                document.body.classList.add('light-mode');
-                document.body.classList.remove('dark-mode');
-                localStorage.setItem('theme', 'light-mode');
-            } else {
-                document.body.classList.add('dark-mode');
-                document.body.classList.remove('light-mode');
-                localStorage.setItem('theme', 'dark-mode');
-            }
-        });
-    } else {
-        setTimeout(initializeElements, 1000);
-        return;
-    }
-
-    const menuBtn = document.getElementById('menu-btn');
-    const sidebar = document.getElementById('sidebar');
-    if (menuBtn && sidebar) {
-        menuBtn.addEventListener('click', () => {
-            sidebar.classList.toggle('active');
-        });
-    } else {
-        setTimeout(initializeElements, 1000);
-        return;
-    }
-}
-initializeElements();
-
-

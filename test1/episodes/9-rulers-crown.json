@@ -456,17 +456,13 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-09-02 01:17:45",
+      "date": "2025-09-02 11:13:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=9",
       "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/1lSoQueIXQ8CU"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "https://mega.nz/embed/elgUSApS!oQBoQuxa9qwEswPypOUFIBHJhqoL7mNpiyZSfxPO-NY"
         },
         {
           "serverName": "videa",
@@ -477,40 +473,12 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239881&autoplay=1"
         },
         {
-          "serverName": "voe.sx",
-          "url": "https://voe.sx/e/ekqmdcgh1qcj"
-        },
-        {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.to/embed-1ctaep7q932f.html"
-        },
-        {
-          "serverName": "uqload",
-          "url": "https://uqload.cx/embed-7ikz8fc7hr60.html"
-        },
-        {
-          "serverName": "DoodStream",
-          "url": "https://d-s.io/e/zn8tvyqwzmrn"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/embed-9qdw8ua5xv9m.html"
-        },
-        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/HphzAIqR!MbHytA8zmXvQItNSgB1-jCk6jI3zoPtBZ1ufvd58h2g"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-7l42xgm2klwy.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات - SD",
-          "url": "https://mega.nz/embed/u0QxAT6L!o2NafLOfV7Z_pbWKi6c6lO6G6e3vplMCsRZrp38-yRE"
-        },
-        {
-          "serverName": "Mp4upload - SD",
-          "url": "https://www.mp4upload.com/embed-kdjsg8rd7f5r.html"
         }
       ]
     }

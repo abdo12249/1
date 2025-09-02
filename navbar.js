@@ -68,24 +68,27 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     // متابعة حالة تسجيل الدخول
+        // متابعة حالة تسجيل الدخول
     onAuthStateChanged(auth, (user) => {
-    if (user) {
-        if (loginButton) loginButton.style.display = "none";
-        if (logoutButton) logoutButton.style.display = "inline-block";
-        if (userInfo) userInfo.innerHTML = "مرحبًا، " + user.displayName;
+        if (user) {
+            if (loginButton) loginButton.style.display = "none";
+            if (logoutButton) logoutButton.style.display = "inline-block";
+            if (userInfo) userInfo.innerHTML = "مرحبًا، " + user.displayName;
 
-        localStorage.setItem("user", JSON.stringify({
-            name: user.displayName,
-            email: user.email,
-            photo: user.photoURL
-        }));
-    } else {
-        if (loginButton) loginButton.style.display = "inline-block";
-        if (logoutButton) logoutButton.style.display = "none";
-        if (userInfo) userInfo.innerHTML = "";
-        localStorage.removeItem("user");
-    }
-});
+            localStorage.setItem("user", JSON.stringify({
+                name: user.displayName,
+                email: user.email,
+                photo: user.photoURL
+            }));
+        } else {
+            if (loginButton) loginButton.style.display = "inline-block";
+            if (logoutButton) logoutButton.style.display = "none";
+            if (userInfo) userInfo.innerHTML = "";
+            localStorage.removeItem("user");
+        }
+    });
+}); // <-- هذا القوس يغلق DOMContentLoaded
+
 
 
 
@@ -135,6 +138,7 @@ function initializeElements() {
     }
 }
 initializeElements();
+
 
 
 

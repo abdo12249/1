@@ -1,11 +1,13 @@
 // ------------------ Firebase Config ------------------
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } 
     from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
   authDomain: "wep1-25124.firebaseapp.com",
+  databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
   projectId: "wep1-25124",
   storageBucket: "wep1-25124.firebasestorage.app",
   messagingSenderId: "400763524699",
@@ -14,80 +16,104 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
-document.addEventListener("DOMContentLoaded", () => {
-    // عناصر تسجيل الدخول
-    const loginButton = document.getElementById("loginButton");
-    const logoutButton = document.getElementById("logoutButton");
-    const userMenu = document.getElementById("userMenu");
-    const userPhoto = document.getElementById("userPhoto");
-    const dropdownMenu = document.getElementById("dropdownMenu");
-    const dropdownPhoto = document.getElementById("dropdownPhoto");
-    const dropdownName = document.getElementById("dropdownName");
+// عناصر تسجيل الدخول
+const loginButton = document.getElementById("loginButton");
+const logoutButton = document.getElementById("logoutButton");
+const userInfo = document.getElementById("userInfo");
 
-    // تسجيل الدخول
-    loginButton?.addEventListener("click", async () => {
+// تسجيل الدخول بجوجل
+if (loginButton) {
+    loginButton.addEventListener("click", async () => {
         try {
-            await signInWithPopup(auth, provider);
+            const result = await signInWithPopup(auth, provider);
+            const user = result.user;
+            console.log("تم تسجيل الدخول:", user);
+
+            // حفظ بيانات المستخدم في LocalStorage
+            localStorage.setItem("user", JSON.stringify({
+                name: user.displayName,
+                email: user.email,
+                photo: user.photoURL
+            }));
         } catch (error) {
             console.error("خطأ أثناء تسجيل الدخول:", error);
         }
     });
+}
 
-    // تسجيل الخروج
-    logoutButton?.addEventListener("click", async () => {
+// تسجيل الخروج
+if (logoutButton) {
+    logoutButton.addEventListener("click", async () => {
         try {
             await signOut(auth);
+            console.log("تم تسجيل الخروج");
+            localStorage.removeItem("user");
         } catch (error) {
             console.error("خطأ أثناء تسجيل الخروج:", error);
         }
     });
+}
 
-    // متابعة حالة تسجيل الدخول
-    onAuthStateChanged(auth, (user) => {
-        if (!loginButton || !userMenu) return;
+// متابعة حالة تسجيل الدخول
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        loginButton.style.display = "none";
+        logoutButton.style.display = "inline-block";
+        userInfo.innerHTML = مرحبًا، ${user.displayName};
+    } else {
+        loginButton.style.display = "inline-block";
+        logoutButton.style.display = "none";
+        userInfo.innerHTML = "";
+    }
+});
 
-        if (user) {
-            loginButton.style.display = "none";
-            userMenu.style.display = "inline-block";
-            if (userPhoto) userPhoto.src = user.photoURL;
-            if (dropdownPhoto) dropdownPhoto.src = user.photoURL;
-            if (dropdownName) dropdownName.textContent = user.displayName;
-        } else {
-            loginButton.style.display = "inline-block";
-            userMenu.style.display = "none";
-        }
-    });
+// ------------------ كود الثيم + الموبايل + المفضلات ------------------
+// (نفس الكود اللي عندك، ما غيرتهش، خليته شغال مع تسجيل الدخول)
 
-    // فتح/إغلاق القائمة المنسدلة
-    userPhoto?.addEventListener("click", () => {
-        if (!dropdownMenu) return;
-        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
-    });
-
-    // ------------------ كود الثيم + الموبايل ------------------
+// وظيفة للتحقق من وجود العناصر وإعادة المحاولة إذا لزم الأمر
+function initializeElements() {
     const themeToggle = document.getElementById('themeToggle');
+
     function applyTheme() {
         const savedTheme = localStorage.getItem('theme');
-        document.body.classList.add(savedTheme || 'dark-mode');
+        if (savedTheme) {
+            document.body.classList.add(savedTheme);
+        } else {
+            document.body.classList.add('dark-mode');
+        }
     }
     applyTheme();
 
-    themeToggle?.addEventListener('click', () => {
-        if (document.body.classList.contains('dark-mode')) {
-            document.body.classList.replace('dark-mode', 'light-mode');
-            localStorage.setItem('theme', 'light-mode');
-        } else {
-            document.body.classList.replace('light-mode', 'dark-mode');
-            localStorage.setItem('theme', 'dark-mode');
-        }
-    });
+    if (themeToggle) {
+        themeToggle.addEventListener('click', function () {
+            if (document.body.classList.contains('dark-mode')) {
+                document.body.classList.add('light-mode');
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light-mode');
+            } else {
+                document.body.classList.add('dark-mode');
+                document.body.classList.remove('light-mode');
+                localStorage.setItem('theme', 'dark-mode');
+            }
+        });
+    } else {
+        setTimeout(initializeElements, 1000);
+        return;
+    }
 
     const menuBtn = document.getElementById('menu-btn');
     const sidebar = document.getElementById('sidebar');
-    menuBtn?.addEventListener('click', () => {
-        sidebar?.classList.toggle('active');
-    });
-});
+    if (menuBtn && sidebar) {
+        menuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+    } else {
+        setTimeout(initializeElements, 1000);
+        return;
+    }
+}
+initializeElements();

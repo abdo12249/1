@@ -21,76 +21,55 @@ const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 // عناصر تسجيل الدخول
-window.addEventListener('DOMContentLoaded', () => {
-    const loginButton = document.getElementById("loginButton");
-    const logoutButton = document.getElementById("logoutButton");
-    const userInfo = document.getElementById("userInfo");
+const loginButton = document.getElementById("loginButton");
+const logoutButton = document.getElementById("logoutButton");
+const userInfo = document.getElementById("userInfo");
 
-    // تسجيل الدخول بجوجل
-    if (loginButton) {
-        loginButton.addEventListener("click", async () => {
-            try {
-                const result = await signInWithPopup(auth, provider);
-                const user = result.user;
-                console.log("تم تسجيل الدخول:", user);
+// تسجيل الدخول بجوجل
+if (loginButton) {
+    loginButton.addEventListener("click", async () => {
+        try {
+            const result = await signInWithPopup(auth, provider);
+            const user = result.user;
+            console.log("تم تسجيل الدخول:", user);
 
-                // حفظ بيانات المستخدم في LocalStorage
-                localStorage.setItem("user", JSON.stringify({
-                    name: user.displayName,
-                    email: user.email,
-                    photo: user.photoURL
-                }));
-            } catch (error) {
-                console.error("خطأ أثناء تسجيل الدخول:", error);
-            }
-        });
-    }
-
-    // تسجيل الخروج
-    if (logoutButton) {
-        logoutButton.addEventListener("click", async () => {
-            try {
-                await signOut(auth);
-                console.log("تم تسجيل الخروج");
-                localStorage.removeItem("user");
-            } catch (error) {
-                console.error("خطأ أثناء تسجيل الخروج:", error);
-            }
-        });
-    }
-
-    // التحقق من LocalStorage عند التحميل
-    const storedUser = JSON.parse(localStorage.getItem("user"));
-    if (storedUser) {
-        if (loginButton) loginButton.style.display = "none";
-        if (logoutButton) logoutButton.style.display = "inline-block";
-        if (userInfo) userInfo.innerHTML = "مرحبًا، " + storedUser.name;
-    }
-
-    // متابعة حالة تسجيل الدخول
-        // متابعة حالة تسجيل الدخول
-    onAuthStateChanged(auth, (user) => {
-        if (user) {
-            if (loginButton) loginButton.style.display = "none";
-            if (logoutButton) logoutButton.style.display = "inline-block";
-            if (userInfo) userInfo.innerHTML = "مرحبًا، " + user.displayName;
-
+            // حفظ بيانات المستخدم في LocalStorage
             localStorage.setItem("user", JSON.stringify({
                 name: user.displayName,
                 email: user.email,
                 photo: user.photoURL
             }));
-        } else {
-            if (loginButton) loginButton.style.display = "inline-block";
-            if (logoutButton) logoutButton.style.display = "none";
-            if (userInfo) userInfo.innerHTML = "";
-            localStorage.removeItem("user");
+        } catch (error) {
+            console.error("خطأ أثناء تسجيل الدخول:", error);
         }
     });
-}); // <-- هذا القوس يغلق DOMContentLoaded
+}
 
+// تسجيل الخروج
+if (logoutButton) {
+    logoutButton.addEventListener("click", async () => {
+        try {
+            await signOut(auth);
+            console.log("تم تسجيل الخروج");
+            localStorage.removeItem("user");
+        } catch (error) {
+            console.error("خطأ أثناء تسجيل الخروج:", error);
+        }
+    });
+}
 
-
+// متابعة حالة تسجيل الدخول
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        loginButton.style.display = "none";
+        logoutButton.style.display = "inline-block";
+        userInfo.innerHTML = `مرحبًا، ${user.displayName}`;
+    } else {
+        loginButton.style.display = "inline-block";
+        logoutButton.style.display = "none";
+        userInfo.innerHTML = "";
+    }
+});
 
 // ------------------ كود الثيم + الموبايل + المفضلات ------------------
 // (نفس الكود اللي عندك، ما غيرتهش، خليته شغال مع تسجيل الدخول)
@@ -138,7 +117,3 @@ function initializeElements() {
     }
 }
 initializeElements();
-
-
-
-

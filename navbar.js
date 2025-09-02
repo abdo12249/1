@@ -58,18 +58,41 @@ if (logoutButton) {
     });
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+    const storedUser = JSON.parse(localStorage.getItem("user"));
+    if (storedUser) {
+        if (loginButton) loginButton.style.display = "none";
+        if (logoutButton) logoutButton.style.display = "inline-block";
+        if (userInfo) userInfo.innerHTML = "مرحبًا، " + storedUser.name;
+    } else {
+        if (loginButton) loginButton.style.display = "inline-block";
+        if (logoutButton) logoutButton.style.display = "none";
+        if (userInfo) userInfo.innerHTML = "";
+    }
+});
+
+
 // متابعة حالة تسجيل الدخول
 onAuthStateChanged(auth, (user) => {
     if (user) {
         loginButton.style.display = "none";
         logoutButton.style.display = "inline-block";
-       userInfo.innerHTML = "مرحبًا، " + user.displayName;
+        userInfo.innerHTML = "مرحبًا، " + user.displayName;
+
+        // تحديث LocalStorage إذا تغير المستخدم
+        localStorage.setItem("user", JSON.stringify({
+            name: user.displayName,
+            email: user.email,
+            photo: user.photoURL
+        }));
     } else {
         loginButton.style.display = "inline-block";
         logoutButton.style.display = "none";
         userInfo.innerHTML = "";
+        localStorage.removeItem("user");
     }
 });
+
 
 // ------------------ كود الثيم + الموبايل + المفضلات ------------------
 // (نفس الكود اللي عندك، ما غيرتهش، خليته شغال مع تسجيل الدخول)
@@ -117,4 +140,5 @@ function initializeElements() {
     }
 }
 initializeElements();
+
 

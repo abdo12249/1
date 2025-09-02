@@ -24,15 +24,27 @@
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/أكشن.html" style="color: inherit;">قائمة الأنمي</a></button>
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=Movie" style="color: inherit;">أفلام الأنمي</a></button>
             <button class="icon-button"><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=شتاء 2025" style="color: inherit;">أنميات الموسم</a></button>
-            <button class="icon-button"><a href="https://abdo12249.github.io/1/navbar/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA.html" style="color: inherit;">مواعيد الحلقات</a></button>
-            <button class="icon-button"><a href="https://abdo12249.github.io/1/%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%D8%A7%D8%AA.html" style="color: inherit;">المفضلات</a></button>
-            <button class="icon-button"><a href="https://abdo12249.github.io/1/test/%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9.HTML" style="color: inherit;">سجل المشاهدة</a></button>
+            <button class="icon-button"><a href="https://abdo12249.github.io/1/navbar/مواعيد%20الحلقات/مواعيد%20الحلقات.html" style="color: inherit;">مواعيد الحلقات</a></button>
+            <button class="icon-button"><a href="https://abdo12249.github.io/1/المفضلات.html" style="color: inherit;">المفضلات</a></button>
+            <button class="icon-button"><a href="https://abdo12249.github.io/1/test/سجل%20المشاهدة.HTML" style="color: inherit;">سجل المشاهدة</a></button>
 
             <!-- تسجيل الدخول -->
-            <div class="auth-buttons" style="display:inline-flex;align-items:center;gap:10px;">
+            <div class="auth-buttons" style="position: relative;">
                 <button id="loginButton" class="icon-button">تسجيل الدخول</button>
-                <button id="logoutButton" class="icon-button" style="display:none;">تسجيل الخروج</button>
-                <span id="userInfo" style="font-size:14px;"></span>
+
+                <!-- صورة البروفايل -->
+                <div id="userMenu" style="display:none; position: relative;">
+                    <img id="userPhoto" src="" alt="User" style="width:35px; height:35px; border-radius:50%; cursor:pointer;">
+
+                    <!-- القائمة المنسدلة -->
+                    <div id="dropdownMenu" style="display:none; position:absolute; top:45px; right:0; background:#222; color:#fff; border-radius:8px; padding:10px; min-width:150px; z-index:100;">
+                        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                            <img id="dropdownPhoto" src="" alt="User" style="width:35px; height:35px; border-radius:50%;">
+                            <span id="dropdownName"></span>
+                        </div>
+                        <button id="logoutButton" style="width:100%; padding:5px; background:#ff4444; border:none; border-radius:5px; color:white; cursor:pointer;">تسجيل الخروج</button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -54,17 +66,14 @@
                     <li><a href="https://abdo12249.github.io/1/tag/wep/أكشن.html">قائمة الأنمي</a></li>
                     <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=Movie">أفلام الأنمي</a></li>
                     <li><a href="https://abdo12249.github.io/1/tag/wep/category.html?category=شتاء 2025">أنميات الموسم</a></li>
-                    <li><a href="https://abdo12249.github.io/1/navbar/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A7%D8%AA.html">مواعيد الحلقات</a></li>
-                    <li><a href="https://abdo12249.github.io/1/%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%D8%A7%D8%AA.html">المفضلات</a></li>
-                    <li><a href="https://abdo12249.github.io/1/test/%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9.HTML">سجل المشاهدة</a></li>
+                    <li><a href="https://abdo12249.github.io/1/navbar/مواعيد%20الحلقات/مواعيد%20الحلقات.html">مواعيد الحلقات</a></li>
+                    <li><a href="https://abdo12249.github.io/1/المفضلات.html">المفضلات</a></li>
+                    <li><a href="https://abdo12249.github.io/1/test/سجل%20المشاهدة.HTML">سجل المشاهدة</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </nav>
 
-<!-- ملف JS الخاص بيك -->
+<!-- ملف JS -->
 <script type="module" src="navbar.js"></script>
-
-
-

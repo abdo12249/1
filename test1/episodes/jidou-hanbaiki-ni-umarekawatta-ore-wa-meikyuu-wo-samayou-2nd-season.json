@@ -529,13 +529,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-03 15:17:39",
+      "date": "2025-09-03 16:19:59",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season&episode=10",
       "image": "https://abdo12249.github.io/1/images/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/tdTeFQsz3tDun"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Gsg23aTL!3NddeMPdbiJ7Cx-XlOa7LG69oIR4aZxOPF_8Lt4txYU"
         },
         {
           "serverName": "vk",
@@ -546,8 +550,40 @@
           "url": "https://videa.hu/player?v=Os3nH6CZF4kngTf7"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/zv6ydjgzjely"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-kejujumnsx5u.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-k8ae3mamdgnq.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/mr657i3t7t0k"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ous06cv23lyl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/H9I2ELDK!_Re1WX4_ClCVcyTikV5S4s3VT45czaXME-yVjHFuBw0"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-mx0idtl3mjmq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/zkhRxDaS!8TNFS17F7khA7QJoRJT7R9gU4OnEjLp__t-QAlngPa8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-vgqayen3okia.html"
         }
       ]
     }

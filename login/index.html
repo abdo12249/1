@@ -11,6 +11,8 @@
       --bg-darker: #1f2937;
       --text-light: #ffffff;
       --text-gray: #9ca3af;
+      --facebook-color: #1877f2;
+      --google-color: #4285f4;
     }
 
     body {
@@ -35,8 +37,6 @@
       color: var(--primary-color);
     }
     button {
-      background: var(--primary-color);
-      color: var(--text-light);
       border: none;
       padding: 12px 20px;
       border-radius: 8px;
@@ -44,9 +44,26 @@
       cursor: pointer;
       transition: background 0.3s;
       width: 100%;
+      margin-bottom: 10px;
+      color: var(--text-light);
     }
-    button:hover {
-      background: #dc2626; /* لون أغمق شوية */
+    #login-btn {
+      background: var(--google-color);
+    }
+    #login-btn:hover {
+      background: #357ae8;
+    }
+    #facebook-btn {
+      background: var(--facebook-color);
+    }
+    #facebook-btn:hover {
+      background: #145dbf;
+    }
+    #logout-btn {
+      background: var(--primary-color);
+    }
+    #logout-btn:hover {
+      background: #dc2626;
     }
     #user-info {
       margin-top: 20px;
@@ -75,12 +92,13 @@
   <div class="card">
     <h2>تسجيل الدخول</h2>
     <button id="login-btn">تسجيل دخول بجوجل</button>
+    <button id="facebook-btn">تسجيل دخول بفيسبوك</button>
     <div id="user-info">
       <img id="user-pic" src="" alt="صورة الحساب">
       <p id="user-name"></p>
       <button id="logout-btn">تسجيل خروج</button>
     </div>
-    <p class="hint">استخدم حساب جوجل الخاص بك</p>
+    <p class="hint">استخدم حساب جوجل أو فيسبوك</p>
   </div>
 
   <!-- Firebase -->

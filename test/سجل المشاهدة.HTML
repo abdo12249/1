@@ -1,44 +1,98 @@
 <!DOCTYPE html>
+
 <html lang="ar" dir="rtl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>سجل المشاهدة</title>
-  <link rel="stylesheet" href="سحل.css">
-  <link rel="stylesheet" href="../CSS/style.css">
-  <script src="../navbar.js" defer></script>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>سجل المشاهدة</title>
+
+    <link rel="stylesheet" href="سحل.css">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+  <script type="module" src="navbar.js"></script>
   <script type="module" src="../RS.js"></script>
-  <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon">
+
+    <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon">
+
 </head>
+
 <body>
-  <div id="navbar-container"></div>
 
-  <header>
-    <h1>سجل المشاهدة</h1>
-  </header>
+    <div id="navbar-container"></div>
 
-  <main>
-    <div>
-      <button onclick="login()">🔑 تسجيل الدخول</button>
-      <button id="clear-history">مسح السجل</button>
-      <button id="reverse-history">عكس الترتيب</button>
-    </div>
+    
 
-    <ul id="history-list">
-      <!-- سيتم إدراج السجل هنا -->
-    </ul>
-  </main>
+    <header>
 
-  <!-- تحميل الشريط العلوي -->
-  <script>
-    fetch('../navbar.html')
-      .then(r => r.text())
-      .then(data => document.getElementById('navbar-container').innerHTML = data);
-  </script>
+        <h1>سجل المشاهدة</h1>
 
-  <!-- 🔥 ملف الجافاسكربت -->
-  <script type="module" src="../RS.js"></script>
+    </header>
+
+<div style="max-width:100%;overflow:hidden;">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'fcb1605c77b3fd33d38ff238d2ffbd00',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/fcb1605c77b3fd33d38ff238d2ffbd00/invoke.js"></script>
+</div>
+
+<style>
+iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
+
+
+
+    <main>
+
+        <div>
+
+            <button id="clear-history">مسح السجل</button>
+
+            <button id="reverse-history">عكس الترتيب</button>
+
+        </div>
+
+        <ul id="history-list">
+
+            <!-- سيتم إدراج السجل هنا بواسطة JavaScript -->
+
+        </ul>
+
+    </main>
+
+
+
+    <!-- تحميل الشريط العلوي من ملف -->
+
+    <script>
+
+        fetch('../navbar.html')
+
+            .then(response => response.text())
+
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+
+    </script>
+
+    <div style="margin: 15px 0; text-align: center;">
+  <script async="async" data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
+  <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
+</div>
+
+
 </body>
-</html>
 
+</html>
 

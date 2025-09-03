@@ -525,6 +525,31 @@
           "url": "https://www.mp4upload.com/embed-500qin155xdr.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-03 15:17:39",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/tdTeFQsz3tDun"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239889&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Os3nH6CZF4kngTf7"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-mx0idtl3mjmq.html"
+        }
+      ]
     }
   ]
 }

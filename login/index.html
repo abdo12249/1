@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل دخول</title>
+  <style>
+    :root {
+      --primary-color: #ef4444;
+      --bg-dark: #111827;
+      --bg-darker: #1f2937;
+      --text-light: #ffffff;
+      --text-gray: #9ca3af;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: var(--bg-darker);
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+      width: 320px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: var(--primary-color);
+    }
+    button {
+      background: var(--primary-color);
+      color: var(--text-light);
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      width: 100%;
+    }
+    button:hover {
+      background: #dc2626; /* لون أغمق شوية */
+    }
+    #user-info {
+      margin-top: 20px;
+      display: none;
+    }
+    #user-info img {
+      border-radius: 50%;
+      width: 60px;
+      margin-bottom: 10px;
+      border: 2px solid var(--primary-color);
+    }
+    #user-name {
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: var(--text-light);
+    }
+    .hint {
+      font-size: 14px;
+      color: var(--text-gray);
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>تسجيل الدخول</h2>
+    <button id="login-btn">تسجيل دخول بجوجل</button>
+    <div id="user-info">
+      <img id="user-pic" src="" alt="صورة الحساب">
+      <p id="user-name"></p>
+      <button id="logout-btn">تسجيل خروج</button>
+    </div>
+    <p class="hint">استخدم حساب جوجل الخاص بك</p>
+  </div>
+
+  <!-- Firebase -->
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

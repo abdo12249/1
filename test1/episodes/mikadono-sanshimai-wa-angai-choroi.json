@@ -525,13 +525,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-03 17:13:52",
+      "date": "2025-09-03 18:23:06",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikadono-sanshimai-wa-angai-choroi&episode=10",
       "image": "https://abdo12249.github.io/1/images/mikadono-sanshimai-wa-angai-choroi.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/b1tcR9PzOfqwF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ErRVBQxD!7cfDnPRbvkYCkg4P4XbM3xtAav9kHMYoyOS4KcUXREI"
         },
         {
           "serverName": "vk",
@@ -542,12 +546,40 @@
           "url": "https://videa.hu/player?v=Cy8EJFA4FR9h1dXJ"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/up9k6l2v9j2g"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7bzjw8o0fybf.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-i1xqk1s83054.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/zxi3xqsbc3d7"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-mw0826x4527a.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/BioxRaRT!tj833XGsgOJLl4HiAbJzaO6rBnh-m4WXtakXsDjHTqU"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-3sh8xorog6a0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/w2xykbrL!686_S0kw67jx9r8N2bLXbHuZhV7iYMWqA9UzfINrSlI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-hwlc3vhfn28h.html"
         }
       ]
     }

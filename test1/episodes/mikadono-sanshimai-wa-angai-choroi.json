@@ -521,6 +521,35 @@
           "url": "https://www.mp4upload.com/embed-npjm9obuj36m.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-03 17:13:52",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikadono-sanshimai-wa-angai-choroi&episode=10",
+      "image": "https://abdo12249.github.io/1/images/mikadono-sanshimai-wa-angai-choroi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/b1tcR9PzOfqwF"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239891&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Cy8EJFA4FR9h1dXJ"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/BioxRaRT!tj833XGsgOJLl4HiAbJzaO6rBnh-m4WXtakXsDjHTqU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-3sh8xorog6a0.html"
+        }
+      ]
     }
   ]
 }

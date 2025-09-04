@@ -493,6 +493,67 @@
           "url": "https://www.mp4upload.com/embed-l7dn0wvi2ntm.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-04 17:13:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/AcnXoD8truaw4"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/EuRXxYgL!fiWQEyt-8Ap-nCJV9dXBfUhsWWGwoe6p3SjFUrdki1M"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239898&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=uIAd0cZWGDjmdSnj"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bomm5xnljdci"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-9ij7al7qs0xd.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-n5qrtimoq2iw.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/pspeukwuuxim"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-hoxmlem83lc6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/g2IDgDLK!nvlqBWBiRjcoa5D942AvHprr9iI2t5EPGB0Ebb3Q9xo"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tv7qhovloorw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/Yi5mGYAa!8FGozBS0CSa33zZ8j3H3GJ1NFU6YfikD7HePOMhTDME"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-foiumcbb8ify.html"
+        }
+      ]
     }
   ]
 }

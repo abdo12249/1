@@ -407,29 +407,65 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-09-04 15:17:09",
+      "date": "2025-09-04 17:13:58",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dr-stone-science-future-part-2&episode=9",
       "image": "https://abdo12249.github.io/1/images/dr-stone-science-future-part-2.webp",
       "servers": [
         {
           "serverName": "megamax",
-          "url": "https://megamax.me/iframe/Rt3Roxehw9Yl2"
+          "url": "https://megamax.me/iframe/5UTDbPdKal1nD"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/BzYFXbJJ!U2Kq600DMJr9XpikT8x1K8tv9uF_WpjxTltD0kdj29o"
         },
         {
           "serverName": "dailymotion",
-          "url": "https://www.dailymotion.com/embed/video/x9pzwxm"
+          "url": "https://www.dailymotion.com/embed/video/x9pzzhs"
         },
         {
           "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239894&autoplay=1"
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239896&hash=dac7da217066be95&autoplay=1"
         },
         {
           "serverName": "videa",
-          "url": "https://videa.hu/player?v=yKPrjL4CAppQxaZG"
+          "url": "https://videa.hu/player?v=xqd0LHYmhL0AXlFD"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/9s8t3h8pmu5y"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7imodw5c4sj7.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-s1fa6sy2bt1b.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/1rxhk9acmw96"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-m59cilvbz95x.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Bno2yL4A!ne95WaRx48KKxqCHWNI263iE-7kKqLspZZJb-4Ubb2o"
         },
         {
           "serverName": "Mp4upload - FHD",
-          "url": "https://www.mp4upload.com/embed-spu8jtoj63fe.html"
+          "url": "https://www.mp4upload.com/embed-hwjko9g5506w.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/hy5nACqZ!9LTwkj4msYSdBS8aRsC-PzdSpqzNRrrarHLtDV4-jZw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-4dyygdmt69cg.html"
         }
       ]
     }

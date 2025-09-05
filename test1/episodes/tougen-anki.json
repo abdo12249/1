@@ -464,6 +464,63 @@
           "url": "https://www.mp4upload.com/embed-gmhn65ny3u5k.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-09-05 16:19:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=9",
+      "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/oxwfZTAFb1TII"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/gnJw1DoI!w6HSqIHm2WFPXiyxiWF2s_o6DgXx6MwhSYt_hFlqRLI"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/2hazrr71xz5j"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-333yjyyoc8po.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=mv2MiJWzXeHoNTnW"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239904&hd=2&hash=72a3317af9422f7b&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-jwpbaa9jln7s.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/bj7zbdzulwj5"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-hcwls3mp5y7g.html"
+        },
+        {
+          "serverName": "voe.sx - FHD",
+          "url": "https://voe.sx/e/nkhbw8a7acoz"
+        },
+        {
+          "serverName": "DoodStream - FHD",
+          "url": "https://d-s.io/e/updplliptnw1"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-quynwyzjbwr9.html"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>تحميل المستندات</title>
+  <style>
+    :root{--bg:#0f1724;--card:#111827;--muted:#9ca3af;--accent:#60a5fa;--white:#fff}
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#071023);color:var(--white);min-height:100vh}
+    .container{max-width:920px;margin:36px auto;padding:20px}
+    .header{display:flex;justify-content:space-between;align-items:center}
+    h1{margin:0 0 6px;font-size:1.45rem}
+    .close-btn{background:transparent;border:2px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:8px;color:var(--muted);cursor:pointer}
+    .card{background:var(--card);border-radius:12px;padding:18px;margin-top:16px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    p{color:var(--muted);margin:10px 0}
+    .info{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+    .info .box{background:#0b1220;padding:12px;border-radius:10px;min-width:200px}
+    label{display:block;margin:12px 0 6px}
+    select,input[type=file]{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--white)}
+    .note{font-size:0.95rem;color:var(--muted);margin-top:8px}
+    .files-list{margin-top:12px}
+    .file-item{background:#071022;padding:10px;border-radius:8px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+    .btns{display:flex;gap:8px;margin-top:14px}
+    button.primary{background:var(--accent);border:none;padding:10px 14px;border-radius:10px;cursor:pointer}
+    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 12px;border-radius:10px;cursor:pointer;color:var(--muted)}
+    .error{color:#ff7b7b;margin-top:8px}
+    footer{margin-top:18px;color:var(--muted);font-size:.9rem}
+    @media(max-width:600px){.info{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>تحميل المستندات</h1>
+        <p class="note">نظرًا لأنه تعذر علينا العثور على سجل مطابق، يجب عليك تحميل مستندات لتأكيد التفاصيل التي أدخلتها. يمكنك تحميل نفس المستند أكثر من مرة. تنسيقات الملفات المقبولة هي: <strong>.jpg</strong> و <strong>.png</strong> و <strong>.pdf</strong></p>
+      </div>
+      <button class="close-btn" id="closeBtn">X</button>
+    </div><div class="card">
+  <h2>تفاصيل مقدم الطلب</h2>
+  <div class="info">
+    <div class="box">
+      <strong>الاسم:</strong>
+      <div>Amk</div>
+    </div>
+    <div class="box">
+      <strong>العنوان:</strong>
+      <div>كوبري دمياط, ققق دمياط ل</div>
+    </div>
+    <div class="box">
+      <strong>الهاتف:</strong>
+      <div>+201015831676</div>
+    </div>
+  </div>
+
+  <p class="note">التحقق من الاسم القانوني للنشاط التجاري: يجب أن تتضمن المستندات التي يتم تحميلها اسم المؤسسة القانوني الذي أدخلته أعلاه، ويجب ألا تكون منتهية الصلاحية.</p>
+
+  <label for="docType">تحديد نوع مستند</label>
+  <select id="docType">
+    <option value="bank">كشف الحساب البنكي للنشاط التجاري</option>
+    <option value="license">مستند ترخيص أو تسجيل النشاط التجاري</option>
+    <option value="tax">المستند الضريبي للنشاط التجاري</option>
+    <option value="incorporation">شهادة / وثائق التأسيس</option>
+  </select>
+
+  <label for="files">اختر الملفات للتحميل <small class="note">(يمكن اختيار أكثر من ملف)</small></label>
+  <input id="files" type="file" accept=".jpg,.png,.pdf" multiple />
+  <div class="note">ملاحظة: الحجم الأقصى لكل ملف: 10 ميجابايت. امتدادات مقبولة: .jpg, .png, .pdf</div>
+
+  <div class="files-list" id="filesList"></div>
+  <div class="error" id="errorMsg" aria-live="polite"></div>
+
+  <div class="btns">
+    <button class="primary" id="uploadBtn">رفع المستندات</button>
+    <button class="ghost" id="clearBtn">مسح الملفات</button>
+  </div>
+
+  <p class="note" style="margin-top:14px">عند الضغط على "رفع المستندات" ستتم معالجة ملفاتك وإرسالها لفريق المراجعة. إذا كنت تريد إرسال طلب حذف لاحقًا، استخدم صفحة <a href="data-deletion.html">تعليمات حذف البيانات</a>.</p>
+</div>
+
+<footer>
+  <div>للمساعدة تواصل على: <a href="tel:+201015831676">+201015831676</a> · البريد: <a href="mailto:support@example.com">support@example.com</a></div>
+</footer>
+
+  </div>  <script>
+    const maxSize = 10 * 1024 * 1024; // 10MB
+    const accepted = ['image/jpeg','image/png','application/pdf'];
+    const filesInput = document.getElementById('files');
+    const filesList = document.getElementById('filesList');
+    const errorMsg = document.getElementById('errorMsg');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const closeBtn = document.getElementById('closeBtn');
+
+    function resetError(){ errorMsg.textContent=''; }
+
+    function renderFiles(fileList){
+      filesList.innerHTML = '';
+      Array.from(fileList).forEach((f, i) =>{
+        const div = document.createElement('div');
+        div.className = 'file-item';
+        div.innerHTML = `<div><strong>${f.name}</strong> · ${(f.size/1024/1024).toFixed(2)} MB</div><div><button data-index="${i}" class="ghost small">حذف</button></div>`;
+        filesList.appendChild(div);
+      });
+      // attach delete handlers
+      filesList.querySelectorAll('button[data-index]').forEach(btn=>btn.addEventListener('click', e=>{
+        const idx = Number(e.currentTarget.getAttribute('data-index'));
+        const dt = new DataTransfer();
+        const curFiles = Array.from(filesInput.files);
+        curFiles.splice(idx,1);
+        curFiles.forEach(f=>dt.items.add(f));
+        filesInput.files = dt.files;
+        renderFiles(filesInput.files);
+      }));
+    }
+
+    filesInput.addEventListener('change', e=>{
+      resetError();
+      const fl = Array.from(e.target.files);
+      for(const f of fl){
+        if(!accepted.includes(f.type)){
+          errorMsg.textContent = 'نوع ملف غير مدعوم: ' + f.name;
+          return renderFiles([]);
+        }
+        if(f.size > maxSize){
+          errorMsg.textContent = 'حجم الملف أكبر من 10 ميجابايت: ' + f.name;
+          return renderFiles([]);
+        }
+      }
+      renderFiles(e.target.files);
+    });
+
+    clearBtn.addEventListener('click', ()=>{
+      filesInput.value = '';
+      renderFiles([]);
+      resetError();
+    });
+
+    uploadBtn.addEventListener('click', ()=>{
+      resetError();
+      const fl = filesInput.files;
+      if(!fl || fl.length === 0){ errorMsg.textContent = 'لم تختَر أي ملفات للرفع.'; return }
+      // هنا يمكنك إضافة منطق رفع الملفات إلى السيرفر (fetch/XHR)
+      // مثال: إرسال FormData إلى endpoint خاص بك
+      const form = new FormData();
+      form.append('docType', document.getElementById('docType').value);
+      Array.from(fl).forEach((f, i)=> form.append('files', f));
+
+      // demo: نعرض رسالة نجاح محلياً
+      uploadBtn.textContent = 'جارٍ الرفع...';
+      uploadBtn.disabled = true;
+      setTimeout(()=>{
+        alert('تم رفع المستندات بنجاح (تجريبي).');
+        uploadBtn.textContent = 'رفع المستندات';
+        uploadBtn.disabled = false;
+        filesInput.value = '';
+        renderFiles([]);
+      }, 1000);
+    });
+
+    closeBtn.addEventListener('click', ()=>{
+      // لو داخل نافذة منبثقة — أغلقها، وإلا نعيد التوجيه للصفحة الرئيسية
+      if(window.history.length>1) window.history.back(); else window.location.href = './';
+    });
+  </script></body>
+</html>

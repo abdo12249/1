@@ -350,6 +350,63 @@
           "url": "https://www.mp4upload.com/embed-7d38tq925pbh.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-06 12:29:14",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yofukashi-no-uta-season-2&episode=10",
+      "image": "https://abdo12249.github.io/1/images/yofukashi-no-uta-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/f9JULxRLHo3oM"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/wiIUAYRJ!yQnkFW8tOC2PoKFgNgDPnG9OXWh7JXWpvD2__h7T_xQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239911&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=RHfkPdKNrspMM9v5"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-e73dehe52ks7.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/zegrq1ynza5i"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/1457tarxamg9"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-qxuo37robkhv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/kzJjSbxK!gs7-TmtIvX3iD_fykf7mMTNHKMR3W0gbu1Vz39nOH_A"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-rz78q360zuy8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ZuITnZRZ!uxrrVv-lzhax-2dCZlfwitDVOxMU681r2MZMvIUz5ak"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-mrce3y9z0sam.html"
+        }
+      ]
     }
   ]
 }

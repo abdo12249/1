@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="navbar.js"defer></script>
     <title>المواقع المحفوظة</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="navbar.js" defer></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,45 +25,132 @@
             font-size: 18px;
         }
         button {
+            margin: 5px;
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div id="navbar-container"></div>
     <h1>المواقع المحفوظة</h1>
+
+    <!-- إدخال موقع جديد -->
+    <input type="text" id="siteTitle" placeholder="اسم الموقع">
+    <input type="text" id="siteURL" placeholder="رابط الموقع">
+    <button onclick="addLink()">إضافة موقع</button>
+
     <ul id="linksList"></ul>
     <button onclick="clearLinks()">مسح جميع المواقع</button>
 
-    <script>
-        function loadLinks() {
-            let savedSites = localStorage.getItem("savedSites") ? JSON.parse(localStorage.getItem("savedSites")) : [];
-            let list = document.getElementById("linksList");
-            if (!list) return;
+    <script type="module">
+        // ------------------ Firebase Config ------------------
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+        import { getDatabase, ref, set, get, child, remove } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
+        const firebaseConfig = {
+          apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
+          authDomain: "wep1-25124.firebaseapp.com",
+          databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
+          projectId: "wep1-25124",
+          storageBucket: "wep1-25124.firebasestorage.app",
+          messagingSenderId: "400763524699",
+          appId: "1:400763524699:web:b3d5b77815de059ad9117e",
+          measurementId: "G-ER2GCC7BK4"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getDatabase(app);
+
+        let currentUser = null;
+
+        // 🟢 تحميل الروابط
+        function loadLinks() {
+            let list = document.getElementById("linksList");
             list.innerHTML = "";
 
+            if (currentUser) {
+                const dbRef = ref(db, "savedSites/" + currentUser.uid);
+                get(dbRef).then(snapshot => {
+                    if (snapshot.exists()) {
+                        let savedSites = snapshot.val();
+                        renderLinks(savedSites);
+                    }
+                });
+            } else {
+                let savedSites = localStorage.getItem("savedSites") ? JSON.parse(localStorage.getItem("savedSites")) : [];
+                renderLinks(savedSites);
+            }
+        }
+
+        // 🟢 عرض الروابط
+        function renderLinks(savedSites) {
+            let list = document.getElementById("linksList");
+            list.innerHTML = "";
             savedSites.forEach(site => {
                 let listItem = document.createElement("li");
                 let anchor = document.createElement("a");
                 anchor.href = site.url;
                 anchor.textContent = site.title;
-                anchor.target = "_blank"; // فتح الموقع في نافذة جديدة
-
+                anchor.target = "_blank";
                 listItem.appendChild(anchor);
                 list.appendChild(listItem);
             });
         }
 
-        function clearLinks() {
-            localStorage.removeItem("savedSites"); // حذف جميع المواقع
-            loadLinks(); // تحديث القائمة
+        // 🟢 إضافة موقع جديد
+        function addLink() {
+            let title = document.getElementById("siteTitle").value.trim();
+            let url = document.getElementById("siteURL").value.trim();
+            if (!title || !url) return alert("أدخل اسم الموقع والرابط");
+
+            if (currentUser) {
+                const dbRef = ref(db, "savedSites/" + currentUser.uid);
+                get(dbRef).then(snapshot => {
+                    let savedSites = snapshot.exists() ? snapshot.val() : [];
+                    savedSites.push({ title, url });
+                    set(dbRef, savedSites).then(() => loadLinks());
+                });
+            } else {
+                let savedSites = localStorage.getItem("savedSites") ? JSON.parse(localStorage.getItem("savedSites")) : [];
+                savedSites.push({ title, url });
+                localStorage.setItem("savedSites", JSON.stringify(savedSites));
+                loadLinks();
+            }
+
+            document.getElementById("siteTitle").value = "";
+            document.getElementById("siteURL").value = "";
         }
 
-        window.onload = loadLinks; // تحميل المواقع عند فتح الصفحة
+        // 🟢 مسح جميع المواقع
+        function clearLinks() {
+            if (currentUser) {
+                remove(ref(db, "savedSites/" + currentUser.uid));
+            } else {
+                localStorage.removeItem("savedSites");
+            }
+            loadLinks();
+        }
+
+        // 🟢 متابعة تسجيل الدخول
+        onAuthStateChanged(auth, (user) => {
+            currentUser = user;
+            loadLinks();
+        });
+
+        // 🟢 ربط الدوال بـ window
+        window.addLink = addLink;
+        window.clearLinks = clearLinks;
     </script>
+
     <script>
         fetch('navbar.html')
             .then(response => response.text())

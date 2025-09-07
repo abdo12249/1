@@ -505,6 +505,59 @@
           "url": "https://www.mp4upload.com/embed-hv6r6caqxpfq.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-07 14:12:57",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ruri-no-houseki&episode=10",
+      "image": "https://abdo12249.github.io/1/images/ruri-no-houseki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/50C7lNrC1b5I8"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/30BBHYSI!IeKNYG4WqL1lqp2WWRKkK7mhcv-JURqvChvrgTpmgBE"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239928&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=5HFiUem4ub0IgaOQ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/adsuc0egjxou"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-539mdpzuac8o.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/cgo4h1kap8l3"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-jdajy00fvkes.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/w3RUgB6Y!_C1469FvcykVhfnxTAuQk3isR_azg8QAgtBT9kBa6zM"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/a15k1KQJ!PUoBYnMoymCZq7KZUG1j_W0UcO7v0Mawd24lembxdfk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-uszekc0b9v59.html"
+        }
+      ]
     }
   ]
 }

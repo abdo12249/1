@@ -153,3 +153,72 @@ if (!window.dataLayer) {
     gtag('js', new Date());
     gtag('config', 'G-BX7750CBQ5');
 }
+
+
+
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } 
+from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+// مصادقة جوجل
+const auth = getAuth();
+const provider = new GoogleAuthProvider();
+
+// تسجيل الدخول
+async function signIn() {
+  try {
+    await signInWithPopup(auth, provider);
+  } catch (err) {
+    console.error("Login Error:", err);
+  }
+}
+
+// تسجيل الخروج
+async function logOut() {
+  try {
+    await signOut(auth);
+  } catch (err) {
+    console.error("Logout Error:", err);
+  }
+}
+
+// مراقبة حالة المستخدم
+onAuthStateChanged(auth, (user) => {
+  const navButtons = document.querySelector(".nav-buttons");
+  if (!navButtons) return;
+
+  let loginBtn = navButtons.querySelector("#login-btn");
+  if (loginBtn) loginBtn.remove(); // شيل زر تسجيل الدخول القديم
+
+  // لو المستخدم مسجل
+  if (user) {
+    // اعمل عنصر جديد لصورة البروفايل + منيو صغيرة
+    const profileDiv = document.createElement("div");
+    profileDiv.classList.add("profile-menu");
+    profileDiv.innerHTML = `
+      <img src="${user.photoURL}" alt="Profile" class="profile-pic" style="width:35px; height:35px; border-radius:50%; cursor:pointer;">
+      <div class="dropdown-menu" style="display:none; position:absolute; background:#fff; border:1px solid #ccc; padding:10px; border-radius:10px;">
+        <p>${user.displayName}</p>
+        <button id="logout-btn">تسجيل الخروج</button>
+      </div>
+    `;
+    navButtons.appendChild(profileDiv);
+
+    const img = profileDiv.querySelector(".profile-pic");
+    const menu = profileDiv.querySelector(".dropdown-menu");
+    img.addEventListener("click", () => {
+      menu.style.display = menu.style.display === "none" ? "block" : "none";
+    });
+
+    // زر تسجيل الخروج
+    profileDiv.querySelector("#logout-btn").addEventListener("click", logOut);
+
+  } else {
+    // لو مش مسجل رجع زر تسجيل الدخول
+    const loginBtn = document.createElement("button");
+    loginBtn.id = "login-btn";
+    loginBtn.classList.add("icon-button");
+    loginBtn.textContent = "تسجيل دخول";
+    loginBtn.addEventListener("click", signIn);
+    navButtons.appendChild(loginBtn);
+  }
+});

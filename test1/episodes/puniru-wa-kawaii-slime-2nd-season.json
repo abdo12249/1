@@ -501,13 +501,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-07 13:19:05",
+      "date": "2025-09-07 14:13:01",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=puniru-wa-kawaii-slime-2nd-season&episode=10",
       "image": "https://abdo12249.github.io/1/images/puniru-wa-kawaii-slime-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/ycYQA2KZ5Wk8X"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/l34VnBSA!1ZOExmnER2fKHyFvOV7HxQlKjI0hLnNpehTsc8wFkxc"
         },
         {
           "serverName": "vk",
@@ -518,12 +522,36 @@
           "url": "https://videa.hu/player?v=sB8To44ClpOwMwF3"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rnm2ycfweiif"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-2jjd430mvhi6.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/m0yv14ulkuew"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-5e95dlx2k99c.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/R2hHWSIS!Cfsfrc0ofEU6g0c8mrEprVSzWI-2WvN5Fh7AmQNQ7CI"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-eridmavxg6m7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/cug1XIQa!4I3j5javCAyVf7RSPQcIYAQ57AprgXB-nzhRVZ-qpyg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ugyl8u8lid9h.html"
         }
       ]
     }

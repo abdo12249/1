@@ -497,6 +497,35 @@
           "url": "https://www.mp4upload.com/embed-16bpidec3esn.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-07 13:19:05",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=puniru-wa-kawaii-slime-2nd-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/puniru-wa-kawaii-slime-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/ycYQA2KZ5Wk8X"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239926&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=sB8To44ClpOwMwF3"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/R2hHWSIS!Cfsfrc0ofEU6g0c8mrEprVSzWI-2WvN5Fh7AmQNQ7CI"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-eridmavxg6m7.html"
+        }
+      ]
     }
   ]
 }

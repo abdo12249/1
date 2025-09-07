@@ -501,6 +501,63 @@
           "url": "https://www.mp4upload.com/embed-b6awm5o84z5s.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-07 13:19:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jibaku-shounen-hanako-kun-2-part-2&episode=10",
+      "image": "https://abdo12249.github.io/1/images/jibaku-shounen-hanako-kun-2-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/vAUhlUlERsOLF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/k35U3JyI!dkba5wnVXS2k32SjSWSCWyK4dJhrnI8MrbPCKs6doVo"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239925&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=GjQ6b7V58E63sWlz"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-b4ew1zvzfhry.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/vpqndnwqgagw"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/tvic6irnn0q7"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-33p71lwjq3mc.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/tn5izBAA!P6qbHpjLe5R97FQ4MEJWQRY-0WXEouAr0wvMLcjVwgw"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-3u9csmsq0rb4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/M2Znwaxb!2Vf3AvKl2WvcEnUG8ikg4Js5OUACphBmcu2N2uRe8iI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-j2w5z4enbj2m.html"
+        }
+      ]
     }
   ]
 }

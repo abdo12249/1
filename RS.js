@@ -129,3 +129,10 @@ if (clearHistoryButton) clearHistoryButton.addEventListener("click", clearHistor
 
 const reverseHistoryButton = document.getElementById("reverse-history");
 if (reverseHistoryButton) reverseHistoryButton.addEventListener("click", reverseHistory);
+
+
+// جعل الدوال متاحة عالمياً
+window.addToHistory = addToHistory;
+window.clearHistory = clearHistory;
+window.reverseHistory = reverseHistory;
+

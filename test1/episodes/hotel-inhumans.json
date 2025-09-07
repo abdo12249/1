@@ -509,6 +509,63 @@
           "url": "https://www.mp4upload.com/embed-b4qg0moj46wx.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-07 17:12:44",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hotel-inhumans&episode=10",
+      "image": "https://abdo12249.github.io/1/images/hotel-inhumans.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/LiUGczKT4NK5D"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ntIT3aDb!QgBQ9S2BsGgY4LE5vXeV2rC9txllubbeZUu2l7AUjsw"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=nZ3j1XUZ5f9J1Vo9"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239935&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ncf7mzog5n23"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-wg6kr6pd26m7.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/scgvdhuashg6"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-olzq55xcd1og.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/T1hmRRKD!i6N5vKEeV3ozdbkRjrLvm0m257R2CR8NxGkHE_qls98"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-he384tla5vku.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/WhhVzJxa!2tG21yMk_uFoRjVrSxguoPhmz4T2oyRVzTCkw3vYVTc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-vkr2ask2lyz7.html"
+        }
+      ]
     }
   ]
 }

@@ -51,6 +51,7 @@ async function saveHistoryToFirebase() {
 }
 
 // إضافة صفحة إلى السجل
+// إضافة صفحة إلى السجل
 function addToHistory(pageName, pageURL = window.location.href) {
   if (
     pageName.includes("سجل المشاهدة") ||
@@ -58,11 +59,13 @@ function addToHistory(pageName, pageURL = window.location.href) {
     pageURL.includes("سجل")
   ) return;
 
-  history = history.filter(entry => entry.url !== pageURL);
+  // ❌ شيلنا الفلترة عشان ميحذفش القديم
   history.unshift({ name: pageName, url: pageURL });
 
   saveHistoryToFirebase();
+  displayHistory();
 }
+
 
 // عرض السجل
 function displayHistory() {
@@ -135,4 +138,5 @@ if (reverseHistoryButton) reverseHistoryButton.addEventListener("click", reverse
 window.addToHistory = addToHistory;
 window.clearHistory = clearHistory;
 window.reverseHistory = reverseHistory;
+
 

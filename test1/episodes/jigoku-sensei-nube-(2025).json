@@ -436,7 +436,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-09-07 17:12:42",
+      "date": "2025-09-07 18:20:15",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jigoku-sensei-nube-(2025)&episode=9",
       "image": "https://abdo12249.github.io/1/images/jigoku-sensei-nube-(2025).webp",
       "servers": [
@@ -445,8 +445,48 @@
           "url": "https://megamax.me/iframe/6ptKN772a8w9m"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/aspQFB7B!SNuhWCsdeqgzPtCyNh8lFJ2nyMG7Yp3a1ZvWeFTwAts"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239936&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=d2L1UDR1VP1fYFXm"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/f0ctnojfdxou"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hj2uzcqmxgwe.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/h9vk3q6tmrbr"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-jrh5ks2myvpc.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/v1ZzHDTC!2jSwv_O3iLcgIBCiWl9Ij6iWen6q07ahtKf-J1jb7os"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-268axg9c4o8j.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/DwAzXRiA!Zy-oQSwQZPLvcV8Kbl82SUmkwVaWRtGhsNTjSMNI4C4"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-t4fedx01xlj6.html"
         }
       ]
     }

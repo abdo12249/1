@@ -301,7 +301,7 @@
     {
       "number": 1174,
       "title": "الحلقة 1174",
-      "date": "2025-09-07 12:29:52",
+      "date": "2025-09-07 13:19:10",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1174",
       "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
       "servers": [
@@ -344,6 +344,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-romkz00d4gx4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/VmhEmKLb!oIX7-1WR8Z06Wu4NJR3OYgeleHgIB6Qnue0eBb85xiY"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-rtxe6w5lqevj.html"
         }
       ]
     }

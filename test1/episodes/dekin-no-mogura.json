@@ -509,6 +509,63 @@
           "url": "https://www.mp4upload.com/embed-6dimn0i9rn9g.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-07 14:12:59",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dekin-no-mogura&episode=10",
+      "image": "https://abdo12249.github.io/1/images/dekin-no-mogura.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/7wqf5Yhg06Pe5"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/pqQgEKKS!TwwWi8geqcZFOriyWdiEDHkRGNBT7EcBXbtzh-l9pro"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=r2HlDNeRkkE4PxKL"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239927&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/kcxgovv29wwh"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-43hab1f9bckr.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/yw6pkxnfuexp"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-f4j2rnl9aens.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/V2Y0nZTQ!4j9n9IQPdpSJ_lliau6AYOGYSKye5M9OOa_5w5ONZls"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-wlhe0lie36v4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/BvhjFSLY!63X47PkPjTMxFzdfvMEJEomdPxhHLk6EFry6WGz11SU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-s7kk8fvu0oqp.html"
+        }
+      ]
     }
   ]
 }

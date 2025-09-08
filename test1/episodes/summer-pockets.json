@@ -1310,6 +1310,63 @@
           "url": "https://www.mp4upload.com/embed-o4d2o3256qbp.html"
         }
       ]
+    },
+    {
+      "number": 23,
+      "title": "الحلقة 23",
+      "date": "2025-09-08 18:24:37",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=summer-pockets&episode=23",
+      "image": "https://abdo12249.github.io/1/images/summer-pockets.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/uuhIJRHxJB4bE"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/ihJE3KQR!tHHegG7JMUdA53SjkFskuLz7WUYjeObIm1ZaTxmbC0E"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Br6OvKFEB0wTSaVO"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239944&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-mz1r2c0ossfq.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/awduijyqense"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/i35pgouagwc0"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-tm338mglcaun.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/iswzkAhD!Ik6M5-4sjlCOacFUZkNxwOEsZfzdkfYEWIy0nFGyNkA"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-e9tonw1pw7eu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/C0YUGKTZ!3FV7yYJgeBoYRfPiK2BKQQz8gbyEOeUfgSfTJsO2XUg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wtay1lfv5rfu.html"
+        }
+      ]
     }
   ]
 }

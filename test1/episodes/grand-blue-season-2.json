@@ -529,6 +529,63 @@
           "url": "https://www.mp4upload.com/embed-m1adylw45p7z.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-08 18:24:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=grand-blue-season-2&episode=10",
+      "image": "https://abdo12249.github.io/1/images/grand-blue-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/6WAkOTs0svLBI"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/2sZAASbT!QKBOrH2LIq3DZjBFPwaO7WgeTC8BX3IlMo6m08qDeKg"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239945&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=KOuLb820MMtQrml8"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-78bw2lq9qomv.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bzhyvyoeikzg"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/xa6j53y23p9m"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-gneucg6r88kw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/btYGBbYB!t_7YR5VzCRxu3drVF-8tnonXEU3UarCvZrEYXpWET3Q"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1b1lh8a1sdct.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/eopzFa4Z!tm5F9as3nKqDJhcNW-PbO20vFB2aOj5DNqecPSvCWaM"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-q5tn519w72vv.html"
+        }
+      ]
     }
   ]
 }

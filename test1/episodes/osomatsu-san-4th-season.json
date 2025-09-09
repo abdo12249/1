@@ -521,6 +521,63 @@
           "url": "https://www.mp4upload.com/embed-ba958sx9c354.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-09 19:12:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/aaQRQ84ZXS2iz"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/TpQBFSqY!yQStzNxErBmTFMcB3TAIOAnKod_T_WygVL3Z6OPjmJs"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239951&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=BJv2xvw9whJMfOdI"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/5rznecuaupqj"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-pyl0eq5a87ss.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/if2lotefpepu"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-mpufhkbc58fj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/D1hH0RjK!0HPNXArDVoVa8dfMOkawrUQpPR6OMCrzjeD_gG6a460"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-5tzvxdcnmrmv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/rkIlwY4A!9iUlw73bL3ucVFjvSChBzFBNI_o3Z6KL3HdKJa-LbQQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-1kjjxgn0ifux.html"
+        }
+      ]
     }
   ]
 }

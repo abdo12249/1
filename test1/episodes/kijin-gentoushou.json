@@ -366,7 +366,7 @@
     {
       "number": 22,
       "title": "الحلقة 22",
-      "date": "2025-09-10 11:13:26",
+      "date": "2025-09-10 12:33:34",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kijin-gentoushou&episode=22",
       "image": "https://abdo12249.github.io/1/images/kijin-gentoushou.webp",
       "servers": [
@@ -375,12 +375,32 @@
           "url": "https://megamax.me/iframe/6a9L0JxhMgQJ1"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/KhoADKqL!SJCWeeyGgon8BZWTSgcPVZn8VKZQHuyR8mtIemkkdAQ"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239954&autoplay=1"
         },
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=vG8AOPOSnjSTBfn8"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/7ag2gbhtulgd"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-uyjvyqb76h0g.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/aujjqlw6ux3r"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-4uqzggvo14wq.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",

@@ -525,6 +525,31 @@
           "url": "https://www.mp4upload.com/embed-9xyyc6qpp17w.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-10 17:13:58",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/8bZoVckKSmTzh"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=QW9KQXC4KG6XR4Z5"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239958&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GogThLKR!QfTLLAYgBrvqgwaVQueeVvzuV2EZ3jFIAGXzax1u6VA"
+        }
+      ]
     }
   ]
 }

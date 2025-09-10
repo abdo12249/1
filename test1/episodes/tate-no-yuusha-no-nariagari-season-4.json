@@ -537,7 +537,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-10 13:24:29",
+      "date": "2025-09-10 14:15:28",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tate-no-yuusha-no-nariagari-season-4&episode=10",
       "image": "https://abdo12249.github.io/1/images/tate-no-yuusha-no-nariagari-season-4.webp",
       "servers": [
@@ -580,6 +580,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-e3w8asafs5sv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/GlhiELKa!Kkm_9oGMF2DLhciYsFhRIOKOcyCo74xDpivJH5fyt20"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-mxg9n4j42fxp.html"
         }
       ]
     }

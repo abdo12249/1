@@ -558,6 +558,63 @@
           "url": "https://www.mp4upload.com/embed-7zt5dcd3h8fp.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-10 13:24:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha&episode=11",
+      "image": "https://abdo12249.github.io/1/images/clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/4JJN8PiNmCd7s"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/6l4UmaKY!DgLnCfpu4zpYM6sJSGgyER-aj4h1yhEybEKzsk56JgM"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239955&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=j9DV6W5FtrijneqG"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dg7nvp2c3z0x"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-bbqf7yihw68b.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/azwtrtam4r73"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wi3zu0176lla.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/HhgGjRrJ!odEoBahoMq6X-jt-7M4gdx2_OciI4LAuqXz735DONcg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-d7nlq09zbnvm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/XoAHVaQR!xOHvObwJ8oDrWS_abflrxKkKIr9xs8NTVTgBn7fngFA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2hulhvc12k7e.html"
+        }
+      ]
     }
   ]
 }

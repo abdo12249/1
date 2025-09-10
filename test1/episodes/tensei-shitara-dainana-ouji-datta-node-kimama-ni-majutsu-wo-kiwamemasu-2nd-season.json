@@ -529,13 +529,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-10 17:13:58",
+      "date": "2025-09-10 18:23:28",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season&episode=10",
       "image": "https://abdo12249.github.io/1/images/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/8bZoVckKSmTzh"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/HwBEjQDb!5Y0DoTQ02NMlMc4q_P90A1fFP-BY30xtSCdsmtHsCQQ"
         },
         {
           "serverName": "videa",
@@ -546,8 +550,32 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239958&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/w1aapifb4seg"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-z10zm43k6ok2.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/nk9pq1zmd1oh"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-2830zqi6a8oz.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/GogThLKR!QfTLLAYgBrvqgwaVQueeVvzuV2EZ3jFIAGXzax1u6VA"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/25wHhBjS!WAU1IPmjXPIxewkgzA5oLxyuJOsnRirK-O6wLAjT2uU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-62yuaflrbtj0.html"
         }
       ]
     }

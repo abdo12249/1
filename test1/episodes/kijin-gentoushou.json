@@ -366,7 +366,7 @@
     {
       "number": 22,
       "title": "الحلقة 22",
-      "date": "2025-09-10 12:33:34",
+      "date": "2025-09-10 13:24:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kijin-gentoushou&episode=22",
       "image": "https://abdo12249.github.io/1/images/kijin-gentoushou.webp",
       "servers": [
@@ -409,6 +409,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-d4t4wk9nz3so.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ykpxDbjZ!LeG9M6XpUevTnJn7vA-S5C_LAAfnfrePa26Z5ctpx8g"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ny1xu9dp0bsu.html"
         }
       ]
     }

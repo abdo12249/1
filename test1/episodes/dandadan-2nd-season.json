@@ -554,6 +554,35 @@
           "url": "https://www.mp4upload.com/embed-foiumcbb8ify.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-11 16:20:12",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=11",
+      "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/MvcTFsaLXycEQ"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9qdsoy"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239966&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=EtvRdAIvMLmdheCV"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/K8ByDRrJ!u18TQhy-7ueyLLqWo41FjsoB0s_61tnE0LaO4pRWPE4"
+        }
+      ]
     }
   ]
 }

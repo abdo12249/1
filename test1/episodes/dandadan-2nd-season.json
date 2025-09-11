@@ -558,13 +558,17 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-11 16:20:12",
+      "date": "2025-09-11 17:13:49",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=11",
       "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/MvcTFsaLXycEQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/PhYVXIwZ!rXsvRcNYxw-soFRQUeG9TmEFVD3ar06G_WGCtlQ3D2c"
         },
         {
           "serverName": "dailymotion",
@@ -579,8 +583,32 @@
           "url": "https://videa.hu/player?v=EtvRdAIvMLmdheCV"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/umvfrvrkgl9q"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7ix9lj0eafm4.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/5ir30nl2nrsb"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-yqiqjunl7b0y.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/K8ByDRrJ!u18TQhy-7ueyLLqWo41FjsoB0s_61tnE0LaO4pRWPE4"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/WQFnlBCJ!c27y631k8ev4_u-7Dnavr-ffz4facHrDlfiYj0m_LZQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-8ql0oax2yae8.html"
         }
       ]
     }

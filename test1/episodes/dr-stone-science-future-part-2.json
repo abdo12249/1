@@ -468,6 +468,55 @@
           "url": "https://www.mp4upload.com/embed-4dyygdmt69cg.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-11 14:16:39",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dr-stone-science-future-part-2&episode=10",
+      "image": "https://abdo12249.github.io/1/images/dr-stone-science-future-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/S3JnNjCHTc2BR"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/C5BzVLzS!qedEltiW0hV8KUBFscIhZ59VA29-w3nWKzs2zS-txX0"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9qdk94"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239964&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=79RSzrRMoY5dqUPr"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/a4kuwb5zpeqp"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-eanc9cdp1oj1.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/8p4scybt67t7"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wjthdm31y6xi.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/6hxA2LRK!8pbDWQl57_CiKMBmIN_6x4l_USlNbPtkI8Lm0KZGZx4"
+        }
+      ]
     }
   ]
 }

@@ -472,7 +472,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-11 14:16:39",
+      "date": "2025-09-11 15:16:01",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dr-stone-science-future-part-2&episode=10",
       "image": "https://abdo12249.github.io/1/images/dr-stone-science-future-part-2.webp",
       "servers": [
@@ -515,6 +515,14 @@
         {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/6hxA2LRK!8pbDWQl57_CiKMBmIN_6x4l_USlNbPtkI8Lm0KZGZx4"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/Pk4S1bJZ!TXNudVx6HMcPZq5T7ZglqwQv5yMghPp4j5CAcMCxZw0"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-s9a6q9zgz0b2.html"
         }
       ]
     }

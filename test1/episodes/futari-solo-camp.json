@@ -513,6 +513,63 @@
           "url": "https://www.mp4upload.com/embed-fxmgc0vjhwmh.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-11 17:13:46",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=10",
+      "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/1m9HwqQq12dl3"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qdVxWLJS!0O__xmVrIOADww37Nx1lIf_WYhskiHef5UCPx8WefQY"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=NusswC5PmXImGD1e"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239967&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-1j4aaookp93y.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ojwzgfcjgtya"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/a32gro52kpof"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-s3a06vu55d2i.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/LYl0WR6B!wJvR2pu_2l9R4zCisgT0AJ0j92NHv1xpdB4CUcaM4D4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-snnrvt5gp0e4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/LBtzmDAD!Y7WUH7lwJeXT6321-bSX2PleKAY5j3pOCrua_kwQEbQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-27yh7f3ty8c9.html"
+        }
+      ]
     }
   ]
 }

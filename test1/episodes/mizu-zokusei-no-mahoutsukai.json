@@ -505,6 +505,55 @@
           "url": "https://www.mp4upload.com/embed-8lty0gfnhkza.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-11 23:15:17",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mizu-zokusei-no-mahoutsukai&episode=10",
+      "image": "https://abdo12249.github.io/1/images/mizu-zokusei-no-mahoutsukai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/eko1gpPLUYmS5"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/XJlhQYoB!wJaCDVyXK0zcQSRisKBjyhKZfxwsZ1vz1NEjC_xYHvQ"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239968&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=DybcNf5eNfxPj4OV"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/mcnk40f4thzr"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-gujyjqo4xhxo.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/334y222lzhub"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wdjfmtwa6af9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/eJdhjCJa!xzCRgMMapB0B7UL-lYpp2605dNVSHFr8AGYwdKU-iQc"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ln1incp59o5g.html"
+        }
+      ]
     }
   ]
 }

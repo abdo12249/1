@@ -525,13 +525,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-12 16:17:17",
+      "date": "2025-09-12 17:13:49",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=10",
       "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/Sfe1rvaJDNvHL"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/mNVljJQT!QBUd0Uj4QaiqaN-DRyzeabGayISDZKJxc7lxo9glhwU"
         },
         {
           "serverName": "videa",
@@ -542,12 +546,36 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239971&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/yqd2bsdfiy29"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-qfsj0b4wndye.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/az9byiipftf4"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-y7lpv49o6sfl.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/3Q00BYyR!cGCNAY3J01dGYfMk7oAnurucn1RtumSo2Ns2uKotnak"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-si7xni4jyo0o.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/TZ8TkZSI!TnesqoL4cmr7TL1DLIEgMtQSwcnHygcLeBvU6kIu8UE"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-lx7drgwdczh1.html"
         }
       ]
     }

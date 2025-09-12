@@ -574,7 +574,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-12 12:32:34",
+      "date": "2025-09-12 13:23:29",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=11",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
@@ -613,6 +613,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-1jn3b6ug3u0j.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/GYtQCBpT!C8UtwCu6BjyUtOxqnU54xKpcDybpQQy7vUAqv1-ZD0o"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-nmgplfangup8.html"
         }
       ]
     }

@@ -521,6 +521,35 @@
           "url": "https://www.mp4upload.com/embed-quynwyzjbwr9.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-12 16:17:17",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=10",
+      "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Sfe1rvaJDNvHL"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=TWnqkEqqWcpoN9xz"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239971&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/3Q00BYyR!cGCNAY3J01dGYfMk7oAnurucn1RtumSo2Ns2uKotnak"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-si7xni4jyo0o.html"
+        }
+      ]
     }
   ]
 }

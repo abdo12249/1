@@ -578,6 +578,31 @@
           "url": "https://www.mp4upload.com/embed-eub8woml3j7l.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-12 18:19:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=11",
+      "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/p6az1c6DdH7VF"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239974&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=IzYxmpvrSdOR0Eu2"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-jlbh1hkekf20.html"
+        }
+      ]
     }
   ]
 }

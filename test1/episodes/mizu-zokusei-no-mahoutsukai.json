@@ -509,7 +509,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-11 23:15:17",
+      "date": "2025-09-12 01:12:41",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mizu-zokusei-no-mahoutsukai&episode=10",
       "image": "https://abdo12249.github.io/1/images/mizu-zokusei-no-mahoutsukai.webp",
       "servers": [
@@ -552,6 +552,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ln1incp59o5g.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mcNlzLYA!JAaQNGDJ99eI9_eLmSKXQfO70ahN2bd1WhzZW-dyP88"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-u8qbxccx6din.html"
         }
       ]
     }

@@ -566,6 +566,63 @@
           "url": "https://www.mp4upload.com/embed-egsqi8ijtgxd.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-13 20:15:25",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ame-to-kimi-to&episode=11",
+      "image": "https://abdo12249.github.io/1/images/ame-to-kimi-to.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/kS8fUHsaQzBzf"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qdk3zAYD!yDP0VRA4aHHQT3jXzyhnIE2WeVGuPcJw2LG2Vlszios"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239975&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=nY3Mvxvy9LZoFjCM"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/35k9qormqdan"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-1m2v2q9b77pa.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/p8abqzza2trq"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-w9xh4v0deymp.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/aF0SWBBb!EIkbSeuehCbmkmqQR7cxjrB4kW9iTmeYArsvvZsCKak"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-vn3ywhzwydmu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/yU9TjQCB!WlQMK5PohDxtH_32d3XILbL807n-Kx_9x04_vFqfy6E"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-fxznetz0n84s.html"
+        }
+      ]
     }
   ]
 }

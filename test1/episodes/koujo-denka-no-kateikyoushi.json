@@ -570,13 +570,17 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-13 19:11:23",
+      "date": "2025-09-13 20:15:27",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=11",
       "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/wiVgUGFLH5jSo"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/rUcSRJSR!fMuaw-eJkoDKD6ejBhxBX3uljDa49rOQcmE6hSsOKrY"
         },
         {
           "serverName": "vk",
@@ -587,12 +591,36 @@
           "url": "https://videa.hu/player?v=KvKF7KuOwzuErtpG"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nljvd6pt1bcz"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-0c0hyoc8gnkx.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/hu5rmwlmu9qj"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-s9q5ncrh499e.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/fRNBjLTJ!ByaemEfKk4XE-bDYrnd_W_-TI1L4zErG4Ivmn2gyRCc"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-d3xpcba0nmum.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/jE1x2DxC!JXdwntXYrBA2sXPYw9NaKCYlmp7L3AkUFeNbZBEgk0k"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-rp8pdx9y4wyw.html"
         }
       ]
     }

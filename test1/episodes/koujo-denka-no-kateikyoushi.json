@@ -566,6 +566,35 @@
           "url": "https://www.mp4upload.com/embed-5g9gsklz6s9s.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-13 19:11:23",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=11",
+      "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/wiVgUGFLH5jSo"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239034&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=KvKF7KuOwzuErtpG"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/fRNBjLTJ!ByaemEfKk4XE-bDYrnd_W_-TI1L4zErG4Ivmn2gyRCc"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-d3xpcba0nmum.html"
+        }
+      ]
     }
   ]
 }

@@ -509,6 +509,63 @@
           "url": "https://www.mp4upload.com/embed-tiohcq1tj4jh.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-13 20:15:20",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hikaru-ga-shinda-natsu&episode=10",
+      "image": "https://abdo12249.github.io/1/images/hikaru-ga-shinda-natsu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/6JY3YFWuWRf09"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/2U1TTAhR!HLbjiW0OVxeEVahcxgUea1fNTKVhnzcOGYAgKrz5dps"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239977&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=YXxao3iQJjaI4S5m"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/zhzk64i7xcdr"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-sngzhj1sm0bb.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/ke491ib67uwf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-3kh6dlpcr2tk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/jRkRHLSC!RHghDE1UXbpr4zrf-xHHxUpredVFSc5hRa2KASWnrsg"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-6bfk807xn0no.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/OAF13ILY!x3yUGCUfJ2Bw3C4183j3Nh_IFPpA6ozLz13X8rbENcw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-znk1zi3c2uoz.html"
+        }
+      ]
     }
   ]
 }

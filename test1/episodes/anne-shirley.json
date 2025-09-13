@@ -1285,6 +1285,63 @@
           "url": "https://www.mp4upload.com/embed-d8k238416o4h.html"
         }
       ]
+    },
+    {
+      "number": 22,
+      "title": "الحلقة 22",
+      "date": "2025-09-13 14:12:21",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=anne-shirley&episode=22",
+      "image": "https://abdo12249.github.io/1/images/anne-shirley.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/bEMWHKtXzBRIc"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/KdMXGToZ!jDqkBYFJuC4icjw2usy22fEtEIuBvBGO0J0J4o072P0"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239029&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=iMwRuO4D1UZ2uDnQ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wvt7xaefvsbm"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-d3vxs1eno3h5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/41dinfv57m9g"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-3x48a0zjflao.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/vdtm1ZiS!nB1CBGwUpIsnqLO1Is0b8UTWPxEBmL4x-jXtj7mVUN0"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-y02y50y5k43b.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/bMFT0QYJ!3aCkOieLk3tKKTfnK264Sy33oyhEt6hXQkPLy7qohgg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-7cfw9valvln7.html"
+        }
+      ]
     }
   ]
 }

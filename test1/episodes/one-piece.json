@@ -415,7 +415,7 @@
     {
       "number": 1143,
       "title": "الحلقة 1143",
-      "date": "2025-09-14 19:11:35",
+      "date": "2025-09-14 20:15:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-piece&episode=1143",
       "image": "https://abdo12249.github.io/1/images/one-piece.webp",
       "servers": [
@@ -426,6 +426,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "https://mega.nz/embed/SclF2CYQ!i8skoprbMBFZb9XZJMYLHDWQwAafOqedsXdLlGKiBRE"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9qjajk"
         },
         {
           "serverName": "voe.sx",

@@ -521,6 +521,63 @@
           "url": "https://www.mp4upload.com/embed-6ygh6fr5i2x6.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-14 01:19:28",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=10",
+      "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Y2JgPHgpZhK6q"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/zFMSiLaZ!3EAvx0YgZijgDaTBhRIJT8vTHNHpVoXk_1BogBmfdG4"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=TPMbW0C5nmH9qonO"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239980&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/izbltr31ol4p"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-fmiarkmwj3fe.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/qksmuvisacaf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-mwwo4b5dkz9d.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/2RFTFLZD!UUw7hqvYVJp4swh0ZcbUvvuffpSX9Rie0ZlMy1fJbaU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-7c841hd9ep64.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/TJtAgCpA!TvqMZgaBFIiPMclDDnOLCIz1dAgddCTfXxklt3XRsUg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6i1fdahvvwjm.html"
+        }
+      ]
     }
   ]
 }

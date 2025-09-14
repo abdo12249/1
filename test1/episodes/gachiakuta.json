@@ -533,6 +533,63 @@
           "url": "https://www.mp4upload.com/embed-7q6yi2dw00hm.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-14 16:17:03",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=10",
+      "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/ahvXYjBN0a6qm"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/fN1miIpL!DpFU4J9CtiIou86iqVyCH0NfOLc5dby4pt4gUYUyIek"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/x9xnsrku0amb"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-nf290wa14w4u.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=liSk1BrxkUsLyLJ0"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239990&hd=2&hash=cd10bf6c574f8045&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/9iewn1dbefxj"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wus1hll75nd7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ScNjhTRQ!xnmUjAdlIQTY4gkHsojTibI7l5ZRKTkyyoNLSifnhdQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-6gui2swtvz5s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mFFzzJiR!qWHnUDtpfmBzWChPvuTSHEabBZUfysNGxIe8qS70TlI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2qvwzj88p7wi.html"
+        }
+      ]
     }
   ]
 }

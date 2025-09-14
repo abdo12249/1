@@ -570,6 +570,59 @@
           "url": "https://www.mp4upload.com/embed-ywzp6vd5xbtx.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-14 16:17:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=busamen-gachi-fighter&episode=11",
+      "image": "https://abdo12249.github.io/1/images/busamen-gachi-fighter.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/1UDvJt5UgcT1O"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qQ9UULLR!YtmBJyz3oR0nTKF6uvBbqI1Ek-zDw3lu6256Q-3CieM"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-u6mfxt85727g.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/5rsbg9jj3nlg"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=KIvKuwFIVY3NKYL9"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239991&hd=2&hash=671e61c497a56585&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-aw366n74okd2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/nFUSkQYL!sVE3Rmy0PgAdq6jmHXCPDNjJISfeke4l_1FjtcuJmew"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ic17t4udwhze.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/3cEhEDST!SExiusnfOHUbruk94yU6p0iQ1XtdyYzcnFS1M8b9XPU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-tbm5xodfjcv9.html"
+        }
+      ]
     }
   ]
 }

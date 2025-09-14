@@ -570,6 +570,63 @@
           "url": "https://www.mp4upload.com/embed-wx4bn0r5zbde.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-14 08:19:03",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaoru-hana-wa-rin-to-saku&episode=11",
+      "image": "https://abdo12249.github.io/1/images/kaoru-hana-wa-rin-to-saku.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/uFNppNg7vqmJv"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/DNFxlbhL!CBAtfWDPkrnRimMg-Q72lYAlYSK2CiHVn4ipJ5hZTP4"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/v0fthxveng9l"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-2hfsziq8h2hn.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=T5vlSFyVCQlP3EVA"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456239982&hd=2&hash=a980dae0a3e98189&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/z5pht2aqv7b3"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-6p11f7h5k3v6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/uUE10JzJ!Qydg_xsvgEOE1dZvXwarAyQ-Q1XjAEqKNoV50Lm6nNc"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tckaltow0qfi.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PZsXnQTA!hzf-LKXCr-wBaNJHZTS5Z-lGHmBnKML7gFm_dYjRhuU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5i7exzqp4tm2.html"
+        }
+      ]
     }
   ]
 }

@@ -1371,13 +1371,17 @@
     {
       "number": 24,
       "title": "الحلقة 24",
-      "date": "2025-09-15 17:14:19",
+      "date": "2025-09-15 18:23:26",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=summer-pockets&episode=24",
       "image": "https://abdo12249.github.io/1/images/summer-pockets.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/wsSXOWlLBO6WB"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/6F83DSpb!er9d3pRGIfcphrwmxR_683di_WWYfdKterCQFQ9jsqg"
         },
         {
           "serverName": "vk",
@@ -1388,12 +1392,36 @@
           "url": "https://videa.hu/player?v=hhVBV2RxsRX9cIhd"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/3x1sysckl4gc"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-49psgf0a2p41.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/fn03eyjm3zvp"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-1w5lbnaj8z44.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/2cUmiLxQ!c5jH0jnaJ1YI3Xyz_a6E_3QcuZhGlnVw3hyCjiXnht8"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-kvztbp16aw91.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/aVMA0AyD!Lyog-rICwZ2NxX_d_LY1cYMpkl12vPcHA-YqnoC88j8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-0hps2yizt1g2.html"
         }
       ]
     }

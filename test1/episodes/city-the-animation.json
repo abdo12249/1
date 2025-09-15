@@ -534,6 +534,63 @@
           "url": "https://www.mp4upload.com/embed-w40hdc14oh3m.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-15 01:19:41",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=city-the-animation&episode=11",
+      "image": "https://abdo12249.github.io/1/images/city-the-animation.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/yhDzwLdTFo6Zr"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/CV1wyR5D!U5atCdANB3L0nnWNBpmsvjuTSfTP_AvwF1JHNG5WDJw"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239037&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=7simfy8fRq9gNW18"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/yzyrhhwcggfn"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-qij9spzb63he.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/fxzaqbmaxk63"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-11s97itbx8ih.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/uUFCjSoZ!u38pQqnSr-E_BBYDcCuBxwdDipKqyWgBrjKypVsgSb8"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-hu8z7ux99qaw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mBcljLoT!EFuVpN_P8_TlLn22DQc7eWQsaHfJG_ZCwCuauc2ZuKg"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-2ay4kh5qa41e.html"
+        }
+      ]
     }
   ]
 }

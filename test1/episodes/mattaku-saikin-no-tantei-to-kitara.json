@@ -627,6 +627,31 @@
           "url": "https://www.mp4upload.com/embed-yqfuhm06vabi.html"
         }
       ]
+    },
+    {
+      "number": "12 والاخيرة",
+      "title": "الحلقة 12 والاخيرة",
+      "date": "2025-09-16 16:20:49",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mattaku-saikin-no-tantei-to-kitara&episode=12 والاخيرة",
+      "image": "https://abdo12249.github.io/1/images/mattaku-saikin-no-tantei-to-kitara.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/hIXAz4TQwDS3N"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240001&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Vyh0t2SC5zsLtSHx"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ufsfku6ypn38.html"
+        }
+      ]
     }
   ]
 }

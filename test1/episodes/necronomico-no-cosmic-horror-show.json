@@ -635,7 +635,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-16 17:14:27",
+      "date": "2025-09-16 18:23:40",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=necronomico-no-cosmic-horror-show&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/necronomico-no-cosmic-horror-show.webp",
       "servers": [
@@ -678,6 +678,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-dg7ukq3ub3qf.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/eFU10QAC!ALI08ydnUSr7ZDtfAy4GZ0rJZGQd9CVEQ4wSOP60Peo"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-mh0e7deeulv3.html"
         }
       ]
     }

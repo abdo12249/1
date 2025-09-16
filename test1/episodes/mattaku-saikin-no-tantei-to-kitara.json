@@ -631,13 +631,17 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-16 16:20:49",
+      "date": "2025-09-16 17:14:29",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mattaku-saikin-no-tantei-to-kitara&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/mattaku-saikin-no-tantei-to-kitara.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/hIXAz4TQwDS3N"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/OYcTyLIa!PbohhUCYuV5G7kjXHtQ3hV5EucnJFDnAebwDyghzGRU"
         },
         {
           "serverName": "vk",
@@ -648,8 +652,36 @@
           "url": "https://videa.hu/player?v=Vyh0t2SC5zsLtSHx"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/8vcthgdmqnzo"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-dg16pyqzzh8i.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/07ej2wepeolb"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-7x3t5g9s196y.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/fUlxVZwa!JB9YVBMGEawVfZgmhpvkFKUYYgha4qwiNwMpsdosZQ4"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ufsfku6ypn38.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/aAswFI5B!A_ydOnFVF_mCfDtRvz2zD3Spj8Ptj8GKt_kSKd1YBgQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-a7iv8szvn11h.html"
         }
       ]
     }

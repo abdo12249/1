@@ -578,6 +578,63 @@
           "url": "https://www.mp4upload.com/embed-n8hkzncuwifg.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-17 01:13:24",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=turkey!&episode=11",
+      "image": "https://abdo12249.github.io/1/images/turkey!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/femeFoFGUmLLA"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/qVlGnKba!YDGaNUdN9-yfV9mSL5BUr-A6HA9l6oz5xo6EndhMxQU"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=2d1rw3QQIiKW4Kdz"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240004&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dlxid7qgjroi"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-gt3eoan1ghia.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/bym7iusgzbas"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-fhlo7cwtbsj5.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/OYtTXawI!CLvxd5SQlt9kBntH9qSNkTxvcwSQQ220uHFPMIHep7M"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-h4y84k3osvu7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/WQsiRbAR!rs2aOnLd2Cr61IVLq71KPHcoHLU--xUg1s_IAEAj2Ro"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-clc2hnbs69v0.html"
+        }
+      ]
     }
   ]
 }

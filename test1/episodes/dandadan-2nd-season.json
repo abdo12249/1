@@ -615,7 +615,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-18 16:20:43",
+      "date": "2025-09-18 17:14:14",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dandadan-2nd-season&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/dandadan-2nd-season.webp",
       "servers": [
@@ -658,6 +658,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-yuzp0v7wxegz.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/qN0AGLwZ!uWQB4tq6WCYCVzXqOFVRbId_qIiKt-nXpA7S8U2cEqI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-l4r7dzo3rwpe.html"
         }
       ]
     }

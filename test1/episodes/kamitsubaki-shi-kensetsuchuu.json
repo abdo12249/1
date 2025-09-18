@@ -615,6 +615,59 @@
           "url": "https://www.mp4upload.com/embed-2f2xoyocptq0.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-18 18:24:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kamitsubaki-shi-kensetsuchuu&episode=11",
+      "image": "https://abdo12249.github.io/1/images/kamitsubaki-shi-kensetsuchuu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/fo0TwYagxDSzq"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/mY0whJIT!9GYl7Un2TbSLEsePtWKvut6xuxnNCeKbZApwv9xlwr0"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=jESHC3sJLKBFg5FC"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240018&hash=9517aa9228ed8877&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/2tazqqs867df"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-qd81go1a3llt.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://d-s.io/e/xteukigzazwe"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-rd9ngcc0ts7s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/yM8lTZQb!7xgYLq53Am9FbUvzBnhsth5dZqqM9hqvoJzzBBu7Wus"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/eJd1yCJB!LN7AFOnGc14aPbhURsRkOrix_-KJNgxEv23vbH1xsi0"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5gry9mlxfqxx.html"
+        }
+      ]
     }
   ]
 }

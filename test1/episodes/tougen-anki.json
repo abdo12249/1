@@ -578,6 +578,59 @@
           "url": "https://www.mp4upload.com/embed-lx7drgwdczh1.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-19 16:20:05",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=11",
+      "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/dcwjchQdnnTot"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/GVVmWBRS!g8npc5W-y3tCkWyRfn1Im5mGa0FLFk1AbMugCW0btM0"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1kqmnnwgucjg"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-vwgyopfe0ens.html"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240022&hash=896a8efe4300e10c&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=2QiOopGg33AERs2u"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-wthjtgsbo1uj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/KF9RWLbK!ru_E95Mg5a19bG-dudGxmh3DUMnVTzg_OkIjZ1mvlNE"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-6buhwfv6mcum.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/WU92Da4C!NNqLgFWPGsWYclGREbZ-0Az-6MZ5FiIjRBovylqC2GM"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-pid9xx0tneph.html"
+        }
+      ]
     }
   ]
 }

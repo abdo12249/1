@@ -635,6 +635,59 @@
           "url": "https://www.mp4upload.com/embed-nwtfszwlynzs.html"
         }
       ]
+    },
+    {
+      "number": 12,
+      "title": "الحلقة 12",
+      "date": "2025-09-19 17:13:47",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=12",
+      "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/CQbf1vRCff2RE"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/uZF21aDJ!lzuJ1yVvKBx1dkItt2YaG1mpaF8b1XuGjgS5DqzV1v4"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ikbhx2v6gedm"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-riuvjb7m89ce.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ddRCWl9QiPkU6Vcf"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240023&hash=fd716bd1285b125c&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ocnhqnq1xphx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/mY8knQAZ!El0cMtTQKUnZMAm6L0x4wJTKJpG-om-VpXUkGNWS_Os"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-e0svj0ybhsxu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/jMNA3bjK!VUeXpueAdCBqPWgEQUYd9vc4oTmoiGX0ujAAviIvb1U"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6wu3vliveiz6.html"
+        }
+      ]
     }
   ]
 }

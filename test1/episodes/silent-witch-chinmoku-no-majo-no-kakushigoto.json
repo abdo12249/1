@@ -582,6 +582,59 @@
           "url": "https://www.mp4upload.com/embed-9n4qjkkzsu44.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-09-19 17:13:45",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=11",
+      "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/gLQQGH0LnKbAK"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Gd8l2QKQ!Vls1ZzPiBJ-WEsI01PwITFuYV7JU0OFjqe90VJpcMN8"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/64oq8wo5kvwe"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-kyipwdozifkv.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=4hBvVCg2eLfB9q84"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240024&hash=ee7db5802f5d0466&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-4yrmhlnst216.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/CIVXzbIJ!X2DfZiC0EnixiFZ-7PLOKQHc1Iz-cw56FQbNJKiO_jc"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-kdqx70j8i2kg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/nR1iGLxD!H3FtqSjc791-uJ0zjmmx1TpkEQ17HcKXHKSd4h8HYSs"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-238lpxpytcvm.html"
+        }
+      ]
     }
   ]
 }

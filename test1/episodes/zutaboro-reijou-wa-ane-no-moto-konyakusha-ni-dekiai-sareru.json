@@ -639,7 +639,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-19 18:22:51",
+      "date": "2025-09-20 03:25:20",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
       "servers": [
@@ -666,6 +666,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/cws0cfmosd5f"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/2yvatzcgjibt"
         },
         {
           "serverName": "Mp4upload",

@@ -582,7 +582,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-19 16:20:05",
+      "date": "2025-09-20 03:25:26",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=11",
       "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
       "servers": [
@@ -609,6 +609,10 @@
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=2QiOopGg33AERs2u"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/f4jlun5gbnf3"
         },
         {
           "serverName": "Mp4upload",

@@ -627,7 +627,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 18:20:17",
+      "date": "2025-09-20 19:11:12",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ame-to-kimi-to&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/ame-to-kimi-to.webp",
       "servers": [
@@ -636,8 +636,48 @@
           "url": "https://megamax.me/iframe/4CvkA0NE4t0Ud"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/rYczlbjA!ok8OCVpLQ756h1nIyT7u6Q4cwaMkpbhEAk9WSjhPorI"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240033&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=466mruilRApTvQGX"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-cwfz0ajoy3n7.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/xkgilvjtjuou"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ctkdrd8e8n5t"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-r3k4xmt615zx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/HAFDHC5T!OmnFKDMEtuVDyMmYj9qtrVdculhUm9V8pUCQw6EG1Es"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-10bquoc4kaha.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/TBEyBRzR!uEl_S8mWlmAxTx34HSObx9kPNMZQzgAjOee-vcE7w5g"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-609hllw2esin.html"
         }
       ]
     }

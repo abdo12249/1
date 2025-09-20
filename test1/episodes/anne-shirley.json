@@ -1346,7 +1346,7 @@
     {
       "number": 23,
       "title": "الحلقة 23",
-      "date": "2025-09-20 14:13:28",
+      "date": "2025-09-20 15:14:37",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=anne-shirley&episode=23",
       "image": "https://abdo12249.github.io/1/images/anne-shirley.webp",
       "servers": [
@@ -1389,6 +1389,14 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ukf5dhbio85v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/OJsnyLZI!lxGAvk4v0YqCVmzIvMR19bUlwg-Qrd4GfzQkuQik2dc"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-rb5ukcrjaqfw.html"
         }
       ]
     }

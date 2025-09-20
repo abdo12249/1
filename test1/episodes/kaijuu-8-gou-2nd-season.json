@@ -533,13 +533,17 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-20 15:14:33",
+      "date": "2025-09-20 16:17:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaijuu-8-gou-2nd-season&episode=10",
       "image": "https://abdo12249.github.io/1/images/kaijuu-8-gou-2nd-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/pNFpDJY2cUFzn"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/GMVDSRxJ!7_d_Tl9A7w7NI_XJd0wLSDpI-W45H4CH9LnerKXdgAo"
         },
         {
           "serverName": "videa",
@@ -550,8 +554,36 @@
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240028&autoplay=1"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/thbflxh9qggq"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-b7x09hkxu5gb.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/o6h73c8jwtbl"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-9p6hirxno5qw.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ud0g0ZKR!v09YTUT_V832RXjlXHaKX2crlYBNHG-DapIyBRv4e24"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-em2yetgp5lz4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/vEMmSB4R!DMYvQtyYmPgjVzStUiPwFltEUw1pmru6StndWJfn3dI"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-6o9gw1y1lkch.html"
         }
       ]
     }

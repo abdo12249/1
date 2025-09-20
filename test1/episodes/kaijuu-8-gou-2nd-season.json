@@ -529,6 +529,31 @@
           "url": "https://www.mp4upload.com/embed-brk3z1ufg8jg.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-20 15:14:33",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaijuu-8-gou-2nd-season&episode=10",
+      "image": "https://abdo12249.github.io/1/images/kaijuu-8-gou-2nd-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/pNFpDJY2cUFzn"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ujTZ3Cvx4sxkyOI8"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240028&autoplay=1"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-em2yetgp5lz4.html"
+        }
+      ]
     }
   ]
 }

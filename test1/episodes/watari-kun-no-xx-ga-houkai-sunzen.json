@@ -639,7 +639,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-19 17:13:47",
+      "date": "2025-09-20 03:25:24",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=12",
       "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
       "servers": [
@@ -666,6 +666,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240023&hash=fd716bd1285b125c&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/cv5u4v67gedq"
         },
         {
           "serverName": "Mp4upload",

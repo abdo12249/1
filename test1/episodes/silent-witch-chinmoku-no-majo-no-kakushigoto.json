@@ -586,7 +586,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-19 17:13:45",
+      "date": "2025-09-20 03:25:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=11",
       "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
       "servers": [
@@ -613,6 +613,10 @@
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240024&hash=ee7db5802f5d0466&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/3gr4yihp3pst"
         },
         {
           "serverName": "Mp4upload",

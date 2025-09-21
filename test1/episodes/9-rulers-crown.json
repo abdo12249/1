@@ -481,6 +481,27 @@
           "url": "https://www.mp4upload.com/embed-7l42xgm2klwy.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-09-21 17:13:13",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=10",
+      "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/k9WifwIt3hXgo"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/XQ0V1Zha!L0M1apM07-BqQ3VPo8CzejhtZ4El0ZiDht-e8oTAYQ4"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-h9akousg6xn8.html"
+        }
+      ]
     }
   ]
 }

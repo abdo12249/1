@@ -411,6 +411,55 @@
           "url": "https://www.mp4upload.com/embed-d3if2yjyxvhp.html"
         }
       ]
+    },
+    {
+      "number": 1176,
+      "title": "الحلقة 1176",
+      "date": "2025-09-21 16:17:49",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1176",
+      "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/WgmaDTriEd8Xb"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/PYs0QTRA!gJpji52KL1NDHJGAnXlja02c15n20EzjelvpDKaobIw"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240047&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=79Obe76pseuE8o46"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bwlt1xy0lhr7"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-2agu8rd9ct7c.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/xwmjaky4h73n"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-z4o6sl48wbba.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/6NtX0agB!ZvSO4stVQKZvrJgXCNpLB1r3Od9Eqowty4vF8HrVigQ"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-37s4br2llad8.html"
+        }
+      ]
     }
   ]
 }

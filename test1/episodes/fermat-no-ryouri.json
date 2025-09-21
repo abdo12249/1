@@ -582,13 +582,17 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 17:13:08",
+      "date": "2025-09-21 18:20:58",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=11",
       "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/2MGZhNW4YElAO"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ycNUXQTL!oz2zt8DiGTYkWatntyzz7LxELQQxDVUAShNcy5CI92Q"
         },
         {
           "serverName": "Mp4upload - FHD",

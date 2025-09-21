@@ -485,7 +485,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-21 17:13:13",
+      "date": "2025-09-21 19:12:20",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=10",
       "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
       "servers": [
@@ -494,12 +494,40 @@
           "url": "https://megamax.me/iframe/k9WifwIt3hXgo"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/bQtWiARC!CvOFgfFO2aftujeo5OBmHVrapRi8aOvGdfxmxVK4SX4"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3ea2tcv3qh7c.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ygtnagc8k2bm"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/cmihn71g40jk"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-zndjpcsa2rz4.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/XQ0V1Zha!L0M1apM07-BqQ3VPo8CzejhtZ4El0ZiDht-e8oTAYQ4"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-h9akousg6xn8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/uJ1CBIzD!VNVf6uDXkHcl9BMt3Fz71Myy75hKs9Rtsrn6CDEiq7U"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-xxn3pkm2igys.html"
         }
       ]
     }

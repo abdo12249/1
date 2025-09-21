@@ -582,7 +582,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 18:20:58",
+      "date": "2025-09-21 19:12:15",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=11",
       "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
       "servers": [
@@ -591,12 +591,40 @@
           "url": "https://megamax.me/iframe/2MGZhNW4YElAO"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/uElEEA7D!rG1IlF2nKoWRvvPgdsy-5tv-sSUZ9kV9OWJXN4aAlps"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-j76p6edc5lk4.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/aqexqrmdwn98"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/zgr9voq791rr"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-i0b1k7co526v.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/ycNUXQTL!oz2zt8DiGTYkWatntyzz7LxELQQxDVUAShNcy5CI92Q"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-u66nnrg47qcb.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/aUMXCCQQ!OtpS8bmZDau2WygmwC_SG4d-3cdTQYyPYtG64ploADk"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-oew4haa3wfzb.html"
         }
       ]
     }

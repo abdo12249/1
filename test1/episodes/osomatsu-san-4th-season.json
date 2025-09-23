@@ -635,6 +635,63 @@
           "url": "https://www.mp4upload.com/embed-7x24e02yari9.html"
         }
       ]
+    },
+    {
+      "number": 12,
+      "title": "الحلقة 12",
+      "date": "2025-09-23 18:24:50",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=12",
+      "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/FsEbgluxVfmyT"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/TJdiiLoT!rR--0DSKVp6lXAjd6zqcpGAxiqvmVihOxAQnu_8CYSw"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/vhz4eusybksg"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-8t44pcw8afl2.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=rL1Qmzag35uzWJfr"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240055&hash=02e034a6b3108649&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/oc4xizbfg9tf"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-jvs30h1187gj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/2AVx1CDA!yXlFbF5vTJmRT5HAQISjGXQqwAU7pIsZg98uva-kX_Q"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1hxmxj06cmyv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/aNkzXbxT!9otwXmmHJwqMu6qOp3vmPOlcJGWPnerYTzSVdtJ9dok"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-0tglt7dpdl3o.html"
+        }
+      ]
     }
   ]
 }

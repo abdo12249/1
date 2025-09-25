@@ -631,7 +631,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-20 17:11:48",
+      "date": "2025-09-25 12:36:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai&episode=12",
       "image": "https://abdo12249.github.io/1/images/seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai.webp",
       "servers": [
@@ -664,6 +664,10 @@
           "url": "https://dsvplay.com/e/z1r8ohluv7dz"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-xmab7qzkqw69.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-zninlt09v4ya.html"
         },
@@ -672,12 +676,20 @@
           "url": "https://mega.nz/embed/HY0hWbQb!MYs0nh77pWjhhAgwmnwUltCsH0_BoOOg93jrg2jMUT4"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-easvtbealg5h.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-wg1hsptau5ux.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/OBtGRaCS!tPEp3GRrb-vo3_Ob3CmXY26wBjNDZxHqsiT5LW_fOQE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-l5nhms6ki7ow.html"
         },
         {
           "serverName": "Mp4upload - SD",

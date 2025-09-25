@@ -643,7 +643,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-25 17:14:17",
+      "date": "2025-09-25 18:24:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=12",
       "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
       "servers": [
@@ -652,12 +652,60 @@
           "url": "https://megamax.me/iframe/NFssf5QqtIxdg"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Okp1lZZB!CbjqLhKBFsF9p8p749pDqdTgRsQIGKhUwL83FGKHtmY"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=zwnDuZk5mDR9OEpP"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rfqqnrwkjvky"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240063&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-dpapektmhzjg.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/vs14w7yzos8d"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-48uf9i697wtg.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-uhk47wbjhf5l.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/7gISUDbZ!FNZv_VXk0gvXOc2vocY_8AgAkMxgeM-FibxTEnp4iGw"
+        },
+        {
           "serverName": "file-upload.org - FHD",
           "url": "https://www.file-upload.org/embed-9jiv9klkf8kk.html"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ysltsft8054q.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/q5JQXQSA!b8tdOoZ9JoykK28s8KM9fPkxyQgbPoz0w1TDxVlU82U"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-y4o21syxhmo9.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-yk7j9w8orcvw.html"
         }
       ]
     }

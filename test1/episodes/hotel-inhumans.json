@@ -627,7 +627,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-21 17:13:10",
+      "date": "2025-09-25 12:36:02",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hotel-inhumans&episode=12",
       "image": "https://abdo12249.github.io/1/images/hotel-inhumans.webp",
       "servers": [
@@ -660,6 +660,10 @@
           "url": "https://dsvplay.com/e/g2m3ac7c6qk2"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-m702ny5krs9b.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-pcybxtjajp85.html"
         },
@@ -668,12 +672,20 @@
           "url": "https://mega.nz/embed/zZ0XzBKI!MqYzf8S-83b9f_UFi2zBuibSRe9_MjaK3PX4JfnuhEk"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-pmzphvllyz6j.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-pskpp7s1k3gu.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/LZlgzCSK!dju2q-9uy_KUrqTQvHlQ3SpfrO8ajDDW6TRu0qcrElE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-02hihhis84i5.html"
         },
         {
           "serverName": "Mp4upload - SD",

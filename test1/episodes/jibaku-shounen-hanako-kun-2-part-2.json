@@ -611,7 +611,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-21 10:15:05",
+      "date": "2025-09-25 12:36:29",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=jibaku-shounen-hanako-kun-2-part-2&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/jibaku-shounen-hanako-kun-2-part-2.webp",
       "servers": [
@@ -644,6 +644,10 @@
           "url": "https://dsvplay.com/e/01f1f80xgog0"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-e695qin1myne.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-pckc3p2fjq1a.html"
         },
@@ -652,12 +656,20 @@
           "url": "https://mega.nz/embed/jAFlxKrJ!PWozyqtkzoSlgGsjCxbwi9opghelmSdG2m7tv-LYsyk"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-qw52oombyxjo.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-cvi16875k1ar.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/jVNGwbAJ!NxHJ4ltvzJFg9t4zzo8xix3TrtuPKAjpcyEJ1iLImkI"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-qior43yklcxx.html"
         },
         {
           "serverName": "Mp4upload - SD",

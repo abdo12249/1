@@ -595,7 +595,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-21 20:16:54",
+      "date": "2025-09-25 12:35:49",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=city-the-animation&episode=12",
       "image": "https://abdo12249.github.io/1/images/city-the-animation.webp",
       "servers": [
@@ -628,6 +628,10 @@
           "url": "https://dsvplay.com/e/2ucyerbm2cud"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-u8v3nprywy8a.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-gwn510wvtelo.html"
         },
@@ -636,8 +640,16 @@
           "url": "https://mega.nz/embed/nJkgGb7Z!eoGIxgZtYK3xHMZIf2bttr1EhwVLe3F2bRHCLhRzjTY"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-bvn8zf9h5pws.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/TR01XJpT!8fz8OH2WKJJMiKZXCW8Y7LO7mUqdwZpeo1w0aJDrPiE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-wol0jr6bi54z.html"
         },
         {
           "serverName": "Mp4upload - SD",

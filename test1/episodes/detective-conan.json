@@ -415,7 +415,7 @@
     {
       "number": 1176,
       "title": "الحلقة 1176",
-      "date": "2025-09-21 17:13:16",
+      "date": "2025-09-25 12:36:07",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1176",
       "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
       "servers": [
@@ -448,6 +448,10 @@
           "url": "https://dsvplay.com/e/xwmjaky4h73n"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-s8cmyjfsl0k1.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-z4o6sl48wbba.html"
         },
@@ -456,12 +460,20 @@
           "url": "https://mega.nz/embed/6NtX0agB!ZvSO4stVQKZvrJgXCNpLB1r3Od9Eqowty4vF8HrVigQ"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-qu4gb4oyuj2m.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-37s4br2llad8.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/WB83Hbab!bk9Et-EOtdMTTKBJyUKAvUZtVznd8bGZh2merjeNRnc"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-h4wlzti9gxtd.html"
         },
         {
           "serverName": "Mp4upload - SD",

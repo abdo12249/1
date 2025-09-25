@@ -627,7 +627,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-20 03:25:28",
+      "date": "2025-09-25 12:37:09",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=12",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
@@ -660,6 +660,10 @@
           "url": "https://dsvplay.com/e/wtu4sq7otwb7"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-rzxime51vpya.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-3n1lgkjlf4qp.html"
         },
@@ -668,12 +672,20 @@
           "url": "https://mega.nz/embed/OUdlHYCB!dVJAZhUv93QcxCFX1Fn7AQvxg3vZZ96iT4zyrf3vN9I"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-x2o5a9mz5bnb.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-y2eb5c6mxbov.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/mRNzVCrJ!wLyR74lKzV4ls9cMiyrbhzgCprIkyHoIOwwnTnFQODM"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-zx7j1oj4r4ku.html"
         },
         {
           "serverName": "Mp4upload - SD",

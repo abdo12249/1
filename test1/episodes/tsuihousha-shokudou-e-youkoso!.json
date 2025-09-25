@@ -631,7 +631,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 03:25:40",
+      "date": "2025-09-25 12:37:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tsuihousha-shokudou-e-youkoso!&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/tsuihousha-shokudou-e-youkoso!.webp",
       "servers": [
@@ -664,6 +664,10 @@
           "url": "https://dsvplay.com/e/pd5slnt6duin"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-3719veuyhbxi.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-j3s728ia2kbj.html"
         },
@@ -672,12 +676,20 @@
           "url": "https://mega.nz/embed/GIkjWSKZ!r03RH5w3gngye2JToihBqK91rKS7BMhwtvqvgtt6TJM"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-hh584wgfpke4.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-vbg0jjme4qs9.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/bEdWSCqZ!e_7vI2KVHHCT1B1oHffE68OSW754gPF5lxg_Wc_HX-0"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-4v3nrb05q2cq.html"
         },
         {
           "serverName": "Mp4upload - SD",

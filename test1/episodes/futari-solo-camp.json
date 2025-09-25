@@ -574,7 +574,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-20 03:25:36",
+      "date": "2025-09-25 12:37:17",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=futari-solo-camp&episode=11",
       "image": "https://abdo12249.github.io/1/images/futari-solo-camp.webp",
       "servers": [
@@ -607,6 +607,10 @@
           "url": "https://dsvplay.com/e/qnse3j8bneat"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-dbot2jtfnj90.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-09pc1g6q9e65.html"
         },
@@ -615,12 +619,20 @@
           "url": "https://mega.nz/embed/jd9jyILL!UY-gRG5WqpmCKl3dcO9c5SNgrMJsUKPeGWl9vJzUWs4"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-vofh16qcoqh2.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-s2exkpgwk9kv.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/SN1EGDaR!T526JbAi8FZkbGXNKH8oOF3gQ__F1Cm1gYkyaXcpXyg"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-adu9nsxm6ccx.html"
         },
         {
           "serverName": "Mp4upload - SD",

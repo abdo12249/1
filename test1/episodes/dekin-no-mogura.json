@@ -627,7 +627,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-21 14:13:28",
+      "date": "2025-09-25 12:36:24",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=dekin-no-mogura&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/dekin-no-mogura.webp",
       "servers": [
@@ -660,6 +660,10 @@
           "url": "https://dsvplay.com/e/gljoctf3dm4k"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-8fx21x6y96f1.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-r4e1o5ncg42v.html"
         },
@@ -668,12 +672,20 @@
           "url": "https://mega.nz/embed/LZ8jTZRD!89B1wr7Jm_erkVJkqsuEbwtN974v7fDGjLp6bmrOVV4"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-epz408ig3cr6.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-f4fbt2btmktu.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/eBEwyS5R!BmeQirfrh9QsNi0RCzH8lNebCM8B6MW7Wfe_VRApn-I"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-12cbjqwkmjev.html"
         },
         {
           "serverName": "Mp4upload - SD",

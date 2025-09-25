@@ -639,7 +639,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-24 14:14:22",
+      "date": "2025-09-25 12:35:32",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=turkey!&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/turkey!.webp",
       "servers": [
@@ -672,12 +672,20 @@
           "url": "https://dsvplay.com/e/6d7flhf46az2"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-5m454d7d4y3v.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-whuk25dtn8z6.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/GAMgCYLD!wA6YYbxxNUC9QCWCZzboPOk84tDygiX_BuUcDQ7fHXM"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-9hfvatfpjb8n.html"
         },
         {
           "serverName": "Mp4upload - FHD",

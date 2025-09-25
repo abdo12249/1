@@ -533,7 +533,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-09-20 16:17:42",
+      "date": "2025-09-25 12:36:52",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaijuu-8-gou-2nd-season&episode=10",
       "image": "https://abdo12249.github.io/1/images/kaijuu-8-gou-2nd-season.webp",
       "servers": [
@@ -566,6 +566,10 @@
           "url": "https://dsvplay.com/e/o6h73c8jwtbl"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-1nrtpte3lpmc.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-9p6hirxno5qw.html"
         },
@@ -574,12 +578,20 @@
           "url": "https://mega.nz/embed/ud0g0ZKR!v09YTUT_V832RXjlXHaKX2crlYBNHG-DapIyBRv4e24"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-gojer4ljm8jm.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-em2yetgp5lz4.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/vEMmSB4R!DMYvQtyYmPgjVzStUiPwFltEUw1pmru6StndWJfn3dI"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-mrd1slaescre.html"
         },
         {
           "serverName": "Mp4upload - SD",

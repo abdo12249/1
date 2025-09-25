@@ -236,6 +236,71 @@
           "url": "https://www.mp4upload.com/embed-9f0l7pf0xlgh.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-09-25 15:18:08",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=karaoke-iko!&episode=5",
+      "image": "https://abdo12249.github.io/1/images/karaoke-iko!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/7mqDPIcrNxZ3P"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/HAdBWCQB!cNzpGoGCUqu5DtjbQxf3b3TqWeYQYeKcfMHsIDTTKm0"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240061&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=rnQ7IzFPoiwW5nvX"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/kyvrl0ocgoaz"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/wm5ylstrdp9i"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-xjahzg775lqm.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-99rahwqxb0i3.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/PI8CDRyS!JIFwhx_J574x2ZhJ8E83m4S_R4EidzdC8eicbv_n0Z8"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-isyw2k3cuice.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-xppxy9h3izmy.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/zItx2R4I!yjDi0Engk-fk1MbYwmA4WqlsXnJVZRlUK_jZXvNMqSc"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-1da48ejnk41i.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-dcwwz636lacd.html"
+        }
+      ]
     }
   ]
 }

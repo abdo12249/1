@@ -635,7 +635,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-24 18:22:37",
+      "date": "2025-09-25 12:35:30",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season.webp",
       "servers": [
@@ -664,6 +664,10 @@
           "url": "https://dsvplay.com/e/c0owp2enlty3"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-2195qfzxide3.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-hg032tq7u3tl.html"
         },
@@ -672,12 +676,20 @@
           "url": "https://mega.nz/embed/TQtwgaaZ!P7sH8HGdlBbd5RlLl81VOAvu3PWAsrzVJP4ezm7mRbU"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-0cvjbr8sfmmz.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-v2cd6sbaq09v.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/fNckxC7B!ue22yFjmEnIHcDCVMQKh2iArGuaargcRjg1QQe4rhSA"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-2z51y3z42kc0.html"
         },
         {
           "serverName": "Mp4upload - SD",

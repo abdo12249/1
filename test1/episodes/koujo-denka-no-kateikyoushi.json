@@ -627,7 +627,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 18:20:19",
+      "date": "2025-09-25 12:36:43",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=koujo-denka-no-kateikyoushi&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/koujo-denka-no-kateikyoushi.webp",
       "servers": [
@@ -660,6 +660,10 @@
           "url": "https://dsvplay.com/e/xzupk7w4stha"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-no2uaxjji61x.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-pzomatf24r2u.html"
         },
@@ -668,12 +672,20 @@
           "url": "https://mega.nz/embed/qYVAFDbK!FC9rNR_2yPY9-B3VK-BA7SzMvKp9yX74htteJe6x7zY"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-m1fbs21av5f2.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-6tj1fupjd910.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/fU1BRAxT!css1lZaNJETfN8fCmOjxU_hM9ihb9PcKetXi0oWf0ec"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-oyimtn7hllsk.html"
         },
         {
           "serverName": "Mp4upload - SD",

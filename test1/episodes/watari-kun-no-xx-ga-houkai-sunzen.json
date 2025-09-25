@@ -639,7 +639,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-20 03:25:24",
+      "date": "2025-09-25 12:37:04",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=12",
       "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
       "servers": [
@@ -672,6 +672,10 @@
           "url": "https://dsvplay.com/e/cv5u4v67gedq"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-8fqbh728rhj1.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-ocnhqnq1xphx.html"
         },
@@ -680,12 +684,20 @@
           "url": "https://mega.nz/embed/mY8knQAZ!El0cMtTQKUnZMAm6L0x4wJTKJpG-om-VpXUkGNWS_Os"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-x62agtex45vs.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-e0svj0ybhsxu.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/jMNA3bjK!VUeXpueAdCBqPWgEQUYd9vc4oTmoiGX0ujAAviIvb1U"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-o6gr1pugsr8r.html"
         },
         {
           "serverName": "Mp4upload - SD",

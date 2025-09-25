@@ -1367,7 +1367,7 @@
     {
       "number": 24,
       "title": "الحلقة 24",
-      "date": "2025-09-21 10:15:08",
+      "date": "2025-09-25 12:36:31",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=witch-watch&episode=24",
       "image": "https://abdo12249.github.io/1/images/witch-watch.webp",
       "servers": [
@@ -1400,6 +1400,10 @@
           "url": "https://dsvplay.com/e/rl3wjo6xpiwk"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-hirvsujyg4ix.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-die2z97omj2m.html"
         },
@@ -1408,12 +1412,20 @@
           "url": "https://mega.nz/embed/CZlCCQBC!rHSqZzDay5AnRGD2YNlVxim1w_Ux71gs3f8LeE4GEGQ"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-chohool9qj1v.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-b7zi07jsnc4s.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/WBdVnIKQ!0u5C-etv6K36l9IkwWzsCOzafa8KpRSkmD4PEHtLaPs"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-q2t1xiunomf8.html"
         },
         {
           "serverName": "Mp4upload - SD",

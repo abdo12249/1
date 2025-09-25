@@ -582,7 +582,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-20 03:25:26",
+      "date": "2025-09-25 12:37:07",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=11",
       "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
       "servers": [
@@ -615,6 +615,10 @@
           "url": "https://dsvplay.com/e/f4jlun5gbnf3"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-qwzb13aqfpsh.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-wthjtgsbo1uj.html"
         },
@@ -623,12 +627,20 @@
           "url": "https://mega.nz/embed/KF9RWLbK!ru_E95Mg5a19bG-dudGxmh3DUMnVTzg_OkIjZ1mvlNE"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-7bbqe241diwh.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-6buhwfv6mcum.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/WU92Da4C!NNqLgFWPGsWYclGREbZ-0Az-6MZ5FiIjRBovylqC2GM"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-iwdgzpopkav4.html"
         },
         {
           "serverName": "Mp4upload - SD",

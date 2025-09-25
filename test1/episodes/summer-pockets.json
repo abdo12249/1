@@ -1428,7 +1428,7 @@
     {
       "number": 25,
       "title": "الحلقة 25",
-      "date": "2025-09-22 20:17:56",
+      "date": "2025-09-25 12:35:46",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=summer-pockets&episode=25",
       "image": "https://abdo12249.github.io/1/images/summer-pockets.webp",
       "servers": [
@@ -1457,6 +1457,10 @@
           "url": "https://dsvplay.com/e/ux4mi9c7omnu"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-ju1a1wyt2l4h.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-h5lbs0mppe9m.html"
         },
@@ -1465,12 +1469,20 @@
           "url": "https://mega.nz/embed/GZFxCAqK!bzeCV0THaAo8M7K-XScytT4dvEtwlvd27OkNyAGXif8"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-ftceeutmvaea.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-561a9q00eb04.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/aVUwnQTJ!S3el2S5Al8JGCp8HFeTwyhGwx9VUqmVMrPn5OA9td2E"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-svxcip8ihgyb.html"
         },
         {
           "serverName": "Mp4upload - SD",

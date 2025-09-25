@@ -476,7 +476,7 @@
     {
       "number": 1144,
       "title": "الحلقة 1144",
-      "date": "2025-09-21 18:20:56",
+      "date": "2025-09-25 12:35:57",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-piece&episode=1144",
       "image": "https://abdo12249.github.io/1/images/one-piece.webp",
       "servers": [
@@ -513,6 +513,10 @@
           "url": "https://dsvplay.com/e/ewdq8i19x2er"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-qxpr65w9nbar.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-wlfbuw7nhffv.html"
         },
@@ -521,8 +525,16 @@
           "url": "https://mega.nz/embed/jE8QVYBa!pQ97RKtOqfBTlg2GXq7y1Mhru_52onVdZOG4Axx_8OU"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-9op1oc2sgt5h.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/aA80HKCR!CwjU8Onyv47DVkBtMdGmoOfygKP9VPX501mVL6zY_1k"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-dabt2xv92yut.html"
         },
         {
           "serverName": "Mp4upload - SD",

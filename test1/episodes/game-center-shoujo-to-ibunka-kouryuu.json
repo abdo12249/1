@@ -562,7 +562,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 15:14:27",
+      "date": "2025-09-25 12:36:14",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=game-center-shoujo-to-ibunka-kouryuu&episode=11",
       "image": "https://abdo12249.github.io/1/images/game-center-shoujo-to-ibunka-kouryuu.webp",
       "servers": [
@@ -595,6 +595,10 @@
           "url": "https://dsvplay.com/e/p6awp1zv5bl1"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-4lh4f6vt9r49.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-82jjdb5fyse5.html"
         },
@@ -603,12 +607,20 @@
           "url": "https://mega.nz/embed/bFMFEYRQ!2EKFJ72mW_tW4rROV46DAFax3PROpbwuaWLfSBisdg4"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-00d9h0e51ke0.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-6zv3oty1nq9e.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/HRVSWa6S!x_IpUXJ2fVm8R9TnKECunZTaXiTbJbUn9I-ZMUSQQQE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-jxwsr6iz62hj.html"
         },
         {
           "serverName": "Mp4upload - SD",

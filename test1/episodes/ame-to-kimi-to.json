@@ -627,7 +627,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 19:11:12",
+      "date": "2025-09-25 12:36:40",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ame-to-kimi-to&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/ame-to-kimi-to.webp",
       "servers": [
@@ -660,6 +660,10 @@
           "url": "https://dsvplay.com/e/ctkdrd8e8n5t"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-qsyj485e5zhn.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-r3k4xmt615zx.html"
         },
@@ -668,12 +672,20 @@
           "url": "https://mega.nz/embed/HAFDHC5T!OmnFKDMEtuVDyMmYj9qtrVdculhUm9V8pUCQw6EG1Es"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-go550vi5xi82.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-10bquoc4kaha.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/TBEyBRzR!uEl_S8mWlmAxTx34HSObx9kPNMZQzgAjOee-vcE7w5g"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-sx6ykncbypjj.html"
         },
         {
           "serverName": "Mp4upload - SD",

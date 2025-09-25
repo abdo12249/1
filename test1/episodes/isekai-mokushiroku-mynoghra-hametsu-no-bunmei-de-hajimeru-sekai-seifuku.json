@@ -631,7 +631,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-21 14:13:23",
+      "date": "2025-09-25 12:36:19",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku.webp",
       "servers": [
@@ -664,6 +664,10 @@
           "url": "https://dsvplay.com/e/n32p2uvu89m1"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-p9lozuyut09b.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-3vr1fqh36hpm.html"
         },
@@ -672,12 +676,20 @@
           "url": "https://mega.nz/embed/yANQhSqJ!E8BiNLmKe2kAKB7l7ja2qv6XZDwWIdocWxKvXkgqs5s"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-7rf9e1kga4yn.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-e91z6y74kjrp.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/2ZMW1TJB!g2qGSx-tUeqLdl7ACiekVq0VxvwKbX16k9hsxCl2JxQ"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-ve07124g0cqb.html"
         },
         {
           "serverName": "Mp4upload - SD",

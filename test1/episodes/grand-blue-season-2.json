@@ -647,7 +647,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-23 01:14:27",
+      "date": "2025-09-25 12:35:44",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=grand-blue-season-2&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/grand-blue-season-2.webp",
       "servers": [
@@ -680,6 +680,10 @@
           "url": "https://dsvplay.com/e/ija48p1aosnx"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-lqm92pinhf8j.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-48cle88cxtkq.html"
         },
@@ -688,12 +692,20 @@
           "url": "https://mega.nz/embed/SEUH2Cja!w9LqzIUuodbWc9h82NX9VmrsnQwOyBT1NipoatgPpyQ"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-qfc23fqwmxwa.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-6vyw04wm4zsv.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/Cd1EySLQ!7NLN8XAST38t6G_gOFCcE3jfmW7Q91vxQBV0nhqj_j4"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-fbrc7x0ju9wq.html"
         },
         {
           "serverName": "Mp4upload - SD",

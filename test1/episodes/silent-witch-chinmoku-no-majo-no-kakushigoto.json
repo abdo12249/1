@@ -586,7 +586,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-20 03:25:22",
+      "date": "2025-09-25 12:37:02",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=silent-witch-chinmoku-no-majo-no-kakushigoto&episode=11",
       "image": "https://abdo12249.github.io/1/images/silent-witch-chinmoku-no-majo-no-kakushigoto.webp",
       "servers": [
@@ -619,6 +619,10 @@
           "url": "https://dsvplay.com/e/3gr4yihp3pst"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-7tx2muuu5gfg.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-4yrmhlnst216.html"
         },
@@ -627,12 +631,20 @@
           "url": "https://mega.nz/embed/CIVXzbIJ!X2DfZiC0EnixiFZ-7PLOKQHc1Iz-cw56FQbNJKiO_jc"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-6m799k73vvn8.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-kdqx70j8i2kg.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/nR1iGLxD!H3FtqSjc791-uJ0zjmmx1TpkEQ17HcKXHKSd4h8HYSs"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-jgvoec5wedo2.html"
         },
         {
           "serverName": "Mp4upload - SD",

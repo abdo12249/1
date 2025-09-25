@@ -639,7 +639,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-23 18:24:50",
+      "date": "2025-09-25 12:35:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=osomatsu-san-4th-season&episode=12",
       "image": "https://abdo12249.github.io/1/images/osomatsu-san-4th-season.webp",
       "servers": [
@@ -672,6 +672,10 @@
           "url": "https://dsvplay.com/e/oc4xizbfg9tf"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-yy0g3o25a11a.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-jvs30h1187gj.html"
         },
@@ -680,12 +684,20 @@
           "url": "https://mega.nz/embed/2AVx1CDA!yXlFbF5vTJmRT5HAQISjGXQqwAU7pIsZg98uva-kX_Q"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-wibohj24nh1b.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-1hxmxj06cmyv.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/aNkzXbxT!9otwXmmHJwqMu6qOp3vmPOlcJGWPnerYTzSVdtJ9dok"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-773a2r7qbmt0.html"
         },
         {
           "serverName": "Mp4upload - SD",

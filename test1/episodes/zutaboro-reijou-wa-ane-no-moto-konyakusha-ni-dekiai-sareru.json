@@ -639,7 +639,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 03:25:20",
+      "date": "2025-09-25 12:36:59",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru.webp",
       "servers": [
@@ -672,6 +672,10 @@
           "url": "https://dsvplay.com/e/2yvatzcgjibt"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-6y3tafkyq1cq.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-ot0zhhonjjoe.html"
         },
@@ -680,12 +684,20 @@
           "url": "https://mega.nz/embed/fEFzQaQC!6vaQRFZuwMU3v_X5tokrxXNeyzHB5myY4avl-hYHK6k"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-084uyy7drgcs.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-88tmcgvf44mo.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/eRMimbSb!_x52OYZubNLC4KnuMwXEpPITLCbp5rIQ_mkp8zuHuos"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-8mrpoe8ex4ok.html"
         },
         {
           "serverName": "Mp4upload - SD",

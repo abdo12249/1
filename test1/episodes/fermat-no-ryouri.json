@@ -582,7 +582,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 19:12:15",
+      "date": "2025-09-25 12:35:59",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fermat-no-ryouri&episode=11",
       "image": "https://abdo12249.github.io/1/images/fermat-no-ryouri.webp",
       "servers": [
@@ -607,6 +607,10 @@
           "url": "https://dsvplay.com/e/zgr9voq791rr"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-vk3gig2i90zm.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-i0b1k7co526v.html"
         },
@@ -615,12 +619,20 @@
           "url": "https://mega.nz/embed/ycNUXQTL!oz2zt8DiGTYkWatntyzz7LxELQQxDVUAShNcy5CI92Q"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-y85lqdn856e0.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-u66nnrg47qcb.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/aUMXCCQQ!OtpS8bmZDau2WygmwC_SG4d-3cdTQYyPYtG64ploADk"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-auqh0amkn0r9.html"
         },
         {
           "serverName": "Mp4upload - SD",

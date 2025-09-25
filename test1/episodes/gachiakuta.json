@@ -594,7 +594,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 16:17:53",
+      "date": "2025-09-25 12:36:12",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=11",
       "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
       "servers": [
@@ -631,6 +631,10 @@
           "url": "https://dsvplay.com/e/xgzcm6h4kqtj"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-hf4yoczv35h6.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-14zi2vl87cuo.html"
         },
@@ -639,12 +643,20 @@
           "url": "https://mega.nz/embed/eZdEhZ5A!FCbsiWVpGca1pk2gFTXbbrFA_Ge4DUTaZd__OXbxqPY"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-2novf1eaaqxb.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-o3m9rtailgm3.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/rYsEwZbQ!AeAeYa_yQd_qsA87aAgCxdAiW6c-LJ5Wqf4PSYMu6o0"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-koosyzklqwce.html"
         },
         {
           "serverName": "Mp4upload - SD",

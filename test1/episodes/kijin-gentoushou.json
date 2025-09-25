@@ -423,13 +423,17 @@
     {
       "number": 23,
       "title": "الحلقة 23",
-      "date": "2025-09-25 11:14:42",
+      "date": "2025-09-25 12:35:27",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kijin-gentoushou&episode=23",
       "image": "https://abdo12249.github.io/1/images/kijin-gentoushou.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/IVnFNCCCjyQcD"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/iYk3RSTI!QA9GgUFN6HR7HBRjFjiCfJW12m7EWz7AJcHoVKIeH9Y"
         },
         {
           "serverName": "vk",
@@ -440,12 +444,48 @@
           "url": "https://videa.hu/player?v=apN7zmWP2j0y5nfV"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tjfx6fpw1mw9.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/jkvtnbswqvct"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ie3eiwoan33h"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-rt59oyxyzi4n.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-34oidue4svgf.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/mZMzzDLC!pDKTUZ33lG7GPF0P1f1Xcm3bqUm3MvT511L02UTafT4"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-3f97bj95ytdq.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-uvx3wwtq654t.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/rd1WhATA!-9Gl6j5aYi0Y3zhmqETAy86jCb_GZUYWHvCvOb-4EjI"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-oqegp13mz9za.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5vfhir81zkii.html"
         }
       ]
     }

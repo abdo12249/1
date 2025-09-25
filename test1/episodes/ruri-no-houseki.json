@@ -615,7 +615,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-21 14:13:25",
+      "date": "2025-09-25 12:36:21",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ruri-no-houseki&episode=12",
       "image": "https://abdo12249.github.io/1/images/ruri-no-houseki.webp",
       "servers": [
@@ -648,6 +648,10 @@
           "url": "https://dsvplay.com/e/cdvmcv6p0ae9"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-cvwilq5yydxb.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-mkp6arsv9nkn.html"
         },
@@ -656,12 +660,20 @@
           "url": "https://mega.nz/embed/HJ1SSTiL!yBila7vxjEg7L23lyFRQNgFZaEp0KswY44bVXZCK40E"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-zlk309y1ybee.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-23qnepzzio2z.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/LV8k0DjA!_4ywzuw6w0h1K90xYeNqzfIzlJqd6JPl-GyoaQO7-8w"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-z7cx06q9izpy.html"
         },
         {
           "serverName": "Mp4upload - SD",

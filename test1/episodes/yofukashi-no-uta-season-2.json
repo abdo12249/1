@@ -468,7 +468,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-20 15:14:35",
+      "date": "2025-09-25 12:36:55",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yofukashi-no-uta-season-2&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/yofukashi-no-uta-season-2.webp",
       "servers": [
@@ -501,6 +501,10 @@
           "url": "https://dsvplay.com/e/3xhx5tk89fgj"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-lh7dkgad0f0y.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-hqdd9khqpupg.html"
         },
@@ -509,12 +513,20 @@
           "url": "https://mega.nz/embed/mMFAhRpT!uEA6voizkvQ-Qo4FLL1tRLCWwj3Sb7ZTZ2Ovrsaw1Jw"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-av6qo4ihpdpa.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-s908exq7tcum.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/qc1E2RJL!34ddF1qS-7ML9l0frsiLxkD4OEyMv9-97FkNAqC_nPQ"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-c9y1c2khmrau.html"
         },
         {
           "serverName": "Mp4upload - SD",

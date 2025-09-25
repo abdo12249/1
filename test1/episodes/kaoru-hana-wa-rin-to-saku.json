@@ -631,7 +631,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-21 09:14:29",
+      "date": "2025-09-25 12:36:36",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaoru-hana-wa-rin-to-saku&episode=12",
       "image": "https://abdo12249.github.io/1/images/kaoru-hana-wa-rin-to-saku.webp",
       "servers": [
@@ -664,6 +664,10 @@
           "url": "https://dsvplay.com/e/jiaaell1f5hn"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-juw1um10mq0i.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-tpz0mgv5pol7.html"
         },
@@ -672,12 +676,20 @@
           "url": "https://mega.nz/embed/fUVTzLCb!hkHL3rMIClGn_m0BUShY6f0pd0M-v9heg98w2Ix3NWA"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-jln8yqjvt9wt.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ik4zmbzgchyl.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/GZ1BST7Q!-tDP6UscmvmIR-liw0NACWWGySMl75v7HmkbATmlnPc"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-d7uv2tzi0vv3.html"
         },
         {
           "serverName": "Mp4upload - SD",

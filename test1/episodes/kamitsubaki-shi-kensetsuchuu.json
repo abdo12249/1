@@ -619,7 +619,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-20 03:25:34",
+      "date": "2025-09-25 12:37:14",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kamitsubaki-shi-kensetsuchuu&episode=11",
       "image": "https://abdo12249.github.io/1/images/kamitsubaki-shi-kensetsuchuu.webp",
       "servers": [
@@ -652,6 +652,10 @@
           "url": "https://dsvplay.com/e/xteukigzazwe"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-vww7nhpxd2fn.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-rd9ngcc0ts7s.html"
         },
@@ -660,8 +664,16 @@
           "url": "https://mega.nz/embed/yM8lTZQb!7xgYLq53Am9FbUvzBnhsth5dZqqM9hqvoJzzBBu7Wus"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-jwrbraelv3g1.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/eJd1yCJB!LN7AFOnGc14aPbhURsRkOrix_-KJNgxEv23vbH1xsi0"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-i3ok958ij41j.html"
         },
         {
           "serverName": "Mp4upload - SD",

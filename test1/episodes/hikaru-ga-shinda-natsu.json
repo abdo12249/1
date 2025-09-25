@@ -570,7 +570,7 @@
     {
       "number": 11,
       "title": "الحلقة 11",
-      "date": "2025-09-21 08:18:29",
+      "date": "2025-09-25 12:36:38",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=hikaru-ga-shinda-natsu&episode=11",
       "image": "https://abdo12249.github.io/1/images/hikaru-ga-shinda-natsu.webp",
       "servers": [
@@ -603,6 +603,10 @@
           "url": "https://dsvplay.com/e/0ihk85g3d7e1"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-nvf3h8ktti2g.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-586jt8tfayiv.html"
         },
@@ -611,12 +615,20 @@
           "url": "https://mega.nz/embed/qc0iGYxR!F4nz37c0_Iz9OkmUfsFHtoWApXU3Q11vGQ5ikykpy6o"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-64s9i45qf311.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-9q2yqok2uhm9.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/uEt2jSgA!ARNCGGhHAaI2QUCCGfm_AMZTOutqyxwTiSsMC06mpxw"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-3gmrt3f2q6yj.html"
         },
         {
           "serverName": "Mp4upload - SD",

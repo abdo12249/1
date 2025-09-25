@@ -607,7 +607,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-09-21 21:13:30",
+      "date": "2025-09-25 15:18:31",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=9-rulers-crown&episode=12",
       "image": "https://abdo12249.github.io/1/images/9-rulers-crown.webp",
       "servers": [
@@ -632,6 +632,10 @@
           "url": "https://dsvplay.com/e/9201cfzpmeli"
         },
         {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-yt4culi1lwmx.html"
+        },
+        {
           "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/embed-dn8vom8krfst.html"
         },
@@ -640,12 +644,20 @@
           "url": "https://mega.nz/embed/bI0TBQCb!YQ_P4RZJkpPKejgOQ0lYCqFuFYOn3CC6F9VZV3kJ80o"
         },
         {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-yse2oxlizb6g.html"
+        },
+        {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-qoykxk975rvt.html"
         },
         {
           "serverName": "mega بدون اعلانات - SD",
           "url": "https://mega.nz/embed/KM9SHS5Q!wPh_9Y8UyUTV0idXCIXcRD9mk2-_qeM5Mf0yWuMZbDM"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-nudz33chhz2p.html"
         },
         {
           "serverName": "Mp4upload - SD",

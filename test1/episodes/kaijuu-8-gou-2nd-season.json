@@ -602,7 +602,7 @@
     {
       "number": "11 والاخيرة",
       "title": "الحلقة 11 والاخيرة",
-      "date": "2025-09-27 15:14:18",
+      "date": "2025-09-27 16:18:03",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kaijuu-8-gou-2nd-season&episode=11 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/kaijuu-8-gou-2nd-season.webp",
       "servers": [
@@ -615,12 +615,36 @@
           "url": "https://larhu.com/embed-gl4lovi25mcv.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Kg5UXDAL!MqJRl3-BtzgQ9Ks-1mJsujO7eQ0SgWDeKh2BCrOeJ7E"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239055&autoplay=1"
         },
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=V4WQabm0AZi8rTjQ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/uywwigpwbiyq"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-y5t6fci4kzc1.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/sxp0xgkz0mbc"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-yd5wlqtm2tly.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-b83fz433ctff.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -633,6 +657,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-hoqit85u3myx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/31giFRrK!vNnas5m4t4wDssPK9YBeErWGMQqXbRg2d50WukSxlJQ"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-0y8b6vys7ezw.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-81uovm6l857z.html"
         }
       ]
     }

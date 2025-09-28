@@ -1,0 +1,78 @@
+{
+  "animeTitle": "Cat’s♥Eye",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-09-28 01:22:24",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=catseye&episode=1",
+      "image": "https://abdo12249.github.io/1/images/catseye.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/nOrSmwmcCvzjU"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-2c2p1vlm6pp1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/nwpgEQDB!f_2_zVxDPtDwUrZ2Jv6W0yrh9wB60t8ZV56WwlRFaIM"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240076&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=BhuLLADYvArtrnlf"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/4oqsnkgtcmc0"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-to1y9xcw72hq.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/47rc08esj7ii"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-b80ldp0249wl.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ucdig0kdfwsa.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/z8AgyBrS!2N0W5lPDvYg9QpRowNH3sWwnygknsimOU-EKuc7HmKk"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-ak19414ylqoc.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-x0u9y6mpd19b.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mhxDUJaQ!o2_dCJPMDfaCH65EcJvZEcy2izaLQa4TY7gEOMNBnEs"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-pdrrf263lim4.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wf67ezoo2leq.html"
+        }
+      ]
+    }
+  ]
+}

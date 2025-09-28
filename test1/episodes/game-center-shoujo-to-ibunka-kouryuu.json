@@ -631,7 +631,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-09-28 15:13:58",
+      "date": "2025-09-28 16:17:28",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=game-center-shoujo-to-ibunka-kouryuu&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/game-center-shoujo-to-ibunka-kouryuu.webp",
       "servers": [
@@ -686,6 +686,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-n2ng6jd7nlyx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PpIWSSJC!4C3KNX1JroV-INfjdTJ9SDZ4_AytdyDGyMZ0T18P78Q"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-als2zxfots5c.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5wifmdy6ta94.html"
         }
       ]
     }

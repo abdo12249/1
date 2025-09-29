@@ -142,6 +142,79 @@
           "url": "https://www.mp4upload.com/embed-wvlk1n3kr4iv.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-09-29 03:02:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mofa-gongzhu-de-xiao-fannao&episode=3",
+      "image": "https://abdo12249.github.io/1/images/mofa-gongzhu-de-xiao-fannao.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/31UzFgNAFpfmU"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-rf0hoeczazmj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/W9xgEJib!30EHFtpPG37g9en-R8hDrHsj7JyeuKNBxkkjyT7DyS8"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=hdLO707e8wiXqh9n"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240090&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bnk3v5n2quju"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-tn4c4w37vavh.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/5skmzkou031n"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-efzov1jhzc41.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-3kdmoyq908qf.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Hw42Eb7T!YHZL7SvHIoNImC8WubYuEnNiK56wPizPNBsYxbwwwNs"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-hhgvvphs7m6f.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-7xh9g922vhyv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/fwZ00B7I!VomF_3OSwrGCuwG7Tsv_H4xY9r2CkVFFbFO11i0pBTI"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-5ojx5b5e091a.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-7vfq9ece91gs.html"
+        }
+      ]
     }
   ]
 }

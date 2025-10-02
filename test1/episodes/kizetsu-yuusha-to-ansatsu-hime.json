@@ -285,7 +285,7 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-10-02 16:20:16",
+      "date": "2025-10-02 17:12:55",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=6",
       "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
       "servers": [
@@ -298,8 +298,32 @@
           "url": "https://larhu.com/embed-sdw77hlxth1a.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/nlYliD5K!2vjSkTZ36BJLRHLZoj7IwdECaITWZkax1GXbwGPOM0U"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=axOHrIoiUHuNFe8g"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-pmer1r5eq8d5.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/l7d4miluppfx"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/lu4mckfqdeqv"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-tsnhtz1bflo9.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-vitjp3mpbfli.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -312,6 +336,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-k7y7dv4uilby.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/fowyyQIQ!6DgPSxhUJTGp8uj7AARJM2kGyD7zE2aZbbfzclxIbR8"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-45efa7ypd6yk.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-fua8l1ir3dnx.html"
         }
       ]
     }

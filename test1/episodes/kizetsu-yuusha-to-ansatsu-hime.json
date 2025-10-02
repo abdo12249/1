@@ -281,6 +281,39 @@
           "url": "https://www.mp4upload.com/embed-yc7x5zsl99yx.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-10-02 16:20:16",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=6",
+      "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/ZsR60fl9GgUZD"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-sdw77hlxth1a.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=axOHrIoiUHuNFe8g"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GhBEVbAC!6_qr_BGG5BuIkUuxuqaHVIbMkayMffEWqizol8WMxPg"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-trsfzdxvxt0s.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-k7y7dv4uilby.html"
+        }
+      ]
     }
   ]
 }

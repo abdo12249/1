@@ -622,6 +622,71 @@
           "url": "https://www.mp4upload.com/embed-8xc2okgg76x9.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-10-03 04:19:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=11",
+      "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/NxlqU6uBRkC5g"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/i9Aw0IAb!x9vMOu32y_Mhyn08jdgOn9okHZyS18tm5UMhcTCkhNA"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-bsgaxi04tsst.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/pcohkgrpenta"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/qlyvoi1t0vdu"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-xdwbx678euqg.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-y2vqty6pkt3m.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-z0q63m5lvvzk.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GoAA2aoT!04qsyZAcQR8NLvhObKjuww00loKjKNC141vyTS9rbMs"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-4zhfw5czsitn.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-q17p95y7ijpn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ylYiXRDC!GrK8cwKjbmDjcmYSnLd6PQqRZAncEnE_XJ5VqJS52CE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-bf4c4xlamq1e.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-jheq0vdfwz9m.html"
+        }
+      ]
     }
   ]
 }

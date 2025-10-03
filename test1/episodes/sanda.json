@@ -1,0 +1,78 @@
+{
+  "animeTitle": "Sanda",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-03 19:12:49",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sanda&episode=1",
+      "image": "https://abdo12249.github.io/1/images/sanda.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/7I1AkY1GVOLRU"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-e1ps55i9jih6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/nxxTxDaT!o3c-VNGmdH8etDXhnP0vYSL1TXz9QHGHdsxE1lKKJtk"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=DXFzGqKP7ijh0WsV"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-7l3dd5c20380.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/u7pinznrj9wd"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-9ugbo4lb6ew3.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/95y1kmv4mllg"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-r5x1m7qpp21k.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-lybarq1069vt.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/GhwTQbxD!en3qiz_Dhnc1Qm1W6ymxRZsq_hO3tmWCAkcOV62YKMY"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-g4c8samosi0h.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-w0hvj0yrrf54.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/2kBywZha!CSCMHDccu2VE48t-pfYShVhXDsWrctEqycJF7-yXI9w"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-ovmokimrs267.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-erghage2rpgt.html"
+        }
+      ]
+    }
+  ]
+}

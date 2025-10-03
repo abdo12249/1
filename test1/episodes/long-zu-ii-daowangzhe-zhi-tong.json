@@ -753,7 +753,7 @@
     {
       "number": 14,
       "title": "الحلقة 14",
-      "date": "2025-10-03 13:23:27",
+      "date": "2025-10-03 14:15:32",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=long-zu-ii-daowangzhe-zhi-tong&episode=14",
       "image": "https://abdo12249.github.io/1/images/long-zu-ii-daowangzhe-zhi-tong.webp",
       "servers": [
@@ -766,8 +766,40 @@
           "url": "https://larhu.com/embed-qx14yjxwaub1.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/e0gkxbBK!jIG4oFjjdS7MTyt4aycMhzxwL-9zL5rSJdwaG1PU-58"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=s4aOCjkqNJlidgJ1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-yvoakzxtu83q.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/v2ribde7yhvb"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/h35nfje83u0d"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-rgxl84omp1gi.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-kjtpqop8m50t.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-f7t5yhs7e377.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/vxhESbwT!IG7HTplUQdjCZ41wkee_d4XKaFn1VIZjFBZCOMwzWxw"
         },
         {
           "serverName": "file-upload.org - FHD",
@@ -776,6 +808,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-00m61d2yxx03.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mxRkWQJR!9lc9lhBSA6hO8v5XGhycRBXtzWSC0ZNvmtj1Bjgu83g"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-fz8pisz1fble.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-jppugb3zl5z5.html"
         }
       ]
     }

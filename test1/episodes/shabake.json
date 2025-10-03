@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-03 16:19:38",
+      "date": "2025-10-03 17:13:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shabake&episode=1",
       "image": "https://abdo12249.github.io/1/images/shabake.webp",
       "servers": [
@@ -59,6 +59,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-d73dvp59dng2.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/DoBWBCoC!B5R2K44sI8kRRf_7INsrDqjpkWQ6pfL5nUVyvS8xNNw"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-eiy87p29828g.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-gl59c1yt1csr.html"
         }
       ]
     }

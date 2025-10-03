@@ -1,0 +1,66 @@
+{
+  "animeTitle": "Shabake",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-03 16:19:38",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shabake&episode=1",
+      "image": "https://abdo12249.github.io/1/images/shabake.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/cTXgkbR024Wwn"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-iqn41t9euk34.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/29hABTIQ!-VrLGwOEOCeYquixnym4Ab-nKeX3f50pLFEwp_gKEB0"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ah3fed0nk8ir.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=KWza4rw0UAt2Op4c"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/jg7abkmyganx"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/c4rtmmlamla4"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-wdee6d8r1fbh.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-jru1gw06v11s.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-68mnfz36048c.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/jg5iWTAD!ea8Q6ol5eDhG-ysyf2nf1jL2b6WBpE7Kiaj-8QYvimc"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-fpethopquofe.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-d73dvp59dng2.html"
+        }
+      ]
+    }
+  ]
+}

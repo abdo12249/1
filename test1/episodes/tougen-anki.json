@@ -716,6 +716,79 @@
           "url": "https://www.mp4upload.com/embed-1qgrh1l7f2uv.html"
         }
       ]
+    },
+    {
+      "number": 13,
+      "title": "الحلقة 13",
+      "date": "2025-10-03 16:19:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=13",
+      "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/EKW29ejc5vfQm"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-0yyy4qnai5x7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/O9xQSZba!iw9XX_0JW9N4sfQHXQjbSpi247IpyHKhEIWXHaikDDE"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=RjGjoor11Zj8WA2I"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nco9giqga2ao"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-15an6aufi5se.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-f7uyhcy3z3u2.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/oqv27s8t0nng"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-k2v4nwfsgttm.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ktcnw06q7xyv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/jwx3xDwD!rUGfB7Fi-oVvGiJzPfoHbvLQ6kwEXUMOBmwRC2lff2w"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-wemccu6jfcca.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-2x2xd3o7fugx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/q5wDkbTT!w9QItbN0xjiQ20Xs5pobeLCFLfJSuzwFGYQkRwzXZxg"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-l7699qnbg6m4.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-1gapenyoqhi5.html"
+        }
+      ]
     }
   ]
 }

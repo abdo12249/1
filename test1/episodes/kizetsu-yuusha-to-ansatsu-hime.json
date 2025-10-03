@@ -427,7 +427,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-10-02 23:14:24",
+      "date": "2025-10-03 01:13:34",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=8",
       "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
       "servers": [
@@ -438,6 +438,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "https://mega.nz/embed/vpQRFJJa!l2ClnZoLK7p7heWLekFHtyFBKt5WVzxbfKrxsqrmEFQ"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=cy7f7vofB6jxiL3G"
         },
         {
           "serverName": "vidmoly",

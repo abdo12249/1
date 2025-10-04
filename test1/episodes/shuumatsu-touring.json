@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-04 20:16:24",
+      "date": "2025-10-04 21:12:59",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shuumatsu-touring&episode=1",
       "image": "https://abdo12249.github.io/1/images/shuumatsu-touring.webp",
       "servers": [
@@ -17,6 +17,38 @@
           "url": "https://larhu.com/embed-bpi8sslll738.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/X4ZxEbzB!bPVcHTnThAlB7g_1A-Qmxp0E8DYxmSZ3yglTJV0dwec"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=XsMsc4tFf0myvPm2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-4636k3vgq62n.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/eparugqzu3g3"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-h5it3feu0xn5.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/5yiyjzgx8ysi"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-pa6t5b59mass.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-7hdyjzbwqjlg.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/ngAUCLzI!dvL4oC-JXInwzpaNdwJars1F5kg8Ndv-HTH7WYCZyb4"
         },
@@ -27,6 +59,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-38tr499heipt.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/7pQjHD6T!9fj_BOFbiLO-YKeu8-3WXouuRYmn5sXEwMeZZq9_Wps"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-5bw7tgkjevv3.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-q8twx9tzb18q.html"
         }
       ]
     }

@@ -1,0 +1,34 @@
+{
+  "animeTitle": "Shuumatsu Touring",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-04 20:16:24",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shuumatsu-touring&episode=1",
+      "image": "https://abdo12249.github.io/1/images/shuumatsu-touring.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/VBYGYvgPCRUb6"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-bpi8sslll738.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/ngAUCLzI!dvL4oC-JXInwzpaNdwJars1F5kg8Ndv-HTH7WYCZyb4"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-yuuyvlu3iw94.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-38tr499heipt.html"
+        }
+      ]
+    }
+  ]
+}

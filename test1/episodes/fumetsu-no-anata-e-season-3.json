@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-04 18:20:47",
+      "date": "2025-10-04 20:16:27",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fumetsu-no-anata-e-season-3&episode=1",
       "image": "https://abdo12249.github.io/1/images/fumetsu-no-anata-e-season-3.webp",
       "servers": [
@@ -17,12 +17,60 @@
           "url": "https://larhu.com/embed-rkf6v7huvaox.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/nphSGLLI!bjTz5Wy_n3RRiOuBdRFVWB2bfWfuF6KegPgIpnxl-LI"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=fHhKqyOXQtJK6GDf"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-nwlazu39v9f5.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rq74rzj6q9ns"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-bt0xufdew9hc.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/9k7xw9ogkxfq"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-u7a5q7v7us08.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-n4ufqby8qz8m.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/m9QAgIQC!GyfXsOULMlazAroOA2FhrbQ_NyjqzOOyBqgb8UmFqkM"
+        },
+        {
           "serverName": "file-upload.org - FHD",
           "url": "https://www.file-upload.org/embed-37f3qfhgb0wv.html"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-yjmwvtnx7z9b.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/LoZ20ToJ!CuYmMdQVafld6sYLKEQTFP8LEaX_ILS7Mv6CsikAo7Q"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-52g7aafbv9pf.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-ulo4x9l49toi.html"
         }
       ]
     }

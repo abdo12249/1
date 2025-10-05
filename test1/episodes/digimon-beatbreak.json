@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-05 21:13:13",
+      "date": "2025-10-05 22:14:14",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=digimon-beatbreak&episode=1",
       "image": "https://abdo12249.github.io/1/images/digimon-beatbreak.webp",
       "servers": [
@@ -17,8 +17,36 @@
           "url": "https://larhu.com/embed-f22whkl7z9m8.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/3ogiHKgS!vwFGeqnw6jAKy3JWg3Yd_UueBii7pe6uUlWQOec9q5s"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=b4C1JzQAOmlrLFk3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-59w3sb8g8jbq.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/xbwbqye8fjzc"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4948x0ph5w3o"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-ybrpd1lka5g4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-9fhptaoqfl9v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/G8AWDTBT!4DFoBZY75NuVHilrG7M7I-3sknuwFJB0iuJq2MukT7k"
         },
         {
           "serverName": "file-upload.org - FHD",
@@ -27,6 +55,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-8piafobfyx8q.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/v0QHFKxJ!Lh4KkQ3fgjSo3RI6SJ10bJ3ZbqQnNfzf_woxgwVMurw"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-v1fw3djqkxei.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-5du6c4ckdi64.html"
         }
       ]
     }

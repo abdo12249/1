@@ -1,0 +1,30 @@
+{
+  "animeTitle": "SI-VIS: The Sound of Heroes",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-05 19:11:48",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=si-vis-the-sound-of-heroes&episode=1",
+      "image": "https://abdo12249.github.io/1/images/si-vis-the-sound-of-heroes.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/oupkTMTgKpUVZ"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-tq5g48ej0nwg.html"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-pv0kgtxgk6ln.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1zyn5qni5kg1.html"
+        }
+      ]
+    }
+  ]
+}

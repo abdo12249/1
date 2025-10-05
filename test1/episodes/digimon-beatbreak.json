@@ -1,0 +1,34 @@
+{
+  "animeTitle": "Digimon Beatbreak",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-05 21:13:13",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=digimon-beatbreak&episode=1",
+      "image": "https://abdo12249.github.io/1/images/digimon-beatbreak.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/L4DS2OXdPtSMH"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-f22whkl7z9m8.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=b4C1JzQAOmlrLFk3"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-b38kxtkm63u4.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-8piafobfyx8q.html"
+        }
+      ]
+    }
+  ]
+}

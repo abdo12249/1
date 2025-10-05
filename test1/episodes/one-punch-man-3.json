@@ -73,6 +73,79 @@
           "url": "https://www.mp4upload.com/embed-p0h5s6m49ub6.html"
         }
       ]
+    },
+    {
+      "number": 0,
+      "title": "الحلقة 0",
+      "date": "2025-10-05 22:14:22",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=0",
+      "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/IdW8DDqJy9x91"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-fiepq9i9fgzz.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/TspFHbBJ!BVD6ngAaCtDlvbYvgEA6SpNsQSx_X7sCrz2wxQUhOs4"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://www.dailymotion.com/embed/video/x9rp1n6"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=fLMGxIZz6vwPk9ii"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rweq1z7gbyti"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-iux8f9is1jsv.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/3u1awe7h8mir"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-fr7x99g0fnuc.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-tque740vbb64.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/O9QkALQR!xHzZQLHRlysn8r_NISn8DvaQXLucG9YqjKSuMHVKOZ8"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-ljgvmx0uqqd9.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-id02czs0qti0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/m0oV3LzB!iVlWZUKadWp9D_PEfopoNXcRSLWYNTAH2Cb0P0SoL4c"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-s27ir4xtmx93.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-p0h5s6m49ub6.html"
+        }
+      ]
     }
   ]
 }

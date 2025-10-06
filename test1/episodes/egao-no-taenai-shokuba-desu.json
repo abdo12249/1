@@ -1,0 +1,34 @@
+{
+  "animeTitle": "Egao no Taenai Shokuba desu",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-06 14:16:33",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=egao-no-taenai-shokuba-desu&episode=1",
+      "image": "https://abdo12249.github.io/1/images/egao-no-taenai-shokuba-desu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/0OhCUGmORaWYI"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-0994zmpoe93h.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=Y3qWSdHpJnXLe97s"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-zbnts9bmacae.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-2h17mbzdjama.html"
+        }
+      ]
+    }
+  ]
+}

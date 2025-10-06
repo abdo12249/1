@@ -691,7 +691,7 @@
     {
       "number": "12 والاخيرة",
       "title": "الحلقة 12 والاخيرة",
-      "date": "2025-10-05 23:13:14",
+      "date": "2025-10-06 01:15:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kizetsu-yuusha-to-ansatsu-hime&episode=12 والاخيرة",
       "image": "https://abdo12249.github.io/1/images/kizetsu-yuusha-to-ansatsu-hime.webp",
       "servers": [
@@ -704,8 +704,32 @@
           "url": "https://larhu.com/embed-i2t942mdzmee.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/3wBBVAxT!JhRfjF6q90B2GBCJIhs_TxGOpSmOmalbPE069dqwBzk"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=uvTjjLswWS7R2Isl"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-c9odgs3hfyp8.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1mkd3l1d9xbj"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/o84f3uj9sfy3"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-mofzvvxpxfsm.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-eroyk0ebjyvs.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -718,6 +742,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-mvmh36h97v57.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/XxwFHB7B!_YQB_dPZWxeUvqHVPP4qHQNf4V_bWK4gOF4EZ6nTDsA"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-69n48a82pbrl.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-hj4nkt2cjgas.html"
         }
       ]
     }

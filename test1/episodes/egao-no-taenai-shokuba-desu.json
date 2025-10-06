@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-06 14:16:33",
+      "date": "2025-10-06 15:16:48",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=egao-no-taenai-shokuba-desu&episode=1",
       "image": "https://abdo12249.github.io/1/images/egao-no-taenai-shokuba-desu.webp",
       "servers": [
@@ -17,8 +17,36 @@
           "url": "https://larhu.com/embed-0994zmpoe93h.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/tM8TQbKJ!Sz6rcwNe0eLWSqjs22mKiGs11RK3QyAjl5WDw4OEOwo"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=Y3qWSdHpJnXLe97s"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-zbyn6jvxm1d6.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nhno9czwhaml"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/v13mlm8sdxjt"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-knvxjho1c1g4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-nzox5qtl81wc.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/Vd9BBBzI!2jVKVzNPQRMtqmjKtZjG0WVuE34lxkS8MP0Am4E6FE8"
         },
         {
           "serverName": "file-upload.org - FHD",
@@ -27,6 +55,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-2h17mbzdjama.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/4MUV0R4Y!oupZQaSl0pI1y_MEepjIhe9eYnFBkSIilMlV5IqDWnE"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-rt5j826h1q5r.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-329v150gpotl.html"
         }
       ]
     }

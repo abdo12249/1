@@ -69,6 +69,63 @@
           "url": "https://www.mp4upload.com/embed-nvdjcyqvit5k.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-09 15:29:13",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watashi-wo-tabetai-hitodenashi&episode=2",
+      "image": "https://abdo12249.github.io/1/images/watashi-wo-tabetai-hitodenashi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/FCHFEp4KqMjtS"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-qkm7u3mdry42.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/UN0k3BCA!9SxEfQsvZAJumYdrqLdMWbtggqTwWVAuZaVzj2JmseA"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=XPpKKcEd3PkJZsXD"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-c7tsy8w7pswx.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/g9axxqqpo4od"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/jonwws369rxb"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-gdvrfedr35ep.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/tQUDBAhJ!sjK2buYV3NmNBcJs_NSTEOsUOThPJxckyt9WewivIKY"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-r099ev70usnp.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/VMk2VRRI!fArmH72XtBUNXVtUa9fcxKSw3vSYd_H_oFtINhyyHhQ"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-oc6eik51swgu.html"
+        }
+      ]
     }
   ]
 }

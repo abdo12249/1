@@ -73,6 +73,27 @@
           "url": "https://www.mp4upload.com/embed-o7rbf9aatdcu.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-09 22:15:00",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=taiyou-yori-mo-mabushii-hoshi&episode=2",
+      "image": "https://abdo12249.github.io/1/images/taiyou-yori-mo-mabushii-hoshi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/iGD8CQ1itl30H"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/lZNnVagL!ko0YACu4DIl0v38G6NtpvkcqHd-_6DGs2hbZGdSKZkI"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-zg4j4ybnt9v6.html"
+        }
+      ]
     }
   ]
 }

@@ -73,6 +73,75 @@
           "url": "https://www.mp4upload.com/embed-wf67ezoo2leq.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-09 01:15:23",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=catseye&episode=2",
+      "image": "https://abdo12249.github.io/1/images/catseye.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/e7RYkFWu8u7Oa"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-qewh20usxjrb.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/NYlUDICZ!IN_Bw_MrHsKA8hjH88cetH2P1vEknTEPhcaNjukJ6Jo"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=5QrDnbUvVsAv88XJ"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/eblpqvk2wajt"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-hvt7gv54y0r6.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/x3b3ohq2p51l"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-2kw16hujda9m.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-bkk7luhhlrh3.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/0V9T0Krb!PhJCynltVJNt_S6B5pBhlaJP_ci5qUhbW83RoQwyW7Y"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-2l096iuhj1mn.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-ebnh8e1hoct9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/lMcxlTaJ!CcDEZRm4EkBpMHx6FUNlaSxm9hfdPtndUh_7gj4sEhA"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-qsqqg4ez59tt.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-egvqcdo9886b.html"
+        }
+      ]
     }
   ]
 }

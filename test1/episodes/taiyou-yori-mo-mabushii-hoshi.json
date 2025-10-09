@@ -77,7 +77,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-09 22:15:00",
+      "date": "2025-10-09 23:14:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=taiyou-yori-mo-mabushii-hoshi&episode=2",
       "image": "https://abdo12249.github.io/1/images/taiyou-yori-mo-mabushii-hoshi.webp",
       "servers": [
@@ -86,12 +86,52 @@
           "url": "https://megamax.me/iframe/iGD8CQ1itl30H"
         },
         {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-w3nox4c8q9h9.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/BR8SVDqR!sXZ6u7CBfPQRie8gOQRcKgAE5yZlv3tfuPwmAM5hjNg"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=29g1rqRw5e44oD66"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-a4tes56fbeq4.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1qsz0covfrpw"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-j8fsvysgs7ej.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/il702ze3noul"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-3hddg80paasm.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/lZNnVagL!ko0YACu4DIl0v38G6NtpvkcqHd-_6DGs2hbZGdSKZkI"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-zg4j4ybnt9v6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/gMEjADKS!CDc0Ty42K_DNtOOHSHcODOxiw7AdT8Gyw6DZufrtyH8"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-e8h5xz6rfibr.html"
         }
       ]
     }

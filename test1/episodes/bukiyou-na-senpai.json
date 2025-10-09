@@ -69,6 +69,63 @@
           "url": "https://www.mp4upload.com/embed-mds598hg9cuc.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-09 15:29:11",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bukiyou-na-senpai&episode=2",
+      "image": "https://abdo12249.github.io/1/images/bukiyou-na-senpai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/P3AFMHsHiLwEJ"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-h0h26zripkhm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Ed0wkSyZ!TM0krMYHnhKR8PFIASTvbiCmY-4rMr5qLgdRdo41Pqo"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=69n0z7taS2L8I07h"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-nxwyq71s671l.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/9i3nihq1miip"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/w6cxu81sjksn"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-ts57nzdrgu2c.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/VVMk2ZLC!QV4upZLgs_tf9LRwesIzOJWMko-D2O2wBZ202PxjUyk"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-zmj5tlixcjyn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/cRFDTQbY!kXf8PyVGkYRKkmZz58pM_b8rUASrW-_tar3ixMyoPGE"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-o6p6hn2tleza.html"
+        }
+      ]
     }
   ]
 }

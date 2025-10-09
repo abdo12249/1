@@ -1,0 +1,70 @@
+{
+  "animeTitle": "Wandance",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-09 01:15:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=wandance&episode=1",
+      "image": "https://abdo12249.github.io/1/images/wandance.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/MKOMe6V8bKSS5"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-hn1ated3h47u.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/RYUADAJA!yjntG_3NE_l2KSPc79Jz5GzZzEzNJH6dI6IW-UAXEkI"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=aQYCyiqxMNCt4q37"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/w0dwuh15su7n"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-6irsestmdpyu.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/by0gvewo2fu0"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-b86suwkmo5f7.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-llaey9dzxv4r.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/5MtVwBhA!rChUholgdw_4IZcWw6J_TH60eprK-uKysNBth1at7gw"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-em1khmqli2z3.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-yksfslu3ji50.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/9U8hUZLJ!5kOO47GTcqhpLISMwXgPAQLtmWG_Rij5R2LO15qD7SY"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-oxcaspf2ug1u.html"
+        }
+      ]
+    }
+  ]
+}

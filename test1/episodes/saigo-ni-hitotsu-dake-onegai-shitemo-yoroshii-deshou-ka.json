@@ -146,7 +146,7 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-10-10 17:15:05",
+      "date": "2025-10-10 18:23:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka&episode=3",
       "image": "https://abdo12249.github.io/1/images/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka.webp",
       "servers": [
@@ -159,12 +159,48 @@
           "url": "https://larhu.com/embed-vbgpasr2pmt4.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/1AVyWYbD!KjKLYwxsnBsL6t5ulJlR1DWBvFmAMM7PNFuiBfl7mBE"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240100&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-eaxl48w9rs5a.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nfyihgd7cowi"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-fn2o776128dq.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/j2693t7ueor0"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-a75hrcl09fqw.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/Ec0FzZbA!I7gP3XqUBEyj-TDxJ9jcpjzTcgd9Htk0ggditB9dtA0"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-36e0uhnmooa3.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/cYlxhRRb!-QUySyAuk4MQwlSE6VN0vnrZhDo1XGVaf_VYc9AUtGU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-wogha6ubquwf.html"
         }
       ]
     }

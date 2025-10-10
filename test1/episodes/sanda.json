@@ -73,6 +73,67 @@
           "url": "https://www.mp4upload.com/embed-erghage2rpgt.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-10 23:14:21",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sanda&episode=2",
+      "image": "https://abdo12249.github.io/1/images/sanda.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/0Ug1diQEiKq7v"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-9fpvr9ntdc4v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/JRcBCSQb!nOmwGXf4O1oewfqMubE96dyzjJHC9kNedPCGbIABnXM"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240101&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-ltfpka2ohmbk.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/uty0u8suzgip"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-0hs7m731ulib.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/5wdez4yd1lyb"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-00wef2hk0vcq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/tYtWlKoA!miGeVksJaLW2_IJv0mwRF6FlY-UIhBtLQ848p3DLLic"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-f1cjwz14wwxe.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/xctDSaaD!SCexbIl0JhA2PuDwUcUQ5qoPsqMU5cDyuQfOWoaxXds"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-uh9wvjykzec7.html"
+        }
+      ]
     }
   ]
 }

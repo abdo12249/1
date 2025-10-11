@@ -73,6 +73,67 @@
           "url": "https://www.mp4upload.com/embed-442ayeio24vw.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-11 22:14:13",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mugen-gacha&episode=2",
+      "image": "https://abdo12249.github.io/1/images/mugen-gacha.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/PjAHDJUGIntQI"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-cycvcsu8x34o.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/etZDTZiD!-3ed942QtZhEM-ZHQ6i39BFAqI-jrYsSfLy7GRY7L44"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240118&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=5kxnti2LMJi8KN1g"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-yxbs7cixmnji.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/zcti6ht2lgzk"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/12ibz7fv8q86"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-1kj12sm6kejg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/LlRVUY6Y!rqHYQk2YDn-awwabTJDmDgLwCIucYFYueZJZ289JrCU"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-1gzdirmkvnec.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/L0IBECxD!BB7KGunAt3eqMFxXBMB0odX4NnnH2SY6WTl4cy6h_28"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-fiv9nb8kd7ey.html"
+        }
+      ]
     }
   ]
 }

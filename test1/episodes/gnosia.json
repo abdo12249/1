@@ -1,0 +1,66 @@
+{
+  "animeTitle": "Gnosia",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-11 19:11:15",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=1",
+      "image": "https://abdo12249.github.io/1/images/gnosia.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/2b22kdT02R56N"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-2na8raq0y95z.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/i4JmTCTJ!GT4CN2jzUqlv0HrFJcVqBjbxBdo77a103D0TWZW1S0U"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240116&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=dGx7JdARAozCo6Ut"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-9xto8cz1wcox.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wejcg787ipj0"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/vm0nmfs6bw30"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-4deo9v26ion8.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/e9BjBaoI!-8VTkzZTIsoAKhX4DaEPF-plbyUztGukzB7NdT4_g_w"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-vynhp9yindny.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/u5QRBYqB!SPckBVUT1HLOIrNroYOr7AooVbP4_K-1_GT5WNA6pXw"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-fn2b9t16q3rq.html"
+        }
+      ]
+    }
+  ]
+}

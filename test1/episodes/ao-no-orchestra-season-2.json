@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-11 12:30:21",
+      "date": "2025-10-11 13:19:18",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ao-no-orchestra-season-2&episode=1",
       "image": "https://abdo12249.github.io/1/images/ao-no-orchestra-season-2.webp",
       "servers": [
@@ -17,6 +17,10 @@
           "url": "https://larhu.com/embed-eavz1w2ac1hj.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/oQdRkS5Q!A4OhAvFML6xrVJj_jhAnvs8Qp-n3R39OYs27JhFJO4c"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240105&autoplay=1"
         },
@@ -25,12 +29,40 @@
           "url": "https://videa.hu/player?v=bnZK90VzAznPjUX3"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-a6bkbjhkrpo3.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/qa1ll1ijqccs"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-12z9u6x1moac.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/1e2vey6u84pt"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-sg2woa7omutq.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/oFUAyRLb!KfjrkeBpq7reLM6efK-Smx4-3FIW6j6or72R1p-CmqA"
         },
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-ykbnhytuff4t.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/cUEm3ABb!Htt2A-ucQuzhDVHPQRhRxXG6AVaikXvbxSEPpHxkaqU"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-688ezi8274wh.html"
         }
       ]
     }

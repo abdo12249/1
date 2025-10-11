@@ -69,6 +69,67 @@
           "url": "https://www.mp4upload.com/embed-l7d9qigiwn0n.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-11 18:19:39",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tomodachi-no-imouto-ga-ore-ni-dake-uzai&episode=2",
+      "image": "https://abdo12249.github.io/1/images/tomodachi-no-imouto-ga-ore-ni-dake-uzai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/CLjT49k3qhh3E"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-uwe1vjfp0uek.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/GgRACIiY!RQNUYl31Y0Ny4v42s3HYiE-F4Bc5N5eNJzcRE_Ip9Bk"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240115&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=w1w4SXD3cwX4kTLq"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-qouv598bbv2n.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/5z14dbn6vohp"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/3w13gm0db87k"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-st3qugj2igyl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/a4Qx0YDZ!gIkHb2hyZguPiG0qlR5McWvaEQuFts6rgvfQdd_fE9E"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-dz1x6h7esyzx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/PlgimJZL!hlFA31dAeMZEj9UyfLfDwSProj0Jv4xX2ha65CT8Zss"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-p5rxpx0gzfi4.html"
+        }
+      ]
     }
   ]
 }

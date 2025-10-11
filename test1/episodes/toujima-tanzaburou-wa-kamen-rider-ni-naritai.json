@@ -69,6 +69,67 @@
           "url": "https://www.mp4upload.com/embed-066kh2307anx.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-11 18:19:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=2",
+      "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/bUW3YSpzHGE0R"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-xa9klbtj8l0s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/X9BiiJgb!LgcQrtWAyCKldwdsmX4XUcQPUU3ryDgAg1gK7JoqobA"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240114&hash=e56d215db434858e&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=51R2cU6yJLYZWQsA"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-f0zckslvao0s.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fzyhw0c27lcw"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/0sqeo81oedrv"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-vone1jgr0w0s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/vl5XwIZC!5wjB6mxYdOsQpBfnDSK6RcocDSwVV607zNo-ElMwB_k"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-g354dqqm7ux0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/m4BmFCpa!uaD2zgbY-A4gqBkoW_oo45LgIJGBKDREfaZ-EJYGdqA"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-isa06ydpw9zl.html"
+        }
+      ]
     }
   ]
 }

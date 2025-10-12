@@ -284,6 +284,39 @@
           "url": "https://www.mp4upload.com/embed-5nyshjarfv7k.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-10-12 22:14:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mofa-gongzhu-de-xiao-fannao&episode=5",
+      "image": "https://abdo12249.github.io/1/images/mofa-gongzhu-de-xiao-fannao.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/hkDghdjNVGX5p"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240126&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=gTTZCXnh9Y1qB9Tk"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/yohlDZaK!NpsqZnJHLa7ofCwc844J0cjFma40o-zC40scz-xiN1c"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-kc6ljl6fxit7.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-0lxrsuoyke5l.html"
+        }
+      ]
     }
   ]
 }

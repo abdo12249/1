@@ -1,0 +1,38 @@
+{
+  "animeTitle": "Chanto Suenai Kyuuketsuki-chan",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-10-12 22:14:28",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chanto-suenai-kyuuketsuki-chan&episode=1",
+      "image": "https://abdo12249.github.io/1/images/chanto-suenai-kyuuketsuki-chan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/TDK7K54pnUMV2"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=ZWrAWIaRGHL0kOhc"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240127&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/CkhDzYqC!AGPGLTkTZDoGxv04MKjTQhZ4_vSLl-GFxKCeLeqcjhY"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-n7q5ieqy829a.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-2gcc63c1dddn.html"
+        }
+      ]
+    }
+  ]
+}

@@ -4,13 +4,17 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-12 21:13:34",
+      "date": "2025-10-12 23:14:23",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=1",
       "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/B4hwsM1Aw6NQI"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/TtBDAbxZ!llAeeFacOxHQL3vXN0GqpcUGZIdrYSCqOLOUgzoyfbs"
         },
         {
           "serverName": "dailymotion",
@@ -25,6 +29,26 @@
           "url": "https://videa.hu/player?v=VAJqaWKM3lwIIPr5"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-5u16m21zmz0z.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/62srosjtpurl"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/7oc60wao65l1"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-f42wg64w7gt1.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-tp2fb4ml53ww.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/fkJy2RYB!f_ARvxUtom9wD54hPuRy99FCIHBV3tCp9sbkWrUesbw"
         },
@@ -35,6 +59,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-s88792llg12l.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/v1xwWYzC!EaYh7A_ZW-mNiBTjn63gum_BKokJ09PB8WMlkv8KTW8"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-7z6xatoikgzd.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-j8pjmbistfez.html"
         }
       ]
     },

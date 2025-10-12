@@ -69,6 +69,43 @@
           "url": "https://www.mp4upload.com/embed-748aak4xdonk.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-12 19:11:47",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=si-vis-the-sound-of-heroes&episode=2",
+      "image": "https://abdo12249.github.io/1/images/si-vis-the-sound-of-heroes.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/IcFnfr8N5FcZo"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-tm3lsumrfvt4.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=cM8EbyseM5U744w5"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239060&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/rlw2zThY!gVJQ3vUnSjog9wynfF7_OqlnM8DGjzTudI8LNKZ0x5o"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-azljvnep1ann.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-tfs78y9jv5pv.html"
+        }
+      ]
     }
   ]
 }

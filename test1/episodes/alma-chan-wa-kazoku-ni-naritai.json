@@ -73,7 +73,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-12 20:17:07",
+      "date": "2025-10-12 23:14:21",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=alma-chan-wa-kazoku-ni-naritai&episode=2",
       "image": "https://abdo12249.github.io/1/images/alma-chan-wa-kazoku-ni-naritai.webp",
       "servers": [
@@ -82,12 +82,36 @@
           "url": "https://megamax.me/iframe/4rzcfkMzSrPYy"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/Xxx3mZhD!Z7Cpnu03Ma0aJ7Y33OSqweo_48z8-Yd-RMLzLqUq0Wk"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=n5pfSU1sVgMlPaFV"
         },
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240121&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/86zbtajmykq2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-xaxdmjdd0cl7.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/osiq2ugos0z4"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-fwp976zdngyt.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-eiyzmoccce9z.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -100,6 +124,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-20rwxdbk5abl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/Cl4WCCBb!AA2UHKk_Fo44etOZyNYtpJGElwfx9nea6-eJGhEGVKQ"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-t59kgft2pi8u.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-0hak2177x9o5.html"
         }
       ]
     }

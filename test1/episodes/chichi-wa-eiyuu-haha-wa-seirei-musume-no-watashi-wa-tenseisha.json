@@ -69,6 +69,39 @@
           "url": "https://www.mp4upload.com/embed-1q06y3khfpln.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-12 21:13:28",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha&episode=2",
+      "image": "https://abdo12249.github.io/1/images/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/2VnjynqBRFkiP"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240124&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=2IbDgxfMbWlvFthd"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/bwpy0YbQ!2td0YBYEJXtgAaB3E0kVTNrj89OaijQDOFF6gVYLZZ4"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-k7ialjjhto7o.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-rp7x3uohiahf.html"
+        }
+      ]
     }
   ]
 }

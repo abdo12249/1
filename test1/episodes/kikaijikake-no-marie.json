@@ -73,13 +73,17 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-12 19:11:43",
+      "date": "2025-10-12 23:14:25",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kikaijikake-no-marie&episode=2",
       "image": "https://abdo12249.github.io/1/images/kikaijikake-no-marie.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/mTSzo09HAJ9zF"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/O84yzCzR!hEhSNM721ugmZxEvn139kUFUayQmTe01hek3h7KSuO8"
         },
         {
           "serverName": "dailymotion",
@@ -94,6 +98,26 @@
           "url": "https://videa.hu/player?v=SVyfMcVnj3hXzTg4"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-nop4lz6p3lgj.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/epjuytkfoipp"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/7v3t1ima6ubw"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-45im44hicdq9.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-tqja754ivdcj.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/H1YymAoB!xIYJNjKnTQ1rBl9ltaX02qAEJDBSgdQXNNVoCf0Ccds"
         },
@@ -104,6 +128,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-0hj12xqs08dy.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/mpIngBKC!VgMBTFxUXJkkfWwCh3PZ2u-X97Dx6W1dPKOj2Fs_0ZU"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-xh6auobbj7pf.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-kjtimxs8k1ji.html"
         }
       ]
     }

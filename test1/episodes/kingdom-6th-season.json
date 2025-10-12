@@ -73,13 +73,17 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-12 19:11:45",
+      "date": "2025-10-12 22:14:45",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kingdom-6th-season&episode=2",
       "image": "https://abdo12249.github.io/1/images/kingdom-6th-season.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/WiOygzedwasWf"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/bk4DgTSQ!Vco65DojDzteOzmK8xYGntTC6UiHSgIYR4LHYhmvD6I"
         },
         {
           "serverName": "dailymotion",
@@ -94,6 +98,26 @@
           "url": "https://videa.hu/player?v=Jm8Pu2egxgXblVeb"
         },
         {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dciiqatllicx"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-3a6e3m2sqawh.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/tzezyyka49h0"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-jl8rtlzb9o5r.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-v66fitp0nnsu.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/b0JikLpK!ODvtiENxfwrpfL1Dlc9I1uMRk7ZEllb5VROAy78Htlo"
         },
@@ -104,6 +128,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-x4vvjwgdazzm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/G44BEB4C!I3HQypuBt7O-D0tiC1jzxEbBfRRfvJNRMmzsp4LNN4U"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-wo2e9z8o9339.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-h5d16pqmji5u.html"
         }
       ]
     }

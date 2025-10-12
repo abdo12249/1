@@ -73,7 +73,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-12 21:13:28",
+      "date": "2025-10-12 23:14:15",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha&episode=2",
       "image": "https://abdo12249.github.io/1/images/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.webp",
       "servers": [
@@ -82,12 +82,36 @@
           "url": "https://megamax.me/iframe/2VnjynqBRFkiP"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/L941VbSb!OiEHwDL54JnraCokUTzEyZz1TPJYdRR21-8u4aKlkBo"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240124&autoplay=1"
         },
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=2IbDgxfMbWlvFthd"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-5nwlizx1g4fm.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/eiqya3ztu01a"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/bkq39a9zbknp"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-0su0diu2fqir.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-uya5hbkjwnmo.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -100,6 +124,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-rp7x3uohiahf.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/ith2xZSQ!7hcozavIb2TIfr__1Qa2_2DvDbZTsPGSmy7Ww20MmXk"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-zf8n91ylbhlh.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-7f75gpbnz4hv.html"
         }
       ]
     }

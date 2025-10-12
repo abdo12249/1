@@ -73,7 +73,7 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-12 19:11:47",
+      "date": "2025-10-12 22:14:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=si-vis-the-sound-of-heroes&episode=2",
       "image": "https://abdo12249.github.io/1/images/si-vis-the-sound-of-heroes.webp",
       "servers": [
@@ -86,12 +86,36 @@
           "url": "https://larhu.com/embed-tm3lsumrfvt4.html"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/nlBS3RRL!ZiL1VWGfI1-m56Or4a_A5bslCwdncufabJIbhg_Zq1o"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=cM8EbyseM5U744w5"
         },
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239060&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-h2jbrv8gsxbg.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/goxhm4lblbsn"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/zowxkcvnl769"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-mj6i51hqi8kl.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-9meqlbwof2xa.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -104,6 +128,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-tfs78y9jv5pv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/nsQUxZbb!xcefZ0KhXcvBtoxUbWLUTvZ_KLDlT_-IfiKyT2yKleM"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-abfxk6d1vuk5.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-3elq5d1cpopa.html"
         }
       ]
     }

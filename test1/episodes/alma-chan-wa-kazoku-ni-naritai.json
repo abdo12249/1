@@ -69,6 +69,39 @@
           "url": "https://www.mp4upload.com/embed-awrrmig80hva.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-12 20:17:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=alma-chan-wa-kazoku-ni-naritai&episode=2",
+      "image": "https://abdo12249.github.io/1/images/alma-chan-wa-kazoku-ni-naritai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/4rzcfkMzSrPYy"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://videa.hu/player?v=n5pfSU1sVgMlPaFV"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240121&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات - FHD",
+          "url": "https://mega.nz/embed/u1pHnRrT!i49oUrmOrW_DiHLZB0Wd7hr65Z-Qmzl-U7gMEsm5KXQ"
+        },
+        {
+          "serverName": "file-upload.org - FHD",
+          "url": "https://www.file-upload.org/embed-f44la74oxa69.html"
+        },
+        {
+          "serverName": "Mp4upload - FHD",
+          "url": "https://www.mp4upload.com/embed-20rwxdbk5abl.html"
+        }
+      ]
     }
   ]
 }

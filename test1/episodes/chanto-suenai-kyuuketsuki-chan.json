@@ -4,7 +4,7 @@
     {
       "number": 1,
       "title": "الحلقة 1",
-      "date": "2025-10-12 22:14:28",
+      "date": "2025-10-13 01:20:17",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chanto-suenai-kyuuketsuki-chan&episode=1",
       "image": "https://abdo12249.github.io/1/images/chanto-suenai-kyuuketsuki-chan.webp",
       "servers": [
@@ -13,12 +13,36 @@
           "url": "https://megamax.me/iframe/TDK7K54pnUMV2"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/S5JCwRRa!v76fxp1dHWLAUQyeF0BGe9fdABJMMjVaH31hqXJ4MDY"
+        },
+        {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=ZWrAWIaRGHL0kOhc"
         },
         {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240127&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-2dtj1mavq8mx.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cuiwag2nqv2c"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/mnwgoj1ij0v9"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-8po8wpk0mism.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-hl9a6puikb5t.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -31,6 +55,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-2gcc63c1dddn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/3kZ2QQaB!oNuqiaqPstgGKl1m0ihlN3r8uw1P-UqTrQTfIVyftJY"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-0gujbugeyfpj.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-gt4xixsccriw.html"
         }
       ]
     }

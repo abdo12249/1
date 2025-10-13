@@ -4,13 +4,17 @@
     {
       "number": "الخاصة",
       "title": "الحلقة الخاصة",
-      "date": "2025-10-12 21:13:25",
+      "date": "2025-10-13 01:20:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-piece-dokuta-choppa-no-boken-karute-uragirimono-tachi-no-masukaredo&episode=الخاصة",
       "image": "https://abdo12249.github.io/1/images/one-piece-dokuta-choppa-no-boken-karute-uragirimono-tachi-no-masukaredo.webp",
       "servers": [
         {
           "serverName": "megamax",
           "url": "https://megamax.me/iframe/aE5kikMrRO1ZS"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/XwYAQJia!KiYjfjJxevssxi4tppsitG76vr2U7NoP0EHVEQVWi0s"
         },
         {
           "serverName": "dailymotion",
@@ -25,6 +29,26 @@
           "url": "https://videa.hu/player?v=gOzyWFaqMTP6ckUY"
         },
         {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-glsrkut4l0jg.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/qdq1sbfhmp0q"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ziwz23slkwse"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-69eg0589uu70.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-llpaqms83sf6.html"
+        },
+        {
           "serverName": "mega بدون اعلانات - FHD",
           "url": "https://mega.nz/embed/jgoAyBSK!lLJMJoEtlE9z5K6V6E6EB51ne9fuDwLU4z8bU94Hu5k"
         },
@@ -35,6 +59,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-pc0m47kc0r85.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/a5YGyboQ!m7ryz4G2n5Wdr_CggOPz_sNp96JmWNS9ivYASQ4ZT_0"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-3jocup8q2lmh.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-15416ttg0khv.html"
         }
       ]
     }

@@ -288,7 +288,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-10-12 22:14:31",
+      "date": "2025-10-13 01:20:19",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mofa-gongzhu-de-xiao-fannao&episode=5",
       "image": "https://abdo12249.github.io/1/images/mofa-gongzhu-de-xiao-fannao.webp",
       "servers": [
@@ -297,12 +297,36 @@
           "url": "https://megamax.me/iframe/hkDghdjNVGX5p"
         },
         {
+          "serverName": "mega بدون اعلانات",
+          "url": "https://mega.nz/embed/axpnTRSS!z_ABhyDK9zmrw86yuBTP_WANBZixeAguOqQqgYT8VYI"
+        },
+        {
           "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240126&autoplay=1"
         },
         {
           "serverName": "videa",
           "url": "https://videa.hu/player?v=gTTZCXnh9Y1qB9Tk"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.to/embed-bn4iv5h42f2i.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cqev68qqqxcm"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/40knzcz9j8na"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://www.file-upload.org/embed-q5vnoeaz6f0t.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/embed-2a66dfs3k8hz.html"
         },
         {
           "serverName": "mega بدون اعلانات - FHD",
@@ -315,6 +339,18 @@
         {
           "serverName": "Mp4upload - FHD",
           "url": "https://www.mp4upload.com/embed-0lxrsuoyke5l.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات - SD",
+          "url": "https://mega.nz/embed/Gs4RQCrA!sBhWa051b2jSI_ij3RixT_CiNNDJiO7GdnMWMxM05J0"
+        },
+        {
+          "serverName": "file-upload.org - SD",
+          "url": "https://www.file-upload.org/embed-8iothnuydg82.html"
+        },
+        {
+          "serverName": "Mp4upload - SD",
+          "url": "https://www.mp4upload.com/embed-3louot5pj0nn.html"
         }
       ]
     }

@@ -63,10 +63,8 @@
         <button id="next-btn">التالي</button>
       </div>
 
-      
     </main>
 
-    
     <aside class="episodes">
       <h2>جميع الحلقات</h2>
       <ul id="episodes-list"></ul>
@@ -173,7 +171,10 @@
 
         li.textContent = episode.title;
         li.addEventListener('click', () => {
-          window.location.href = `?id=${getQueryParam('id')}&episode=${episode.number}`;
+          const newUrl = `?id=${getQueryParam('id')}&episode=${episode.number}`;
+          history.pushState({}, '', newUrl);
+          playEpisode(episode.number - 1);
+          loadEpisodes(); // لتحديث الحالة النشطة
         });
         episodesList.appendChild(li);
       });
@@ -230,16 +231,31 @@
       updatePlayer();
     }
 
+    // ✅ تحديث الرابط عند الضغط على التالي أو السابق
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
+
       if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
       if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
+
       currentServerName = '';
+
+      // تحديث الرابط في العنوان بدون إعادة تحميل الصفحة
+      const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
+      history.pushState({}, '', newUrl);
+
       updatePlayer();
+      loadEpisodes(); // لتحديث الحالة النشطة في القائمة
     }
 
     prevBtn.addEventListener('click', () => navigateEpisode(-1));
     nextBtn.addEventListener('click', () => navigateEpisode(1));
+
+    // دعم زر الرجوع والتقديم في المتصفح
+    window.addEventListener('popstate', () => {
+      setEpisodeFromURL();
+      loadEpisodes();
+    });
 
     window.onload = () => {
       applySandbox();
@@ -258,11 +274,5 @@
   <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
 </div>
 
-  
 </body>
 </html>
-
-
-
-
-

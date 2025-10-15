@@ -208,56 +208,39 @@ function initializeSearchSystem(searchInput, animeList) {
   });
 
   // عند الكتابة
-  searchInput.addEventListener("input", function () {
-    const query = this.value.toLowerCase().trim();
-    animeList.innerHTML = "";
+results.forEach(([key, anime]) => {
+  const item = document.createElement("a");
+  const dynamicUrl = `https://abdo12249.github.io/1/test1/Anime%20Page%20Dynamic.html?id=${encodeURIComponent(key)}`;
+  item.href = dynamicUrl;
+  item.style.display = "flex";
+  item.style.alignItems = "center";
+  item.style.padding = "8px";
+  item.style.gap = "8px";
+  item.style.textDecoration = "none";
+  item.style.color = "inherit";
+  item.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
+  item.style.transition = "background 0.2s";
 
-    if (!query) {
-      animeList.style.display = "none";
-      return;
-    }
+  const img = document.createElement("img");
+  img.src = anime.image || "https://abdo12249.github.io/1/img/no-image.webp";
+  img.alt = anime.title;
+  img.style.width = "40px";
+  img.style.height = "55px";
+  img.style.objectFit = "cover";
+  img.style.borderRadius = "6px";
 
-    const results = Object.entries(animeData).filter(([key, anime]) =>
-      anime.title.toLowerCase().includes(query)
-    );
+  const titleDiv = document.createElement("div");
+  titleDiv.textContent = anime.title;
+  titleDiv.style.flex = "1";
 
-    if (results.length === 0) {
-      animeList.innerHTML = `<p style="padding:8px;color:#aaa;">لا توجد نتائج</p>`;
-      animeList.style.display = "block";
-      return;
-    }
+  item.addEventListener("mouseover", () => (item.style.background = "rgba(255,255,255,0.1)"));
+  item.addEventListener("mouseout", () => (item.style.background = "transparent"));
 
-    results.forEach(([key, anime]) => {
-      const item = document.createElement("a");
-      item.href = `https://abdo12249.github.io/1/tag/wep/${key}.html`;
-      item.style.display = "flex";
-      item.style.alignItems = "center";
-      item.style.padding = "8px";
-      item.style.gap = "8px";
-      item.style.textDecoration = "none";
-      item.style.color = "inherit";
-      item.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
-      item.style.transition = "background 0.2s";
+  item.appendChild(img);
+  item.appendChild(titleDiv);
+  animeList.appendChild(item);
+});
 
-      const img = document.createElement("img");
-      img.src = anime.image || "https://abdo12249.github.io/1/img/no-image.webp";
-      img.alt = anime.title;
-      img.style.width = "40px";
-      img.style.height = "55px";
-      img.style.objectFit = "cover";
-      img.style.borderRadius = "6px";
-
-      const titleDiv = document.createElement("div");
-      titleDiv.textContent = anime.title;
-      titleDiv.style.flex = "1";
-
-      item.addEventListener("mouseover", () => (item.style.background = "rgba(255,255,255,0.1)"));
-      item.addEventListener("mouseout", () => (item.style.background = "transparent"));
-
-      item.appendChild(img);
-      item.appendChild(titleDiv);
-      animeList.appendChild(item);
-    });
 
     animeList.style.display = "block";
   });
@@ -269,3 +252,4 @@ function initializeSearchSystem(searchInput, animeList) {
     }
   });
 }
+

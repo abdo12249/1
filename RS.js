@@ -57,16 +57,32 @@ async function loadHistoryFromFirebase() {
 }
 
 // ✅ حفظ السجل في Firebase (مع دمج وليس استبدال)
+// ✅ حفظ السجل في Firebase (دمج ذكي لا يمسح القديم)
 async function saveHistoryToFirebase() {
   if (!userId) return;
 
   try {
-    await setDoc(doc(db, "histories", userId), { history }, { merge: true });
-    localStorage.setItem("watchHistoryBackup", JSON.stringify(history));
+    const docRef = doc(db, "histories", userId);
+    const docSnap = await getDoc(docRef);
+
+    let existingHistory = [];
+    if (docSnap.exists()) {
+      existingHistory = docSnap.data().history || [];
+    }
+
+    // 🔁 دمج الجديد مع القديم بدون تكرار
+    const merged = [...history, ...existingHistory].reduce((acc, cur) => {
+      if (!acc.find(item => item.url === cur.url)) acc.push(cur);
+      return acc;
+    }, []);
+
+    await setDoc(docRef, { history: merged }, { merge: true });
+    localStorage.setItem("watchHistoryBackup", JSON.stringify(merged));
   } catch (err) {
     console.error("⚠️ فشل حفظ السجل في Firebase:", err);
   }
 }
+
 
 // ✅ إضافة صفحة إلى السجل
 function addToHistory(pageName, pageURL = window.location.href) {
@@ -159,3 +175,4 @@ window.addToHistory = addToHistory;
 window.clearHistory = clearHistory;
 window.reverseHistory = reverseHistory;
 window.signIn = signIn;
+

@@ -10,7 +10,21 @@
   <script type="module" src="../RS.js"></script>
   <script type="module" src="../navbar.js"></script>
   <link rel="icon" href="https://abdo838.github.io/1/navbar/favicon.ico" type="image/x-icon">
+
   <style>
+    body {
+      transition: background 0.3s ease;
+    }
+
+    .fade {
+      opacity: 0;
+      transition: opacity 0.6s ease;
+    }
+
+    .fade.show {
+      opacity: 1;
+    }
+
     .episode-item.active {
       background-color: var(--primary-color, #ef4444);
       color: white;
@@ -35,13 +49,71 @@
       text-align: center;
       display: none;
     }
+
+    /* 🔍 بحث الحلقات */
+    #search-box {
+      width: 90%;
+      margin: 10px auto;
+      display: block;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #999;
+    }
+
+    /* 🎬 Mini Player */
+    #mini-player {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      width: 250px;
+      height: 140px;
+      background: #000;
+      border: 2px solid #ef4444;
+      border-radius: 10px;
+      overflow: hidden;
+      z-index: 9999;
+      display: none;
+      transition: opacity 0.5s ease;
+    }
+
+    #mini-player iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    #mini-player button {
+      position: absolute;
+      top: 3px;
+      right: 5px;
+      background: #ef4444;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 2px 6px;
+    }
+
+    /* 🛑 Anti-Piracy Overlay */
+    #anti-piracy {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: rgba(255,255,255,0.3);
+      font-size: 14px;
+      font-weight: bold;
+      z-index: 1000;
+      user-select: none;
+      pointer-events: none;
+    }
+
   </style>
 </head>
 
 <body>
   
   <div id="navbar-container"></div>
-  <div class="container">
+
+  <div class="container fade" id="fade-container">
     <main class="main-content">
       <div class="anime-info-header">
         <h2 id="anime-title">جارٍ التحميل...</h2>
@@ -50,11 +122,11 @@
 
       <div class="server-buttons" id="server-buttons-container"></div>
 
-      <!-- زر تعطيل مانع الإعلانات -->
       <button id="sandbox-toggle">تشغيل وضع مانع الإعلانات</button>
       <p id="warning-message">⚠️ بعض السيرفرات قد لا تعمل عند تشغيل مانع الإعلانات.</p>
 
-      <div class="video-container">
+      <div class="video-container" style="position:relative;">
+        <div id="anti-piracy">© موقعك - يمنع إعادة الرفع</div>
         <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
       </div>
 
@@ -62,20 +134,25 @@
         <button id="prev-btn">السابق</button>
         <button id="next-btn">التالي</button>
       </div>
-
     </main>
 
     <aside class="episodes">
       <h2>جميع الحلقات</h2>
+      <input type="text" id="search-box" placeholder="ابحث عن حلقة...">
       <ul id="episodes-list"></ul>
     </aside>
+  </div>
+
+  <!-- 🎬 Mini Player -->
+  <div id="mini-player">
+    <button id="close-mini">×</button>
+    <iframe src="" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <script>
     let episodes = [];
     let currentEpisodeIndex = 0;
     let currentServerName = '';
-
     const episodesList = document.getElementById('episodes-list');
     const videoPlayer = document.getElementById('video-player');
     const animeTitle = document.getElementById('anime-title');
@@ -85,8 +162,13 @@
     const serverButtonsContainer = document.getElementById('server-buttons-container');
     const sandboxToggle = document.getElementById('sandbox-toggle');
     const warningMessage = document.getElementById('warning-message');
+    const searchBox = document.getElementById('search-box');
+    const fadeContainer = document.getElementById('fade-container');
+    const miniPlayer = document.getElementById('mini-player');
+    const miniFrame = miniPlayer.querySelector('iframe');
+    const closeMini = document.getElementById('close-mini');
 
-    let sandboxEnabled = localStorage.getItem("sandbox") !== "false"; // افتراضي مفعّل
+    let sandboxEnabled = localStorage.getItem("sandbox") !== "false";
 
     function applySandbox() {
       if (sandboxEnabled) {
@@ -104,7 +186,7 @@
       sandboxEnabled = !sandboxEnabled;
       localStorage.setItem("sandbox", sandboxEnabled);
       applySandbox();
-      updatePlayer(); // إعادة تحميل الرابط بالحالة الجديدة
+      updatePlayer();
     });
 
     function getQueryParam(param) {
@@ -118,8 +200,6 @@
         const episodeIndex = parseInt(episodeParam, 10) - 1;
         if (episodeIndex >= 0 && episodeIndex < episodes.length) {
           playEpisode(episodeIndex);
-        } else {
-          console.warn('رقم الحلقة غير صالح');
         }
       }
     }
@@ -134,47 +214,29 @@
       fetch(`episodes/${animeId}.json`)
         .then(response => response.json())
         .then(data => {
-          if (!data.episodes || !Array.isArray(data.episodes)) {
-            throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
-          }
-
           episodes = data.episodes;
-
-          if (episodes.length > 0 && data.animeTitle) {
-            animeTitle.textContent = data.animeTitle;
-            const metaDescription = document.querySelector('meta[name="description"]');
-            if (metaDescription) {
-              metaDescription.setAttribute('content', `مشاهدة حلقات ${data.animeTitle}`);
-            }
-          }
-
+          animeTitle.textContent = data.animeTitle;
           loadEpisodes();
           setEpisodeFromURL();
         })
-        .catch(error => {
-          console.error('خطأ في تحميل بيانات الحلقات:', error);
-          document.body.innerHTML = '<h1>حدث خطأ أثناء تحميل الحلقات</h1>';
+        .catch(err => {
+          console.error("خطأ في تحميل البيانات", err);
         });
     }
 
-    function loadEpisodes() {
+    function loadEpisodes(filtered = episodes) {
       episodesList.innerHTML = '';
       const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
-
-      episodes.forEach((episode) => {
+      filtered.forEach((episode) => {
         const li = document.createElement('li');
         li.className = 'episode-item';
-
-        if (episode.number === currentEpisodeNumber) {
-          li.classList.add('active');
-        }
-
+        if (episode.number === currentEpisodeNumber) li.classList.add('active');
         li.textContent = episode.title;
         li.addEventListener('click', () => {
           const newUrl = `?id=${getQueryParam('id')}&episode=${episode.number}`;
           history.pushState({}, '', newUrl);
           playEpisode(episode.number - 1);
-          loadEpisodes(); // لتحديث الحالة النشطة
+          loadEpisodes();
         });
         episodesList.appendChild(li);
       });
@@ -187,77 +249,77 @@
         const button = document.createElement('button');
         button.textContent = server.serverName;
         button.classList.add('server-button');
-
-        if (server.serverName === currentServerName) {
-          button.classList.add('active');
-        }
-
+        if (server.serverName === currentServerName) button.classList.add('active');
         button.addEventListener('click', () => {
           currentServerName = server.serverName;
           updatePlayer();
         });
-
         serverButtonsContainer.appendChild(button);
       });
     }
 
+    function fadeTransition(callback) {
+      fadeContainer.classList.remove('show');
+      setTimeout(() => {
+        callback();
+        fadeContainer.classList.add('show');
+      }, 300);
+    }
+
     function updatePlayer() {
-      const currentEpisode = episodes[currentEpisodeIndex];
-      episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
-      document.title = `${animeTitle.textContent} - الحلقة ${currentEpisode.number}`;
-
-      if (!currentServerName && currentEpisode.servers.length > 0) {
-        currentServerName = currentEpisode.servers[0].serverName;
-      }
-
-      const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
-      if (currentServer) {
+      fadeTransition(() => {
+        const currentEpisode = episodes[currentEpisodeIndex];
+        episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
+        document.title = `${animeTitle.textContent} - الحلقة ${currentEpisode.number}`;
+        const currentServer = currentEpisode.servers[0];
         videoPlayer.src = currentServer.url;
-        applySandbox(); // تحديث الساندبوكس بناءً على الحالة
-      } else {
-        console.warn('لا يوجد سيرفر مناسب.');
-      }
-
-      loadServerButtons();
-
-      if (typeof addToHistory === 'function') {
-        addToHistory(document.title, window.location.href);
-      }
+        miniFrame.src = currentServer.url;
+        loadServerButtons();
+      });
     }
 
     function playEpisode(index) {
       currentEpisodeIndex = index;
-      currentServerName = '';
       updatePlayer();
     }
 
-    // ✅ تحديث الرابط عند الضغط على التالي أو السابق
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
-
       if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
       if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
-
-      currentServerName = '';
-
-      // تحديث الرابط في العنوان بدون إعادة تحميل الصفحة
       const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
       history.pushState({}, '', newUrl);
-
       updatePlayer();
-      loadEpisodes(); // لتحديث الحالة النشطة في القائمة
+      loadEpisodes();
     }
 
     prevBtn.addEventListener('click', () => navigateEpisode(-1));
     nextBtn.addEventListener('click', () => navigateEpisode(1));
 
-    // دعم زر الرجوع والتقديم في المتصفح
-    window.addEventListener('popstate', () => {
-      setEpisodeFromURL();
-      loadEpisodes();
+    // 🔍 بحث فوري
+    searchBox.addEventListener('input', () => {
+      const query = searchBox.value.toLowerCase();
+      const filtered = episodes.filter(ep => ep.title.toLowerCase().includes(query));
+      loadEpisodes(filtered);
+    });
+
+    // 🎬 Mini Player عند التمرير
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        miniPlayer.style.display = 'block';
+        miniPlayer.style.opacity = '1';
+      } else {
+        miniPlayer.style.opacity = '0';
+        setTimeout(() => miniPlayer.style.display = 'none', 500);
+      }
+    });
+
+    closeMini.addEventListener('click', () => {
+      miniPlayer.style.display = 'none';
     });
 
     window.onload = () => {
+      fadeContainer.classList.add('show');
       applySandbox();
       loadEpisodesData();
     };
@@ -265,14 +327,8 @@
 
   <script>
     fetch('../navbar.html')
-      .then(response => response.text())
-      .then(data => document.getElementById('navbar-container').innerHTML = data);
+      .then(r => r.text())
+      .then(d => document.getElementById('navbar-container').innerHTML = d);
   </script>
-  
-<div style="margin: 15px 0; text-align: center;">
-  <script async="async" data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
-  <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
-</div>
-
 </body>
 </html>

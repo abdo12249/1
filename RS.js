@@ -8,7 +8,7 @@ import {
   getFirestore, doc, getDoc, setDoc 
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-// Your web app's Firebase configuration
+// ✅ إعداد Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
   authDomain: "wep1-25124.firebaseapp.com",
@@ -20,7 +20,7 @@ const firebaseConfig = {
   measurementId: "G-ER2GCC7BK4"
 };
 
-// Initialize Firebase
+// ---------------- تهيئة ----------------
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
@@ -30,28 +30,45 @@ const db = getFirestore(app);
 let history = [];
 let userId = null;
 
-// تحميل السجل من Firebase
+// ✅ تحميل السجل من Firebase
 async function loadHistoryFromFirebase() {
   if (!userId) return;
-  const docRef = doc(db, "histories", userId);
-  const docSnap = await getDoc(docRef);
 
-  if (docSnap.exists()) {
-    history = docSnap.data().history || [];
-  } else {
-    history = [];
+  try {
+    const docRef = doc(db, "histories", userId);
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+      history = docSnap.data().history || [];
+    } else {
+      history = [];
+    }
+
+    // ✅ حفظ نسخة محلية احتياطية
+    localStorage.setItem("watchHistoryBackup", JSON.stringify(history));
+
+  } catch (err) {
+    console.warn("⚠️ فشل تحميل السجل من Firebase:", err);
+    const backup = localStorage.getItem("watchHistoryBackup");
+    if (backup) history = JSON.parse(backup);
   }
+
   displayHistory();
 }
 
-// حفظ السجل في Firebase
+// ✅ حفظ السجل في Firebase (مع دمج وليس استبدال)
 async function saveHistoryToFirebase() {
   if (!userId) return;
-  await setDoc(doc(db, "histories", userId), { history });
+
+  try {
+    await setDoc(doc(db, "histories", userId), { history }, { merge: true });
+    localStorage.setItem("watchHistoryBackup", JSON.stringify(history));
+  } catch (err) {
+    console.error("⚠️ فشل حفظ السجل في Firebase:", err);
+  }
 }
 
-// إضافة صفحة إلى السجل
-// إضافة صفحة إلى السجل
+// ✅ إضافة صفحة إلى السجل
 function addToHistory(pageName, pageURL = window.location.href) {
   if (
     pageName.includes("سجل المشاهدة") ||
@@ -59,15 +76,19 @@ function addToHistory(pageName, pageURL = window.location.href) {
     pageURL.includes("سجل")
   ) return;
 
-  // ❌ شيلنا الفلترة عشان ميحذفش القديم
+  // منع التكرار
+  const exists = history.some(item => item.url === pageURL);
+  if (exists) return;
+
+  // إضافة جديدة في الأعلى
   history.unshift({ name: pageName, url: pageURL });
 
+  // حفظ وتحديث العرض
   saveHistoryToFirebase();
   displayHistory();
 }
 
-
-// عرض السجل
+// ✅ عرض السجل في الصفحة
 function displayHistory() {
   const historyList = document.getElementById("history-list");
   if (!historyList) return;
@@ -90,14 +111,14 @@ function displayHistory() {
   }
 }
 
-// مسح السجل
+// ✅ مسح السجل
 function clearHistory() {
   history = [];
   saveHistoryToFirebase();
   displayHistory();
 }
 
-// عكس السجل
+// ✅ عكس ترتيب السجل
 function reverseHistory() {
   history.reverse();
   saveHistoryToFirebase();
@@ -133,10 +154,8 @@ if (clearHistoryButton) clearHistoryButton.addEventListener("click", clearHistor
 const reverseHistoryButton = document.getElementById("reverse-history");
 if (reverseHistoryButton) reverseHistoryButton.addEventListener("click", reverseHistory);
 
-
-// جعل الدوال متاحة عالمياً
+// ✅ جعل الدوال متاحة عالمياً
 window.addToHistory = addToHistory;
 window.clearHistory = clearHistory;
 window.reverseHistory = reverseHistory;
-
-
+window.signIn = signIn;

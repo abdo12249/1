@@ -7,15 +7,24 @@
   <meta name="description" content="عرض أنمي ديناميكي" id="meta-description">
   <link rel="stylesheet" href="../CSS/episodes.css">
   <link rel="stylesheet" href="../CSS/style.css">
-<script type="module" src="https://abdo12249.github.io/1/RS.js"></script>
+  <script type="module" src="https://abdo12249.github.io/1/RS.js"></script>
   <script type="module" src="../navbar.js"></script>
   <link rel="icon" href="https://abdo838.github.io/1/navbar/favicon.ico" type="image/x-icon">
+  
   <style>
     .episode-item.active {
       background-color: var(--primary-color, #ef4444);
       color: white;
       font-weight: bold;
       border-radius: 5px;
+    }
+
+    /* ✅ علامة الحلقات التي تم مشاهدتها */
+    .episode-item.watched::after {
+      content: "✔️";
+      color: #16a34a;
+      margin-left: 8px;
+      font-size: 1.1em;
     }
 
     #sandbox-toggle {
@@ -39,7 +48,6 @@
 </head>
 
 <body>
-  
   <div id="navbar-container"></div>
   <div class="container">
     <main class="main-content">
@@ -62,7 +70,6 @@
         <button id="prev-btn">السابق</button>
         <button id="next-btn">التالي</button>
       </div>
-
     </main>
 
     <aside class="episodes">
@@ -157,25 +164,49 @@
         });
     }
 
+    // ✅ عرض جميع الحلقات + تحديد المشاهدة ✔️
     function loadEpisodes() {
       episodesList.innerHTML = '';
       const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
 
+      // استرجاع سجل المشاهدة من RS.js أو النسخة المحلية
+      let watchedEpisodes = [];
+      const backup = localStorage.getItem("watchHistoryBackup");
+      if (backup) {
+        try {
+          const historyData = JSON.parse(backup);
+          watchedEpisodes = historyData
+            .map(h => {
+              const url = new URL(h.url);
+              return parseInt(url.searchParams.get('episode'));
+            })
+            .filter(num => !isNaN(num));
+        } catch (e) {
+          console.warn("تعذر قراءة سجل المشاهدة المحلي:", e);
+        }
+      }
+
       episodes.forEach((episode) => {
         const li = document.createElement('li');
         li.className = 'episode-item';
+        li.textContent = episode.title;
 
         if (episode.number === currentEpisodeNumber) {
           li.classList.add('active');
         }
 
-        li.textContent = episode.title;
+        // ✅ إذا تمّت مشاهدتها، أضف ✔️
+        if (watchedEpisodes.includes(episode.number)) {
+          li.classList.add('watched');
+        }
+
         li.addEventListener('click', () => {
           const newUrl = `?id=${getQueryParam('id')}&episode=${episode.number}`;
           history.pushState({}, '', newUrl);
           playEpisode(episode.number - 1);
-          loadEpisodes(); // لتحديث الحالة النشطة
+          loadEpisodes();
         });
+
         episodesList.appendChild(li);
       });
     }
@@ -213,7 +244,7 @@
       const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
       if (currentServer) {
         videoPlayer.src = currentServer.url;
-        applySandbox(); // تحديث الساندبوكس بناءً على الحالة
+        applySandbox();
       } else {
         console.warn('لا يوجد سيرفر مناسب.');
       }
@@ -223,6 +254,9 @@
       if (typeof addToHistory === 'function') {
         addToHistory(document.title, window.location.href);
       }
+
+      // ✅ تحديث قائمة الحلقات لإظهار العلامة بعد المشاهدة
+      loadEpisodes();
     }
 
     function playEpisode(index) {
@@ -231,7 +265,6 @@
       updatePlayer();
     }
 
-    // ✅ تحديث الرابط عند الضغط على التالي أو السابق
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
 
@@ -240,18 +273,16 @@
 
       currentServerName = '';
 
-      // تحديث الرابط في العنوان بدون إعادة تحميل الصفحة
       const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
       history.pushState({}, '', newUrl);
 
       updatePlayer();
-      loadEpisodes(); // لتحديث الحالة النشطة في القائمة
+      loadEpisodes();
     }
 
     prevBtn.addEventListener('click', () => navigateEpisode(-1));
     nextBtn.addEventListener('click', () => navigateEpisode(1));
 
-    // دعم زر الرجوع والتقديم في المتصفح
     window.addEventListener('popstate', () => {
       setEpisodeFromURL();
       loadEpisodes();
@@ -269,11 +300,9 @@
       .then(data => document.getElementById('navbar-container').innerHTML = data);
   </script>
   
-<div style="margin: 15px 0; text-align: center;">
-  <script async="async" data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
-  <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
-</div>
-
+  <div style="margin: 15px 0; text-align: center;">
+    <script async data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
+    <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
+  </div>
 </body>
 </html>
-

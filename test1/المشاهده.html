@@ -165,53 +165,26 @@
     }
 
     // ✅ عرض جميع الحلقات + تحديد المشاهدة ✔️
- function loadEpisodes() {
-  episodesList.innerHTML = '';
-  const animeId = getQueryParam('id'); // احصل على معرف الأنمي الحالي
-  const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
+    function loadEpisodes() {
+      episodesList.innerHTML = '';
+      const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
 
-  // استرجاع سجل المشاهدة المرتبط بالأنمي فقط
-  let watchedEpisodes = [];
-  const backup = localStorage.getItem("watchHistoryBackup");
-  if (backup) {
-    try {
-      const historyData = JSON.parse(backup);
-      watchedEpisodes = historyData
-        .filter(h => h.animeId === animeId) // ✅ فقط الحلقات الخاصة بالأنمي الحالي
-        .map(h => {
-          const url = new URL(h.url);
-          return parseInt(url.searchParams.get('episode'));
-        })
-        .filter(num => !isNaN(num));
-    } catch (e) {
-      console.warn("تعذر قراءة سجل المشاهدة المحلي:", e);
-    }
-  }
-
-  episodes.forEach((episode) => {
-    const li = document.createElement('li');
-    li.className = 'episode-item';
-    li.textContent = episode.title;
-
-    if (episode.number === currentEpisodeNumber) {
-      li.classList.add('active');
-    }
-
-    // ✅ إذا تمّت مشاهدتها، أضف ✔️
-    if (watchedEpisodes.includes(episode.number)) {
-      li.classList.add('watched');
-    }
-
-    li.addEventListener('click', () => {
-      const newUrl = `?id=${animeId}&episode=${episode.number}`;
-      history.pushState({}, '', newUrl);
-      playEpisode(episode.number - 1);
-      loadEpisodes();
-    });
-
-    episodesList.appendChild(li);
-  });
-}
+      // استرجاع سجل المشاهدة من RS.js أو النسخة المحلية
+      let watchedEpisodes = [];
+      const backup = localStorage.getItem("watchHistoryBackup");
+      if (backup) {
+        try {
+          const historyData = JSON.parse(backup);
+          watchedEpisodes = historyData
+            .map(h => {
+              const url = new URL(h.url);
+              return parseInt(url.searchParams.get('episode'));
+            })
+            .filter(num => !isNaN(num));
+        } catch (e) {
+          console.warn("تعذر قراءة سجل المشاهدة المحلي:", e);
+        }
+      }
 
       episodes.forEach((episode) => {
         const li = document.createElement('li');

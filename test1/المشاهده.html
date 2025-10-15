@@ -158,35 +158,27 @@
     }
 
     function loadEpisodes() {
-  episodesList.innerHTML = '';
-  const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
-  const animeId = getQueryParam('id');
+      episodesList.innerHTML = '';
+      const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
 
-  episodes.forEach((episode) => {
-    const li = document.createElement('li');
-    li.className = 'episode-item';
+      episodes.forEach((episode) => {
+        const li = document.createElement('li');
+        li.className = 'episode-item';
 
-    // ✅ تحقق هل هذه الحلقة تم مشاهدتها
-    if (typeof isEpisodeWatched === 'function' && isEpisodeWatched(animeId, episode.number)) {
-      li.innerHTML = `✅ ${episode.title}`; // أضف علامة صح
-    } else {
-      li.textContent = episode.title;
+        if (episode.number === currentEpisodeNumber) {
+          li.classList.add('active');
+        }
+
+        li.textContent = episode.title;
+        li.addEventListener('click', () => {
+          const newUrl = `?id=${getQueryParam('id')}&episode=${episode.number}`;
+          history.pushState({}, '', newUrl);
+          playEpisode(episode.number - 1);
+          loadEpisodes(); // لتحديث الحالة النشطة
+        });
+        episodesList.appendChild(li);
+      });
     }
-
-    if (episode.number === currentEpisodeNumber) {
-      li.classList.add('active');
-    }
-
-    li.addEventListener('click', () => {
-      const newUrl = `?id=${animeId}&episode=${episode.number}`;
-      history.pushState({}, '', newUrl);
-      playEpisode(episode.number - 1);
-      loadEpisodes();
-    });
-
-    episodesList.appendChild(li);
-  });
-}
 
     function loadServerButtons() {
       serverButtonsContainer.innerHTML = '';
@@ -284,6 +276,4 @@
 
 </body>
 </html>
-
-
 

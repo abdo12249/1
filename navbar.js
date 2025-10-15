@@ -157,33 +157,26 @@ if (!window.dataLayer) {
 
 
 // ---------------- نظام البحث المتصل بملف JSON ----------------
-
-// نستنى تحميل محتوى navbar.html الأول
 document.addEventListener("DOMContentLoaded", () => {
-  // نتحقق أولاً من تحميل الـ navbar داخل العنصر
   const navbarContainer = document.getElementById("navbar-container");
 
-  // مراقب DOM ينتظر تحميل عناصر البحث بعد تحميل navbar.html
   const observer = new MutationObserver(() => {
     const searchInput = document.getElementById("searchInput");
     const animeList = document.getElementById("animeList");
 
-    // لما عناصر البحث تظهر، نوقف المراقبة ونبدأ النظام
     if (searchInput && animeList) {
       observer.disconnect();
       initializeSearchSystem(searchInput, animeList);
     }
   });
 
-  // مراقبة تغيرات داخل الـ navbar-container
   observer.observe(navbarContainer, { childList: true, subtree: true });
 });
 
 function initializeSearchSystem(searchInput, animeList) {
-  const dataUrl = "https://abdo12249.github.io/1/test1/animes.json"; // مسار ملف الأنميات
+  const dataUrl = "https://abdo12249.github.io/1/test1/animes.json";
   let animeData = {};
 
-  // تحميل ملف JSON
   fetch(dataUrl)
     .then(res => res.json())
     .then(data => {
@@ -192,7 +185,6 @@ function initializeSearchSystem(searchInput, animeList) {
     })
     .catch(err => console.error("❌ فشل تحميل بيانات الأنميات:", err));
 
-  // شكل قائمة النتائج
   Object.assign(animeList.style, {
     position: "absolute",
     background: "var(--search-bg, #222)",
@@ -207,45 +199,62 @@ function initializeSearchSystem(searchInput, animeList) {
     direction: "rtl"
   });
 
-  // عند الكتابة
-results.forEach(([key, anime]) => {
-  const item = document.createElement("a");
-  const dynamicUrl = `https://abdo12249.github.io/1/test1/Anime%20Page%20Dynamic.html?id=${encodeURIComponent(key)}`;
-  item.href = dynamicUrl;
-  item.style.display = "flex";
-  item.style.alignItems = "center";
-  item.style.padding = "8px";
-  item.style.gap = "8px";
-  item.style.textDecoration = "none";
-  item.style.color = "inherit";
-  item.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
-  item.style.transition = "background 0.2s";
+  // عند الكتابة في مربع البحث
+  searchInput.addEventListener("input", (e) => {
+    const query = e.target.value.trim().toLowerCase();
+    animeList.innerHTML = "";
 
-  const img = document.createElement("img");
-  img.src = anime.image || "https://abdo12249.github.io/1/img/no-image.webp";
-  img.alt = anime.title;
-  img.style.width = "40px";
-  img.style.height = "55px";
-  img.style.objectFit = "cover";
-  img.style.borderRadius = "6px";
+    if (query.length === 0) {
+      animeList.style.display = "none";
+      return;
+    }
 
-  const titleDiv = document.createElement("div");
-  titleDiv.textContent = anime.title;
-  titleDiv.style.flex = "1";
+    const results = Object.entries(animeData).filter(([key, anime]) =>
+      anime.title.toLowerCase().includes(query)
+    );
 
-  item.addEventListener("mouseover", () => (item.style.background = "rgba(255,255,255,0.1)"));
-  item.addEventListener("mouseout", () => (item.style.background = "transparent"));
+    if (results.length === 0) {
+      animeList.style.display = "none";
+      return;
+    }
 
-  item.appendChild(img);
-  item.appendChild(titleDiv);
-  animeList.appendChild(item);
-});
+    results.forEach(([key, anime]) => {
+      const item = document.createElement("a");
+      const dynamicUrl = `https://abdo12249.github.io/1/test1/Anime%20Page%20Dynamic.html?id=${encodeURIComponent(key)}`;
+      item.href = dynamicUrl;
 
+      item.style.display = "flex";
+      item.style.alignItems = "center";
+      item.style.padding = "8px";
+      item.style.gap = "8px";
+      item.style.textDecoration = "none";
+      item.style.color = "inherit";
+      item.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
+      item.style.transition = "background 0.2s";
+
+      const img = document.createElement("img");
+      img.src = anime.image || "https://abdo12249.github.io/1/img/no-image.webp";
+      img.alt = anime.title;
+      img.style.width = "40px";
+      img.style.height = "55px";
+      img.style.objectFit = "cover";
+      img.style.borderRadius = "6px";
+
+      const titleDiv = document.createElement("div");
+      titleDiv.textContent = anime.title;
+      titleDiv.style.flex = "1";
+
+      item.addEventListener("mouseover", () => (item.style.background = "rgba(255,255,255,0.1)"));
+      item.addEventListener("mouseout", () => (item.style.background = "transparent"));
+
+      item.appendChild(img);
+      item.appendChild(titleDiv);
+      animeList.appendChild(item);
+    });
 
     animeList.style.display = "block";
   });
 
-  // إخفاء القائمة عند الضغط خارجها
   document.addEventListener("click", (e) => {
     if (!searchInput.contains(e.target) && !animeList.contains(e.target)) {
       animeList.style.display = "none";

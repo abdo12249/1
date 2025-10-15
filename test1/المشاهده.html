@@ -18,15 +18,12 @@
       font-weight: bold;
       border-radius: 5px;
     }
-
-    /* ✅ علامة الحلقات التي تم مشاهدتها */
     .episode-item.watched::after {
       content: "✔️";
       color: #16a34a;
       margin-left: 8px;
       font-size: 1.1em;
     }
-
     #sandbox-toggle {
       margin: 10px auto;
       padding: 10px 20px;
@@ -37,7 +34,6 @@
       border-radius: 8px;
       cursor: pointer;
     }
-
     #warning-message {
       color: red;
       font-weight: bold;
@@ -57,8 +53,6 @@
       </div>
 
       <div class="server-buttons" id="server-buttons-container"></div>
-
-      <!-- زر تعطيل مانع الإعلانات -->
       <button id="sandbox-toggle">تشغيل وضع مانع الإعلانات</button>
       <p id="warning-message">⚠️ بعض السيرفرات قد لا تعمل عند تشغيل مانع الإعلانات.</p>
 
@@ -93,7 +87,7 @@
     const sandboxToggle = document.getElementById('sandbox-toggle');
     const warningMessage = document.getElementById('warning-message');
 
-    let sandboxEnabled = localStorage.getItem("sandbox") !== "false"; // افتراضي مفعّل
+    let sandboxEnabled = localStorage.getItem("sandbox") !== "false"; 
 
     function applySandbox() {
       if (sandboxEnabled) {
@@ -111,7 +105,7 @@
       sandboxEnabled = !sandboxEnabled;
       localStorage.setItem("sandbox", sandboxEnabled);
       applySandbox();
-      updatePlayer(); // إعادة تحميل الرابط بالحالة الجديدة
+      updatePlayer(); 
     });
 
     function getQueryParam(param) {
@@ -125,8 +119,6 @@
         const episodeIndex = parseInt(episodeParam, 10) - 1;
         if (episodeIndex >= 0 && episodeIndex < episodes.length) {
           playEpisode(episodeIndex);
-        } else {
-          console.warn('رقم الحلقة غير صالح');
         }
       }
     }
@@ -141,22 +133,17 @@
       fetch(`episodes/${animeId}.json`)
         .then(response => response.json())
         .then(data => {
-          if (!data.episodes || !Array.isArray(data.episodes)) {
-            throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
-          }
-
+          if (!data.episodes || !Array.isArray(data.episodes)) throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
           episodes = data.episodes;
 
           if (episodes.length > 0 && data.animeTitle) {
             animeTitle.textContent = data.animeTitle;
             const metaDescription = document.querySelector('meta[name="description"]');
-            if (metaDescription) {
-              metaDescription.setAttribute('content', `مشاهدة حلقات ${data.animeTitle}`);
-            }
+            if (metaDescription) metaDescription.setAttribute('content', `مشاهدة حلقات ${data.animeTitle}`);
           }
 
-          loadEpisodes();
           setEpisodeFromURL();
+          loadEpisodes();
         })
         .catch(error => {
           console.error('خطأ في تحميل بيانات الحلقات:', error);
@@ -164,22 +151,20 @@
         });
     }
 
-    // ✅ عرض جميع الحلقات + تحديد المشاهدة ✔️
     function loadEpisodes() {
       episodesList.innerHTML = '';
-      const currentEpisodeNumber = parseInt(getQueryParam('episode'), 10);
+      const animeId = getQueryParam('id');
 
-      // استرجاع سجل المشاهدة من RS.js أو النسخة المحلية
+      // استرجاع سجل المشاهدة المحلي
       let watchedEpisodes = [];
       const backup = localStorage.getItem("watchHistoryBackup");
       if (backup) {
         try {
           const historyData = JSON.parse(backup);
+          // ✅ فلترة حسب الأنمي الحالي
           watchedEpisodes = historyData
-            .map(h => {
-              const url = new URL(h.url);
-              return parseInt(url.searchParams.get('episode'));
-            })
+            .filter(h => new URL(h.url).searchParams.get('id') === animeId)
+            .map(h => parseInt(new URL(h.url).searchParams.get('episode')))
             .filter(num => !isNaN(num));
         } catch (e) {
           console.warn("تعذر قراءة سجل المشاهدة المحلي:", e);
@@ -191,20 +176,16 @@
         li.className = 'episode-item';
         li.textContent = episode.title;
 
-        if (episode.number === currentEpisodeNumber) {
+        if (episode.number === parseInt(getQueryParam('episode'), 10)) {
           li.classList.add('active');
         }
 
-        // ✅ إذا تمّت مشاهدتها، أضف ✔️
-        if (watchedEpisodes.includes(episode.number)) {
-          li.classList.add('watched');
-        }
+        if (watchedEpisodes.includes(episode.number)) li.classList.add('watched');
 
         li.addEventListener('click', () => {
-          const newUrl = `?id=${getQueryParam('id')}&episode=${episode.number}`;
+          const newUrl = `?id=${animeId}&episode=${episode.number}`;
           history.pushState({}, '', newUrl);
           playEpisode(episode.number - 1);
-          loadEpisodes();
         });
 
         episodesList.appendChild(li);
@@ -219,9 +200,7 @@
         button.textContent = server.serverName;
         button.classList.add('server-button');
 
-        if (server.serverName === currentServerName) {
-          button.classList.add('active');
-        }
+        if (server.serverName === currentServerName) button.classList.add('active');
 
         button.addEventListener('click', () => {
           currentServerName = server.serverName;
@@ -245,18 +224,14 @@
       if (currentServer) {
         videoPlayer.src = currentServer.url;
         applySandbox();
-      } else {
-        console.warn('لا يوجد سيرفر مناسب.');
       }
-
-      loadServerButtons();
 
       if (typeof addToHistory === 'function') {
         addToHistory(document.title, window.location.href);
       }
 
-      // ✅ تحديث قائمة الحلقات لإظهار العلامة بعد المشاهدة
       loadEpisodes();
+      loadServerButtons();
     }
 
     function playEpisode(index) {
@@ -267,22 +242,16 @@
 
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
-
       if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
       if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
-
       currentServerName = '';
-
       const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
       history.pushState({}, '', newUrl);
-
       updatePlayer();
-      loadEpisodes();
     }
 
     prevBtn.addEventListener('click', () => navigateEpisode(-1));
     nextBtn.addEventListener('click', () => navigateEpisode(1));
-
     window.addEventListener('popstate', () => {
       setEpisodeFromURL();
       loadEpisodes();
@@ -299,10 +268,5 @@
       .then(response => response.text())
       .then(data => document.getElementById('navbar-container').innerHTML = data);
   </script>
-  
-  <div style="margin: 15px 0; text-align: center;">
-    <script async data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
-    <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
-  </div>
 </body>
 </html>

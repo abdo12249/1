@@ -156,3 +156,76 @@ if (!window.dataLayer) {
 
 
 
+
+// ---------------------- نظام البحث ----------------------
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("searchInput");
+    const animeList = document.getElementById("animeList");
+
+    if (!searchInput || !animeList) return;
+
+    let animeData = {};
+
+    // تحميل بيانات الأنميات من ملف JSON
+    fetch("https://abdo12249.github.io/1/test1/animes.json")
+        .then(res => res.json())
+        .then(data => {
+            animeData = data;
+        })
+        .catch(err => console.error("حدث خطأ أثناء تحميل ملف animes.json:", err));
+
+    // دالة عرض النتائج
+    function showResults(query) {
+        animeList.innerHTML = "";
+        if (!query.trim()) {
+            animeList.style.display = "none";
+            return;
+        }
+
+        const results = Object.entries(animeData).filter(([key, anime]) =>
+            anime.title.toLowerCase().includes(query.toLowerCase())
+        );
+
+        if (results.length === 0) {
+            animeList.innerHTML = "<p style='padding:8px;text-align:center;'>لا يوجد نتائج</p>";
+            animeList.style.display = "block";
+            return;
+        }
+
+        results.forEach(([id, anime]) => {
+            const item = document.createElement("div");
+            item.classList.add("search-item");
+
+            const imgSrc = anime.image && anime.image.trim() !== "" 
+                ? anime.image 
+                : "https://via.placeholder.com/60x80?text=No+Image";
+
+            item.innerHTML = `
+                <img src="${imgSrc}" alt="${anime.title}">
+                <span>${anime.title}</span>
+            `;
+
+            item.addEventListener("click", () => {
+                // افتح صفحة الأنمي (غير الرابط حسب نظام موقعك)
+                window.location.href = `https://abdo12249.github.io/1/tag/wep/${id}.html`;
+            });
+
+            animeList.appendChild(item);
+        });
+
+        animeList.style.display = "block";
+    }
+
+    // تفعيل البحث أثناء الكتابة
+    searchInput.addEventListener("input", (e) => {
+        showResults(e.target.value);
+    });
+
+    // إخفاء القائمة عند النقر خارجها
+    document.addEventListener("click", (e) => {
+        if (!animeList.contains(e.target) && e.target !== searchInput) {
+            animeList.style.display = "none";
+        }
+    });
+});

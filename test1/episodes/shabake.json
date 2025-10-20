@@ -138,6 +138,75 @@
           "url": "https://www.mp4upload.com/embed-n6jikahvjkqb.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:14:53",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shabake&episode=3",
+      "image": "https://abdo12249.github.io/1/images/shabake.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/13ccSiaa3IghP"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/7wIWyTrC#J5WiX-RjJhJxJYVvuYa-E_q4Yos_WZev3CyLl1fFI6g"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-ehxgmri9uwrx.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/lb2j6mclrjri"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=gdIhwg6mhbwUj0Ga"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240150&hash=ee0510632e00764b&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/s0bs32e9gh4o"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-dxqqkca6cqyc.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-8fq2dikz64u5.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/u5oHTayQ#ddfR_Sr2zXHAHffOoLCUMCSktLGzE6PUUZHVLAZfEaE"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-5apt66dc9e2f.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-hx103t52lsmf.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/etwwjBIB#p9p65fBGcrdyWm0wBBt2E4EvsvVM-iHu7xJDhOJwtUQ"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-9vassh71r4ky.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-va8dodeuiclv.html"
+        }
+      ]
     }
   ]
 }

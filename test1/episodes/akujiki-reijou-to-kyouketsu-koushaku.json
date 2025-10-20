@@ -130,6 +130,79 @@
           "url": "https://www.mp4upload.com/embed-ya1432fohr3c.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:15:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=akujiki-reijou-to-kyouketsu-koushaku&episode=3",
+      "image": "https://abdo12249.github.io/1/images/akujiki-reijou-to-kyouketsu-koushaku.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/ZVuLqBEWKyjkA"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-jv5pkuwka0uu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/W0QCCLSY#3Hzp3o99OTY0XmFqutk58VcubQMEzwq8YNOc5dAsFM0"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240146&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=kPQniGRSFll3eMeH"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-u05h7yulwmzk.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/ce6ucof4vloj"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/bzz51ogmeeh3"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-3bz2d0qxla1o.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-caeb06togted.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/31gUyboB#BIXNdVKS6NHEdFlRNNw5L0fZOJv1aZtWTN7MkVgIRaA"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-a160btpywycn.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-kxpow1gpi0r5.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/a1xCxLAA#JeodFsLVYTW0ih9TCFg_vdNjddzPr8dipcH3qVCgfDY"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-sf141xg78tik.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-6606h7j6va78.html"
+        }
+      ]
     }
   ]
 }

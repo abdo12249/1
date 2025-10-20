@@ -138,6 +138,83 @@
           "url": "https://www.mp4upload.com/embed-16x048sdm8e0.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 19:16:57",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga&episode=3",
+      "image": "https://abdo12249.github.io/1/images/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/sPipnvgd5isJq"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-3nui2a0cj4jh.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/C9Z3gDiR#OQT9jqhTtdbL20mCC6sNzkoXQTAc8c538-vUiJOtqjc"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240186&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=K7MSgAK9X1FwHGqv"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-61vtvomu9jf7.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/ifww7dxp2gox"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/xoqafi08hufc"
+        },
+        {
+          "serverName": "uqload[HD]",
+          "url": "https://uqload.cx/embed-4db5lcmhkamj.html"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-7766aime73q9.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-7dhdd5ho9a4n.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/HlRjxKab#PoZeJCdJ7CoE5IRkPbUpf9ucOP5G7zl9ZIhWBcpDyng"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-bms67vr7xr70.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-m94zrc8ejuml.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/T54kUBCB#Hm4jcRkf-PWUUmnpg8p_aqLYnQl8fnAdZus4_Gko5wM"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-8fmzizhbj09i.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-rhytw013bveo.html"
+        }
+      ]
     }
   ]
 }

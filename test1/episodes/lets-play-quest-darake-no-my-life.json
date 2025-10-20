@@ -138,6 +138,75 @@
           "url": "https://www.mp4upload.com/embed-dzlgwvx1j0f4.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:15:11",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=lets-play-quest-darake-no-my-life&episode=3",
+      "image": "https://abdo12249.github.io/1/images/lets-play-quest-darake-no-my-life.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/3QWryAqfEmsY2"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/y1BCkZiL#F2jZ3fjCxvP5ORrDpbQpfl4UIM_97hUK0bglLJQo5W8"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-sjne7d9ebg9w.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/jdqn8gqnadq7"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=dzjxf4CAN90h0FW8"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240141&hd=2&hash=3e05a3fb3d0f0cd9&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/lu4nx68qw1ar"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-k72xlv5k5c6g.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-he89flj0k3wn.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/egZkna7Y#mBWqSp0P_6xS_kyoXpIIC0A107Mgnx0OofeT1XhEaYA"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-axu5ru1rss04.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-wfrdovdbbqsu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/WpokmKRD#V0oplqHdOsqd7tAzraslpqYOR4atJJupg9w9JSpUEIk"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-yafim1mpaodp.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-rv8gpa7a7lbu.html"
+        }
+      ]
     }
   ]
 }

@@ -6,7 +6,7 @@
   <title>تصنيف الأنمي</title>
   <link rel="stylesheet" href="../../CSS/style.css" />
   <script src="../../navbar.js" defer></script>
-  <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/navbar/favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <div id="navbar-container"></div>
@@ -262,7 +262,7 @@ iframe {
       // 2. دائمًا حاول جلب البيانات من الشبكة
       try {
         console.log("🔄 جلب بيانات الأنمي من الشبكة...");
-        const response = await fetch("https://abdo12249.github.io/1/test1/animes.json");
+        const response = await fetch("/test1/animes.json");
         if (!response.ok) throw new Error("❌ فشل تحميل animes.json من الشبكة");
 
         const data = await response.json();
@@ -346,6 +346,7 @@ iframe {
 
 </body>
 </html>
+
 
 
 

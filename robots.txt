@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://abdo12249.github.io/1/sitemap.xml
+Sitemap: https://myanima.ddns.net/sitemap.xml

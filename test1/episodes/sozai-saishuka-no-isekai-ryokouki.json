@@ -199,6 +199,31 @@
           "url": "https://www.mp4upload.com/embed-4h9i0umfkuzh.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-10-20 16:20:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=4",
+      "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/KShE27pOs6C9b"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-ocngehb5x6c5.html"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-192dqhvhnx8c.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-64cdlekgn715.html"
+        }
+      ]
     }
   ]
 }

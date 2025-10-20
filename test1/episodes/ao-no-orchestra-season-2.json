@@ -65,6 +65,83 @@
           "url": "https://www.mp4upload.com/embed-688ezi8274wh.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-20 16:13:48",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ao-no-orchestra-season-2&episode=2",
+      "image": "https://abdo12249.github.io/1/images/ao-no-orchestra-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/LBxpJzeQhCbDK"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-9uykmjjo6z87.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/SspVRDwT#b9mZJMA-cNJ6NNaoGe_9tSuCKfgqmRx6wQss8lNQrBc"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240180&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=wgW5lFugIfyLuUGF"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-8cc8ppzjy32i.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/zoka6qeu3de0"
+        },
+        {
+          "serverName": "uqload[HD]",
+          "url": "https://uqload.cx/embed-ntpbp4q64izb.html"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/6bxsd7to2cjt"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-uxzvgsdcag27.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-0596cile8wsx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/mgpHUSZY#PX1z21w5WuxIT93i7gi222qJ6Pq9o4z129fA3Kw71No"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-egahpylsaqux.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-lizmkhqsf9vo.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/roAHCbTT#ui_F71DccBbYaAwfN7Yf2uKJv81lBHAKO7wiswwWxic"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-84iu6dwzvb3r.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-ibgftn347wik.html"
+        }
+      ]
     }
   ]
 }

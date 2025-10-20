@@ -126,6 +126,75 @@
           "url": "https://www.mp4upload.com/embed-o6p6hn2tleza.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:15:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=bukiyou-na-senpai&episode=3",
+      "image": "https://abdo12249.github.io/1/images/bukiyou-na-senpai.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/3rLDBj4CCmpux"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/6o4VySaC#mST5QpOOhfHGYkkbAt7J5PPN9fcp3srMQ46q5HTg9bc"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-hxdg3c70ld2h.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/8h4lardxwk6w"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=y2rHmpzHVawBgPl7"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240142&hd=2&hash=46032efd31aeca01&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/03194ybspxg8"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-lzl12nqq0glo.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-mf4tjg5a2zaq.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/ugYBHLbJ#To8Gp5QoizBQjtGk7ghId2YljRQRkp7YHab2U7wpQnU"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-1pi67rffrm21.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-na1nvy6o6j4f.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/f14lSYLR#fAFjcimNzSbO4udLOP7ZkSUKMlHazA5XoGAPh4xM7YI"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-5lgzpkefv3oj.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-6xec1hgpuut8.html"
+        }
+      ]
     }
   ]
 }

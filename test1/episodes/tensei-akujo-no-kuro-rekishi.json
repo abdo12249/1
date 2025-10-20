@@ -65,6 +65,75 @@
           "url": "https://www.mp4upload.com/embed-onzogcxz4ivl.html"
         }
       ]
+    },
+    {
+      "number": 2,
+      "title": "الحلقة 2",
+      "date": "2025-10-20 16:15:13",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-akujo-no-kuro-rekishi&episode=2",
+      "image": "https://abdo12249.github.io/1/images/tensei-akujo-no-kuro-rekishi.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/jp7qDUdWOPETK"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/T1YWzYjC#faL10ptMeMgpbb-HH1w7nfzjrxfAjrWogKH36PAT138"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-pdu7n7j1hyyg.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/czjrmedsxe6s"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=6vEArWsfvqdoURrs"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240140&hd=2&hash=40f776cd57082945&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/1caf2maedmy3"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-qa2vb3spgy4e.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-gpkq31c4w62a.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/ekgTnI4b#KBfMwHxXvLtPSNQCYYFXS8Xm_IZ46o2t40GoDrtWIgw"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-h2gt7odgt6ta.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-ms97hyd1arg6.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/fo5W3JDb#1M9Z2Jrsw8OaGYMn4QV57xnP0OuZ5peinq2hHpuEfRQ"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-o6lcpyg6u5s8.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-x4kzg592qmgo.html"
+        }
+      ]
     }
   ]
 }

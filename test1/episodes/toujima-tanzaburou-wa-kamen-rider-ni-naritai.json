@@ -130,6 +130,79 @@
           "url": "https://www.mp4upload.com/embed-isa06ydpw9zl.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:14:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=3",
+      "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/c7wFK9C0ZHD4F"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/fswAUZCb#i_6ORyF0SDquNOUkv1M_HMCbkLSB1HU6HvKjMHomjVE"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-9gtr8oyy6gve.html"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-pabdk8pvg3yk.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/ymjpxdmx26x3"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=EFw9lXLckknk3cU1"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240165&hash=7fbd42f4d515bd6f&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/61xc5xginme1"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-yqhyoaabspxc.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-nz5o2g7jok7a.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/boJTkCLa#sGOyxchtnsme7Ju-FdVlQCxxbhOuIxIK12g7WoNKfZA"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-do4n0fdyul37.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-tuffff2w28gm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/74hhzC6T#J0IOzG8HliYRLkjJVqUwxQ9G3ZraJylfxxPBwVUMzCI"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-1jmuw3ph8g6n.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-vv3i8t1nuuv0.html"
+        }
+      ]
     }
   ]
 }

@@ -138,6 +138,83 @@
           "url": "https://www.mp4upload.com/embed-aj5y2qrk11kd.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:13:56",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=digimon-beatbreak&episode=3",
+      "image": "https://abdo12249.github.io/1/images/digimon-beatbreak.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/9J0J9DDKUzrvp"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-k1uszoa24pmt.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/zopyxYpQ#5f1yWPYTAzvq_S9xUlctvg3h7myvk3DaesNi8Z2oYRE"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240176&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=G2es7ihzdzuaWVsd"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-6suwjxyftv9u.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/dq6y6nhnuefs"
+        },
+        {
+          "serverName": "uqload[HD]",
+          "url": "https://uqload.cx/embed-i13ajtaicnli.html"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/hnnzoihb7cyw"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-vw9x1w7zrgrw.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-4r2vpbx2yv2y.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/68JynDCL#WeSYjAMBX5o0ktHLm1kJWf2SgxLswWrWuZ74kOtcqIc"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-yq1cx9rs70a5.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-gaee45kbmofs.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/TxRU1LpB#OLGd3ySr4L1u-XyG1KcsVAXPE7DePoV5qxeJU66fhZI"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-70e3iaj5um3c.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-z4gateyv94i1.html"
+        }
+      ]
     }
   ]
 }

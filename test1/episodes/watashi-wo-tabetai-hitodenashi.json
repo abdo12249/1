@@ -126,6 +126,75 @@
           "url": "https://www.mp4upload.com/embed-oc6eik51swgu.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:15:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watashi-wo-tabetai-hitodenashi&episode=3",
+      "image": "https://abdo12249.github.io/1/images/watashi-wo-tabetai-hitodenashi.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/tDjDyMFCDa6Uw"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/H8JQyYrY#h-ZjpWShUVTNT1RTO0jzeHQdaDL6TXHJeiAAyAq9BqE"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/qxbwyjx5vylc"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-jlwimzgsv5kj.html"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=atoSRpdKzL5sKX1U"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240143&hash=cf048ad174a61640&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/c1bjo9dxl9du"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-r2e16lnmoued.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-5tffbzdg4q5w.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/PlZmRLYK#Ub0d7czGTFAdlaqRZAsvDVKv3cy73You_5y2NtKy548"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-m8p04zak94fi.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-yvw6auz2z0v3.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/GlRCAbaD#QFzpd-bMnyOHMHTAUT6VbNrVZ_soBiOVYQYiUOlmtCA"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-48ozgqdi6q98.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-zb6ht4cj4znc.html"
+        }
+      ]
     }
   ]
 }

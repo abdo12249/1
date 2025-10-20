@@ -215,6 +215,79 @@
           "url": "https://mp4upload.com/embed-32bxbrqvlbez.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-10-20 17:19:03",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga&episode=4",
+      "image": "https://abdo12249.github.io/1/images/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/z4LIz6bhiYxsp"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-m5e9n06jqd90.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/HwoD0KKA#BcidkLs_w9fSBk8-1KY9lsWzuUE4KPbZ73i52P8ULW4"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240156&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=cN0D7dUKC8dsDDrw"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/czxdvdknly4z"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-r9jv5zh88soh.html"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/9zxedt2by9sr"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-3cs8543qjvq7.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-hyh6m9uajbai.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/v1hjCKyA#-JDMqcobUSLRAVnNEGOCqHqsSdsafh7GjWrXKagv03I"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-woupll6d7xdf.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-1mdpgx9hjw4v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/O4owRapJ#hGQ0KWsfxE3zd8ePOquTyTThcEJK65VqHuXQQm0fbN8"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-z5dzkzhitv24.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-5jdkvjqld78f.html"
+        }
+      ]
     }
   ]
 }

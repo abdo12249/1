@@ -203,7 +203,7 @@
     {
       "number": 4,
       "title": "الحلقة 4",
-      "date": "2025-10-20 16:20:19",
+      "date": "2025-10-20 16:26:11",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=4",
       "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
       "servers": [
@@ -216,12 +216,64 @@
           "url": "https://larhu.com/embed-ocngehb5x6c5.html"
         },
         {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/C0pSyCCJ#ozL9OpLQZSznH0LfRXclY1ylW_oykMs7CASzsGKk7l0"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240185&autoplay=1"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=Usd7QIjlVWcknrhJ"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/lo1phtwvw5mn"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-20hk5ybv6gbl.html"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/8prdb6anufrs"
+        },
+        {
+          "serverName": "uqload[HD]",
+          "url": "https://uqload.cx/embed-28jacbtjyclk.html"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-y57s5tsel6q4.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-rzry3cpz9gpy.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/H1IxSJpZ#tlN-_Fnp2t5xk0K38rbH1hVufTBypb31FM3ft4L8lyA"
+        },
+        {
           "serverName": "file-upload.org[FHD]",
           "url": "https://file-upload.org/embed-192dqhvhnx8c.html"
         },
         {
           "serverName": "Mp4upload[FHD]",
           "url": "https://mp4upload.com/embed-64cdlekgn715.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/39AX1JIK#vXHXi5hhMfGnlYnJlNtsmKXWqJbTY9eLGT5QMj7Js30"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-a63pjq97487u.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-swqjj8k0bj87.html"
         }
       ]
     }

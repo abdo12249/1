@@ -130,6 +130,79 @@
           "url": "https://www.mp4upload.com/embed-afh9kfpf12rs.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:14:27",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=3",
+      "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/fBcEKqsPiJ3jc"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-qg8xvbawwsdv.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/XlgxyYaR#8PYx9acnuFtCISEJsVYZ_VkPc5X9oKYV2cxXipvdVhE"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/zdg3s2hvk4vb"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-v44tgr5a5pym.html"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=yUf63vGSvYSIS5J6"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240162&hash=5fc70622732e4175&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/fludfp1cb3e7"
+        },
+        {
+          "serverName": "file-upload.org[HD]",
+          "url": "https://file-upload.org/embed-7q3cz1ymwxkr.html"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-3a8x0bg6yl7m.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/bgIQwSAQ#7O33K12fiTfiEzAWCN9-RMo6Gurb9US_TNaTdC9OVGY"
+        },
+        {
+          "serverName": "file-upload.org[FHD]",
+          "url": "https://file-upload.org/embed-6ktaaz2ndeqp.html"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-97171bb8a6jm.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/WwxhECCJ#il43SCc1MDDBzNpM8qJ62avaT7vuNxLKkUb2IQ7mBfQ"
+        },
+        {
+          "serverName": "file-upload.org[SD]",
+          "url": "https://file-upload.org/embed-l6qlctfhvvte.html"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-nq8oljqe1az4.html"
+        }
+      ]
     }
   ]
 }

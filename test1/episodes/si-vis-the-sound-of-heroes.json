@@ -142,6 +142,67 @@
           "url": "https://www.mp4upload.com/embed-3elq5d1cpopa.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-10-20 16:14:08",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=si-vis-the-sound-of-heroes&episode=3",
+      "image": "https://abdo12249.github.io/1/images/si-vis-the-sound-of-heroes.webp",
+      "servers": [
+        {
+          "serverName": "megamax[HD]",
+          "url": "https://megamax.me/iframe/f7LDLDfoQuX1o"
+        },
+        {
+          "serverName": "mega بدون اعلانات[HD]",
+          "url": "https://mega.nz/embed/PxRlVCRb#ryx7GkgdGWd6zQvkiF4tuI_lblE1IYua9UN7zL0CB58"
+        },
+        {
+          "serverName": "larhu[HD]",
+          "url": "https://larhu.com/embed-p008idn62w29.html"
+        },
+        {
+          "serverName": "vidmoly[HD]",
+          "url": "https://vidmoly.net/embed-s70bvbz8e9s7.html"
+        },
+        {
+          "serverName": "voe.sx[HD]",
+          "url": "https://voe.sx/e/n0q8go92nrim"
+        },
+        {
+          "serverName": "videa[HD]",
+          "url": "https://videa.hu/player?v=viEXuCD1KRfL2nOE"
+        },
+        {
+          "serverName": "vk[HD]",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240170&hd=2&hash=ab6a3c7edcfadbc0&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream[HD]",
+          "url": "https://dsvplay.com/e/ib1d0362bsao"
+        },
+        {
+          "serverName": "Mp4upload[HD]",
+          "url": "https://mp4upload.com/embed-ehyqyrmziueh.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[FHD]",
+          "url": "https://mega.nz/embed/z8RUnBQI#naFscNpioKl59FJJ4eFHZvRkhoOOD6s3UKDJz_PlVHs"
+        },
+        {
+          "serverName": "Mp4upload[FHD]",
+          "url": "https://mp4upload.com/embed-2cfixbyax3h4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات[SD]",
+          "url": "https://mega.nz/embed/O5QxDAQJ#qxZt7xpu6OjIQcN9lgmWBF2mFSNN-n_Wgzq_rNRJVl0"
+        },
+        {
+          "serverName": "Mp4upload[SD]",
+          "url": "https://mp4upload.com/embed-2wd92jlpeixr.html"
+        }
+      ]
     }
   ]
 }

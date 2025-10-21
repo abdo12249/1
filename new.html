@@ -1,48 +1,126 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>أحدث حلقات</title>
-  <link rel="stylesheet" href="CSS/style.css" />
-  <script src="navbar.js" defer></script>
-  <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
-  <style>
-    body { background: #111; color: #fff; font-family: "Cairo", sans-serif; }
-    .pagination { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
-    .pagination button { padding: 6px 12px; background-color: #ef4444; color: white; border: none; cursor: pointer; border-radius: 6px; transition: 0.3s; }
-    .pagination button:hover { background-color: #dc2626; }
-    .pagination button.active { background-color: #b91c1c; }
-    .anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; }
-    .anime-card { background: #222; border-radius: 10px; overflow: hidden; text-align: center; padding-bottom: 10px; transition: 0.3s; }
-    .anime-card:hover { transform: scale(1.03); }
-    .anime-image img { width: 100%; height: 230px; object-fit: cover; opacity: 0; transition: opacity 0.5s ease-in-out; }
-    .anime-image img.loaded { opacity: 1; }
-    .watch-button { display: inline-block; margin-top: 6px; background: #ef4444; color: white; padding: 6px 12px; border-radius: 5px; text-decoration: none; }
-    .watch-button:hover { background: #b91c1c; }
-    .loading-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; color: white; font-size: 1.2em; }
-    .spinner { border: 4px solid rgba(255, 255, 255, 0.3); border-top: 4px solid #fff; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px; }
-    @keyframes spin { 0% { transform: rotate(0deg);} 100% { transform: rotate(360deg);} }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>أحدث حلقات</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="navbar.js" defer></script>
+    <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
+    <style>
+        /* Pagination styling for the navigation buttons */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0;
+        }
+        .pagination button {
+            padding: 6px 12px;
+            background-color: var(--primary-color, #ef4444);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+        }
+        .pagination button:hover {
+            background-color: #dc2626; /* Slightly darker on hover */
+        }
+        .pagination button.active {
+            background-color: #b91c1c; /* Active button color */
+        }
+        .pagination span {
+            padding: 6px 12px;
+            color: #888;
+        }
+
+        /* Loading overlay styles */
+        .loading-overlay {
+            position: fixed; /* Fixed position to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            display: flex; /* Use flexbox for centering content */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            z-index: 1000; /* Ensure it's on top of other content */
+            color: white; /* Text color */
+            font-size: 1.2em; /* Larger font size for text */
+        }
+
+        /* Spinner animation */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3); /* Light border for the spinner */
+            border-top: 4px solid #fff; /* White top border for animation */
+            border-radius: 50%; /* Make it circular */
+            width: 40px; /* Spinner width */
+            height: 40px; /* Spinner height */
+            animation: spin 1s linear infinite; /* Spin animation */
+            margin-bottom: 15px; /* Space below the spinner */
+        }
+
+        /* Keyframes for the spin animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Anime card image loading transition */
+        .anime-image img {
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
+        }
+
+        .anime-image img.loaded {
+            opacity: 1; /* Fully visible when loaded */
+        }
+    </style>
 </head>
 <body>
+
 <div id="navbar-container"></div>
 
 <main>
-  <div class="section-header"><h1>أحدث حلقات</h1></div>
-  <div class="anime-grid" id="animeGrid"></div>
-  <div class="pagination" id="pagination"></div>
+    <div class="section-header">
+        <h1>أحدث حلقات</h1>
+    </div>
 
-  <div id="loadingOverlay" class="loading-overlay" style="display:none;">
-    <div class="spinner"></div>
-    <span>جاري تحميل الأنمي...</span>
-  </div>
+<div style="max-width:100%;overflow:hidden;">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'fcb1605c77b3fd33d38ff238d2ffbd00',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/fcb1605c77b3fd33d38ff238d2ffbd00/invoke.js"></script>
+</div>
 
-  <!-- Firebase -->
-  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script>
+<style>
+iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
 
- <script>
+    
+    <div class="anime-grid" id="animeGrid"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <!-- Loading screen overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+        <span>جاري تحميل الأنمي...</span>
+    </div>
+
+<script>
   // 🔧 إعدادات Firebase الخاصة بك
   const firebaseConfig = {
     apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
@@ -255,11 +333,18 @@
 </main>
 
 <script>
-  // تحميل شريط التنقل
-  fetch('navbar.html')
-    .then(r => r.text())
-    .then(d => document.getElementById('navbar-container').innerHTML = d)
-    .catch(e => console.error("خطأ في تحميل شريط التنقل:", e));
+    // Fetch and inject the navbar content
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar-container').innerHTML = data)
+        .catch(error => console.error("خطأ في تحميل شريط التنقل:", error));
 </script>
+<div style="margin: 15px 0; text-align: center;">
+  <script async="async" data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
+  <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
+</div>
+
 </body>
 </html>
+
+

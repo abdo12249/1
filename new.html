@@ -1,63 +1,204 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Firebase Episode Sync</title>
-<style>
-  body { font-family: sans-serif; background: #121212; color: #fff; text-align: center; }
-  #log { text-align: left; background: #1e1e1e; padding: 1rem; border-radius: 8px; margin: 1rem; height: 300px; overflow-y: auto; }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>أحدث حلقات</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script src="navbar.js" defer></script>
+  <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
+  <style>
+    body { background: #111; color: #fff; font-family: "Cairo", sans-serif; }
+    .pagination { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+    .pagination button { padding: 6px 12px; background-color: #ef4444; color: white; border: none; cursor: pointer; border-radius: 6px; transition: 0.3s; }
+    .pagination button:hover { background-color: #dc2626; }
+    .pagination button.active { background-color: #b91c1c; }
+    .anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; }
+    .anime-card { background: #222; border-radius: 10px; overflow: hidden; text-align: center; padding-bottom: 10px; transition: 0.3s; }
+    .anime-card:hover { transform: scale(1.03); }
+    .anime-image img { width: 100%; height: 230px; object-fit: cover; opacity: 0; transition: opacity 0.5s ease-in-out; }
+    .anime-image img.loaded { opacity: 1; }
+    .watch-button { display: inline-block; margin-top: 6px; background: #ef4444; color: white; padding: 6px 12px; border-radius: 5px; text-decoration: none; }
+    .watch-button:hover { background: #b91c1c; }
+    .loading-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; color: white; font-size: 1.2em; }
+    .spinner { border: 4px solid rgba(255, 255, 255, 0.3); border-top: 4px solid #fff; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px; }
+    @keyframes spin { 0% { transform: rotate(0deg);} 100% { transform: rotate(360deg);} }
+  </style>
 </head>
 <body>
-<h2>🔥 رفع الحلقات إلى Firebase Firestore</h2>
-<div id="log"></div>
+<div id="navbar-container"></div>
 
-<!-- Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script>
+<main>
+  <div class="section-header"><h1>أحدث حلقات</h1></div>
+  <div class="anime-grid" id="animeGrid"></div>
+  <div class="pagination" id="pagination"></div>
 
-<script>
-const logBox = document.getElementById("log");
-function log(msg) {
-  console.log(msg);
-  logBox.innerHTML += msg + "<br>";
-}
+  <div id="loadingOverlay" class="loading-overlay" style="display:none;">
+    <div class="spinner"></div>
+    <span>جاري تحميل الأنمي...</span>
+  </div>
 
-// 🔧 إعدادات Firebase
-const firebaseConfig = {
-  apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
-  authDomain: "wep1-25124.firebaseapp.com",
-  databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
-  projectId: "wep1-25124",
-  storageBucket: "wep1-25124.firebasestorage.app",
-  messagingSenderId: "400763524699",
-  appId: "1:400763524699:web:b3d5b77815de059ad9117e",
-  measurementId: "G-ER2GCC7BK4"
-};
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script>
 
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
+ <script>
+  // 🔧 إعدادات Firebase الخاصة بك
+  const firebaseConfig = {
+    apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
+    authDomain: "wep1-25124.firebaseapp.com",
+    databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
+    projectId: "wep1-25124",
+    storageBucket: "wep1-25124.firebasestorage.app",
+    messagingSenderId: "400763524699",
+    appId: "1:400763524699:web:b3d5b77815de059ad9117e",
+    measurementId: "G-ER2GCC7BK4"
+  };
 
-// ⚙️ الدالة الرئيسية
-(async function startUpload() {
-  log("📡 جاري جلب بيانات الجديد.json ...");
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
 
-  try {
-    const response = await fetch("الجديد.json");
-    const data = await response.json();
-    const animeLinks = data.animes;
+  const maxItemsPerPage = 20;
+  const EPISODES_PER_PART = 500;
+  let allEpisodes = [];
 
-    log(`✅ تم العثور على ${animeLinks.length} روابط أنمي.`);
+  function showLoading() { document.getElementById("loadingOverlay").style.display = "flex"; }
+  function hideLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
 
-    const fetchedEpisodes = [];
-    let index = 1;
+  function getPageFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return parseInt(params.get("page")) || 1;
+  }
 
-    // جلب كل أنمي بالتتابع
-    for (const url of animeLinks) {
-      try {
-        const res = await fetch(url);
-        const animeData = await res.json();
+  function updateURL(page) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("page", page);
+    window.history.pushState({}, "", url);
+  }
+
+  function renderPage(pageNumber) {
+    updateURL(pageNumber);
+    const animeGrid = document.getElementById("animeGrid");
+    animeGrid.innerHTML = "";
+    const startIndex = (pageNumber - 1) * maxItemsPerPage;
+    const endIndex = startIndex + maxItemsPerPage;
+    const episodesToShow = allEpisodes.slice(startIndex, endIndex);
+
+    episodesToShow.forEach(ep => {
+      const card = document.createElement("div");
+      card.className = "anime-card";
+      card.innerHTML = `
+        <div class="anime-image"><img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy"></div>
+        <div class="anime-info">
+          <h3>${ep.animeTitle}</h3>
+          <div class="anime-meta">
+            <span>${ep.title}</span>
+            <a href="${ep.link}" class="watch-button">شاهد الآن</a>
+          </div>
+        </div>`;
+      animeGrid.appendChild(card);
+    });
+
+    document.querySelectorAll(".pagination button").forEach(b => b.classList.remove("active"));
+    const activeBtn = document.querySelector(`.pagination button[data-page="${pageNumber}"]`);
+    if (activeBtn) activeBtn.classList.add("active");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function setupPagination(totalItems, currentPage) {
+    const pageCount = Math.ceil(totalItems / maxItemsPerPage);
+    const pagination = document.getElementById("pagination");
+    pagination.innerHTML = "";
+    const maxVisible = 5;
+    let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+    let end = Math.min(start + maxVisible - 1, pageCount);
+    if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+
+    if (currentPage > 1) {
+      const prev = document.createElement("button");
+      prev.textContent = "السابق";
+      prev.onclick = () => { renderPage(currentPage - 1); setupPagination(totalItems, currentPage - 1); };
+      pagination.appendChild(prev);
+    }
+
+    for (let i = start; i <= end; i++) {
+      const btn = document.createElement("button");
+      btn.textContent = i;
+      btn.setAttribute("data-page", i);
+      if (i === currentPage) btn.classList.add("active");
+      btn.onclick = () => { renderPage(i); setupPagination(totalItems, i); };
+      pagination.appendChild(btn);
+    }
+
+    if (currentPage < pageCount) {
+      const next = document.createElement("button");
+      next.textContent = "التالي";
+      next.onclick = () => { renderPage(currentPage + 1); setupPagination(totalItems, currentPage + 1); };
+      pagination.appendChild(next);
+    }
+  }
+
+  async function fetchWithConcurrencyLimit(urls, limit) {
+    const results = [];
+    const queue = [...urls];
+    async function worker() {
+      while (queue.length > 0) {
+        const url = queue.shift();
+        if (!url) continue;
+        try {
+          const res = await fetch(url);
+          const data = await res.json();
+          results.push(data);
+        } catch {
+          results.push(null);
+        }
+      }
+    }
+    const workers = Array(limit).fill(null).map(() => worker());
+    await Promise.all(workers);
+    return results;
+  }
+
+  async function uploadEpisodesInParts(episodes) {
+    const totalParts = Math.ceil(episodes.length / EPISODES_PER_PART);
+    const uploadedParts = [];
+
+    for (let i = 0; i < totalParts; i++) {
+      const start = i * EPISODES_PER_PART;
+      const end = start + EPISODES_PER_PART;
+      const partEpisodes = episodes.slice(start, end);
+      const partDocRef = db.collection("episodes").doc(`part${i + 1}`);
+
+      const existing = await partDocRef.get();
+      if (existing.exists && JSON.stringify(existing.data().episodes) === JSON.stringify(partEpisodes)) {
+        console.log(`⏭️ الجزء part${i + 1} لم يتغير، تم تخطيه.`);
+        continue;
+      }
+
+      await partDocRef.set({ episodes: partEpisodes, updatedAt: Date.now() });
+      console.log(`✅ تم رفع part${i + 1} (${partEpisodes.length} حلقة)`);
+
+      uploadedParts.push(`part${i + 1}`);
+    }
+
+    if (uploadedParts.length > 0) {
+      console.log(`🔥 تم رفع ${uploadedParts.length} أجزاء جديدة إلى Firestore!`);
+    } else {
+      console.log("✅ لا توجد تحديثات جديدة.");
+    }
+  }
+
+  async function fetchAndUploadIfNeeded() {
+    showLoading();
+    try {
+      const res = await fetch("الجديد.json");
+      const data = await res.json();
+      const animeLinks = data.animes;
+      const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 5);
+
+      const fetchedEpisodes = [];
+      fetchedAnimeData.forEach(animeData => {
+        if (!animeData) return;
         animeData.episodes.forEach(ep => {
           fetchedEpisodes.push({
             animeTitle: animeData.animeTitle,
@@ -68,62 +209,57 @@ const db = firebase.firestore();
             date: ep.date || new Date().toISOString()
           });
         });
-        log(`🎬 (${index}/${animeLinks.length}) تم تحميل ${animeData.episodes.length} حلقة من ${animeData.animeTitle}`);
-      } catch (err) {
-        log(`❌ خطأ في جلب ${url}: ${err}`);
+      });
+
+      fetchedEpisodes.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      await uploadEpisodesInParts(fetchedEpisodes);
+    } catch (e) {
+      console.error("❌ خطأ:", e);
+    } finally {
+      hideLoading();
+    }
+  }
+
+  // تحميل جميع الأجزاء من Firestore لعرضها
+  async function loadAllParts() {
+    const snapshot = await db.collection("episodes").get();
+    const all = [];
+    snapshot.forEach(doc => {
+      if (doc.id.startsWith("part")) {
+        all.push(...doc.data().episodes);
       }
-      index++;
+    });
+    all.sort((a, b) => new Date(b.date) - new Date(a.date));
+    return all;
+  }
+
+  async function init() {
+    showLoading();
+    const parts = await db.collection("episodes").get();
+    if (parts.empty) {
+      console.log("⚠️ لا توجد بيانات بعد، بدء التحميل...");
+      await fetchAndUploadIfNeeded();
     }
 
-    // ترتيب الحلقات حسب التاريخ
-    fetchedEpisodes.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    log(`📦 تم جمع ${fetchedEpisodes.length} حلقة. جاري رفعها إلى Firestore...`);
-    await uploadEpisodesToFirestore(fetchedEpisodes);
-
-  } catch (err) {
-    log("❌ خطأ رئيسي: " + err);
-  }
-})();
-
-// 🧩 تقسيم ورفع الأجزاء إلى Firestore
-async function uploadEpisodesToFirestore(fetchedEpisodes) {
-  const chunkSize = 500; // كل 500 حلقة في Document
-  const chunks = [];
-  for (let i = 0; i < fetchedEpisodes.length; i += chunkSize) {
-    chunks.push(fetchedEpisodes.slice(i, i + chunkSize));
+    allEpisodes = await loadAllParts();
+    const currentPage = getPageFromURL();
+    renderPage(currentPage);
+    setupPagination(allEpisodes.length, currentPage);
+    hideLoading();
   }
 
-  log(`🔹 تقسيم ${fetchedEpisodes.length} حلقة إلى ${chunks.length} جزء.`);
+  init();
+</script>
 
-  const collectionRef = db.collection("episodes");
+</main>
 
-  // حذف القديم
-  const snapshot = await collectionRef.get();
-  const batchDelete = db.batch();
-  snapshot.forEach(doc => batchDelete.delete(doc.ref));
-  await batchDelete.commit();
-  log("🧹 تم حذف البيانات القديمة من Firestore.");
-
-  // رفع الأجزاء
-  for (let i = 0; i < chunks.length; i++) {
-    const partRef = collectionRef.doc(`part${i + 1}`);
-    await partRef.set({
-      episodes: chunks[i],
-      updatedAt: Date.now()
-    });
-    log(`✅ تم رفع part${i + 1} (${chunks[i].length} حلقة)`);
-  }
-
-  // رفع معلومات عامة
-  await collectionRef.doc("meta").set({
-    total: fetchedEpisodes.length,
-    parts: chunks.length,
-    updatedAt: Date.now()
-  });
-
-  log("🔥 تم رفع كل الأجزاء بنجاح إلى Firestore!");
-}
+<script>
+  // تحميل شريط التنقل
+  fetch('navbar.html')
+    .then(r => r.text())
+    .then(d => document.getElementById('navbar-container').innerHTML = d)
+    .catch(e => console.error("خطأ في تحميل شريط التنقل:", e));
 </script>
 </body>
 </html>

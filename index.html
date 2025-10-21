@@ -1,119 +1,289 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>قائمة الأنميات</title>
-  <style>
-    body {
-      background: #111;
-      color: #fff;
-      font-family: sans-serif;
-      padding: 20px;
-    }
-    #animeGridNew {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-    }
-    .anime-card {
-      background: #222;
-      border-radius: 12px;
-      overflow: hidden;
-      transition: 0.3s;
-      box-shadow: 0 0 10px #0006;
-    }
-    .anime-card:hover {
-      transform: scale(1.05);
-    }
-    .anime-image img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-    }
-    .anime-info {
-      padding: 10px;
-    }
-    .anime-info h3 {
-      font-size: 18px;
-      margin: 0 0 8px;
-      color: #ffce00;
-    }
-    .anime-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .watch-button {
-      background: #ffce00;
-      color: #000;
-      text-decoration: none;
-      padding: 5px 10px;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-  </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AMK4UP هو موقع مخصص لمتابعة ومشاهدة الأنمي عبر الإنترنت بجودة عالية وأحدث الحلقات.">
+        <title>AMK4UP - موقع مشاهدة الانمي</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/mode.css">
+          <meta name="description" content="شاهد أحدث حلقات الأنمي مجاناً بجودة عالية عبر موقع AMK4UP. بدون إعلانات مزعجة وبتصميم بسيط.">
+        <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon">
+
+ <style>     
+
+        /* Loading overlay styles */
+        .loading-overlay {
+            position: fixed; /* Fixed position to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            display: flex; /* Use flexbox for centering content */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            z-index: 1000; /* Ensure it's on top of other content */
+            color: white; /* Text color */
+            font-size: 1.2em; /* Larger font size for text */
+        }
+
+        /* Spinner animation */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3); /* Light border for the spinner */
+            border-top: 4px solid #fff; /* White top border for animation */
+            border-radius: 50%; /* Make it circular */
+            width: 40px; /* Spinner width */
+            height: 40px; /* Spinner height */
+            animation: spin 1s linear infinite; /* Spin animation */
+            margin-bottom: 15px; /* Space below the spinner */
+        }
+
+        /* Keyframes for the spin animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Anime card image loading transition */
+        .anime-image img {
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
+        }
+
+        .anime-image img.loaded {
+            opacity: 1; /* Fully visible when loaded */
+        }
+    </style>
+
+
+
+    </head>
+    
 <body>
-  <h1>📺 أحدث الأنميات</h1>
-  <div id="animeGridNew">جارٍ التحميل...</div>
+    <div id="navbar-container"></div>
 
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-    import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+    <!-- Hero Section -->
 
-    // 🔧 إعدادات Firebase (استبدل هذه القيم ببيانات مشروعك)
-    const firebaseConfig = {
-      apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
-      authDomain: "wep1-25124.firebaseapp.com",
-      projectId: "wep1-25124",
-      storageBucket: "wep1-25124.firebasestorage.app",
-      messagingSenderId: "400763524699",
-      appId: "1:400763524699:web:b3d5b77815de059ad9117e"
-    };
+    <header class="hero">
+        <div class="slideshow"></div>
+        <div class="hero-controls">
+            <button class="control prev">&lt;</button>
+            <button class="control next">&gt;</button>
+        </div>
+        <div class="hero-indicators"></div>
+        <div class="hero-content">
+        </div>
+    </header>
+    
+                <script type="module" src="navbar.js"></script>
 
-    // تهيئة التطبيق وقاعدة البيانات
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
+<!-- قسم مميز -->
+<main>
+    <div class="section-header">
+        <h1>مميز</h1>
+    </div>
+    <div class="anime-grid" id="animeGrid1"></div>
+    <script>
+        // تحميل قائمة الصفحات من ملف مميز.json
+        fetch('مميز.json')
+            .then(response => response.json())
+            .then(pages => {
+                const animeGrid = document.getElementById('animeGrid1');
+                
+                // تحديد الحد الأقصى للعناصر المعروضة
+                const maxItems = 5; // هنا يمكنك تغيير العدد كما تشاء
+                const limitedPages = pages.slice(0, maxItems); // تقليص العدد حسب الحد الأقصى
+                
+                // إنشاء بطاقة لكل صفحة
+                limitedPages.forEach(page => {
+                    const card = document.createElement('div');
+                    card.className = 'anime-card';
+                    card.innerHTML = `
+                        <div class="anime-image">
+                            <img src="${page.image}" alt="${page.name}" loading="lazy">
+                            <div class="rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                ${page.rating}
+                            </div>
+                        </div>
+                        <div class="anime-info">
+                            <h3>${page.name}</h3>
+                            <div class="anime-meta">
+                                <span>${page.episodes}</span>
+                                <a href="${page.link}" class="watch-button">شاهد الآن</a>
+                            </div>
+                        </div>
+                    `;
+                    animeGrid.appendChild(card);
+                });
+            })
+            .catch(error => console.error('خطأ في تحميل الصفحات:', error));
+    </script>
+</main>
 
-    const CACHE_COLLECTION = "publicCache";
-    const CACHE_DOC = "episodes";
-    const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 ساعة
-    let allEpisodes = [];
+    
+<div style="max-width:100%;overflow:hidden;">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'fcb1605c77b3fd33d38ff238d2ffbd00',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/fcb1605c77b3fd33d38ff238d2ffbd00/invoke.js"></script>
+</div>
 
-    // قراءة من Firestore
-    async function readFromFirestore() {
-      try {
-        const ref = doc(db, CACHE_COLLECTION, CACHE_DOC);
-        const snap = await getDoc(ref);
-        if (snap.exists()) return snap.data();
-        return null;
-      } catch (e) {
-        console.error("❌ خطأ قراءة Firestore:", e);
-        return null;
-      }
+<style>
+iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
+
+    
+<!-- قسم الحلقات الجديدة -->
+<main>
+  <div class="section-header">
+    <h1>الحلقات الجديدة</h1>
+    <button class="watch-button"><a href="new.html" style="color: inherit;"> المزيد</a></button>
+  </div>
+  <div class="anime-grid" id="animeGridNew"></div>
+
+  <!-- شاشة التحميل -->
+  <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+    <div class="spinner"></div>
+    <span>جاري تحميل الأنمي...</span>
+  </div>
+
+  <script>
+    let allEpisodes = []; // سيتم تخزين جميع الحلقات هنا
+    const maxItemsToShow = 5; // عدد الحلقات المراد عرضها في هذا القسم
+    const cacheDuration = 24 * 60 * 60 * 1000; // 24 ساعة بالمللي ثانية
+
+    // ثوابت IndexedDB
+    const DB_NAME = 'AnimeDB';
+    const DB_VERSION = 1;
+    const STORE_NAME = 'episodesCache';
+    const CACHE_KEY = 'cachedEpisodes'; // المفتاح لتخزين كائن التخزين المؤقت الوحيد في IndexedDB
+
+    let db; // متغير للاحتفاظ بنسخة قاعدة بيانات IndexedDB
+
+    /**
+     * دالة لفتح قاعدة بيانات IndexedDB.
+     * @returns {Promise<IDBDatabase>} وعد يتم حله بنسخة قاعدة البيانات.
+     */
+    function openDatabase() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(DB_NAME, DB_VERSION);
+
+        request.onupgradeneeded = (event) => {
+          db = event.target.result;
+          // إنشاء مخزن الكائنات إذا لم يكن موجودًا
+          if (!db.objectStoreNames.contains(STORE_NAME)) {
+            db.createObjectStore(STORE_NAME);
+          }
+        };
+
+        request.onsuccess = (event) => {
+          db = event.target.result;
+          resolve(db);
+        };
+
+        request.onerror = (event) => {
+          console.error("خطأ في فتح IndexedDB:", event.target.error);
+          reject(event.target.error);
+        };
+      });
     }
 
-    // كتابة إلى Firestore
-    async function writeToFirestore(data) {
-      try {
-        const ref = doc(db, CACHE_COLLECTION, CACHE_DOC);
-        await setDoc(ref, data);
-        console.log("✅ تم حفظ البيانات على Firestore.");
-      } catch (e) {
-        console.error("❌ خطأ حفظ Firestore:", e);
+    /**
+     * دالة لقراءة البيانات من IndexedDB.
+     * @param {string} key المفتاح لاسترداد البيانات.
+     * @returns {Promise<any>} وعد يتم حله بالبيانات المستردة.
+     */
+    async function readFromIndexedDB(key) {
+      if (!db) {
+        await openDatabase(); // التأكد من فتح قاعدة البيانات قبل القراءة
       }
+      return new Promise((resolve, reject) => {
+        const transaction = db.transaction([STORE_NAME], 'readonly');
+        const store = transaction.objectStore(STORE_NAME);
+        const request = store.get(key);
+
+        request.onsuccess = (event) => {
+          resolve(event.target.result);
+        };
+
+        request.onerror = (event) => {
+          console.error("خطأ في قراءة IndexedDB:", event.target.error);
+          reject(event.target.error);
+        };
+      });
     }
 
-    // عرض الحلقات
+    /**
+     * دالة لكتابة البيانات إلى IndexedDB.
+     * @param {string} key المفتاح لتخزين البيانات تحته.
+     * @param {any} data البيانات المراد تخزينها.
+     * @returns {Promise<void>} وعد يتم حله عند كتابة البيانات.
+     */
+    async function writeToIndexedDB(key, data) {
+      if (!db) {
+        await openDatabase(); // التأكد من فتح قاعدة البيانات قبل الكتابة
+      }
+      return new Promise((resolve, reject) => {
+        const transaction = db.transaction([STORE_NAME], 'readwrite');
+        const store = transaction.objectStore(STORE_NAME);
+        const request = store.put(data, key); // استخدام put للإضافة أو التحديث
+
+        request.onsuccess = () => {
+          resolve();
+        };
+
+        request.onerror = (event) => {
+          console.error("خطأ في كتابة IndexedDB:", event.target.error);
+          reject(event.target.error);
+        };
+      });
+    }
+
+    /**
+     * دالة لإظهار شاشة التحميل.
+     */
+    function showLoading() {
+      document.getElementById('loadingOverlay').style.display = 'flex';
+    }
+
+    /**
+     * دالة لإخفاء شاشة التحميل.
+     */
+    function hideLoading() {
+      document.getElementById('loadingOverlay').style.display = 'none';
+    }
+
+    /**
+     * دالة لعرض الحلقات في الشبكة.
+     */
     function renderEpisodes() {
-      const grid = document.getElementById("animeGridNew");
-      grid.innerHTML = "";
-      allEpisodes.slice(0, 20).forEach(ep => {
-        const div = document.createElement("div");
-        div.className = "anime-card";
-        div.innerHTML = `
-          <div class="anime-image"><img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy"></div>
+      const animeGrid = document.getElementById("animeGridNew");
+      animeGrid.innerHTML = ""; // مسح المحتوى الحالي
+
+      // عرض فقط عدد maxItemsToShow من الحلقات
+      const episodesToShow = allEpisodes.slice(0, maxItemsToShow);
+
+      episodesToShow.forEach(ep => {
+        const card = document.createElement("div");
+        card.className = "anime-card";
+        card.innerHTML = `
+          <div class="anime-image">
+            <img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy">
+          </div>
           <div class="anime-info">
             <h3>${ep.animeTitle}</h3>
             <div class="anime-meta">
@@ -122,86 +292,306 @@
             </div>
           </div>
         `;
-        grid.appendChild(div);
+        animeGrid.appendChild(card);
       });
-    }
 
-    // تحميل عدة روابط بحد توازي
-    async function fetchWithLimit(urls, limit = 20) {
-      const results = [];
-      const queue = [...urls];
-      async function worker() {
-        while (queue.length > 0) {
-          const url = queue.shift();
-          try {
-            const res = await fetch(url);
-            const json = await res.json();
-            results.push(json);
-          } catch (e) {
-            console.warn("⚠️ فشل تحميل:", url);
-          }
-        }
+      // إضافة مراقب للتحميل التدريجي للصور
+      const lazyImages = document.querySelectorAll('#animeGridNew img[loading="lazy"]');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.classList.add('loaded'); // إضافة فئة لتغيير الشفافية
+              observer.unobserve(img); // إيقاف المراقبة بعد التحميل
+            }
+          });
+        });
+        lazyImages.forEach(img => observer.observe(img));
+      } else {
+        // بديل للمتصفحات التي لا تدعم IntersectionObserver
+        lazyImages.forEach(img => img.classList.add('loaded'));
       }
-      await Promise.all(Array(limit).fill(0).map(worker));
-      return results;
     }
 
-    // جلب جديد وتحديث Firestore إذا تغير
-    async function fetchAndUpdate() {
-      try {
-        const res = await fetch("الجديد.json");
-        const data = await res.json();
-        const urls = data.animes;
-        const allData = await fetchWithLimit(urls, 30);
+    /**
+     * دالة لجلب عناوين URL بحد أقصى للطلبات المتزامنة.
+     * @param {string[]} urls مصفوفة من عناوين URL المراد جلبها.
+     * @param {number} limit الحد الأقصى لعدد الطلبات المتزامنة.
+     * @returns {Promise<any[]>} وعد يتم حله بمصفوفة من البيانات التي تم جلبها.
+     */
+    async function fetchWithConcurrencyLimit(urls, limit) {
+        const results = [];
+        const queue = [...urls]; // إنشاء نسخة قابلة للتعديل من عناوين URL
 
-        const fetched = [];
-        for (const anime of allData) {
-          if (!anime) continue;
-          anime.episodes.forEach(ep => {
-            fetched.push({
-              animeTitle: anime.animeTitle,
+        async function worker() {
+            while (queue.length > 0) {
+                const url = queue.shift(); // الحصول على عنوان URL التالي من قائمة الانتظار
+                if (!url) continue; // تخطي إذا كانت قائمة الانتظار فارغة
+
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    results.push(data);
+                } catch (error) {
+                    console.error(`فشل تحميل: ${url}`, error);
+                    results.push(null); // إضافة null للطلبات الفاشلة
+                }
+            }
+        }
+
+        // بدء عدد 'limit' من العمال
+        const workers = Array(limit).fill(null).map(() => worker());
+        await Promise.all(workers); // انتظار جميع العمال لإكمال عملهم
+        return results;
+    }
+
+    /**
+     * دالة لجلب البيانات من API ومقارنتها مع البيانات المخزنة، ثم التحديث إذا تغيرت.
+     */
+    async function fetchAndCompareAndUpdate() {
+      let networkEpisodes = [];
+      let shouldRender = false; // علامة لتحديد ما إذا كان عرض الواجهة مطلوبًا
+
+      try {
+        // جلب ملف الجديد.json
+        const response = await fetch('الجديد.json');
+        const data = await response.json();
+        const animeLinks = data.animes;
+
+        // جلب جميع ملفات الأنمي الفردية بالتوازي مع تحديد حد للطلبات المتزامنة
+        const concurrencyLimit = 50; // يمكنك تعديل هذه القيمة حسب الحاجة
+        const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, concurrencyLimit);
+
+        const fetchedEpisodes = [];
+        fetchedAnimeData.forEach(animeData => {
+          if (!animeData) return; // تخطي البيانات الفارغة
+
+          animeData.episodes.forEach(ep => {
+            let dateValue = ep.date ? new Date(ep.date) : new Date("1970-01-01");
+
+            fetchedEpisodes.push({
+              animeTitle: animeData.animeTitle,
               image: ep.image,
               link: ep.link,
-              title: ep.title,
               number: ep.number,
-              date: ep.date || "1970-01-01"
+              title: ep.title,
+              date: dateValue.toISOString() // حفظ التاريخ كسلسلة ISO لسهولة المقارنة
             });
           });
-        }
+        });
 
-        fetched.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // فرز الحلقات حسب التاريخ (الأحدث أولاً)
+        fetchedEpisodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+        networkEpisodes = fetchedEpisodes;
 
-        const oldCache = await readFromFirestore();
-        const oldData = oldCache?.episodes || [];
+        // تحويل allEpisodes الحالية إلى سلسلة ISO لمقارنة متسقة
+        const currentAllEpisodesISO = allEpisodes.map(ep => ({...ep, date: ep.date.toISOString()}));
 
-        if (JSON.stringify(fetched) !== JSON.stringify(oldData)) {
-          console.log("🆕 تحديث جديد، حفظ البيانات...");
-          await writeToFirestore({ episodes: fetched, timestamp: Date.now() });
+        // مقارنة البيانات الجديدة من الشبكة مع البيانات الحالية (المخزنة مؤقتًا أو المعروضة)
+        if (JSON.stringify(networkEpisodes) !== JSON.stringify(currentAllEpisodesISO)) {
+          console.log("تم اكتشاف تغييرات في البيانات. تحديث IndexedDB والواجهة.");
+          const cacheObject = {
+            episodes: networkEpisodes,
+            timestamp: Date.now() // تحديث الطابع الزمني عند التغيير
+          };
+          await writeToIndexedDB(CACHE_KEY, cacheObject); // حفظ البيانات الجديدة في IndexedDB
+
+          // تحديث المتغير العام allEpisodes
+          allEpisodes = networkEpisodes.map(ep => ({
+            ...ep,
+            date: new Date(ep.date) // تحويل التاريخ مرة أخرى إلى كائن Date
+          }));
+          shouldRender = true; // الإشارة إلى أن العرض مطلوب
         } else {
-          console.log("✅ لا تغييرات.");
+          console.log("البيانات لم تتغير. استخدام البيانات الموجودة.");
         }
 
-        allEpisodes = fetched;
-        renderEpisodes();
-      } catch (err) {
-        console.error("خطأ أثناء الجلب:", err);
+      } catch (error) {
+        console.error("خطأ في جلب البيانات من الشبكة أو معالجتها:", error);
+        // في حالة فشل جلب الشبكة، وإذا كانت allEpisodes فارغة (مما يعني عدم تحميل أي كاش في البداية)،
+        // سنحاول التحميل من الكاش كبديل.
+        if (allEpisodes.length === 0) {
+            try {
+                const cachedData = await readFromIndexedDB(CACHE_KEY);
+                if (cachedData && cachedData.episodes) {
+                    allEpisodes = cachedData.episodes.map(ep => ({
+                        ...ep,
+                        date: new Date(ep.date)
+                    }));
+                    console.log("تم تحميل البيانات من IndexedDB بسبب فشل الجلب.");
+                    shouldRender = true; // العرض إذا تم التحميل من الكاش بسبب فشل الشبكة
+                } else {
+                    console.error("لا توجد بيانات في IndexedDB. لا يمكن عرض أي حلقات.");
+                }
+            } catch (dbError) {
+                console.error("خطأ في قراءة IndexedDB بعد فشل الجلب:", dbError);
+            }
+        }
+      } finally {
+        // دائمًا قم بالعرض إذا كان هناك تغيير أو إذا كانت هناك حلقات لعرضها
+        if (shouldRender || allEpisodes.length > 0) {
+          renderEpisodes();
+        }
+        hideLoading(); // إخفاء شاشة التحميل
       }
     }
 
-    // تشغيل عند فتح الصفحة
-    (async () => {
-      const cached = await readFromFirestore();
+    /**
+     * دالة للتهيئة.
+     */
+    async function init() {
+      await openDatabase(); // فتح IndexedDB عند التهيئة
+
+      const cachedObject = await readFromIndexedDB(CACHE_KEY);
       const now = Date.now();
-      if (cached && cached.episodes && now - cached.timestamp < CACHE_DURATION) {
-        console.log("📦 تحميل من الكاش Firestore...");
-        allEpisodes = cached.episodes;
-        renderEpisodes();
+      let renderedFromCache = false;
+
+      // حاول التحميل من الكاش أولاً للعرض الفوري
+      if (cachedObject && cachedObject.episodes && cachedObject.episodes.length > 0 && (now - cachedObject.timestamp) < cacheDuration) {
+        allEpisodes = cachedObject.episodes.map(ep => ({
+          ...ep,
+          date: new Date(ep.date)
+        }));
+        console.log("تم تحميل البيانات الأولية من IndexedDB.");
+        renderEpisodes(); // العرض فورًا من الكاش
+        renderedFromCache = true;
       } else {
-        console.log("🌐 تحميل من الشبكة...");
-        await fetchAndUpdate();
+        console.log("لا توجد بيانات في IndexedDB أو انتهت صلاحيتها. سيتم جلب البيانات من الشبكة.");
       }
-    })();
+
+      // إظهار شاشة التحميل فقط إذا لم يتم العرض من الكاش
+      if (!renderedFromCache) {
+        showLoading();
+      }
+
+      // دائمًا حاول جلب البيانات وتحديثها من الشبكة في الخلفية
+      // سيتولى هذا ضبط allEpisodes وإعادة العرض إذا لزم الأمر.
+      await fetchAndCompareAndUpdate();
+    }
+
+    init(); // بدء التهيئة عند تحميل الصفحة
   </script>
+</main>
+
+
+
+   <!-- Auto slideshow-->
+   <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slidesContainer = document.querySelector(".slideshow");
+    const indicatorsContainer = document.querySelector(".hero-indicators");
+    const heroContent = document.querySelector(".hero-content");
+    let currentSlide = 0;
+    let slidesData = [];
+    let autoSlideInterval;
+
+    // جلب بيانات الشريحة من ملف JSON
+    fetch('slider.json')
+        .then(response => response.json())
+        .then(data => {
+            slidesData = data;
+            initializeSlider();
+        })
+        .catch(error => console.error("Error loading slider data:", error));
+
+    function initializeSlider() {
+        slidesData.forEach((slide, index) => {
+            const link = document.createElement("a");
+            link.href = slide.link;
+            link.target = "_blank";
+
+            const img = document.createElement("img");
+            img.src = slide.image;
+            img.alt = slide.description;
+            img.classList.add("hero-image");
+            img.loading = "lazy"; // دعم Lazy Loading
+            if (index === 0) img.classList.add("active");
+
+            link.appendChild(img);
+            slidesContainer.appendChild(link);
+
+            const indicator = document.createElement("span");
+            indicator.classList.add("indicator");
+            if (index === 0) indicator.classList.add("active");
+            indicator.addEventListener("click", () => {
+                resetAutoSlide(); // إعادة تعيين العداد
+                showSlide(index);
+            });
+            indicatorsContainer.appendChild(indicator);
+        });
+
+        startAutoSlide();
+    }
+
+    function showSlide(index) {
+        currentSlide = index;
+        updateSlides();
+    }
+
+    function updateSlides() {
+        const slides = document.querySelectorAll(".hero-image");
+        const indicators = document.querySelectorAll(".indicator");
+
+        slides.forEach((slide, index) => {
+            slide.classList.toggle("active", index === currentSlide);
+        });
+
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle("active", index === currentSlide);
+        });
+
+    }
+
+
+    // التحكم في الأزرار
+    const nextButton = document.querySelector(".control.next");
+    const prevButton = document.querySelector(".control.prev");
+
+    nextButton.addEventListener("click", () => {
+        currentSlide = (currentSlide + 1) % slidesData.length;
+        updateSlides();
+        resetAutoSlide(); // إعادة تعيين العداد عند الضغط
+    });
+
+    prevButton.addEventListener("click", () => {
+        currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
+        updateSlides();
+        resetAutoSlide(); // إعادة تعيين العداد عند الضغط
+    });
+
+    // تغيير الصور تلقائيًا
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+        }, 5000); // تغيير الصورة كل 5 ثوانٍ
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval); // إيقاف العداد الحالي
+        startAutoSlide(); // بدء عداد جديد
+    }
+});
+
+    </script>
+    
+
+    <!-- تحميل الشريط العلوي من ملف -->
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+
+
+<div style="margin: 15px 0; text-align: center;">
+  <script async="async" data-cfasync="false" src="//pl27400501.profitableratecpm.com/cccf85ebe49cd5752952d5b413cfb457/invoke.js"></script>
+  <div id="container-cccf85ebe49cd5752952d5b413cfb457"></div>
+</div>
+
 </body>
 </html>
+
+
 

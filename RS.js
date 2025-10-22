@@ -11,7 +11,7 @@ import {
 // ✅ إعداد Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
-  authDomain: "myanima.ddns.net",
+  authDomain: "wep1-25124.firebaseapp.com",
   databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
   projectId: "wep1-25124",
   storageBucket: "wep1-25124.firebasestorage.app",
@@ -175,5 +175,6 @@ window.addToHistory = addToHistory;
 window.clearHistory = clearHistory;
 window.reverseHistory = reverseHistory;
 window.signIn = signIn;
+
 
 

@@ -304,17 +304,23 @@ iframe {
   }
 
   // تحميل جميع الأجزاء من Firestore لعرضها
-  async function loadAllParts() {
-    const snapshot = await db.collection("episodes").get();
-    const all = [];
-    snapshot.forEach(doc => {
-      if (doc.id.startsWith("part")) {
-        all.push(...doc.data().episodes);
-      }
-    });
-    all.sort((a, b) => new Date(b.date) - new Date(a.date));
-    return all;
-  }
+  // تحميل جميع الأجزاء من Firestore بسرعة (متوازي)
+async function loadAllParts() {
+  const snapshot = await db.collection("episodes").get();
+  const promises = [];
+
+  snapshot.forEach(doc => {
+    if (doc.id.startsWith("part")) {
+      promises.push(Promise.resolve(doc.data().episodes));
+    }
+  });
+
+  const partsData = await Promise.all(promises);
+  const all = partsData.flat();
+  all.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return all;
+}
+
 
   async function init() {
     showLoading();
@@ -350,6 +356,7 @@ iframe {
 
 </body>
 </html>
+
 
 
 

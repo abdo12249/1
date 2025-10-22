@@ -13,7 +13,7 @@ import {
 // Firebase Config
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
-  authDomain: "wep1-25124.firebaseapp.com",
+  authDomain: "myanima.ddns.net",
   projectId: "wep1-25124",
   storageBucket: "wep1-25124.firebasestorage.app",
   messagingSenderId: "400763524699",

@@ -124,26 +124,31 @@ iframe {
         <span>جاري تحميل الأنمي...</span>
     </div>
 
-<script>
-  // 🔧 إعدادات Firebase الخاصة بك
+<script type="module">
+  // ---------------- Firebase الإعداد ----------------
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+  import { getFirestore, collection, getDocs, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
+
   const firebaseConfig = {
-    apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
-    authDomain: "wep1-25124.firebaseapp.com",
-    databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
-    projectId: "wep1-25124",
-    storageBucket: "wep1-25124.appspot.com",
-    messagingSenderId: "400763524699",
-    appId: "1:400763524699:web:b3d5b77815de059ad9117e",
-    measurementId: "G-ER2GCC7BK4"
+  apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
+  authDomain: "wep1-25124.firebaseapp.com",
+  databaseURL: "https://wep1-25124-default-rtdb.firebaseio.com",
+  projectId: "wep1-25124",
+  storageBucket: "wep1-25124.firebasestorage.app",
+  messagingSenderId: "400763524699",
+  appId: "1:400763524699:web:b3d5b77815de059ad9117e",
+  measurementId: "G-ER2GCC7BK4"
   };
 
-  firebase.initializeApp(firebaseConfig);
-  const db = firebase.firestore();
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
 
+  // ---------------- إعدادات عامة ----------------
   const maxItemsPerPage = 20;
   const EPISODES_PER_PART = 500;
   let allEpisodes = [];
 
+  // ---------------- أدوات واجهة المستخدم ----------------
   function showLoading() { document.getElementById("loadingOverlay").style.display = "flex"; }
   function hideLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
 
@@ -158,6 +163,23 @@ iframe {
     window.history.pushState({}, "", url);
   }
 
+  // ---------------- Lazy Loading الصور ----------------
+  function setupLazyLoading() {
+    const lazyImages = document.querySelectorAll("img[data-src]");
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          img.removeAttribute("data-src");
+          obs.unobserve(img);
+        }
+      });
+    }, { rootMargin: "100px" });
+    lazyImages.forEach(img => observer.observe(img));
+  }
+
+  // ---------------- عرض الصفحة ----------------
   function renderPage(pageNumber) {
     updateURL(pageNumber);
     const animeGrid = document.getElementById("animeGrid");
@@ -170,7 +192,9 @@ iframe {
       const card = document.createElement("div");
       card.className = "anime-card";
       card.innerHTML = `
-        <div class="anime-image"><img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy"></div>
+        <div class="anime-image">
+          <img data-src="${ep.image}" alt="${ep.animeTitle}" loading="lazy">
+        </div>
         <div class="anime-info">
           <h3>${ep.animeTitle}</h3>
           <div class="anime-meta">
@@ -181,12 +205,16 @@ iframe {
       animeGrid.appendChild(card);
     });
 
+    setupLazyLoading();
+
     document.querySelectorAll(".pagination button").forEach(b => b.classList.remove("active"));
     const activeBtn = document.querySelector(`.pagination button[data-page="${pageNumber}"]`);
     if (activeBtn) activeBtn.classList.add("active");
+
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
+  // ---------------- إعداد الترقيم ----------------
   function setupPagination(totalItems, currentPage) {
     const pageCount = Math.ceil(totalItems / maxItemsPerPage);
     const pagination = document.getElementById("pagination");
@@ -220,6 +248,7 @@ iframe {
     }
   }
 
+  // ---------------- تحميل البيانات ----------------
   async function fetchWithConcurrencyLimit(urls, limit) {
     const results = [];
     const queue = [...urls];
@@ -241,93 +270,90 @@ iframe {
     return results;
   }
 
+  // ---------------- رفع الأجزاء ----------------
   async function uploadEpisodesInParts(episodes) {
-    const totalParts = Math.ceil(episodes.length / EPISODES_PER_PART);
-    const uploadedParts = [];
+    episodes.sort((a, b) => new Date(b.date) - new Date(a.date));
 
+    const totalParts = Math.ceil(episodes.length / EPISODES_PER_PART);
     for (let i = 0; i < totalParts; i++) {
       const start = i * EPISODES_PER_PART;
       const end = start + EPISODES_PER_PART;
       const partEpisodes = episodes.slice(start, end);
-      const partDocRef = db.collection("episodes").doc(`part${i + 1}`);
+      const partDocRef = doc(db, "episodes", `part${i + 1}`);
+      const existing = await getDoc(partDocRef);
 
-      const existing = await partDocRef.get();
-      if (existing.exists && JSON.stringify(existing.data().episodes) === JSON.stringify(partEpisodes)) {
-        console.log(`⏭️ الجزء part${i + 1} لم يتغير، تم تخطيه.`);
-        continue;
+      // 🔍 تحقق من التغييرات في المحتوى
+      if (existing.exists()) {
+        const oldData = existing.data().episodes;
+        const changed = JSON.stringify(oldData) !== JSON.stringify(partEpisodes);
+        if (!changed) {
+          console.log(`⏭️ الجزء part${i + 1} لم يتغير.`);
+          continue;
+        }
       }
 
-      await partDocRef.set({ episodes: partEpisodes, updatedAt: Date.now() });
-      console.log(`✅ تم رفع part${i + 1} (${partEpisodes.length} حلقة)`);
-
-      uploadedParts.push(`part${i + 1}`);
-    }
-
-    if (uploadedParts.length > 0) {
-      console.log(`🔥 تم رفع ${uploadedParts.length} أجزاء جديدة إلى Firestore!`);
-    } else {
-      console.log("✅ لا توجد تحديثات جديدة.");
+      await setDoc(partDocRef, { episodes: partEpisodes, updatedAt: Date.now() });
+      console.log(`✅ تم تحديث أو إنشاء part${i + 1} (${partEpisodes.length} حلقة)`);
     }
   }
 
-  async function fetchAndUploadIfNeeded() {
-    showLoading();
-    try {
-      const res = await fetch("الجديد.json");
-      const data = await res.json();
-      const animeLinks = data.animes;
-      const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 5);
-
-      const fetchedEpisodes = [];
-      fetchedAnimeData.forEach(animeData => {
-        if (!animeData) return;
-        animeData.episodes.forEach(ep => {
-          fetchedEpisodes.push({
-            animeTitle: animeData.animeTitle,
-            image: ep.image,
-            link: ep.link,
-            number: ep.number,
-            title: ep.title,
-            date: ep.date || new Date().toISOString()
-          });
-        });
-      });
-
-      fetchedEpisodes.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-      await uploadEpisodesInParts(fetchedEpisodes);
-    } catch (e) {
-      console.error("❌ خطأ:", e);
-    } finally {
-      hideLoading();
-    }
+  // ---------------- تحميل كل الأجزاء ----------------
+  async function loadAllParts() {
+    const snapshot = await getDocs(collection(db, "episodes"));
+    const parts = [];
+    snapshot.forEach(docSnap => {
+      if (docSnap.id.startsWith("part")) {
+        parts.push(...docSnap.data().episodes);
+      }
+    });
+    parts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    return parts;
   }
 
-  // تحميل جميع الأجزاء من Firestore لعرضها
-  // تحميل جميع الأجزاء من Firestore بسرعة (متوازي)
-async function loadAllParts() {
-  const snapshot = await db.collection("episodes").get();
-  const promises = [];
-
-  snapshot.forEach(doc => {
-    if (doc.id.startsWith("part")) {
-      promises.push(Promise.resolve(doc.data().episodes));
-    }
-  });
-
-  const partsData = await Promise.all(promises);
-  const all = partsData.flat();
-  all.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return all;
-}
-
-
+  // ---------------- التحقق من الجديد أو التغيير ----------------
   async function init() {
     showLoading();
-    const parts = await db.collection("episodes").get();
-    if (parts.empty) {
-      console.log("⚠️ لا توجد بيانات بعد، بدء التحميل...");
-      await fetchAndUploadIfNeeded();
+    const snapshot = await getDocs(collection(db, "episodes"));
+
+    let existingEpisodes = [];
+    if (!snapshot.empty) existingEpisodes = await loadAllParts();
+
+    const res = await fetch("الجديد.json");
+    const data = await res.json();
+    const animeLinks = data.animes;
+    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 5);
+
+    const fetchedEpisodes = [];
+    fetchedAnimeData.forEach(animeData => {
+      if (!animeData) return;
+      animeData.episodes.forEach(ep => {
+        fetchedEpisodes.push({
+          animeTitle: animeData.animeTitle,
+          image: ep.image,
+          link: ep.link,
+          number: ep.number,
+          title: ep.title,
+          date: ep.date || new Date().toISOString()
+        });
+      });
+    });
+
+    // 🔍 اكتشاف الحلقات الجديدة أو المعدلة
+    const newOrUpdated = fetchedEpisodes.filter(ep => {
+      const old = existingEpisodes.find(o => o.link === ep.link);
+      return !old || JSON.stringify(old) !== JSON.stringify(ep);
+    });
+
+    if (newOrUpdated.length > 0) {
+      console.log(`✨ تم اكتشاف ${newOrUpdated.length} تحديث أو حلقة جديدة`);
+      const merged = [
+        ...newOrUpdated,
+        ...existingEpisodes.filter(o => !newOrUpdated.some(n => n.link === o.link))
+      ];
+      merged.sort((a, b) => new Date(b.date) - new Date(a.date));
+      await uploadEpisodesInParts(merged);
+    } else {
+      console.log("✅ لا توجد تحديثات أو تغييرات.");
     }
 
     allEpisodes = await loadAllParts();
@@ -337,7 +363,12 @@ async function loadAllParts() {
     hideLoading();
   }
 
+  // ---------------- التشغيل ----------------
   init();
+  setInterval(() => {
+    console.log("🔁 التحقق من وجود تحديثات جديدة...");
+    init();
+  }, 10 * 60 * 1000);
 </script>
 
 </main>
@@ -356,6 +387,7 @@ async function loadAllParts() {
 
 </body>
 </html>
+
 
 
 

@@ -170,27 +170,28 @@
     // 🔥 أزرار السيرفرات
     // ============================
     function loadServerButtons() {
-      serverButtons.innerHTML = "";
+      serverButtons.innerHTML = ""; // مسح السابق
       const ep = episodes[currentEpisodeIndex];
-
+    
       ep.servers.forEach(server => {
-        let btn = document.createElement("button");
+        const btn = document.createElement("button");
         btn.textContent = server.serverName;
-
+        btn.className = "server-button"; // أضفنا class أساسي لجميع أزرار السيرفر
+    
+        // ✅ تفعيل السيرفر الحالي
         if (server.serverName === currentServerName) {
           btn.classList.add("active");
         }
-
-        btn.onclick = () => {
+    
+        btn.addEventListener("click", () => {
           currentServerName = server.serverName;
           videoPlayer.src = server.url;
-          loadServerButtons();
-        };
-
+          loadServerButtons(); // إعادة تحميل لتحديث الزر النشط
+        });
+    
         serverButtons.appendChild(btn);
       });
     }
-
     // ============================
     // 🔥 أزرار السابق / التالي
     // ============================
@@ -228,5 +229,6 @@
 
 </body>
 </html>
+
 
 

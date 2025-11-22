@@ -24,27 +24,12 @@
       margin-left: 8px;
       font-size: 1.1em;
     }
-    #sandbox-toggle {
-      margin: 10px auto;
-      padding: 10px 20px;
-      display: block;
-      background-color: #4b5563;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    #warning-message {
-      color: red;
-      font-weight: bold;
-      text-align: center;
-      display: none;
-    }
   </style>
 </head>
 
 <body>
   <div id="navbar-container"></div>
+
   <div class="container">
     <main class="main-content">
       <div class="anime-info-header">
@@ -53,8 +38,6 @@
       </div>
 
       <div class="server-buttons" id="server-buttons-container"></div>
-      <button id="sandbox-toggle">تشغيل وضع مانع الإعلانات</button>
-      <p id="warning-message">⚠️ بعض السيرفرات قد لا تعمل عند تشغيل مانع الإعلانات.</p>
 
       <div class="video-container">
         <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
@@ -75,223 +58,173 @@
   <script>
     let episodes = [];
     let currentEpisodeIndex = 0;
-    let currentServerName = '';
+    let currentServerName = "";
 
-    const episodesList = document.getElementById('episodes-list');
-    const videoPlayer = document.getElementById('video-player');
-    const animeTitle = document.getElementById('anime-title');
-    const episodeTitle = document.getElementById('episode-title');
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-    const serverButtonsContainer = document.getElementById('server-buttons-container');
-    const sandboxToggle = document.getElementById('sandbox-toggle');
-    const warningMessage = document.getElementById('warning-message');
-
-    let sandboxEnabled = localStorage.getItem("sandbox") !== "false";
-
-    function applySandbox() {
-      if (sandboxEnabled) {
-        videoPlayer.setAttribute("sandbox", "allow-scripts allow-same-origin");
-        sandboxToggle.textContent = "تعطيل وضع مانع الإعلانات";
-        warningMessage.style.display = "block";
-      } else {
-        videoPlayer.removeAttribute("sandbox");
-        sandboxToggle.textContent = "تشغيل وضع مانع الإعلانات";
-        warningMessage.style.display = "none";
-      }
-    }
-
-    sandboxToggle.addEventListener("click", () => {
-      sandboxEnabled = !sandboxEnabled;
-      localStorage.setItem("sandbox", sandboxEnabled);
-      applySandbox();
-      updatePlayer();
-    });
+    const episodesList = document.getElementById("episodes-list");
+    const videoPlayer   = document.getElementById("video-player");
+    const animeTitle    = document.getElementById("anime-title");
+    const episodeTitle  = document.getElementById("episode-title");
+    const prevBtn       = document.getElementById("prev-btn");
+    const nextBtn       = document.getElementById("next-btn");
+    const serverButtons = document.getElementById("server-buttons-container");
 
     function getQueryParam(param) {
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get(param);
     }
 
-    // ===============================
-    // 🔥 نظام ذكي لاختيار الحلقة
-    // ===============================
+    // ============================
+    // 🔥 اختيار الحلقة من الرابط
+    // ============================
     function setEpisodeFromURL() {
-      let episodeParam = getQueryParam('episode');
+      let ep = getQueryParam("episode");
 
-      // لو None أو null أو فاضي → افتح أول حلقة
-      if (!episodeParam || episodeParam === "None" || episodeParam === "null") {
+      if (!ep || ep === "None" || ep === "null") {
         playEpisode(0);
         return;
       }
 
-      // لو مش رقم → افتح أول حلقة
-      if (isNaN(episodeParam)) {
+      if (isNaN(ep)) {
         playEpisode(0);
         return;
       }
 
-      episodeParam = parseInt(episodeParam, 10);
+      ep = parseInt(ep, 10);
+      let index = episodes.findIndex(e => e.number == ep);
 
-      // دور على الحلقة
-      const episodeIndex = episodes.findIndex(ep => ep.number == episodeParam);
-
-      if (episodeIndex !== -1) {
-        playEpisode(episodeIndex);
-      } else {
-        playEpisode(0);
-      }
+      if (index !== -1) playEpisode(index);
+      else playEpisode(0);
     }
 
+    // ============================
+    // 🔥 تحميل ملف JSON
+    // ============================
     function loadEpisodesData() {
-      const animeId = getQueryParam('id');
-      if (!animeId) {
-        document.body.innerHTML = '<h1>لا يوجد معرف أنمي في الرابط</h1>';
-        return;
-      }
+      const animeId = getQueryParam("id");
+      if (!animeId) return;
 
       fetch(`episodes/${animeId}.json`)
-        .then(response => response.json())
+        .then(res => res.json())
         .then(data => {
-          if (!data.episodes || !Array.isArray(data.episodes))
-            throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
-
           episodes = data.episodes;
 
-          // 🔥 ترتيب الحلقات مهما كان JSON ملخبط
+          // ترتيب الحلقات من JSON حتى لو ملخبطة
           episodes.sort((a, b) => a.number - b.number);
 
-          if (episodes.length > 0 && data.animeTitle) {
-            animeTitle.textContent = data.animeTitle;
-            const metaDescription = document.querySelector('meta[name="description"]');
-            if (metaDescription) metaDescription.setAttribute('content', `مشاهدة حلقات ${data.animeTitle}`);
-          }
+          animeTitle.textContent = data.animeTitle;
 
           setEpisodeFromURL();
           loadEpisodes();
         })
-        .catch(error => {
-          console.error('خطأ في تحميل بيانات الحلقات:', error);
-          document.body.innerHTML = '<h1>حدث خطأ أثناء تحميل الحلقات</h1>';
+        .catch(err => {
+          console.error(err);
+          document.body.innerHTML = "<h1>خطأ في تحميل الحلقات</h1>";
         });
     }
 
+    // ============================
+    // 🔥 قائمة الحلقات + active
+    // ============================
     function loadEpisodes() {
-      episodesList.innerHTML = '';
-      const animeId = getQueryParam('id');
+      episodesList.innerHTML = "";
 
-      let watchedEpisodes = [];
-      const backup = localStorage.getItem("watchHistoryBackup");
-
-      if (backup) {
-        try {
-          const historyData = JSON.parse(backup);
-          watchedEpisodes = historyData
-            .filter(h => new URL(h.url).searchParams.get('id') === animeId)
-            .map(h => parseInt(new URL(h.url).searchParams.get('episode')))
-            .filter(num => !isNaN(num));
-        } catch {}
-      }
-
-      episodes.forEach(episode => {
-        const li = document.createElement('li');
-        li.className = 'episode-item';
+      episodes.forEach((episode, index) => {
+        const li = document.createElement("li");
+        li.className = "episode-item";
         li.textContent = episode.title;
 
-        if (episode.number == getQueryParam('episode')) {
-          li.classList.add('active');
+        // 🔥 تفعيل الزر الصحيح حسب الحلقة الحالية
+        if (index === currentEpisodeIndex) {
+          li.classList.add("active");
         }
 
-        if (watchedEpisodes.includes(episode.number)) {
-          li.classList.add('watched');
-        }
-
-        li.addEventListener('click', () => {
-          const newUrl = `?id=${animeId}&episode=${episode.number}`;
-          history.pushState({}, '', newUrl);
-          playEpisode(episodes.indexOf(episode));
+        li.addEventListener("click", () => {
+          const newUrl = `?id=${getQueryParam("id")}&episode=${episode.number}`;
+          history.pushState({}, "", newUrl);
+          playEpisode(index);
         });
 
         episodesList.appendChild(li);
       });
     }
 
+    // ============================
+    // 🔥 تشغيل حلقة
+    // ============================
+    function playEpisode(index) {
+      currentEpisodeIndex = index;
+
+      const ep = episodes[index];
+      episodeTitle.textContent = `رقم الحلقة: ${ep.number}`;
+      document.title = `${animeTitle.textContent} - الحلقة ${ep.number}`;
+
+      currentServerName = ep.servers[0].serverName;
+
+      videoPlayer.src = ep.servers[0].url;
+
+      loadServerButtons();
+      loadEpisodes();
+    }
+
+    // ============================
+    // 🔥 أزرار السيرفرات
+    // ============================
     function loadServerButtons() {
-      serverButtonsContainer.innerHTML = '';
-      const currentEpisode = episodes[currentEpisodeIndex];
+      serverButtons.innerHTML = "";
+      const ep = episodes[currentEpisodeIndex];
 
-      currentEpisode.servers.forEach(server => {
-        const button = document.createElement('button');
-        button.textContent = server.serverName;
-        button.classList.add('server-button');
+      ep.servers.forEach(server => {
+        let btn = document.createElement("button");
+        btn.textContent = server.serverName;
 
-        if (server.serverName === currentServerName) button.classList.add('active');
+        if (server.serverName === currentServerName) {
+          btn.classList.add("active");
+        }
 
-        button.addEventListener('click', () => {
+        btn.onclick = () => {
           currentServerName = server.serverName;
-          updatePlayer();
-        });
+          videoPlayer.src = server.url;
+          loadServerButtons();
+        };
 
-        serverButtonsContainer.appendChild(button);
+        serverButtons.appendChild(btn);
       });
     }
 
-    function updatePlayer() {
-      const currentEpisode = episodes[currentEpisodeIndex];
-
-      episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
-      document.title = `${animeTitle.textContent} - الحلقة ${currentEpisode.number}`;
-
-      if (!currentServerName && currentEpisode.servers.length > 0) {
-        currentServerName = currentEpisode.servers[0].serverName;
-      }
-
-      const currentServer = currentEpisode.servers.find(s => s.serverName === currentServerName);
-      if (currentServer) {
-        videoPlayer.src = currentServer.url;
-        applySandbox();
-      }
-
-      loadEpisodes();
-      loadServerButtons();
-    }
-
-    function playEpisode(index) {
-      currentEpisodeIndex = index;
-      currentServerName = '';
-      updatePlayer();
-    }
-
+    // ============================
+    // 🔥 أزرار السابق / التالي
+    // ============================
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
+
       if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
       if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
 
-      const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
-      history.pushState({}, '', newUrl);
+      const newUrl = `?id=${getQueryParam("id")}&episode=${episodes[currentEpisodeIndex].number}`;
+      history.pushState({}, "", newUrl);
 
-      currentServerName = '';
-      updatePlayer();
+      playEpisode(currentEpisodeIndex);
     }
 
-    prevBtn.addEventListener('click', () => navigateEpisode(-1));
-    nextBtn.addEventListener('click', () => navigateEpisode(1));
+    prevBtn.onclick = () => navigateEpisode(-1);
+    nextBtn.onclick = () => navigateEpisode(1);
 
-    window.addEventListener('popstate', () => {
+    // ============================
+    // 🔥 عند الرجوع للخلف
+    // ============================
+    window.onpopstate = () => {
       setEpisodeFromURL();
       loadEpisodes();
-    });
-
-    window.onload = () => {
-      applySandbox();
-      loadEpisodesData();
     };
+
+    window.onload = loadEpisodesData;
   </script>
 
   <script>
     fetch('../navbar.html')
-      .then(response => response.text())
+      .then(res => res.text())
       .then(data => document.getElementById('navbar-container').innerHTML = data);
   </script>
+
 </body>
 </html>

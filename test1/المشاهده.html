@@ -113,13 +113,33 @@
       return urlParams.get(param);
     }
 
+    // ===============================
+    // 🔥 نظام ذكي لاختيار الحلقة
+    // ===============================
     function setEpisodeFromURL() {
-      const episodeParam = getQueryParam('episode');
-      if (episodeParam) {
-        const episodeIndex = episodes.findIndex(ep => ep.number == episodeParam);
-        if (episodeIndex !== -1) {
-          playEpisode(episodeIndex);
-        }
+      let episodeParam = getQueryParam('episode');
+
+      // لو None أو null أو فاضي → افتح أول حلقة
+      if (!episodeParam || episodeParam === "None" || episodeParam === "null") {
+        playEpisode(0);
+        return;
+      }
+
+      // لو مش رقم → افتح أول حلقة
+      if (isNaN(episodeParam)) {
+        playEpisode(0);
+        return;
+      }
+
+      episodeParam = parseInt(episodeParam, 10);
+
+      // دور على الحلقة
+      const episodeIndex = episodes.findIndex(ep => ep.number == episodeParam);
+
+      if (episodeIndex !== -1) {
+        playEpisode(episodeIndex);
+      } else {
+        playEpisode(0);
       }
     }
 
@@ -138,7 +158,7 @@
 
           episodes = data.episodes;
 
-          // ✅ إعادة ترتيب الحلقات مهما كان JSON ملخبط
+          // 🔥 ترتيب الحلقات مهما كان JSON ملخبط
           episodes.sort((a, b) => a.number - b.number);
 
           if (episodes.length > 0 && data.animeTitle) {
@@ -170,9 +190,7 @@
             .filter(h => new URL(h.url).searchParams.get('id') === animeId)
             .map(h => parseInt(new URL(h.url).searchParams.get('episode')))
             .filter(num => !isNaN(num));
-        } catch {
-          console.warn("تعذر قراءة سجل المشاهدة المحلي");
-        }
+        } catch {}
       }
 
       episodes.forEach(episode => {

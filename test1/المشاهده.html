@@ -7,6 +7,8 @@
   <meta name="description" content="عرض أنمي ديناميكي" id="meta-description">
   <link rel="stylesheet" href="../CSS/episodes.css">
   <link rel="stylesheet" href="../CSS/style.css">
+  <script type="module" src="/RS.js"></script>
+  <script type="module" src="../navbar.js"></script>
   <link rel="icon" href="https://abdo838.github.io/1/navbar/favicon.ico" type="image/x-icon">
 
   <style>
@@ -22,22 +24,6 @@
       margin-left: 8px;
       font-size: 1.1em;
     }
-    #sandbox-toggle {
-      margin: 10px auto;
-      padding: 10px 20px;
-      display: block;
-      background-color: #4b5563;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    #warning-message {
-      color: red;
-      font-weight: bold;
-      text-align: center;
-      display: none;
-    }
   </style>
 </head>
 
@@ -52,8 +38,6 @@
       </div>
 
       <div class="server-buttons" id="server-buttons-container"></div>
-      <button id="sandbox-toggle">تشغيل وضع مانع الإعلانات</button>
-      <p id="warning-message">⚠️ بعض السيرفرات قد لا تعمل عند تشغيل مانع الإعلانات.</p>
 
       <div class="video-container">
         <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
@@ -75,8 +59,6 @@
     let episodes = [];
     let currentEpisodeIndex = 0;
     let currentServerName = "";
-    let sandboxEnabled = localStorage.getItem("sandbox") !== "false";
-    let RSLoaded = false;
 
     const episodesList = document.getElementById("episodes-list");
     const videoPlayer   = document.getElementById("video-player");
@@ -85,42 +67,6 @@
     const prevBtn       = document.getElementById("prev-btn");
     const nextBtn       = document.getElementById("next-btn");
     const serverButtons = document.getElementById("server-buttons-container");
-    const sandboxToggle = document.getElementById("sandbox-toggle");
-    const warningMessage = document.getElementById("warning-message");
-
-    // ============================
-    // 🔹 تحميل RS.js عند الضغط على الفيديو
-    // ============================
-    videoPlayer.addEventListener("click", () => {
-      if (RSLoaded) return;
-      const script = document.createElement("script");
-      script.type = "module";
-      script.src = "/RS.js";
-      document.body.appendChild(script);
-      RSLoaded = true;
-    });
-
-    // ============================
-    // 🔹 وضع sandbox
-    // ============================
-    function applySandbox() {
-      if (sandboxEnabled) {
-        videoPlayer.setAttribute("sandbox", "allow-scripts allow-same-origin");
-        sandboxToggle.textContent = "تعطيل وضع مانع الإعلانات";
-        warningMessage.style.display = "block";
-      } else {
-        videoPlayer.removeAttribute("sandbox");
-        sandboxToggle.textContent = "تشغيل وضع مانع الإعلانات";
-        warningMessage.style.display = "none";
-      }
-    }
-
-    sandboxToggle.addEventListener("click", () => {
-      sandboxEnabled = !sandboxEnabled;
-      localStorage.setItem("sandbox", sandboxEnabled);
-      applySandbox();
-      updatePlayer();
-    });
 
     function getQueryParam(param) {
       const urlParams = new URLSearchParams(window.location.search);
@@ -128,26 +74,30 @@
     }
 
     // ============================
-    // 🔹 اختيار الحلقة من الرابط
+    // 🔥 اختيار الحلقة من الرابط
     // ============================
     function setEpisodeFromURL() {
       let ep = getQueryParam("episode");
+
       if (!ep || ep === "None" || ep === "null") {
         playEpisode(0);
         return;
       }
+
       if (isNaN(ep)) {
         playEpisode(0);
         return;
       }
+
       ep = parseInt(ep, 10);
-      const index = episodes.findIndex(e => e.number == ep);
+      let index = episodes.findIndex(e => e.number == ep);
+
       if (index !== -1) playEpisode(index);
       else playEpisode(0);
     }
 
     // ============================
-    // 🔹 تحميل JSON
+    // 🔥 تحميل ملف JSON
     // ============================
     function loadEpisodesData() {
       const animeId = getQueryParam("id");
@@ -157,13 +107,11 @@
         .then(res => res.json())
         .then(data => {
           episodes = data.episodes;
-          episodes.sort((a,b) => a.number - b.number);
 
-          if (data.animeTitle) {
-            animeTitle.textContent = data.animeTitle;
-            const metaDescription = document.querySelector('meta[name="description"]');
-            if(metaDescription) metaDescription.setAttribute('content', `مشاهدة حلقات ${data.animeTitle}`);
-          }
+          // ترتيب الحلقات من JSON حتى لو ملخبطة
+          episodes.sort((a, b) => a.number - b.number);
+
+          animeTitle.textContent = data.animeTitle;
 
           setEpisodeFromURL();
           loadEpisodes();
@@ -175,16 +123,20 @@
     }
 
     // ============================
-    // 🔹 تحميل الحلقات
+    // 🔥 قائمة الحلقات + active
     // ============================
     function loadEpisodes() {
       episodesList.innerHTML = "";
-      episodes.forEach((episode,index) => {
+
+      episodes.forEach((episode, index) => {
         const li = document.createElement("li");
         li.className = "episode-item";
         li.textContent = episode.title;
 
-        if (index === currentEpisodeIndex) li.classList.add("active");
+        // 🔥 تفعيل الزر الصحيح حسب الحلقة الحالية
+        if (index === currentEpisodeIndex) {
+          li.classList.add("active");
+        }
 
         li.addEventListener("click", () => {
           const newUrl = `?id=${getQueryParam("id")}&episode=${episode.number}`;
@@ -197,14 +149,17 @@
     }
 
     // ============================
-    // 🔹 تشغيل الحلقة
+    // 🔥 تشغيل حلقة
     // ============================
     function playEpisode(index) {
       currentEpisodeIndex = index;
+
       const ep = episodes[index];
       episodeTitle.textContent = `رقم الحلقة: ${ep.number}`;
       document.title = `${animeTitle.textContent} - الحلقة ${ep.number}`;
+
       currentServerName = ep.servers[0].serverName;
+
       videoPlayer.src = ep.servers[0].url;
 
       loadServerButtons();
@@ -212,42 +167,57 @@
     }
 
     // ============================
-    // 🔹 السيرفرات
+    // 🔥 أزرار السيرفرات
     // ============================
     function loadServerButtons() {
       serverButtons.innerHTML = "";
       const ep = episodes[currentEpisodeIndex];
+
       ep.servers.forEach(server => {
-        const btn = document.createElement("button");
+        let btn = document.createElement("button");
         btn.textContent = server.serverName;
-        if (server.serverName === currentServerName) btn.classList.add("active");
+
+        if (server.serverName === currentServerName) {
+          btn.classList.add("active");
+        }
 
         btn.onclick = () => {
           currentServerName = server.serverName;
           videoPlayer.src = server.url;
           loadServerButtons();
         };
+
         serverButtons.appendChild(btn);
       });
     }
 
     // ============================
-    // 🔹 التنقل بين الحلقات
+    // 🔥 أزرار السابق / التالي
     // ============================
     function navigateEpisode(direction) {
       currentEpisodeIndex += direction;
-      if(currentEpisodeIndex < 0) currentEpisodeIndex = 0;
-      if(currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length-1;
+
+      if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
+      if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
+
       const newUrl = `?id=${getQueryParam("id")}&episode=${episodes[currentEpisodeIndex].number}`;
       history.pushState({}, "", newUrl);
+
       playEpisode(currentEpisodeIndex);
     }
 
     prevBtn.onclick = () => navigateEpisode(-1);
     nextBtn.onclick = () => navigateEpisode(1);
-    window.onpopstate = () => { setEpisodeFromURL(); loadEpisodes(); }
 
-    window.onload = () => { applySandbox(); loadEpisodesData(); }
+    // ============================
+    // 🔥 عند الرجوع للخلف
+    // ============================
+    window.onpopstate = () => {
+      setEpisodeFromURL();
+      loadEpisodes();
+    };
+
+    window.onload = loadEpisodesData;
   </script>
 
   <script>

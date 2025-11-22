@@ -129,41 +129,39 @@ body.light-mode .anime-info-header p {
     background-color: #dc2626;
 }
 
-/* الفيديو */
 .video-container {
     position: relative;
     width: 100%;
     max-width: 100%;
-    height: 500px;
-    margin: 0 auto 20px auto;
+    height: 0;
+    padding-bottom: 56.25%; /* نسبة 16:9 */
     overflow: hidden;
     border-radius: 8px;
 }
 
-/* صورة الحلقة fullscreen */
+/* الصورة تغطي كامل الفيديو */
 .episode-image-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    z-index: 10;
 }
 
 #episode-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* تغطي كل مساحة الفيديو */
+    display: block;
 }
 
-/* زر التشغيل */
+/* زر التشغيل فوق الصورة */
 #play-button {
     position: absolute;
-    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
     padding: 15px 30px;
     font-size: 1.5em;
     background-color: rgba(239, 68, 68, 0.8);
@@ -171,20 +169,20 @@ body.light-mode .anime-info-header p {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    pointer-events: all; /* تأكد من إمكانية الضغط عليه */
 }
 
-#play-button:hover {
-    background-color: rgba(239, 68, 68, 1);
-}
-
+/* الفيديو يغطي كامل الحاوية عند التشغيل */
 .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     border: none;
-    display: none; /* يظهر عند الضغط على زر التشغيل */
+    display: none; /* يظهر عند الضغط على الزر */
     border-radius: 8px;
 }
-
 /* أزرار التنقل */
 .navigation-buttons {
     display: flex;
@@ -253,11 +251,11 @@ body.light-mode .anime-info-header p {
     }
 
     .video-container {
-        height: 250px;
+        height: 25px;
     }
 
     .navigation-buttons button {
         width: 100%;
     }
+    
 }
-</style>

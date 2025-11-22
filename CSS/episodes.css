@@ -1,3 +1,4 @@
+<style>
 :root {
     --primary-color: #ef4444;
     --bg-dark: #111827;
@@ -54,7 +55,7 @@ body.light-mode .anime-info-header p {
     margin-top: 200px;
     margin-right: 30px;
     width: 300px;
-    max-height: calc(100vh - 100px); /* لا يتعدى طول الشاشة */
+    max-height: calc(100vh - 100px);
     background-color: var(--bg-darker);
     border-left: 1px solid #ddd;
     padding: 10px;
@@ -62,7 +63,6 @@ body.light-mode .anime-info-header p {
     overflow-y: auto;
     border-radius: 8px;
 }
-
 
 .episodes h2 {
     text-align: center;
@@ -131,16 +131,58 @@ body.light-mode .anime-info-header p {
 
 /* الفيديو */
 .video-container {
+    position: relative;
     width: 100%;
     max-width: 100%;
+    height: 500px;
     margin: 0 auto 20px auto;
-    padding: 0 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* صورة الحلقة fullscreen */
+.episode-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 10;
+}
+
+#episode-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* زر التشغيل */
+#play-button {
+    position: absolute;
+    z-index: 20;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    background-color: rgba(239, 68, 68, 0.8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#play-button:hover {
+    background-color: rgba(239, 68, 68, 1);
 }
 
 .video-container iframe {
     width: 100%;
-    height: 500px;
+    height: 100%;
     border: none;
+    display: none; /* يظهر عند الضغط على زر التشغيل */
+    border-radius: 8px;
 }
 
 /* أزرار التنقل */
@@ -170,18 +212,19 @@ body.light-mode .anime-info-header p {
     background-color: #dc2626;
 }
 
+/* الحالة النشطة */
 .episode-item.active {
     background-color: var(--primary-color, #ef4444);
     color: white;
     font-weight: bold;
     border-radius: 5px;
 }
-.server-button.active {
-  background-color: #4b5563;
-  color: #ededed;
-  border: 3px solid #000000;
-}
 
+.server-button.active {
+    background-color: #4b5563;
+    color: #ededed;
+    border: 3px solid #000000;
+}
 
 /* التصميم للأجهزة الصغيرة */
 @media (max-width: 768px) {
@@ -209,8 +252,7 @@ body.light-mode .anime-info-header p {
         margin-left: -50px;
     }
 
-
-    .video-container iframe {
+    .video-container {
         height: 250px;
     }
 
@@ -218,3 +260,4 @@ body.light-mode .anime-info-header p {
         width: 100%;
     }
 }
+</style>

@@ -7,10 +7,10 @@
   <meta name="description" content="عرض أنمي ديناميكي" id="meta-description">
   <link rel="stylesheet" href="../CSS/episodes.css">
   <link rel="stylesheet" href="../CSS/style.css">
-  <script type="module" src="https://myanima.ddns.net/RS.js"></script>
+  <script type="module" src="/RS.js"></script>
   <script type="module" src="../navbar.js"></script>
   <link rel="icon" href="https://abdo838.github.io/1/navbar/favicon.ico" type="image/x-icon">
-  
+
   <style>
     .episode-item.active {
       background-color: var(--primary-color, #ef4444);
@@ -87,7 +87,7 @@
     const sandboxToggle = document.getElementById('sandbox-toggle');
     const warningMessage = document.getElementById('warning-message');
 
-    let sandboxEnabled = localStorage.getItem("sandbox") !== "false"; 
+    let sandboxEnabled = localStorage.getItem("sandbox") !== "false";
 
     function applySandbox() {
       if (sandboxEnabled) {
@@ -105,7 +105,7 @@
       sandboxEnabled = !sandboxEnabled;
       localStorage.setItem("sandbox", sandboxEnabled);
       applySandbox();
-      updatePlayer(); 
+      updatePlayer();
     });
 
     function getQueryParam(param) {
@@ -116,8 +116,8 @@
     function setEpisodeFromURL() {
       const episodeParam = getQueryParam('episode');
       if (episodeParam) {
-        const episodeIndex = parseInt(episodeParam, 10) - 1;
-        if (episodeIndex >= 0 && episodeIndex < episodes.length) {
+        const episodeIndex = episodes.findIndex(ep => ep.number == episodeParam);
+        if (episodeIndex !== -1) {
           playEpisode(episodeIndex);
         }
       }
@@ -133,8 +133,13 @@
       fetch(`episodes/${animeId}.json`)
         .then(response => response.json())
         .then(data => {
-          if (!data.episodes || !Array.isArray(data.episodes)) throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
+          if (!data.episodes || !Array.isArray(data.episodes))
+            throw new Error("الملف لا يحتوي على قائمة الحلقات بشكل صحيح.");
+
           episodes = data.episodes;
+
+          // ✅ إعادة ترتيب الحلقات مهما كان JSON ملخبط
+          episodes.sort((a, b) => a.number - b.number);
 
           if (episodes.length > 0 && data.animeTitle) {
             animeTitle.textContent = data.animeTitle;
@@ -155,37 +160,38 @@
       episodesList.innerHTML = '';
       const animeId = getQueryParam('id');
 
-      // استرجاع سجل المشاهدة المحلي
       let watchedEpisodes = [];
       const backup = localStorage.getItem("watchHistoryBackup");
+
       if (backup) {
         try {
           const historyData = JSON.parse(backup);
-          // ✅ فلترة حسب الأنمي الحالي
           watchedEpisodes = historyData
             .filter(h => new URL(h.url).searchParams.get('id') === animeId)
             .map(h => parseInt(new URL(h.url).searchParams.get('episode')))
             .filter(num => !isNaN(num));
-        } catch (e) {
-          console.warn("تعذر قراءة سجل المشاهدة المحلي:", e);
+        } catch {
+          console.warn("تعذر قراءة سجل المشاهدة المحلي");
         }
       }
 
-      episodes.forEach((episode) => {
+      episodes.forEach(episode => {
         const li = document.createElement('li');
         li.className = 'episode-item';
         li.textContent = episode.title;
 
-        if (episode.number === parseInt(getQueryParam('episode'), 10)) {
+        if (episode.number == getQueryParam('episode')) {
           li.classList.add('active');
         }
 
-        if (watchedEpisodes.includes(episode.number)) li.classList.add('watched');
+        if (watchedEpisodes.includes(episode.number)) {
+          li.classList.add('watched');
+        }
 
         li.addEventListener('click', () => {
           const newUrl = `?id=${animeId}&episode=${episode.number}`;
           history.pushState({}, '', newUrl);
-          playEpisode(episode.number - 1);
+          playEpisode(episodes.indexOf(episode));
         });
 
         episodesList.appendChild(li);
@@ -195,6 +201,7 @@
     function loadServerButtons() {
       serverButtonsContainer.innerHTML = '';
       const currentEpisode = episodes[currentEpisodeIndex];
+
       currentEpisode.servers.forEach(server => {
         const button = document.createElement('button');
         button.textContent = server.serverName;
@@ -213,6 +220,7 @@
 
     function updatePlayer() {
       const currentEpisode = episodes[currentEpisodeIndex];
+
       episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
       document.title = `${animeTitle.textContent} - الحلقة ${currentEpisode.number}`;
 
@@ -220,14 +228,10 @@
         currentServerName = currentEpisode.servers[0].serverName;
       }
 
-      const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
+      const currentServer = currentEpisode.servers.find(s => s.serverName === currentServerName);
       if (currentServer) {
         videoPlayer.src = currentServer.url;
         applySandbox();
-      }
-
-      if (typeof addToHistory === 'function') {
-        addToHistory(document.title, window.location.href);
       }
 
       loadEpisodes();
@@ -244,14 +248,17 @@
       currentEpisodeIndex += direction;
       if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
       if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
-      currentServerName = '';
+
       const newUrl = `?id=${getQueryParam('id')}&episode=${episodes[currentEpisodeIndex].number}`;
       history.pushState({}, '', newUrl);
+
+      currentServerName = '';
       updatePlayer();
     }
 
     prevBtn.addEventListener('click', () => navigateEpisode(-1));
     nextBtn.addEventListener('click', () => navigateEpisode(1));
+
     window.addEventListener('popstate', () => {
       setEpisodeFromURL();
       loadEpisodes();

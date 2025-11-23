@@ -284,6 +284,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-11-23 02:41:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=boku-no-hero-academia-final-season&episode=7",
+      "image": "https://abdo12249.github.io/1/images/boku-no-hero-academia-final-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/OQqH4J3IVKN8B"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-yuvw9mzq5t7p.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-8xjnhyy7lgn1.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ysx2sk3pvt90"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240337&hash=e285bb9ac23722bc&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-b3t4mioacsyl.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/03xg29y65puk"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-4gwbf0wrupb6.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-4f00shri1hzg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pp2tkgjrk08r.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-q0x66e6c99ol.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-52qu39mp550w.html"
+        }
+      ]
     }
   ]
 }

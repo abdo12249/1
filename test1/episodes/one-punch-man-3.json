@@ -292,6 +292,87 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-11-23 02:44:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=5",
+      "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/82SwS7TJ9KnR1"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-l8hf2pobuhnd.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://dailymotion.com/embed/video/x9thzmw"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239047&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-qbl38eyl1c5w.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/jlhssus6rtqb"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-imdzjzbw47i3.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/u4soj4ggqwav"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-mm12fs7t4etw.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-h3vcqy0rrwlk.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-xmgq5z9fwbrq.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

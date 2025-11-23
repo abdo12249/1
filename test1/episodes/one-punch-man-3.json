@@ -150,65 +150,65 @@
     {
       "number": 2,
       "title": "الحلقة 2",
-      "date": "2025-10-20 16:14:00",
+      "date": "2025-11-23 03:06:01",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=2",
       "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
       "servers": [
         {
-          "serverName": "megamax[HD]",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/y4UythGvhfpRk"
         },
         {
-          "serverName": "larhu[HD]",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-84q9clx6vc52.html"
         },
         {
-          "serverName": "mega بدون اعلانات[HD]",
-          "url": "https://mega.nz/embed/XlZkASAR#5bFK7lBLEuJTioBHko39sMbaP5FNj7p3oGxdFNKeHaM"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "dailymotion[HD]",
+          "serverName": "dailymotion",
           "url": "https://dailymotion.com/embed/video/x9scwk8"
         },
         {
-          "serverName": "vk[HD]",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240174&autoplay=1"
         },
         {
-          "serverName": "voe.sx[HD]",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/ripzkgkv7p64"
         },
         {
-          "serverName": "vidmoly[HD]",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-a80qyqhhn2tj.html"
         },
         {
-          "serverName": "uqload[HD]",
+          "serverName": "uqload",
           "url": "https://uqload.cx/embed-ybydbfl2ejb4.html"
         },
         {
-          "serverName": "DoodStream[HD]",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/02g47d4xm1tq"
         },
         {
-          "serverName": "Mp4upload[HD]",
-          "url": "https://mp4upload.com/embed-67skf94zbzc5.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[FHD]",
-          "url": "https://mega.nz/embed/3kgWGYSK#XtUjP1gOmPGqT6R3lziJTibOPt7VCJGO729rdEiKjQM"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "Mp4upload[FHD]",
-          "url": "https://mp4upload.com/embed-2yu5i3cf03e5.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[SD]",
-          "url": "https://mega.nz/embed/qphyCRBI#v5ivHU3XaPKAc33q9fAPrl9XpfDehB7xxN17dAMPRAw"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "Mp4upload[SD]",
-          "url": "https://mp4upload.com/embed-315pw6th524a.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
     },

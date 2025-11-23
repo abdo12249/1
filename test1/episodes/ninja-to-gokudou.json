@@ -361,6 +361,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-11-23 03:04:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ninja-to-gokudou&episode=3",
+      "image": "https://abdo12249.github.io/1/images/ninja-to-gokudou.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/8YInuPL3a3xKZ"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-jqen3bp7u238.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240195&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-u77uwcbambpl.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ysmqjgrkuhyg"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-gee8bqzj1rs1.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/g4rc1tu7ciew"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

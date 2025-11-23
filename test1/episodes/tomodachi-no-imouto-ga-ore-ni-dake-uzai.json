@@ -414,6 +414,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 03:01:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tomodachi-no-imouto-ga-ore-ni-dake-uzai&episode=4",
+      "image": "https://abdo12249.github.io/1/images/tomodachi-no-imouto-ga-ore-ni-dake-uzai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/etW1HbZuxPyim"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-8c48yt8sphgb.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-qjcxqqaafuu4.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ifclmcyprd6l"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240224&hd=2&hash=cfc82e3ddb6fdf26&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/m3fwd6mo4cn7"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-oi3k6qvtc6w5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ut283ovz6eiy.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-qirlb8o4280b.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

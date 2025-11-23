@@ -369,6 +369,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-11-23 03:04:03",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=potion-wagami-wo-tasukeru&episode=3",
+      "image": "https://abdo12249.github.io/1/images/potion-wagami-wo-tasukeru.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Vy3cnQDPhHdWC"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-lprehlutmwsu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240194&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/2faoxp1wm6ia"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-1enxxpiac408.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-o0046mvfvfi8.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/xoki41q8xicm"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

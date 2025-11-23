@@ -353,6 +353,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-11-23 02:40:45",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yasei-no-last-boss-ga-arawareta!&episode=8",
+      "image": "https://abdo12249.github.io/1/images/yasei-no-last-boss-ga-arawareta!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Qc9b143d2DIxQ"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-ct8j6zx8cgyb.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239082&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-pnrsn09azqph.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/qxm2yle8yxtc"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-tn4p7cjzlv3q.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/vsyurvfjt107"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-hrfmq6inwtmy.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-tlxyp4e03vob.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

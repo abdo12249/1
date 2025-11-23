@@ -426,6 +426,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-11-23 02:58:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=akujiki-reijou-to-kyouketsu-koushaku&episode=5",
+      "image": "https://abdo12249.github.io/1/images/akujiki-reijou-to-kyouketsu-koushaku.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/szqIIsCOjEMaK"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-e9r3ew13hycj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240260&hash=f42ab3b2aa342267&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/i86uz62nwppk"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-odugx9w93oes.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-j22xtr1zm3w4.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/123tafju0hwp"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-k5g5j34t1ldo.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-8pcorcllo5yn.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-z25hscwlmnco.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

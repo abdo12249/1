@@ -138,6 +138,63 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 02:58:50",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chitose-kun-wa-ramune-bin-no-naka&episode=4",
+      "image": "https://abdo12249.github.io/1/images/chitose-kun-wa-ramune-bin-no-naka.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/FZt2rVODvxBMm"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-p6wl6yt8uglz.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/g570zyfeqqqc"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-scgnuzcfzd7i.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/zbmrrj3tus9r"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

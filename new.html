@@ -76,18 +76,8 @@ let allEpisodes = [];
 
 function showLoading() { document.getElementById("loadingOverlay").style.display = "flex"; }
 function hideLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
-
-function getPageFromURL() {
-  const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get("page")) || 1;
-}
-
-function updateURL(page) {
-  const url = new URL(window.location.href);
-  url.searchParams.set("page", page);
-  window.history.pushState({}, "", url);
-}
-
+function getPageFromURL() { const params = new URLSearchParams(window.location.search); return parseInt(params.get("page")) || 1; }
+function updateURL(page) { const url = new URL(window.location.href); url.searchParams.set("page", page); window.history.pushState({}, "", url); }
 function setupLazyLoading() {
   const lazyImages = document.querySelectorAll("img[data-src]");
   const observer = new IntersectionObserver((entries, obs) => {
@@ -102,7 +92,6 @@ function setupLazyLoading() {
   }, { rootMargin: "100px" });
   lazyImages.forEach(img => observer.observe(img));
 }
-
 function renderPage(pageNumber) {
   updateURL(pageNumber);
   const animeGrid = document.getElementById("animeGrid");
@@ -129,11 +118,9 @@ function renderPage(pageNumber) {
   });
 
   setupLazyLoading();
-
   document.querySelectorAll(".pagination button").forEach(b => b.classList.remove("active"));
   const activeBtn = document.querySelector(`.pagination button[data-page="${pageNumber}"]`);
   if (activeBtn) activeBtn.classList.add("active");
-
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -204,7 +191,88 @@ async function uploadEpisodesInParts(episodes) {
   }
 }
 
-// ---------------- تحميل من Firebase فقط ----------------
+// ---------------- fetch JSON مع Retry ----------------
+async function fetchJSONWithRetry(url, retries = 2) {
+  for (let i = 0; i <= retries; i++) {
+    try { const res = await fetch(url); return await res.json(); } 
+    catch (e) { if (i === retries) return null; }
+  }
+}
+
+// ---------------- تحقق من تحديث كل ملف JSON داخل الجديد.json ----------------
+async function getJSONLastModified(url) {
+  try {
+    const res = await fetch(url, { method: "HEAD" });
+    const last = res.headers.get("Last-Modified");
+    return last ? new Date(last).getTime() : null;
+  } catch (e) { console.error("خطأ عند قراءة Last-Modified:", e); return null; }
+}
+async function getStoredFileModified(url) {
+  const ref = doc(db, "filesModified", encodeURIComponent(url));
+  const snap = await getDoc(ref);
+  return snap.exists() ? snap.data().lastModified : 0;
+}
+async function saveFileModified(url, value) {
+  const ref = doc(db, "filesModified", encodeURIComponent(url));
+  await setDoc(ref, { lastModified: value });
+}
+
+async function checkForUpdates() {
+  showLoading();
+  try {
+    const res = await fetch("الجديد.json");
+    const data = await res.json();
+    const urls = data.animes;
+    const updatedFiles = [];
+    const fetchedEpisodes = [];
+
+    for (const url of urls) {
+      const stored = await getStoredFileModified(url);
+      const remote = await getJSONLastModified(url);
+      if (!remote) continue;
+      if (stored !== remote) {
+        const jsonData = await fetchJSONWithRetry(url);
+        if (jsonData && jsonData.episodes) {
+          jsonData.episodes.forEach(ep => {
+            fetchedEpisodes.push({
+              animeTitle: jsonData.animeTitle,
+              image: ep.image,
+              link: ep.link,
+              number: ep.number,
+              title: ep.title,
+              date: ep.date || new Date().toISOString()
+            });
+          });
+        }
+        await saveFileModified(url, remote);
+        updatedFiles.push(url);
+      }
+    }
+
+    if (updatedFiles.length > 0) {
+      let oldEpisodes = await loadAllParts();
+      const newOrUpdated = fetchedEpisodes.filter(ep => {
+        const old = oldEpisodes.find(o => o.link === ep.link);
+        return !old || JSON.stringify(old) !== JSON.stringify(ep);
+      });
+      const merged = [
+        ...newOrUpdated,
+        ...oldEpisodes.filter(o => !newOrUpdated.some(n => n.link === o.link))
+      ];
+      merged.sort((a, b) => new Date(b.date) - new Date(a.date));
+      await uploadEpisodesInParts(merged);
+    }
+
+  } catch(e){ console.error("❌ خطأ في checkForUpdates:", e); }
+
+  allEpisodes = await loadAllParts();
+  const currentPage = getPageFromURL();
+  renderPage(currentPage);
+  setupPagination(allEpisodes.length, currentPage);
+  hideLoading();
+}
+
+// ---------------- تشغيل init ----------------
 async function init() {
   showLoading();
   allEpisodes = await loadAllParts();
@@ -213,86 +281,7 @@ async function init() {
   setupPagination(allEpisodes.length, currentPage);
   hideLoading();
 }
-
-// ---------------- fetch JSON مع Retry ----------------
-async function fetchJSONWithRetry(url, retries = 2) {
-  for (let i = 0; i <= retries; i++) {
-    try {
-      const res = await fetch(url);
-      return await res.json();
-    } catch (e) {
-      if (i === retries) return null;
-    }
-  }
-}
-
-// ---------------- fetch مع Concurrency Limit ----------------
-async function fetchWithConcurrencyLimit(urls, limit = 3) {
-  const results = [];
-  const queue = [...urls];
-  async function worker() {
-    while(queue.length > 0) {
-      const url = queue.shift();
-      results.push(await fetchJSONWithRetry(url));
-    }
-  }
-  const workers = Array.from({length: limit}, () => worker());
-  await Promise.all(workers);
-  return results;
-}
-
-// ---------------- تحقق من الجديد عند الطلب ----------------
-async function checkForUpdates() {
-  showLoading();
-  let existingEpisodes = await loadAllParts();
-  try {
-    const res = await fetch("الجديد.json");
-    const data = await res.json();
-    const animeLinks = data.animes;
-
-    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 3); // 3 طلبات فقط في نفس الوقت
-    const fetchedEpisodes = [];
-    fetchedAnimeData.forEach(animeData => {
-      if(!animeData) return;
-      animeData.episodes.forEach(ep => {
-        fetchedEpisodes.push({
-          animeTitle: animeData.animeTitle,
-          image: ep.image,
-          link: ep.link,
-          number: ep.number,
-          title: ep.title,
-          date: ep.date || new Date().toISOString()
-        });
-      });
-    });
-
-    const newOrUpdated = fetchedEpisodes.filter(ep=>{
-      const old = existingEpisodes.find(o=>o.link===ep.link);
-      return !old || JSON.stringify(old)!==JSON.stringify(ep);
-    });
-
-    if(newOrUpdated.length>0){
-      console.log(`✨ تم اكتشاف ${newOrUpdated.length} تحديث أو حلقة جديدة`);
-      const merged = [...newOrUpdated, ...existingEpisodes.filter(o=>!newOrUpdated.some(n=>n.link===o.link))];
-      merged.sort((a,b)=>new Date(b.date)-new Date(a.date));
-      await uploadEpisodesInParts(merged);
-    } else {
-      console.log("✅ لا توجد تحديثات أو تغييرات.");
-    }
-
-  } catch(e){ console.error("❌ حدث خطأ عند التحقق من الجديد:", e); }
-
-  allEpisodes = await loadAllParts();
-  const currentPage = getPageFromURL();
-  renderPage(currentPage);
-  setupPagination(allEpisodes.length, currentPage);
-  hideLoading();
-}
-
-// تشغيل init عند فتح الصفحة
 init();
-
-// جعل الدالة متاحة عالميًا
 window.checkForUpdates = checkForUpdates;
 
 </script>

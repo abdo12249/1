@@ -641,6 +641,87 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-11-23 23:38:29",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=9",
+      "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/9fyCGGEonyjd0"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/9fyCGGEonyjd0"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-gykmy9xidt6p.html"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-htuxkzzks0di.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239126&autoplay=1"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-beqerm5i07sc.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/87k9fnrzqzhj"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-sr3p46565qe0.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/kiwwl3bgt5ex"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-7q5vasodgcdt.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-vfduoh9e6hfk.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

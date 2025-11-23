@@ -361,6 +361,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-11-23 02:53:12",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=lets-play-quest-darake-no-my-life&episode=6",
+      "image": "https://abdo12249.github.io/1/images/lets-play-quest-darake-no-my-life.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/mOz8b0MaEmhOb"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-p0a4p3p5xy2v.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239031&hash=9f862a32edb89eec&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-kia0ck7e16i0.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1lbxstmtucae"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ejys6shkn7bd.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/jvouxqrgr78h"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-vnmlwo0jw4t3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-hppatobrz8n3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-wu65zki0py6w.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

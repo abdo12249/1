@@ -138,77 +138,77 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-10-20 16:13:44",
+      "date": "2025-11-23 03:04:55",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mugen-gacha&episode=3",
       "image": "https://abdo12249.github.io/1/images/mugen-gacha.webp",
       "servers": [
         {
-          "serverName": "megamax[HD]",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/ZfoTvyaI0TMa0"
         },
         {
-          "serverName": "larhu[HD]",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-wkm8olq4qzxy.html"
         },
         {
-          "serverName": "mega بدون اعلانات[HD]",
-          "url": "https://mega.nz/embed/i051BB6A#yJbUsHWUnrT3hYwBepwcnXAn2GYQ9EGfkFbWZ8cHazg"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "vk[HD]",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240182&autoplay=1"
         },
         {
-          "serverName": "videa[HD]",
-          "url": "https://videa.hu/player?v=2vPwTkq4PQkukVUG"
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vidmoly[HD]",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-eobtqplqxuoy.html"
         },
         {
-          "serverName": "voe.sx[HD]",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/cmxpucn5lbua"
         },
         {
-          "serverName": "uqload[HD]",
+          "serverName": "uqload",
           "url": "https://uqload.cx/embed-y4o16vf0yyg7.html"
         },
         {
-          "serverName": "DoodStream[HD]",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/cedqkmgrsuoi"
         },
         {
-          "serverName": "file-upload.org[HD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-k2y8vwbyfddg.html"
         },
         {
-          "serverName": "Mp4upload[HD]",
-          "url": "https://mp4upload.com/embed-86focq6fmj6f.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[FHD]",
-          "url": "https://mega.nz/embed/OlBGxYAL#PxaeAP5i7F1Uw_dek3NI4Q5mNAmXViUfcp0Lz_I199c"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[FHD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-2eaxyb0sfci3.html"
         },
         {
-          "serverName": "Mp4upload[FHD]",
-          "url": "https://mp4upload.com/embed-ikjvsth0sagq.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[SD]",
-          "url": "https://mega.nz/embed/b55w2STB#gSu7OkJJi7rLON_T6O4aluDfHLK1kPqmUO5_ZZaeRkc"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[SD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-5u4z2bs5peet.html"
         },
         {
-          "serverName": "Mp4upload[SD]",
-          "url": "https://mp4upload.com/embed-xy50wpnp9h19.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
     },
@@ -416,83 +416,6 @@
         {
           "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-sm3cs2s8sjb2.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "الحلقة 4",
-      "date": "2025-11-23 03:02:02",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mugen-gacha&episode=4",
-      "image": "https://abdo12249.github.io/1/images/mugen-gacha.webp",
-      "servers": [
-        {
-          "serverName": "megamax",
-          "url": "https://megamax.me/iframe/gJ1wvshMXJ07Z"
-        },
-        {
-          "serverName": "larhu",
-          "url": "https://larhu.com/embed-1pjr29tmy6q3.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240214&autoplay=1"
-        },
-        {
-          "serverName": "videa",
-          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "voe.sx",
-          "url": "https://voe.sx/e/imcleu3g5u4o"
-        },
-        {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.net/embed-7tesi2h1i46n.html"
-        },
-        {
-          "serverName": "uqload",
-          "url": "https://uqload.cx/embed-b9u6l41e7h7d.html"
-        },
-        {
-          "serverName": "DoodStream",
-          "url": "https://dsvplay.com/e/385ysyjmt3im"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-myibqfmycvar.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-oyx362n0545o.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-yiy2dh8oqgp5.html"
         },
         {
           "serverName": "Mp4upload",

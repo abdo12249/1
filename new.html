@@ -196,22 +196,31 @@ async function loadAllParts() {
 }
 
 async function uploadEpisodesInParts(episodes) {
-  // ترتب ثم تقسّم وترفع كل جزء (Firestore)
-  episodes.sort((a, b) => new Date(b.date) - new Date(a.date));
+  episodes.sort((a,b)=>new Date(b.date)-new Date(a.date));
   const totalParts = Math.ceil(episodes.length / EPISODES_PER_PART);
+  
   for(let i=0;i<totalParts;i++){
     const start = i*EPISODES_PER_PART;
     const end = start+EPISODES_PER_PART;
     const partEpisodes = episodes.slice(start,end);
     const partDocRef = doc(db,"episodes",`part${i+1}`);
     const existing = await getDoc(partDocRef);
+
     if(existing.exists()){
       const oldData = existing.data().episodes;
-      const changed = JSON.stringify(oldData) !== JSON.stringify(partEpisodes);
-      if(!changed){ console.log(`⏭️ الجزء part${i+1} لم يتغير.`); continue; }
+      const newEpisodes = partEpisodes.filter(ep=>{
+        return !oldData.some(old=>old.link===ep.link && JSON.stringify(old)===JSON.stringify(ep));
+      });
+      if(newEpisodes.length===0){
+        console.log(`⏭️ الجزء part${i+1} لم يتغير.`);
+        continue; // لا حاجة لرفع هذا الجزء
+      }
+      await setDoc(partDocRef,{episodes:[...oldData,...newEpisodes], updatedAt: Date.now()});
+      console.log(`✅ تم تحديث part${i+1} بإضافة ${newEpisodes.length} حلقة جديدة`);
+    } else {
+      await setDoc(partDocRef,{episodes:partEpisodes, updatedAt: Date.now()});
+      console.log(`✅ تم إنشاء part${i+1} (${partEpisodes.length} حلقة)`);
     }
-    await setDoc(partDocRef,{episodes: partEpisodes, updatedAt: Date.now()});
-    console.log(`✅ تم تحديث أو إنشاء part${i+1} (${partEpisodes.length} حلقة)`);
   }
 }
 
@@ -440,5 +449,6 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+
 
 

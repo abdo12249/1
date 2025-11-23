@@ -369,6 +369,83 @@
           "url": "https://mp4upload.com/embed-3jgcieffh2k4.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-11-23 02:54:59",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=digimon-beatbreak&episode=5",
+      "image": "https://abdo12249.github.io/1/images/digimon-beatbreak.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/MsRe3ZFLDtUbG"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-l3lv9qzscovy.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240285&hash=609b3b59b0d752cb&hd=3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-1j1nntf6hcgy.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/w2a71wpaycmf"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-pkw10n8irle8.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/xncq4501e30h"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-tsxtebdgtroi.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-zz53tmosnn2y.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-3mlev5eyu2ga.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-m1dssj95gwdl.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-nxnx3qsr2pt2.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-alobkugaar99.html"
+        }
+      ]
     }
   ]
 }

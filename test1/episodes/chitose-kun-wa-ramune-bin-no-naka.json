@@ -195,6 +195,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-11-23 03:04:30",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chitose-kun-wa-ramune-bin-no-naka&episode=3",
+      "image": "https://abdo12249.github.io/1/images/chitose-kun-wa-ramune-bin-no-naka.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/MBScQWV4LI435"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-z72mx9yn2bqj.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240190&hd=2&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/yujrvld6ecic"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-xsovqu1iyz8s.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-a4wigb6m0pch.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/v3mujutlqyzs"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

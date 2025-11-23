@@ -483,6 +483,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 03:01:35",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=4",
+      "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/YFgD76WWP2IB1"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-r2wsdtchqv97.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240218&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-x6d74tv1algl.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fdvefwkwy4cw"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-dt521p0cq4yu.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/gb7djvc5d08g"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-zu2fcrekpvh5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-062w0lpr74dd.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-07g3h0a8vjdi.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

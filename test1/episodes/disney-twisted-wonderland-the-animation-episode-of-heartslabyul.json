@@ -227,6 +227,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 1,
+      "title": "الحلقة 1",
+      "date": "2025-11-23 02:58:29",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=disney-twisted-wonderland-the-animation-episode-of-heartslabyul&episode=1",
+      "image": "https://abdo12249.github.io/1/images/disney-twisted-wonderland-the-animation-episode-of-heartslabyul.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/DtHjU6SVgfKHg"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-n8qk9n75qtl6.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-8fll3nufqdwc.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ho87lhyh3ebe"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240256&hash=1e504446e46ea8d4&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/vkp20fqy3xz1"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-eptajk21at1k.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-0kjaylvlvqhc.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-1p9ru4mvsvf9.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -438,6 +438,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 03:04:03",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yano-kun-no-futsuu-no-hibi&episode=4",
+      "image": "https://abdo12249.github.io/1/images/yano-kun-no-futsuu-no-hibi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Y9BkLr5QU9XFI"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-v5ovdecapd4i.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240192&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-u4hegs25ma8g.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dkwbnmkxkny4"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/t9rvtuty4wg9"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-1h2wctt04qi1.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -691,6 +691,75 @@
           "url": "https://mp4upload.com/embed-lv4t3jn7zbg5.html"
         }
       ]
+    },
+    {
+      "number": 1182,
+      "title": "الحلقة 1182",
+      "date": "2025-11-23 02:39:52",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1182",
+      "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/g4K2n2y6ow0Ym"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-4383lwdtzh21.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239093&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-fcfnwgv3akg7.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/dakgodccdwnr"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-va0j6zq7c3qy.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/9xcupqrogz47"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-sc0irphe1ppx.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-6bhsvdei2fwg.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-8h5jzetogy44.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-2dvatihse871.html"
+        }
+      ]
     }
   ]
 }

@@ -349,6 +349,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-11-23 02:41:08",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka&episode=8",
+      "image": "https://abdo12249.github.io/1/images/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/osOQNi9IGOx4O"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-wxi4gyjqap30.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/m07mwo717gz0"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-v1kiqtn16oro.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239077&hash=2868491b39a267a9&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/3t3jzt2s5qmq"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-z9o8lkb2jw7g.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-zfymuqgfaak4.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-wxc936culoss.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-iji4shjrfft0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-el35l6v3tvcb.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-r66uks5vu0ny.html"
+        }
+      ]
     }
   ]
 }

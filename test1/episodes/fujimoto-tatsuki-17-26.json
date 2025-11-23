@@ -51,19 +51,19 @@
       ]
     },
     {
-      "number": 2,
-      "title": "الحلقة 2",
-      "date": "2025-11-23 02:46:56",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fujimoto-tatsuki-17-26&episode=2",
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-11-23 02:46:31",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fujimoto-tatsuki-17-26&episode=6",
       "image": "https://abdo12249.github.io/1/images/fujimoto-tatsuki-17-26.webp",
       "servers": [
         {
           "serverName": "megamax",
-          "url": "https://megamax.me/iframe/BV00dhiAaH01p"
+          "url": "https://megamax.me/iframe/vmOypJiBXAMJ5"
         },
         {
           "serverName": "larhu",
-          "url": "https://larhu.com/embed-8gr2urbrxt1x.html"
+          "url": "https://larhu.com/embed-g5gude4o33kk.html"
         },
         {
           "serverName": "videa",
@@ -71,7 +71,7 @@
         },
         {
           "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240313&hash=0b6d43c4dea31711&autoplay=1"
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240317&hash=ce1f138d91b57e37&autoplay=1"
         },
         {
           "serverName": "mega بدون اعلانات",
@@ -79,19 +79,68 @@
         },
         {
           "serverName": "vidmoly",
-          "url": "https://vidmoly.net/embed-q6t1zx8pt2j3.html"
+          "url": "https://vidmoly.net/embed-ag9jd5oak700.html"
         },
         {
           "serverName": "voe.sx",
-          "url": "https://voe.sx/e/nawkmrbvvlcn"
+          "url": "https://voe.sx/e/qjx32tb8ldxs"
         },
         {
           "serverName": "DoodStream",
-          "url": "https://dsvplay.com/e/05e69fw2ewuf"
+          "url": "https://dsvplay.com/e/ikssxv5cckov"
         },
         {
           "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-qaw3y7myqj4r.html"
+          "url": "https://file-upload.org/embed-u8tlb1xuq72d.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-11-23 02:46:56",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fujimoto-tatsuki-17-26&episode=3",
+      "image": "https://abdo12249.github.io/1/images/fujimoto-tatsuki-17-26.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/RIjm34wDiDfXm"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-8momgoi3ph1y.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240314&hash=d7577eb5b4b512f5&autoplay=1"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-5kf14ajk4oim.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ydljeyx49yzu"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/577vb140fmpk"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-9rr86pk9442s.html"
         },
         {
           "serverName": "Mp4upload",

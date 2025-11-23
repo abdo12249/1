@@ -296,6 +296,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 02:59:41",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ao-no-orchestra-season-2&episode=4",
+      "image": "https://abdo12249.github.io/1/images/ao-no-orchestra-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/62Vw2CvHNv2KC"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-s68ox3n5m2oy.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240238&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-17xc03gb0jlg.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/eiclc2pfpabn"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/zt0pu8vdgyvb"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-pkutviq2cnpa.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6h2d9tx73iu8.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-f5fur539o723.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ux72qyyeac1a.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

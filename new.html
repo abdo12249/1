@@ -32,6 +32,11 @@
 }
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 .anime-image img.loaded { opacity: 1; }
+
+/* small helper for debug buttons (optional) */
+.controls { display:flex; gap:8px; justify-content:center; margin:12px 0; }
+.controls button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; background:#ef4444; color:#fff;}
+.controls button:hover{opacity:0.9;}
 </style>
 </head>
 <body>
@@ -43,19 +48,26 @@
     <h1>أحدث حلقات</h1>
   </div>
 
+  <!-- optional debug controls (يمكن حذفه لاحقًا) -->
+  <div class="controls" aria-hidden="true">
+    <button id="btn-update-all">تحقق من الجديد (الكل)</button>
+    <button id="btn-update-sample">تحقق من روابط مخصصة (عينة)</button>
+  </div>
+
   <div class="anime-grid" id="animeGrid"></div>
   <div class="pagination" id="pagination"></div>
 
   <!-- Loading overlay -->
   <div id="loadingOverlay" class="loading-overlay" style="display: none;">
     <div class="spinner"></div>
-    <span>جاري تحميل الأنمي...</span>
+    <span id="loadingText">جاري تحميل الأنمي...</span>
   </div>
 
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
 import { getFirestore, collection, getDocs, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
+/* ---------------- Firebase config ---------------- */
 const firebaseConfig = {
   apiKey: "AIzaSyAQpXUUOLyN2B6IWGb5Ru2Dl8NZPNimTEg",
   authDomain: "wep1-25124.firebaseapp.com",
@@ -66,28 +78,33 @@ const firebaseConfig = {
   appId: "1:400763524699:web:b3d5b77815de059ad9117e",
   measurementId: "G-ER2GCC7BK4"
 };
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+/* ---------------- constants / state ---------------- */
 const maxItemsPerPage = 20;
 const EPISODES_PER_PART = 500;
 let allEpisodes = [];
 
-function showLoading() { document.getElementById("loadingOverlay").style.display = "flex"; }
+/* ---------------- UI helpers ---------------- */
+function showLoading(text = "جاري تحميل الأنمي...") {
+  const el = document.getElementById("loadingOverlay");
+  const txt = document.getElementById("loadingText");
+  if (txt) txt.textContent = text;
+  el.style.display = "flex";
+}
 function hideLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
 
+/* ---------------- pagination & render ---------------- */
 function getPageFromURL() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("page")) || 1;
 }
-
 function updateURL(page) {
   const url = new URL(window.location.href);
   url.searchParams.set("page", page);
   window.history.pushState({}, "", url);
 }
-
 function setupLazyLoading() {
   const lazyImages = document.querySelectorAll("img[data-src]");
   const observer = new IntersectionObserver((entries, obs) => {
@@ -102,7 +119,6 @@ function setupLazyLoading() {
   }, { rootMargin: "100px" });
   lazyImages.forEach(img => observer.observe(img));
 }
-
 function renderPage(pageNumber) {
   updateURL(pageNumber);
   const animeGrid = document.getElementById("animeGrid");
@@ -122,7 +138,7 @@ function renderPage(pageNumber) {
         <h3>${ep.animeTitle}</h3>
         <div class="anime-meta">
           <span>${ep.title}</span>
-          <a href="${ep.link}" class="watch-button">شاهد الآن</a>
+          <a href="${ep.link}" class="watch-button" target="_blank" rel="noopener">شاهد الآن</a>
         </div>
       </div>`;
     animeGrid.appendChild(card);
@@ -133,12 +149,10 @@ function renderPage(pageNumber) {
   document.querySelectorAll(".pagination button").forEach(b => b.classList.remove("active"));
   const activeBtn = document.querySelector(`.pagination button[data-page="${pageNumber}"]`);
   if (activeBtn) activeBtn.classList.add("active");
-
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-
-function setupPagination(totalItems, currentPage) {
-  const pageCount = Math.ceil(totalItems / maxItemsPerPage);
+function setupPagination(totalItems, currentPage = 1) {
+  const pageCount = Math.max(1, Math.ceil(totalItems / maxItemsPerPage));
   const pagination = document.getElementById("pagination");
   pagination.innerHTML = "";
   const maxVisible = 5;
@@ -170,6 +184,7 @@ function setupPagination(totalItems, currentPage) {
   }
 }
 
+/* ---------------- Firebase parts handling ---------------- */
 async function loadAllParts() {
   const snapshot = await getDocs(collection(db, "episodes"));
   const partsArray = [];
@@ -186,6 +201,7 @@ async function loadAllParts() {
 }
 
 async function uploadEpisodesInParts(episodes) {
+  // ترتب ثم تقسّم وترفع كل جزء (Firestore)
   episodes.sort((a, b) => new Date(b.date) - new Date(a.date));
   const totalParts = Math.ceil(episodes.length / EPISODES_PER_PART);
   for(let i=0;i<totalParts;i++){
@@ -204,63 +220,75 @@ async function uploadEpisodesInParts(episodes) {
   }
 }
 
-// ---------------- تحميل من Firebase فقط ----------------
-async function init() {
-  showLoading();
-  allEpisodes = await loadAllParts();
-  const currentPage = getPageFromURL();
-  renderPage(currentPage);
-  setupPagination(allEpisodes.length, currentPage);
-  hideLoading();
-}
-
-// ---------------- fetch JSON مع Retry ----------------
+/* ---------------- fetch مع Retry ---------------- */
 async function fetchJSONWithRetry(url, retries = 2) {
   for (let i = 0; i <= retries; i++) {
     try {
       const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (e) {
+      console.warn(`fetch failed (${url}) attempt ${i+1}:`, e);
       if (i === retries) return null;
+      // صغير تأخير قبل محاولة التالية
+      await new Promise(r => setTimeout(r, 300 * (i+1)));
     }
   }
 }
 
-// ---------------- fetch مع Concurrency Limit ----------------
+/* ---------------- fetch مع Concurrency Limit (workers) ----------------
+   urls: array of urls
+   limit: عدد الطلبات المتزامنة
+*/
 async function fetchWithConcurrencyLimit(urls, limit = 3) {
   const results = [];
-  const queue = [...urls];
+  const queue = urls.slice(); // clone
   async function worker() {
-    while(queue.length > 0) {
+    while (queue.length > 0) {
       const url = queue.shift();
-      results.push(await fetchJSONWithRetry(url));
+      const data = await fetchJSONWithRetry(url, 2);
+      results.push({ url, data });
     }
   }
-  const workers = Array.from({length: limit}, () => worker());
+  const workers = Array.from({length: Math.max(1, limit)}, () => worker());
   await Promise.all(workers);
-  return results;
+  // نحول إلى مصفوفة البيانات (نحتفظ بالرابط أيضاً عند الحاجة)
+  return results.map(r => r.data);
 }
 
-// ---------------- تحقق من الجديد عند الطلب ----------------
+/* ======================  
+   checkForUpdates (الكل)
+   ====================== */
 async function checkForUpdates() {
-  showLoading();
+  showLoading("جاري التحقق من كل الروابط في الجديد.json...");
   let existingEpisodes = await loadAllParts();
+
   try {
     const res = await fetch("الجديد.json");
+    if (!res.ok) throw new Error(`فشل تحميل الجديد.json (${res.status})`);
     const data = await res.json();
-    const animeLinks = data.animes;
+    const animeLinks = Array.isArray(data.animes) ? data.animes : [];
 
-    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 200); // 3 طلبات فقط في نفس الوقت
+    if (animeLinks.length === 0) {
+      alert("⚠️ الجديد.json لا يحتوي على روابط (animes فارغة).");
+      hideLoading();
+      return;
+    }
+
+    // جلب بيانات كل رابط (بحد concurrent معقول)
+    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 3);
     const fetchedEpisodes = [];
+
     fetchedAnimeData.forEach(animeData => {
       if(!animeData) return;
+      if (!Array.isArray(animeData.episodes)) return;
       animeData.episodes.forEach(ep => {
         fetchedEpisodes.push({
-          animeTitle: animeData.animeTitle,
-          image: ep.image,
-          link: ep.link,
-          number: ep.number,
-          title: ep.title,
+          animeTitle: animeData.animeTitle || '',
+          image: ep.image || '',
+          link: ep.link || '',
+          number: ep.number || '',
+          title: ep.title || '',
           date: ep.date || new Date().toISOString()
         });
       });
@@ -276,11 +304,16 @@ async function checkForUpdates() {
       const merged = [...newOrUpdated, ...existingEpisodes.filter(o=>!newOrUpdated.some(n=>n.link===o.link))];
       merged.sort((a,b)=>new Date(b.date)-new Date(a.date));
       await uploadEpisodesInParts(merged);
+      alert(`✨ تم تحديث ${newOrUpdated.length} حلقة/تحديث.`);
     } else {
       console.log("✅ لا توجد تحديثات أو تغييرات.");
+      alert("✅ لا توجد تحديثات أو تغييرات.");
     }
 
-  } catch(e){ console.error("❌ حدث خطأ عند التحقق من الجديد:", e); }
+  } catch(e){
+    console.error("❌ حدث خطأ عند التحقق من الجديد:", e);
+    alert("❌ حدث خطأ أثناء التحقق. افتح الكونسول للمزيد من التفاصيل.");
+  }
 
   allEpisodes = await loadAllParts();
   const currentPage = getPageFromURL();
@@ -289,12 +322,117 @@ async function checkForUpdates() {
   hideLoading();
 }
 
-// تشغيل init عند فتح الصفحة
+/* =========================================
+   checkForUpdatesCustom (روابط محددة فقط)
+   - يقبل array من الروابط
+   - يقبل فقط الروابط الموجودة داخل الجديد.json (validation)
+   ========================================= */
+async function checkForUpdatesCustom(customLinks = []) {
+  showLoading("جاري التحقق من الروابط المحددة...");
+  let existingEpisodes = await loadAllParts();
+
+  try {
+    if (!Array.isArray(customLinks) || customLinks.length === 0) {
+      alert("⚠️ لم يتم تمرير روابط للتحديث.");
+      hideLoading();
+      return;
+    }
+
+    // تحميل الجديد.json للتحقق من وجود الروابط داخلها
+    const res = await fetch("الجديد.json");
+    if (!res.ok) throw new Error(`فشل تحميل الجديد.json (${res.status})`);
+    const data = await res.json();
+    const allLinks = Array.isArray(data.animes) ? data.animes : [];
+
+    // valid / invalid
+    const validLinks = customLinks.filter(link => allLinks.includes(link));
+    const invalidLinks = customLinks.filter(link => !allLinks.includes(link));
+
+    if (invalidLinks.length > 0) {
+      const msg = "⚠️ الروابط التالية غير موجودة داخل الجديد.json:\n" + invalidLinks.join("\n");
+      console.warn(msg);
+      alert(msg);
+    }
+
+    if (validLinks.length === 0) {
+      hideLoading();
+      return;
+    }
+
+    const fetchedAnimeData = await fetchWithConcurrencyLimit(validLinks, 3);
+    const fetchedEpisodes = [];
+
+    fetchedAnimeData.forEach(animeData => {
+      if(!animeData) return;
+      if (!Array.isArray(animeData.episodes)) return;
+      animeData.episodes.forEach(ep => {
+        fetchedEpisodes.push({
+          animeTitle: animeData.animeTitle || '',
+          image: ep.image || '',
+          link: ep.link || '',
+          number: ep.number || '',
+          title: ep.title || '',
+          date: ep.date || new Date().toISOString()
+        });
+      });
+    });
+
+    const newOrUpdated = fetchedEpisodes.filter(ep=>{
+      const old = existingEpisodes.find(o=>o.link===ep.link);
+      return !old || JSON.stringify(old)!==JSON.stringify(ep);
+    });
+
+    if(newOrUpdated.length>0){
+      console.log(`✨ تم اكتشاف ${newOrUpdated.length} تحديث أو حلقة جديدة (روابط مخصصة)`);
+      const merged = [...newOrUpdated, ...existingEpisodes.filter(o=>!newOrUpdated.some(n=>n.link===o.link))];
+      merged.sort((a,b)=>new Date(b.date)-new Date(a.date));
+      await uploadEpisodesInParts(merged);
+      alert(`✨ تم تحديث ${newOrUpdated.length} حلقة/تحديث (روابط مخصصة).`);
+    } else {
+      console.log("✅ لا توجد تحديثات أو تغييرات (روابط مخصصة).");
+      alert("✅ لا توجد تحديثات أو تغييرات (روابط مخصصة).");
+    }
+
+  } catch(e){
+    console.error("❌ خطأ داخل checkForUpdatesCustom:", e);
+    alert("❌ حدث خطأ أثناء التحقق من الروابط المخصصة. افتح الكونسول للمزيد من التفاصيل.");
+  }
+
+  allEpisodes = await loadAllParts();
+  const currentPage = getPageFromURL();
+  renderPage(currentPage);
+  setupPagination(allEpisodes.length, currentPage);
+  hideLoading();
+}
+
+/* make global */
+window.checkForUpdates = checkForUpdates;
+window.checkForUpdatesCustom = checkForUpdatesCustom;
+
+/* ---------------- init on page load ---------------- */
+async function init() {
+  showLoading("جاري تحميل الحلقات...");
+  allEpisodes = await loadAllParts();
+  const currentPage = getPageFromURL();
+  renderPage(currentPage);
+  setupPagination(allEpisodes.length, currentPage);
+  hideLoading();
+}
 init();
 
-// جعل الدالة متاحة عالميًا
-window.checkForUpdates = checkForUpdates;
-
+/* ---------------- optional debug buttons handlers ---------------- */
+document.getElementById("btn-update-all").addEventListener("click", () => {
+  checkForUpdates();
+});
+document.getElementById("btn-update-sample").addEventListener("click", async () => {
+  // مثال توضيحي: استبدل هذه الروابط بروابط من الجديد.json عند التجربة
+  const sample = [
+    // "https://example.com/anime/one-piece.json",
+    // "https://example.com/anime/naruto.json"
+  ];
+  // إذا أردت تجربة: ضع في sample بعض الروابط الموجودة في الجديد.json ثم اضغط الزر
+  await checkForUpdatesCustom(sample);
+});
 </script>
 
 <script>
@@ -307,4 +445,3 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
-

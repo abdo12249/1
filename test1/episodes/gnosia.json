@@ -134,6 +134,67 @@
           "url": "https://mp4upload.com/embed-d60vomr09x4l.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-11-23 02:31:30",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=7",
+      "image": "https://abdo12249.github.io/1/images/gnosia.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/TVX1f8DqdbvYV"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-i74y289j6yxi.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-bi8jdtkhbdsv.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nccit63uelwt"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240354&hash=639650230ad29738&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4p1milbkm6pq"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-qmugajhcsvfv.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-a3sf5clmnjw7.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

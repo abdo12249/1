@@ -450,6 +450,67 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 3,
+      "title": "الحلقة 3",
+      "date": "2025-11-23 03:00:10",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=3",
+      "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/25vpAQTXHNnOy"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-m6ohvqib6ln7.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ug2ajmixh0bv.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/5jvm0lxnd4rx"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240233&hash=406967b59dd3066c&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/yhirzhgiq6e8"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-uruhi92ns00k.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-9kwfrrj77i6x.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

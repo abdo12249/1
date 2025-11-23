@@ -284,6 +284,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-11-23 02:40:44",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fumetsu-no-anata-e-season-3&episode=7",
+      "image": "https://abdo12249.github.io/1/images/fumetsu-no-anata-e-season-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/pLiz7jZxjk8kO"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-pwaejn2569ca.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239084&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ut278w8allwg.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/o1o4lihi5zvf"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-24a6kuy0popb.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/60cap9vop5gr"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

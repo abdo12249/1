@@ -507,6 +507,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 03:02:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Ji5mmUTiM0cmd"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-nvc8s03tff78.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240213&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-u16sljbjvaa8.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/l4fl2tit4lob"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/j6045ldghhn7"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-z299fcydbhyi.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-wyhwzowfnww2.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-n6qwk05ltzke.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

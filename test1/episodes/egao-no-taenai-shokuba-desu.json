@@ -142,72 +142,72 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-10-20 16:13:42",
+      "date": "2025-11-23 03:04:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=egao-no-taenai-shokuba-desu&episode=3",
       "image": "https://abdo12249.github.io/1/images/egao-no-taenai-shokuba-desu.webp",
       "servers": [
         {
-          "serverName": "megamax[HD]",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/J6Ppr980TnSz0"
         },
         {
-          "serverName": "mega بدون اعلانات[HD]",
-          "url": "https://mega.nz/embed/DpgnwbzY#irLGUdDP0nWmtLT-ECk7vpoXDb8cyDjDi0OVKf8bIDg"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "larhu[HD]",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-ismspnf2oz5o.html"
         },
         {
-          "serverName": "voe.sx[HD]",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/tx3cbnzrz7ov"
         },
         {
-          "serverName": "vidmoly[HD]",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-xvrprzrab0mf.html"
         },
         {
-          "serverName": "videa[HD]",
-          "url": "https://videa.hu/player?v=yUDpajC7rHg9ZoRj"
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vk[HD]",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240183&hash=f1cda415dad447f3&autoplay=1"
         },
         {
-          "serverName": "DoodStream[HD]",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/3bkmednt371a"
         },
         {
-          "serverName": "file-upload.org[HD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-7fm280w3gkqy.html"
         },
         {
-          "serverName": "Mp4upload[HD]",
+          "serverName": "Mp4upload",
           "url": "https://mp4upload.com/embed-pl4nvi3dck60.html"
         },
         {
-          "serverName": "mega بدون اعلانات[FHD]",
-          "url": "https://mega.nz/embed/nw5C3TyS#XHktCEnWN4hMkPYXJEx2VyuGIL8rvOhOY8_laPVdK4I"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[FHD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-rp3bz17raunn.html"
         },
         {
-          "serverName": "Mp4upload[FHD]",
+          "serverName": "Mp4upload",
           "url": "https://mp4upload.com/embed-0vaxj74w2vob.html"
         },
         {
-          "serverName": "mega بدون اعلانات[SD]",
-          "url": "https://mega.nz/embed/K1BmiTxZ#A4jPwMdEiFv-am261JuFVAfSxbCqyzxCmP5t-3NrqaA"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[SD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-gjcoj8keth2i.html"
         },
         {
-          "serverName": "Mp4upload[SD]",
+          "serverName": "Mp4upload",
           "url": "https://mp4upload.com/embed-lz3v05odvl1k.html"
         }
       ]

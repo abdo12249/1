@@ -584,6 +584,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": "8 مترجمة اون لاين",
+      "title": "الحلقة 8 مترجمة اون لاين",
+      "date": "2025-11-23 23:16:30",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=spy-x-family-season-3&episode=8 مترجمة اون لاين",
+      "image": "https://abdo12249.github.io/1/images/spy-x-family-season-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/6DshYOuHK0hUL"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/6DshYOuHK0hUL"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-4l56hwmireyx.html"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-fqm2o6g92aqb.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/cwo75dy9d7su"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240352&hash=91cba69fd7fabdf6&autoplay=1"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/6f0m19yvburh"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-e92v5h3mx87p.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-87oyruamtyd3.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

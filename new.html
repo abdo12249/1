@@ -282,7 +282,15 @@ async function init() {
   hideLoading();
 }
 init();
-window.checkForUpdates = checkForUpdates;
+// تحقق تلقائي عند فتح الصفحة
+window.addEventListener("load", () => {
+  checkForUpdates(); // تشغيل تلقائي عند تحميل الصفحة
+});
+
+// أو تحقق كل 5 دقائق
+setInterval(() => {
+  checkForUpdates();
+}, 5 * 60 * 1000);
 
 </script>
 
@@ -296,3 +304,4 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+

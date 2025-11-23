@@ -20,6 +20,7 @@
       <div class="anime-info-header">
         <h2 id="anime-title">جارٍ التحميل...</h2>
         <p id="episode-title">رقم الحلقة: ...</p>
+        <p id="episode-date"></p> <!-- عنصر التاريخ والوقت -->
       </div>
 
       <div class="server-buttons" id="server-buttons-container"></div>
@@ -56,6 +57,7 @@
     const videoPlayer   = document.getElementById("video-player");
     const animeTitle    = document.getElementById("anime-title");
     const episodeTitle  = document.getElementById("episode-title");
+    const episodeDate   = document.getElementById("episode-date");
     const prevBtn       = document.getElementById("prev-btn");
     const nextBtn       = document.getElementById("next-btn");
     const serverButtons = document.getElementById("server-buttons-container");
@@ -120,6 +122,18 @@
       const ep = episodes[index];
 
       episodeTitle.textContent = `رقم الحلقة: ${ep.number}`;
+
+      // عرض التاريخ والوقت
+      if (ep.date) {
+        const dateObj = new Date(ep.date);
+        episodeDate.textContent = `تاريخ ووقت النشر: ${dateObj.toLocaleString("ar-EG", { 
+          year: "numeric", month: "long", day: "numeric", 
+          hour: "2-digit", minute: "2-digit" 
+        })}`;
+      } else {
+        episodeDate.textContent = "";
+      }
+
       document.title = `${animeTitle.textContent} - الحلقة ${ep.number}`;
       currentServerName = ep.servers[0].serverName;
 
@@ -132,7 +146,6 @@
         if (autoPlay) startVideo(ep.servers[0].url);
       }
 
-      // إذا autoPlay true (مثل التنقل من السابق/التالي)، ابدأ الفيديو
       if (autoPlay && !ep.image) startVideo(ep.servers[0].url);
 
       loadServerButtons();
@@ -197,4 +210,3 @@
 
 </body>
 </html>
-

@@ -146,61 +146,61 @@
     {
       "number": 3,
       "title": "الحلقة 3",
-      "date": "2025-10-20 16:14:10",
+      "date": "2025-11-23 03:06:25",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kingdom-6th-season&episode=3",
       "image": "https://abdo12249.github.io/1/images/kingdom-6th-season.webp",
       "servers": [
         {
-          "serverName": "megamax[HD]",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/kzaJfCCOSCfJz"
         },
         {
-          "serverName": "mega بدون اعلانات[HD]",
-          "url": "https://mega.nz/embed/qtYUmKoQ#ZD9JJ9s3A2AoNFcsQVw8zi433vOg_Pzb7oG-wIY8jow"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "larhu[HD]",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-i0ojjxlpa89q.html"
         },
         {
-          "serverName": "vidmoly[HD]",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-fpw1n4qff0s2.html"
         },
         {
-          "serverName": "voe.sx[HD]",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/hyux7aa7mjqu"
         },
         {
-          "serverName": "videa[HD]",
-          "url": "https://videa.hu/player?v=jF6DDsaXicn6YxHb"
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vk[HD]",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240169&hd=2&hash=90b1c8f9bb7f3869&autoplay=1"
         },
         {
-          "serverName": "DoodStream[HD]",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/xz85q23gjygh"
         },
         {
-          "serverName": "Mp4upload[HD]",
-          "url": "https://mp4upload.com/embed-5x2a7q0cy338.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[FHD]",
-          "url": "https://mega.nz/embed/e4IQTIaJ#HNAzaMVYQVujWTF6HoRa888tifY1VPKKayQiZocnNDQ"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "Mp4upload[FHD]",
-          "url": "https://mp4upload.com/embed-mxuh7snyydho.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[SD]",
-          "url": "https://mega.nz/embed/fsZVTSCK#fX8BXT8_UpCSalgDEXXhDXAb2UmNfS83Ics7JFhD5oQ"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "Mp4upload[SD]",
-          "url": "https://mp4upload.com/embed-rartro6qhfz2.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
     },

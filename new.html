@@ -250,7 +250,7 @@ async function checkForUpdates() {
     const data = await res.json();
     const animeLinks = data.animes;
 
-    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 3); // 3 طلبات فقط في نفس الوقت
+    const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 200); // 3 طلبات فقط في نفس الوقت
     const fetchedEpisodes = [];
     fetchedAnimeData.forEach(animeData => {
       if(!animeData) return;
@@ -307,3 +307,4 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+

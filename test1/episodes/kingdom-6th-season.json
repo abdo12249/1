@@ -430,6 +430,91 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "الحلقة 4",
+      "date": "2025-11-23 03:01:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kingdom-6th-season&episode=4",
+      "image": "https://abdo12249.github.io/1/images/kingdom-6th-season.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/oyKI3QrAzeklk"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-i47hcmig463t.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://dailymotion.com/embed/video/x9socdy"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240226&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-txhpuudg074g.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/wyfgi5roneef"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-vktol5nqlvwl.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/hwekqg91fks0"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-c1hzz9ub7zep.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-q2d2048fb0tm.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-tr4prdk0nt7i.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-e9r2oqeuvk5s.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

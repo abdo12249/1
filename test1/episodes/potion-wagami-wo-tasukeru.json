@@ -215,6 +215,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-11-23 02:41:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=potion-wagami-wo-tasukeru&episode=5",
+      "image": "https://abdo12249.github.io/1/images/potion-wagami-wo-tasukeru.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/N6oafUpbo8eCp"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-402bd5ygff4w.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239069&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-1zouxmm2ssw2.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/h48uoktjevhr"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-tqeebuptdgum.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/qjumljkfaoad"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-9abc22ihoc6q.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ocnz4w1j3sck.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ojvraidljr9d.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

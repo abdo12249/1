@@ -323,8 +323,8 @@ async function checkForUpdates() {
 }
 
 /* =========================================
-   checkForUpdatesCustom (روابط محددة فقط)
-   - يقبل array من الروابط
+   checkForUpdatesCustom(["url1.json", "url2.json"]); (روابط محددة فقط)
+   - يقبل array من الروابط 
    - يقبل فقط الروابط الموجودة داخل الجديد.json (validation)
    ========================================= */
 async function checkForUpdatesCustom(customLinks = []) {
@@ -445,3 +445,4 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+

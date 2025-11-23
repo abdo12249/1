@@ -519,72 +519,100 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-11-23 17:22:47",
+      "date": "2025-11-23 23:38:19",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kingdom-6th-season&episode=8",
       "image": "https://abdo12249.github.io/1/images/kingdom-6th-season.webp",
       "servers": [
         {
-          "serverName": "megamax",
+          "serverName": "megamax meHD",
           "url": "https://megamax.me/iframe/DHzQJQ8YcCr4v"
         },
         {
-          "serverName": "mega بدون اعلانات",
+          "serverName": "4sharedHD",
+          "url": "https://www.4shared.com/web/embed/file/ogJBCVoqku"
+        },
+        {
+          "serverName": "megaHD",
           "url": "about:blank"
         },
         {
-          "serverName": "larhu",
+          "serverName": "cavanhabgSD",
+          "url": "https://cavanhabg.com/e/x2bjtpmfjwlw"
+        },
+        {
+          "serverName": "4sharedFHD",
+          "url": "https://www.4shared.com/web/embed/file/seqgJA5bjq"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "dailymotionFHD",
+          "url": "https://www.dailymotion.com/embed/video/x9u9o8a"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/DHzQJQ8YcCr4v"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhuHD",
           "url": "https://larhu.com/embed-v98p9iaw2dr9.html"
         },
         {
-          "serverName": "vidmoly",
+          "serverName": "vidmolyHD",
           "url": "https://vidmoly.net/embed-pexeg2tcprd2.html"
         },
         {
-          "serverName": "voe.sx",
+          "serverName": "voe sxHD",
           "url": "https://voe.sx/e/x1rs5jwvqn8a"
         },
         {
-          "serverName": "videa",
+          "serverName": "videa huHD",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vk",
+          "serverName": "vkvideo ruHD",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240358&hash=bb0c027b7ad53758&autoplay=1"
         },
         {
-          "serverName": "DoodStream",
+          "serverName": "dsvplayHD",
           "url": "https://dsvplay.com/e/j9v00yjxs3yg"
         },
         {
-          "serverName": "file-upload.org",
+          "serverName": "file-upload orgHD",
           "url": "https://file-upload.org/embed-jvzbx07c0le1.html"
         },
         {
-          "serverName": "Mp4upload",
+          "serverName": "mp4uploadHD",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات",
+          "serverName": "megaFHD",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org",
+          "serverName": "file-upload orgFHD",
           "url": "https://file-upload.org/embed-etttzk3fb9sy.html"
         },
         {
-          "serverName": "Mp4upload",
+          "serverName": "mp4uploadFHD",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات",
+          "serverName": "megaSD",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org",
+          "serverName": "file-upload orgSD",
           "url": "https://file-upload.org/embed-vcupf728vrgf.html"
         },
         {
-          "serverName": "Mp4upload",
+          "serverName": "mp4uploadSD",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

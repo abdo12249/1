@@ -276,6 +276,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-11-23 02:41:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=taiyou-yori-mo-mabushii-hoshi&episode=7",
+      "image": "https://abdo12249.github.io/1/images/taiyou-yori-mo-mabushii-hoshi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/OUftm2v2q1RcR"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-jnup6zy6elv7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239068&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ejtucyj56oph"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-cc08nrhl6idh.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-0ovw3yc25hzw.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4gwmua99of3j"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-4sz1fd825qr3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-7ky7552ge8e5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-dok7tyhuepfp.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

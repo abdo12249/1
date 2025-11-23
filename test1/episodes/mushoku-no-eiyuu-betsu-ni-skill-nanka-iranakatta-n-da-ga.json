@@ -361,6 +361,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-11-23 02:39:52",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga&episode=8",
+      "image": "https://abdo12249.github.io/1/images/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/1bKSjlyxFvNpW"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-sfhy4vnfj3rc.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239091&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ibdvxwdeikjn"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-zii5zw6u4piz.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-xqrrs6lfheiv.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/r0f5pnvjw7xg"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

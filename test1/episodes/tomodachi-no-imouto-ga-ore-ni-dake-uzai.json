@@ -487,6 +487,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": "8 مترجمة اون لاين",
+      "title": "الحلقة 8 مترجمة اون لاين",
+      "date": "2025-11-23 23:16:25",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tomodachi-no-imouto-ga-ore-ni-dake-uzai&episode=8 مترجمة اون لاين",
+      "image": "https://abdo12249.github.io/1/images/tomodachi-no-imouto-ga-ore-ni-dake-uzai.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/No25VSJo8XftM"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/No25VSJo8XftM"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-04y6r9n8lahv.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/ygdlm3admkrn"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-a9hciytkgafo.html"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240357&hash=d0bf31b4a766f20d&autoplay=1"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/i93mmlz5zggg"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-smy4hwwazffx.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-zldo81eeuigt.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

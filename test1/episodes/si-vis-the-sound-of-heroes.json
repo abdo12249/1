@@ -568,6 +568,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": "8 مترجمة اون لاين",
+      "title": "الحلقة 8 مترجمة اون لاين",
+      "date": "2025-11-23 23:16:21",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=si-vis-the-sound-of-heroes&episode=8 مترجمة اون لاين",
+      "image": "https://abdo12249.github.io/1/images/si-vis-the-sound-of-heroes.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/JwMVgISIyiezO"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/JwMVgISIyiezO"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-0ygvk6lkffyf.html"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-6r5a1foaayaw.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/ezck1kxlkwym"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240359&hash=09262fcdf959263d&autoplay=1"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/z1fy0nwvohcw"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-4m6lwa4lxab6.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-n552jjmdnba5.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-ujc3ussjf6bz.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -1069,6 +1069,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 16,
+      "title": "الحلقة 16",
+      "date": "2025-11-23 02:56:34",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=16",
+      "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/wn20GVXyKPxpq"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-wyp28roj7z6j.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-zokay7ga4sir.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/chtduao6yt1d"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240265&hash=c0064e072e734b4f&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4hd4sgdy8f7g"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-78h42zwl7rbr.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-63aqwsz2vu98.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jl9igmwdhwin.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

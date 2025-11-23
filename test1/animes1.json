@@ -804,5 +804,91 @@
     "duration": "الموسم:  ربيع 2025",
     "season": "N",
     "source": ""
+  },
+  "spy-x-family-season-3": {
+    "title": "Spy x Family Season 3",
+    "description": "الموسم الثالث من أنمي “Spy x Family”",
+    "image": "https://myanima.ddns.net/images/spy-x-family-season-3.webp",
+    "tags": [
+      "أكشن",
+      "كوميدي",
+      "قوى خارقة",
+      "شونين"
+    ],
+    "type": "TV",
+    "status": "يعرض الان",
+    "episodeCount": "عدد الحلقات:",
+    "duration": "مدة الحلقة:  24 دقيقة",
+    "season": "خريف 2025",
+    "source": "المصدر:  مانجا"
+  },
+  "nageki-no-bourei-wa-intai-shitai-part-2": {
+    "title": "Nageki no Bourei wa Intai shitai Part 2",
+    "description": "الموسم الثاني من أنمي “Nageki no Bourei wa Intai Shitai”",
+    "image": "https://myanima.ddns.net/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
+    "tags": [
+      "أكشن",
+      "مغامرات",
+      "فنتازيا"
+    ],
+    "type": "TV",
+    "status": "يعرض الان",
+    "episodeCount": "عدد الحلقات:",
+    "duration": "مدة الحلقة:  23 دقيقة",
+    "season": "خريف 2025",
+    "source": "المصدر:  رواية خفيفة"
+  },
+  "fumetsu-no-anata-e-season-3": {
+    "title": "Fumetsu no Anata e Season 3",
+    "description": "الموسم الثالث من أنمي “Fumetsu no Anata e”",
+    "image": "https://myanima.ddns.net/images/fumetsu-no-anata-e-season-3.webp",
+    "tags": [
+      "أكشن",
+      "دراما",
+      "خارق للعادة",
+      "شونين"
+    ],
+    "type": "TV",
+    "status": "يعرض الان",
+    "episodeCount": "عدد الحلقات:",
+    "duration": "مدة الحلقة:  23 دقيقة",
+    "season": "خريف 2025",
+    "source": "المصدر:  مانجا"
+  },
+  "ao-no-orchestra-season-2": {
+    "title": "Ao no Orchestra Season 2",
+    "description": "قصة انمي Ao no Orchestra Season 2 تتمة لاحداث الموسم السابق.",
+    "image": "https://myanima.ddns.net/images/ao-no-orchestra-season-2.webp",
+    "tags": [
+      "دراما",
+      "موسيقي",
+      "مدرسي"
+    ],
+    "type": "TV",
+    "status": "يعرض الان",
+    "episodeCount": "عدد الحلقات:",
+    "duration": "مدة الحلقة:  25 دقيقة",
+    "season": "خريف 2025",
+    "source": "المصدر:  ويب مانجا"
+  },
+  "fujimoto-tatsuki-17-26": {
+    "title": "Fujimoto Tatsuki 17-26",
+    "description": "قصة انمي Fujimoto Tatsuki 17-26 حول غزوات فضائية، رومانسية في المدارس الثانوية، وحتى معارك مصاصي دماء دموية كل هذا وأكثر في ثمانية أفلام أنمي قصيرة مشوّقة تكشف نقطة البداية للمبدع تاتسوكي فوجيموتو مُبتكر سلسلة Chainsaw Man.",
+    "image": "https://myanima.ddns.net/images/fujimoto-tatsuki-17-26.webp",
+    "tags": [
+      "أكشن",
+      "كوميدي",
+      "دراما",
+      "رومانسي",
+      "خارق للعادة",
+      "مدرسي",
+      "شونين"
+    ],
+    "type": "ONA",
+    "status": "يعرض الان",
+    "episodeCount": "عدد الحلقات:",
+    "duration": "الموسم:  خريف 2025",
+    "season": "F",
+    "source": ""
   }
 }

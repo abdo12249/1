@@ -195,6 +195,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-11-23 02:40:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=6",
+      "image": "https://abdo12249.github.io/1/images/gnosia.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/XCcoW00mvghPO"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-nlokjp5db8ww.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239086&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-tgm434sxqu6f.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/syyhgyaejikl"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-doojgc0egers.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/rpd1yue2ytwh"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-zbwpqm4ifmq7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-luutv1vfptlo.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-m6ih7hqblgy3.html"
+        }
+      ]
     }
   ]
 }

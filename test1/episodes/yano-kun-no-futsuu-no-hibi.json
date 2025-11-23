@@ -142,6 +142,79 @@
           "url": "https://www.mp4upload.com/embed-9b30ykavcwbg.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-11-23 02:30:55",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yano-kun-no-futsuu-no-hibi&episode=8",
+      "image": "https://abdo12249.github.io/1/images/yano-kun-no-futsuu-no-hibi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/NNvhOkXExIHk9"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-7uknpn3ed7b3.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239111&autoplay=1"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/4btkutzhiwtm"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-3dm7h7870ihd.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-w2hg198kdxao.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-e3p150de60v2.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-onsgie8u8xp0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ss9sainvqmya.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -345,6 +345,87 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-11-23 02:46:07",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=spy-x-family-season-3&episode=6",
+      "image": "https://abdo12249.github.io/1/images/spy-x-family-season-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/yhywcDxrawsXo"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-txxsxks28dai.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "dailymotion",
+          "url": "https://dailymotion.com/embed/video/x9tflsm"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239038&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/4lq6xcb9avl6"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-wr85153kwksq.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-eoz4kgdlrb73.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/dsaf5y263lua"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-dgeltnfdovzl.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-3b0c5lqp5c3f.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-10qybl0ixs9o.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

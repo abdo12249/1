@@ -1336,6 +1336,91 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": "20 مترجمة اون لاين",
+      "title": "الحلقة 20 مترجمة اون لاين",
+      "date": "2025-11-23 23:16:12",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=20 مترجمة اون لاين",
+      "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/1OirWolPs0vMa"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/1OirWolPs0vMa"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-t3z3c2eioddw.html"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-qr2b8ht8nz3r.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "dailymotionHD",
+          "url": "https://dailymotion.com/embed/video/x9uam58"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239132&autoplay=1"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-78i4kdhl16d2.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/yry7kmrdgefj"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-lk2jgtwghhet.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/c92mka9w9y6g"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-abhrnt212utm.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-16inb1d4rvra.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

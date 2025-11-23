@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/3-nen-z-gumi-ginpachi-sensei.json"]);
+

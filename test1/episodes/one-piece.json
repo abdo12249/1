@@ -618,77 +618,77 @@
     {
       "number": 1146,
       "title": "الحلقة 1146",
-      "date": "2025-10-20 16:13:50",
-      "link": "https://myanima.ddns.net/test1/المشاهده.html?id=one-piece&episode=1146",
-      "image": "https://myanima.ddns.net/images/one-piece.webp",
+      "date": "2025-11-23 03:05:28",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-piece&episode=1146",
+      "image": "https://abdo12249.github.io/1/images/one-piece.webp",
       "servers": [
         {
-          "serverName": "megamax[HD]",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/SsmNdYB2Rocpa"
         },
         {
-          "serverName": "larhu[HD]",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-as0ll3lypccd.html"
         },
         {
-          "serverName": "mega بدون اعلانات[HD]",
-          "url": "https://mega.nz/embed/O9hEwA7C#uDqoO4B6EOv79K_7PznNSF-A3RZ93vccakgCscEjITo"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "dailymotion[HD]",
+          "serverName": "dailymotion",
           "url": "https://dailymotion.com/embed/video/x9sd2c2"
         },
         {
-          "serverName": "vk[HD]",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240179&autoplay=1"
         },
         {
-          "serverName": "videa[HD]",
-          "url": "https://videa.hu/player?v=1U6bA6CyeiU8mtxH"
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vidmoly[HD]",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-4pkd6ra2cfub.html"
         },
         {
-          "serverName": "voe.sx[HD]",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/vbbp0e8wsxb0"
         },
         {
-          "serverName": "DoodStream[HD]",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/ouu3dsa910gp"
         },
         {
-          "serverName": "uqload[HD]",
+          "serverName": "uqload",
           "url": "https://uqload.cx/embed-xds9cbbukvyq.html"
         },
         {
-          "serverName": "file-upload.org[HD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-0h658mtsskr2.html"
         },
         {
-          "serverName": "Mp4upload[HD]",
-          "url": "https://mp4upload.com/embed-l9h81uik44yn.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "mega بدون اعلانات[FHD]",
-          "url": "https://mega.nz/embed/L1AxwZIb#ljE9OzX4D-z0uWT3Vv5NG9xrCw8OYo9QTbdjrtige4c"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[FHD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-roqafdzvfvzh.html"
         },
         {
-          "serverName": "mega بدون اعلانات[SD]",
-          "url": "https://mega.nz/embed/H542nBxb#r4bYigmI0vVwOmzmvq9wVbLICsRV7uWhL00w0ttlYXM"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "file-upload.org[SD]",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-bje3sxujh34s.html"
         },
         {
-          "serverName": "Mp4upload[SD]",
-          "url": "https://mp4upload.com/embed-00w3une8enmo.html"
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
     },

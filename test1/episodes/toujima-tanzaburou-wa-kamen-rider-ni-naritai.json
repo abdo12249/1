@@ -264,6 +264,71 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "الحلقة 7",
+      "date": "2025-11-23 02:40:19",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=7",
+      "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/xz5iD05SijVb0"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-j5iosi7tva1d.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239089&autoplay=1"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/4nbfqfzypivs"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-8dbo5vk8ljrp.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-esm2r4jkzl1k.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ysi2sksufwqw"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -215,6 +215,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "الحلقة 5",
+      "date": "2025-11-23 02:53:38",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tondemo-skill-de-isekai-hourou-meshi-2&episode=5",
+      "image": "https://abdo12249.github.io/1/images/tondemo-skill-de-isekai-hourou-meshi-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/FWckT5G0xGwQQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-b1mcchzywp7f.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-n9iqqyzfnjhg.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/qk0bete5d6qg"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240299&hash=d84dd25bac504a4f&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-35kr9g1hazvh.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/8mebi7gl7jue"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-7odoicrnkxn1.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-raewfcnzvw60.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-yioo1p4egp3n.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json", "https://myanima.ddns.net/test1/episodes/digimon-beatbreak.json"]);

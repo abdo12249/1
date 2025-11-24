@@ -434,6 +434,87 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-11-24 08:18:04",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=potion-wagami-wo-tasukeru&episode=9",
+      "image": "https://abdo12249.github.io/1/images/potion-wagami-wo-tasukeru.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/tlh7UPEBhrF1I"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/tlh7UPEBhrF1I"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-lktqaq3zelxv.html"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239139&autoplay=1"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/jupiwyxla89g"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-qs8l8gzte2xj.html"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-liuqa7dp47lk.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/20860s6zo8x7"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-3slgo3vh8h2n.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-2fpx9c28sva3.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-zperafnl22tl.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

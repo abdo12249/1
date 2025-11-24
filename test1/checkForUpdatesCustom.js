@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu.json", "https://myanima.ddns.net/test1/episodes/potion-wagami-wo-tasukeru.json", "https://myanima.ddns.net/test1/episodes/ao-no-orchestra-season-2.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/egao-no-taenai-shokuba-desu.json"]);

@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/chanto-suenai-kyuuketsuki-chan.json", "https://myanima.ddns.net/test1/episodes/si-vis-the-sound-of-heroes.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu.json"]);

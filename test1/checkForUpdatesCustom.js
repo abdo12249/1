@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/sozai-saishuka-no-isekai-ryokouki.json", "https://myanima.ddns.net/test1/episodes/debu-to-love-to-ayamachi-to.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/sozai-saishuka-no-isekai-ryokouki.json", "https://myanima.ddns.net/test1/episodes/debu-to-love-to-ayamachi-to.json", "https://myanima.ddns.net/test1/episodes/egao-no-taenai-shokuba-desu.json"]);

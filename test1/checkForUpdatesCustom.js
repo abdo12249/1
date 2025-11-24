@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu.json", "https://myanima.ddns.net/test1/episodes/potion-wagami-wo-tasukeru.json"]);

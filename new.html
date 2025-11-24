@@ -48,7 +48,6 @@
     <h1>أحدث حلقات</h1>
   </div>
 
-
   <div class="anime-grid" id="animeGrid"></div>
   <div class="pagination" id="pagination"></div>
 
@@ -213,7 +212,7 @@ async function uploadEpisodesInParts(episodes) {
       });
       if(newEpisodes.length===0){
         console.log(`⏭️ الجزء part${i+1} لم يتغير.`);
-        continue; // لا حاجة لرفع هذا الجزء
+        continue;
       }
       await setDoc(partDocRef,{episodes:[...oldData,...newEpisodes], updatedAt: Date.now()});
       console.log(`✅ تم تحديث part${i+1} بإضافة ${newEpisodes.length} حلقة جديدة`);
@@ -234,19 +233,15 @@ async function fetchJSONWithRetry(url, retries = 2) {
     } catch (e) {
       console.warn(`fetch failed (${url}) attempt ${i+1}:`, e);
       if (i === retries) return null;
-      // صغير تأخير قبل محاولة التالية
       await new Promise(r => setTimeout(r, 300 * (i+1)));
     }
   }
 }
 
-/* ---------------- fetch مع Concurrency Limit (workers) ----------------
-   urls: array of urls
-   limit: عدد الطلبات المتزامنة
-*/
+/* ---------------- fetch مع Concurrency Limit ---------------- */
 async function fetchWithConcurrencyLimit(urls, limit = 3) {
   const results = [];
-  const queue = urls.slice(); // clone
+  const queue = urls.slice();
   async function worker() {
     while (queue.length > 0) {
       const url = queue.shift();
@@ -256,12 +251,11 @@ async function fetchWithConcurrencyLimit(urls, limit = 3) {
   }
   const workers = Array.from({length: Math.max(1, limit)}, () => worker());
   await Promise.all(workers);
-  // نحول إلى مصفوفة البيانات (نحتفظ بالرابط أيضاً عند الحاجة)
   return results.map(r => r.data);
 }
 
 /* ======================  
-   checkForUpdates (الكل)
+   checkForUpdates
    ====================== */
 async function checkForUpdates() {
   showLoading("جاري التحقق من كل الروابط في الجديد.json...");
@@ -279,7 +273,6 @@ async function checkForUpdates() {
       return;
     }
 
-    // جلب بيانات كل رابط (بحد concurrent معقول)
     const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, 3);
     const fetchedEpisodes = [];
 
@@ -327,9 +320,7 @@ async function checkForUpdates() {
 }
 
 /* =========================================
-   checkForUpdatesCustom(["url1.json", "url2.json"]); (روابط محددة فقط)
-   - يقبل array من الروابط 
-   - يقبل فقط الروابط الموجودة داخل الجديد.json (validation)
+   checkForUpdatesCustom
    ========================================= */
 async function checkForUpdatesCustom(customLinks = []) {
   showLoading("جاري التحقق من الروابط المحددة...");
@@ -342,13 +333,11 @@ async function checkForUpdatesCustom(customLinks = []) {
       return;
     }
 
-    // تحميل الجديد.json للتحقق من وجود الروابط داخلها
     const res = await fetch("الجديد.json");
     if (!res.ok) throw new Error(`فشل تحميل الجديد.json (${res.status})`);
     const data = await res.json();
     const allLinks = Array.isArray(data.animes) ? data.animes : [];
 
-    // valid / invalid
     const validLinks = customLinks.filter(link => allLinks.includes(link));
     const invalidLinks = customLinks.filter(link => !allLinks.includes(link));
 
@@ -409,9 +398,35 @@ async function checkForUpdatesCustom(customLinks = []) {
   hideLoading();
 }
 
-/* make global */
+/* اجعلها Global */
 window.checkForUpdates = checkForUpdates;
 window.checkForUpdatesCustom = checkForUpdatesCustom;
+
+/* ==========================================================
+   🔥 تحميل ملف test1/checkForUpdatesCustom.js تلقائيًا
+   ========================================================== */
+async function loadCustomUpdateFile() {
+  const customScriptURL = "test1/checkForUpdatesCustom.js";
+
+  try {
+    const res = await fetch(customScriptURL, { method: "HEAD" });
+
+    if (res.ok) {
+      console.log("📌 تم العثور على test1/checkForUpdatesCustom.js — يتم تحميله...");
+
+      const script = document.createElement("script");
+      script.src = customScriptURL + "?v=" + Date.now();
+      script.onload = () => console.log("✅ تم تشغيل checkForUpdatesCustom.js");
+      script.onerror = () => console.error("❌ فشل تحميل checkForUpdatesCustom.js");
+
+      document.body.appendChild(script);
+    } else {
+      console.warn("⚠️ ملف checkForUpdatesCustom.js غير موجود — المتابعة بدون تشغيله.");
+    }
+  } catch (err) {
+    console.warn("⚠️ خطأ أثناء التحقق من وجود test1/checkForUpdatesCustom.js", err);
+  }
+}
 
 /* ---------------- init on page load ---------------- */
 async function init() {
@@ -422,19 +437,17 @@ async function init() {
   setupPagination(allEpisodes.length, currentPage);
   hideLoading();
 }
+
+/* ← هنا الإضافة الجديدة */
+await loadCustomUpdateFile();
 init();
 
-/* ---------------- optional debug buttons handlers ---------------- */
-document.getElementById("btn-update-all").addEventListener("click", () => {
+/* ---------------- optional debug buttons ---------------- */
+document.getElementById("btn-update-all")?.addEventListener("click", () => {
   checkForUpdates();
 });
-document.getElementById("btn-update-sample").addEventListener("click", async () => {
-  // مثال توضيحي: استبدل هذه الروابط بروابط من الجديد.json عند التجربة
-  const sample = [
-    // "https://example.com/anime/one-piece.json",
-    // "https://example.com/anime/naruto.json"
-  ];
-  // إذا أردت تجربة: ضع في sample بعض الروابط الموجودة في الجديد.json ثم اضغط الزر
+document.getElementById("btn-update-sample")?.addEventListener("click", async () => {
+  const sample = [];
   await checkForUpdatesCustom(sample);
 });
 </script>
@@ -449,6 +462,3 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
-
-
-

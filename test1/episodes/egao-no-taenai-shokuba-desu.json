@@ -519,7 +519,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 19:09:17",
+      "date": "2025-11-24 23:11:39",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=egao-no-taenai-shokuba-desu&episode=9",
       "image": "https://abdo12249.github.io/1/images/egao-no-taenai-shokuba-desu.webp",
       "servers": [
@@ -553,6 +553,46 @@
         },
         {
           "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/frsxzby0kttj"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-26y96ccjq1ot.html"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-f1syu2hazyw2.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/5bld62fibyjr"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-uzshucyi2fi4.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-nqvft3yvnmqa.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

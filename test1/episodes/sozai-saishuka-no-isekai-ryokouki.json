@@ -576,6 +576,87 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-11-24 23:11:38",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=9",
+      "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/SmndfXWmosWpc"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/SmndfXWmosWpc"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-uls26555i2hn.html"
+        },
+        {
+          "serverName": "voe sxHD",
+          "url": "https://voe.sx/e/wvcsw3zgornc"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-uz612idh1ekj.html"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240361&hash=cc38b50016f62cda&autoplay=1"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-v025lb0s9qji.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/3hf4u5g3nybd"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-0zfeffeb0d80.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-d3gqxx228m6p.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-uv2xx5a4rwqg.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

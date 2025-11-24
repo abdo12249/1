@@ -373,6 +373,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-11-24 08:18:10",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ao-no-orchestra-season-2&episode=9",
+      "image": "https://abdo12249.github.io/1/images/ao-no-orchestra-season-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/C7Xr8A4E5rrhg"
+        },
+        {
+          "serverName": "megamax meHD",
+          "url": "https://megamax.me/iframe/C7Xr8A4E5rrhg"
+        },
+        {
+          "serverName": "larhuHD",
+          "url": "https://larhu.com/embed-ugf3grlqczc9.html"
+        },
+        {
+          "serverName": "megaHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa huHD",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vkvideo ruHD",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239137&autoplay=1"
+        },
+        {
+          "serverName": "vidmolyHD",
+          "url": "https://vidmoly.net/embed-4qun58lfimb7.html"
+        },
+        {
+          "serverName": "dsvplayHD",
+          "url": "https://dsvplay.com/e/6ou3283h3mkf"
+        },
+        {
+          "serverName": "uqload cxHD",
+          "url": "https://uqload.cx/embed-3xhmg1s2tfp1.html"
+        },
+        {
+          "serverName": "file-upload orgHD",
+          "url": "https://file-upload.org/embed-qllp5dshmq6s.html"
+        },
+        {
+          "serverName": "mp4uploadHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaFHD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgFHD",
+          "url": "https://file-upload.org/embed-4sdj82nrim00.html"
+        },
+        {
+          "serverName": "mp4uploadFHD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "megaSD",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload orgSD",
+          "url": "https://file-upload.org/embed-yzt3ppwpxwpk.html"
+        },
+        {
+          "serverName": "mp4uploadSD",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

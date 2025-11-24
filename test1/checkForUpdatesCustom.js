@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json", "https://myanima.ddns.net/test1/episodes/egao-no-taenai-shokuba-desu.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json", "https://myanima.ddns.net/test1/episodes/egao-no-taenai-shokuba-desu.json", "https://myanima.ddns.net/test1/episodes/ao-no-orchestra-season-2.json"]);

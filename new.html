@@ -406,7 +406,7 @@ window.checkForUpdatesCustom = checkForUpdatesCustom;
    🔥 تحميل ملف test1/checkForUpdatesCustom.js تلقائيًا
    ========================================================== */
 async function loadCustomUpdateFile() {
-  const customScriptURL = "test1/checkForUpdatesCustom.js";
+  const customScriptURL = "/test1/checkForUpdatesCustom.js";
 
   try {
     const res = await fetch(customScriptURL, { method: "HEAD" });
@@ -462,3 +462,4 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+

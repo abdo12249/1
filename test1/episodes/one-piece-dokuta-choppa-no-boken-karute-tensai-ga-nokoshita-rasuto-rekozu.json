@@ -194,6 +194,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": "الخاصة",
+      "title": "الحلقة الخاصة",
+      "date": "2025-11-25 19:10:44",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu&episode=الخاصة",
+      "image": "https://abdo12249.github.io/1/images/one-piece-dokuta-choppa-no-boken-karute-tensai-ga-nokoshita-rasuto-rekozu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/3IDGcaTTgFRzK"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-7vaql5sclv78.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239136&autoplay=1"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-g42b4g6ya818.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/sv0pda4d4o5r"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-x1v005053pm9.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/2ib2qj3l968k"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-u79p480ldotc.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-w9cxt3axxlj7.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-r4lmjumxxiu0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

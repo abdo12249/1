@@ -580,80 +580,76 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 23:11:38",
+      "date": "2025-11-25 19:10:17",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=9",
       "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
+          "serverName": "megamax",
           "url": "https://megamax.me/iframe/SmndfXWmosWpc"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/SmndfXWmosWpc"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
+          "serverName": "larhu",
           "url": "https://larhu.com/embed-uls26555i2hn.html"
         },
         {
-          "serverName": "voe sxHD",
+          "serverName": "voe.sx",
           "url": "https://voe.sx/e/wvcsw3zgornc"
         },
         {
-          "serverName": "vidmolyHD",
+          "serverName": "vidmoly",
           "url": "https://vidmoly.net/embed-uz612idh1ekj.html"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
+          "serverName": "vk",
           "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240361&hash=cc38b50016f62cda&autoplay=1"
         },
         {
-          "serverName": "uqload cxHD",
+          "serverName": "uqload",
           "url": "https://uqload.cx/embed-v025lb0s9qji.html"
         },
         {
-          "serverName": "dsvplayHD",
+          "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/3hf4u5g3nybd"
         },
         {
-          "serverName": "file-upload orgHD",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-0zfeffeb0d80.html"
         },
         {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-d3gqxx228m6p.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
+          "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-uv2xx5a4rwqg.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

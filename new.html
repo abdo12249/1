@@ -9,40 +9,26 @@
 <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
 
 <style>
-/* Pagination styling */
 .pagination { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
-.pagination button { padding: 6px 12px; background-color: var(--primary-color, #ef4444); color: white; border: none; cursor: pointer; border-radius: 6px; transition: background-color 0.3s ease; }
+.pagination button { padding: 6px 12px; background-color: var(--primary-color,#ef4444); color: white; border: none; cursor: pointer; border-radius: 6px; transition: background-color 0.3s ease; }
 .pagination button:hover { background-color: #dc2626; }
 .pagination button.active { background-color: #b91c1c; }
-.pagination span { padding: 6px 12px; color: #888; }
-
-/* Loading overlay */
-.loading-overlay {
-  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-  background-color: rgba(0,0,0,0.7); display: flex; flex-direction: column;
-  justify-content: center; align-items: center; z-index: 1000; color: white; font-size: 1.2em;
-}
-.spinner {
-  border: 4px solid rgba(255,255,255,0.3); border-top: 4px solid #fff;
-  border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px;
-}
+.loading-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1000; color: white; font-size: 1.2em; }
+.spinner { border: 4px solid rgba(255,255,255,0.3); border-top: 4px solid #fff; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px; }
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 .anime-image img.loaded { opacity: 1; }
 </style>
 </head>
-
 <body>
+
 <div id="navbar-container"></div>
 
 <main>
-  <div class="section-header">
-    <h1>أحدث حلقات</h1>
-  </div>
+  <div class="section-header"><h1>أحدث حلقات</h1></div>
 
   <div class="anime-grid" id="animeGrid"></div>
   <div class="pagination" id="pagination"></div>
 
-  <!-- Loading overlay -->
   <div id="loadingOverlay" class="loading-overlay" style="display: none;">
     <div class="spinner"></div>
     <span id="loadingText">جاري تحميل الأنمي...</span>
@@ -50,56 +36,44 @@
 </main>
 
 <script>
-const EPISODES_URL = "https://raw.githubusercontent.com/abdo12249/1/main/test1/episodes.json";
+const NEW_JSON = "الجديد.json";
+const EPISODES_JSON = "/test1/episodes.json";
 const maxItemsPerPage = 20;
 let allEpisodes = [];
 
-function showLoading(text = "جاري تحميل الأنمي...") {
-  document.getElementById("loadingText").textContent = text;
-  document.getElementById("loadingOverlay").style.display = "flex";
-}
-function hideLoading() { document.getElementById("loadingOverlay").style.display = "none"; }
+function showLoading(text="جاري التحميل..."){document.getElementById("loadingOverlay").style.display="flex";document.getElementById("loadingText").textContent=text;}
+function hideLoading(){document.getElementById("loadingOverlay").style.display="none";}
 
-function getPageFromURL() {
-  const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get("page")) || 1;
-}
-function updateURL(page) {
-  const url = new URL(window.location.href);
-  url.searchParams.set("page", page);
-  window.history.pushState({}, "", url);
-}
+function getPageFromURL(){const params=new URLSearchParams(window.location.search);return parseInt(params.get("page"))||1;}
+function updateURL(page){const url=new URL(window.location.href);url.searchParams.set("page",page);window.history.pushState({}, "", url);}
 
-function setupLazyLoading() {
-  const lazyImages = document.querySelectorAll("img[data-src]");
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        img.src = img.dataset.src;
+function setupLazyLoading(){
+  const lazyImages=document.querySelectorAll("img[data-src]");
+  const observer=new IntersectionObserver((entries,obs)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        const img=entry.target;
+        img.src=img.dataset.src;
         img.removeAttribute("data-src");
         obs.unobserve(img);
       }
     });
-  }, { rootMargin: "100px" });
-  lazyImages.forEach(img => observer.observe(img));
+  },{rootMargin:"100px"});
+  lazyImages.forEach(img=>observer.observe(img));
 }
 
-function renderPage(pageNumber) {
+function renderPage(pageNumber){
   updateURL(pageNumber);
-  const animeGrid = document.getElementById("animeGrid");
-  animeGrid.innerHTML = "";
-  const startIndex = (pageNumber - 1) * maxItemsPerPage;
-  const endIndex = startIndex + maxItemsPerPage;
-  const episodesToShow = allEpisodes.slice(startIndex, endIndex);
+  const animeGrid=document.getElementById("animeGrid");
+  animeGrid.innerHTML="";
+  const startIndex=(pageNumber-1)*maxItemsPerPage;
+  const endIndex=startIndex+maxItemsPerPage;
+  const episodesToShow=allEpisodes.slice(startIndex,endIndex);
 
-  episodesToShow.forEach(ep => {
-    const card = document.createElement("div");
-    card.className = "anime-card";
-    card.innerHTML = `
-      <div class="anime-image">
-        <img data-src="${ep.image}" alt="${ep.animeTitle}" loading="lazy">
-      </div>
+  episodesToShow.forEach(ep=>{
+    const card=document.createElement("div");
+    card.className="anime-card";
+    card.innerHTML=`<div class="anime-image"><img data-src="${ep.image}" alt="${ep.animeTitle}" loading="lazy"></div>
       <div class="anime-info">
         <h3>${ep.animeTitle}</h3>
         <div class="anime-meta">
@@ -112,70 +86,72 @@ function renderPage(pageNumber) {
 
   setupLazyLoading();
 
-  document.querySelectorAll(".pagination button").forEach(b => b.classList.remove("active"));
-  const activeBtn = document.querySelector(`.pagination button[data-page="${pageNumber}"]`);
-  if (activeBtn) activeBtn.classList.add("active");
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  const pagination=document.getElementById("pagination");
+  pagination.innerHTML="";
+  const pageCount=Math.max(1,Math.ceil(allEpisodes.length/maxItemsPerPage));
+  const maxVisible=5;
+  let start=Math.max(1,pageNumber-Math.floor(maxVisible/2));
+  let end=Math.min(start+maxVisible-1,pageCount);
+  if(end-start<maxVisible-1) start=Math.max(1,end-maxVisible+1);
+
+  if(pageNumber>1){const btn=document.createElement("button");btn.textContent="السابق";btn.onclick=()=>{renderPage(pageNumber-1);};pagination.appendChild(btn);}
+  for(let i=start;i<=end;i++){const btn=document.createElement("button");btn.textContent=i; if(i===pageNumber) btn.classList.add("active"); btn.onclick=()=>{renderPage(i);};pagination.appendChild(btn);}
+  if(pageNumber<pageCount){const btn=document.createElement("button");btn.textContent="التالي";btn.onclick=()=>{renderPage(pageNumber+1);};pagination.appendChild(btn);}
+  window.scrollTo({top:0,behavior:"smooth"});
 }
 
-function setupPagination(totalItems, currentPage = 1) {
-  const pageCount = Math.max(1, Math.ceil(totalItems / maxItemsPerPage));
-  const pagination = document.getElementById("pagination");
-  pagination.innerHTML = "";
-  const maxVisible = 5;
-  let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
-  let end = Math.min(start + maxVisible - 1, pageCount);
-  if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+async function fetchJSON(url){const res=await fetch(url);if(!res.ok)throw new Error(`HTTP ${res.status}`);return res.json();}
 
-  if (currentPage > 1) {
-    const prev = document.createElement("button");
-    prev.textContent = "السابق";
-    prev.onclick = () => { renderPage(currentPage - 1); setupPagination(totalItems, currentPage - 1); };
-    pagination.appendChild(prev);
-  }
+async function loadAllEpisodes(){
+  showLoading("جاري تحميل الجديد.json...");
+  try{
+    const data=await fetchJSON(NEW_JSON);
+    if(!Array.isArray(data.animes)) throw new Error("الجديد.json فارغ أو غير صالح");
+    const animeLinks=data.animes;
 
-  for (let i = start; i <= end; i++) {
-    const btn = document.createElement("button");
-    btn.textContent = i;
-    btn.setAttribute("data-page", i);
-    if (i === currentPage) btn.classList.add("active");
-    btn.onclick = () => { renderPage(i); setupPagination(totalItems, i); };
-    pagination.appendChild(btn);
-  }
+    const fetchedEpisodes=[];
+    for(const link of animeLinks){
+      try{
+        const animeData=await fetchJSON(link);
+        if(Array.isArray(animeData.episodes)){
+          animeData.episodes.forEach(ep=>{
+            fetchedEpisodes.push({
+              animeTitle: animeData.animeTitle||"",
+              image: ep.image||"",
+              link: ep.link||"",
+              number: ep.number||"",
+              title: ep.title||"",
+              date: ep.date||new Date().toISOString()
+            });
+          });
+        }
+      }catch(e){console.warn(`فشل تحميل الرابط ${link}`,e);}
+    }
 
-  if (currentPage < pageCount) {
-    const next = document.createElement("button");
-    next.textContent = "التالي";
-    next.onclick = () => { renderPage(currentPage + 1); setupPagination(totalItems, currentPage + 1); };
-    pagination.appendChild(next);
-  }
+    fetchedEpisodes.sort((a,b)=>new Date(b.date)-new Date(a.date));
+    allEpisodes=fetchedEpisodes;
+
+    // حفظ على السيرفر (إذا كان backend يسمح)
+    try{
+      await fetch(EPISODES_JSON,{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify(allEpisodes,null,2)
+      });
+    }catch(e){console.warn("تعذر حفظ episodes.json على السيرفر:",e);}
+
+  }catch(e){console.error("❌ خطأ أثناء التحميل:",e);}
+  hideLoading();
 }
 
-async function loadEpisodes() {
-  showLoading("جاري تحميل الحلقات...");
-  try {
-    const res = await fetch(EPISODES_URL);
-    if (!res.ok) throw new Error("فشل تحميل episodes.json");
-    const episodes = await res.json();
-    // ترتيب حسب الأحدث
-    allEpisodes = episodes.sort((a,b) => new Date(b.date) - new Date(a.date));
-    const currentPage = getPageFromURL();
-    renderPage(currentPage);
-    setupPagination(allEpisodes.length, currentPage);
-  } catch (err) {
-    document.getElementById("animeGrid").innerHTML = `<p style="color:red">فشل تحميل الحلقات</p>`;
-    console.error(err);
-  } finally {
-    hideLoading();
-  }
-}
+(async()=>{
+  await loadAllEpisodes();
+  renderPage(getPageFromURL());
+})();
 
-loadEpisodes();
-
-fetch('navbar.html')
-  .then(res=>res.text())
-  .then(data=>document.getElementById('navbar-container').innerHTML=data)
-  .catch(err=>console.error("خطأ في تحميل شريط التنقل:", err));
+// تحميل navbar
+fetch('navbar.html').then(r=>r.text()).then(data=>document.getElementById('navbar-container').innerHTML=data).catch(err=>console.error("خطأ في تحميل navbar:",err));
 </script>
+
 </body>
 </html>

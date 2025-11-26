@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/lets-play-quest-darake-no-my-life.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/lets-play-quest-darake-no-my-life.json", "https://myanima.ddns.net/test1/episodes/tensei-akujo-no-kuro-rekishi.json"]);

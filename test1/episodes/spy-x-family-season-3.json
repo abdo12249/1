@@ -653,64 +653,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-23 23:41:52",
+      "date": "2025-11-29 20:30:23",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=spy-x-family-season-3&episode=9",
       "image": "https://abdo12249.github.io/1/images/spy-x-family-season-3.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/6DshYOuHK0hUL"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/mSLx54jlXwvUN"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/6DshYOuHK0hUL"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-0j3h1yxegb9m.html"
         },
         {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-4l56hwmireyx.html"
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239152&hash=5644fee25c2626bb&hd=3"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-fqm2o6g92aqb.html"
-        },
-        {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/cwo75dy9d7su"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240352&hash=91cba69fd7fabdf6&autoplay=1"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-0tqw6nnizvrv.html"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/6f0m19yvburh"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/q82wuqoqevh6"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-e92v5h3mx87p.html"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/guv9lr47ccwa"
         },
         {
-          "serverName": "mp4uploadHD",
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-kpmtpzz85tz7.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-87oyruamtyd3.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jk2gysjr98nu.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-o2apdki1arsb.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

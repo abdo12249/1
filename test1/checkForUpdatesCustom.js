@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/fumetsu-no-anata-e-season-3.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/fumetsu-no-anata-e-season-3.json", "https://myanima.ddns.net/test1/episodes/nageki-no-bourei-wa-intai-shitai-part-2.json", "https://myanima.ddns.net/test1/episodes/yasei-no-last-boss-ga-arawareta!.json", "https://myanima.ddns.net/test1/episodes/spy-x-family-season-3.json"]);

@@ -641,73 +641,73 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-23 23:42:00",
+      "date": "2025-11-29 20:30:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=boku-no-hero-academia-final-season&episode=9",
       "image": "https://abdo12249.github.io/1/images/boku-no-hero-academia-final-season.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/ggGAJAh2MnSMt"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/KDpMiPH0iuQbI"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/ggGAJAh2MnSMt"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/oqse3fpgtofe"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-fjlp21wsc1sm.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-ajwv7d6f95j3.html"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-wv9euxgn1041.html"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/u3mslzttq2ez"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/odlnrpvzpksy"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-1tnw58h3g9vx.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "megaFHD",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-e4erxgxv8tri.html"
-        },
-        {
-          "serverName": "megaSD",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-qxotvwrlr4oi.html"
-        },
-        {
-          "serverName": "mp4uploadSD",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-z6v3dgyjgnl8.html"
-        },
-        {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240351&autoplay=1"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240376&hash=a26209af0cbe048d&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/85bziy0wivag"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-awkdfswmpzhl.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-cnu5vggnnljv.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-mkd6lm5vfotx.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
     }

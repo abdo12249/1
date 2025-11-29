@@ -645,76 +645,76 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 17:13:21",
+      "date": "2025-11-29 20:30:23",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu&episode=9",
       "image": "https://abdo12249.github.io/1/images/mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/Tfv7RJcOAOvda"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/8pYjUzuiRx5QO"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/Tfv7RJcOAOvda"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-hfpmc6wyueeh.html"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-345bnpwkaivv.html"
-        },
-        {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239125&autoplay=1"
-        },
-        {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-2dsfpdpfh5zl.html"
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239151&hash=004477fa98444eb1&hd=3"
         },
         {
-          "serverName": "mp4uploadFHD",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "megaHD",
-          "url": "about:blank"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-gdpq2do0h0bn.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-n1y8aakxq85v.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/pmgisakagkm2"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/wzdx66pmpru7"
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-9wcvimho28q3.html"
         },
         {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-baz2x6leqiu1.html"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ph1pjjrpjkot"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-6alj8fxzhg1h.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-e4o4dhjpxk6l.html"
         },
         {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-5tx6hlngopiz.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-h3lk0jhqk56t.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-5xzil470b6en.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

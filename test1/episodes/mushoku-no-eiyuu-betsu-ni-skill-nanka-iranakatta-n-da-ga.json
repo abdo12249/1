@@ -576,6 +576,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-11-29 20:30:56",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga&episode=10",
+      "image": "https://abdo12249.github.io/1/images/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/I2sFT3rtZtWFk"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-9br5krthbbe0.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239147&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/k4wamzxab2qa"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-pqy0u09h33wd.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-79rsvb35f1fw.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/qivanumkxo68"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6e5z4qze5pzu.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-yztp549efvgm.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-rlkds6m758mn.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

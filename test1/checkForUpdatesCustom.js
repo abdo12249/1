@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/watari-kun-no-xx-ga-houkai-sunzen.json", "https://myanima.ddns.net/test1/episodes/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/watari-kun-no-xx-ga-houkai-sunzen.json", "https://myanima.ddns.net/test1/episodes/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga.json", "https://myanima.ddns.net/test1/episodes/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka.json"]);

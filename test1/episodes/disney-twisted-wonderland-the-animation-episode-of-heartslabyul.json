@@ -304,7 +304,7 @@
     {
       "number": 5,
       "title": "الحلقة 5",
-      "date": "2025-11-29 20:33:57",
+      "date": "2025-11-30 19:00:13",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=disney-twisted-wonderland-the-animation-episode-of-heartslabyul&episode=5",
       "image": "https://abdo12249.github.io/1/images/disney-twisted-wonderland-the-animation-episode-of-heartslabyul.webp",
       "servers": [
@@ -331,10 +331,6 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240366&hash=551ca058aedf0555&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

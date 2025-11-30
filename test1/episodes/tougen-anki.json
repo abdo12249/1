@@ -1219,7 +1219,7 @@
     {
       "number": 20,
       "title": "الحلقة 20",
-      "date": "2025-11-29 20:31:30",
+      "date": "2025-11-30 18:59:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tougen-anki&episode=20",
       "image": "https://abdo12249.github.io/1/images/tougen-anki.webp",
       "servers": [
@@ -1246,10 +1246,6 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240372&hash=4d90caf37328be85&hd=3&autoplay=1"
         },
         {
           "serverName": "uqload",

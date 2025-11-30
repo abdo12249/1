@@ -673,80 +673,56 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 20:14:23",
+      "date": "2025-11-30 20:21:16",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kikaijikake-no-marie&episode=9",
       "image": "https://abdo12249.github.io/1/images/kikaijikake-no-marie.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/5jwk6AAV0wnGb"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/wefAf4oO3eYBX"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/5jwk6AAV0wnGb"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-2p0nher62wjv.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-7qi7c8bqftas.html"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-9lmiuk7b737v.html"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-k6hhel5s5fd6.html"
         },
         {
-          "serverName": "mp4uploadFHD",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/gjpsh58dx4ol"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239128&autoplay=1"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/9sh5mf0y7vr2"
         },
         {
-          "serverName": "megaFHD",
-          "url": "about:blank"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-723sqclyc96k.html"
         },
         {
-          "serverName": "megaHD",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-95g1ge4dfn4t.html"
-        },
-        {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/pvuxdt43axw0"
-        },
-        {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-sciezzbcawl4.html"
-        },
-        {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/tjez3lufpvcq"
-        },
-        {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-d53w7vzfd4p7.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-hmyl3nt9mizh.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pep5veb9ne2a.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

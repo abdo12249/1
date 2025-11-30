@@ -612,6 +612,63 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-11-30 20:21:16",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chanto-suenai-kyuuketsuki-chan&episode=8",
+      "image": "https://abdo12249.github.io/1/images/chanto-suenai-kyuuketsuki-chan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/hnrXPXLrw0mMo"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-y5g4xee187y5.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-b8vplfzu9fz2.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/vu3mdor1a5n5"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ckf6oj1qm2n8"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-w0arek7fe0d8.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-25vwqk1pvf8e.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

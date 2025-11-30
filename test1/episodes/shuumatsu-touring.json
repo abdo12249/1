@@ -593,60 +593,68 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 22:11:11",
+      "date": "2025-11-30 20:21:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shuumatsu-touring&episode=9",
       "image": "https://abdo12249.github.io/1/images/shuumatsu-touring.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/2j18ViUuCTnIO"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/FtmG8ouVYCyAU"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/2j18ViUuCTnIO"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-udfwb8fgjhuo.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-jz4wpu0p8hu0.html"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/y6gicjsgibyd"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ou9f4vghqj15.html"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/beswsw68rree"
+        },
+        {
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240353&hash=7b4593759c0a10e8&autoplay=1"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/sr5xocsjzxh3"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/dcza5t1ehy4b"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-lgyvextv8d9k.html"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-hx6kggj0thiv.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-gzw994kh8ovc.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-34rk0so2llo9.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-bo44o3gnfxpo.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

@@ -592,7 +592,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-29 20:30:56",
+      "date": "2025-11-30 20:22:02",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sanda&episode=9",
       "image": "https://abdo12249.github.io/1/images/sanda.webp",
       "servers": [
@@ -607,10 +607,6 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239148&hash=8ce99f50eaa600a3&hd=3"
         },
         {
           "serverName": "videa",

@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/long-zu-ii-daowangzhe-zhi-tong.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/long-zu-ii-daowangzhe-zhi-tong.json", "https://myanima.ddns.net/test1/episodes/shabake.json", "https://myanima.ddns.net/test1/episodes/towa-no-yuugure.json"]);

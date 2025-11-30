@@ -605,64 +605,68 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-23 23:41:48",
+      "date": "2025-11-30 20:21:30",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=9",
       "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/Bv0ivL36zlgQF"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/OT52Nnr2JDNBi"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/Bv0ivL36zlgQF"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-257xogp1vgqk.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-55958zip3j2r.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-siakqrufytrt.html"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-dd9722e8nwq3.html"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/ud4i0t0ph9xg"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cjt6lh2f9mvg"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240355&hash=ad0c1cc117af24dc&autoplay=1"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/bib4u4auekxc"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/gc81qefbgghm"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-c14sz8ubebrl.html"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-fpkw761m6m2g.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-77l8krynioq1.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-esjw7u43x6es.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6tz4ymh2v8si.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

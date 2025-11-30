@@ -645,7 +645,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-11-29 20:31:30",
+      "date": "2025-11-30 20:20:47",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka&episode=10",
       "image": "https://abdo12249.github.io/1/images/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka.webp",
       "servers": [
@@ -668,10 +668,6 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240375&hash=34462669a21c612b&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

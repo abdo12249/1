@@ -556,64 +556,68 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-23 23:41:48",
+      "date": "2025-11-30 20:21:30",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tomodachi-no-imouto-ga-ore-ni-dake-uzai&episode=9",
       "image": "https://abdo12249.github.io/1/images/tomodachi-no-imouto-ga-ore-ni-dake-uzai.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/No25VSJo8XftM"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/q7boI8E9ZHQn6"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/No25VSJo8XftM"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-04y6r9n8lahv.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-diqn8n7brc3y.html"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/ygdlm3admkrn"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-rhllj9duj4h8.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-a9hciytkgafo.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/6dilw7y678lr"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240357&hash=d0bf31b4a766f20d&autoplay=1"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4if25pkzgury"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/i93mmlz5zggg"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-agerhvgnle15.html"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-smy4hwwazffx.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-zldo81eeuigt.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-za8its1lmxov.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ela6s2zsmvnl.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

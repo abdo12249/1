@@ -442,7 +442,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-11-26 23:13:20",
+      "date": "2025-11-30 19:00:21",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-akujo-no-kuro-rekishi&episode=8",
       "image": "https://abdo12249.github.io/1/images/tensei-akujo-no-kuro-rekishi.webp",
       "servers": [
@@ -469,10 +469,6 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240364&hash=bc796465bf35c250&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

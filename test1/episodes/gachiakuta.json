@@ -1445,6 +1445,63 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 21,
+      "title": "الحلقة 21",
+      "date": "2025-11-30 20:21:16",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gachiakuta&episode=21",
+      "image": "https://abdo12249.github.io/1/images/gachiakuta.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/DeKpeZdVp7qOL"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-r4j2qs7onrep.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-jkg1y48keu4i.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/z1e16yjqudu2"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-pk2jhxpzpe02.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/gqy5ok1jevqb"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-aj2r4hmatafb.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-typ56uisxciv.html"
+        }
+      ]
     }
   ]
 }

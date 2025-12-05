@@ -519,80 +519,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 23:11:39",
+      "date": "2025-12-05 08:33:10",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=egao-no-taenai-shokuba-desu&episode=9",
       "image": "https://abdo12249.github.io/1/images/egao-no-taenai-shokuba-desu.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/CHfsUWrwoSk1s"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/bBs0bnTqzXKJ3"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/CHfsUWrwoSk1s"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-0w041y5iyp2n.html"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-4qozr6pqv37b.html"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230743500&id=456239077&autoplay=1"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "megaFHD",
-          "url": "about:blank"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-jljbtzetfsgp.html"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-xqfmtpuxyaqm.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/drkr2bwzb29g"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-e3p97gmm1a41.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/sp3v9gea4jhs"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pnvqvvgnqdqz.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/frsxzby0kttj"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6nf0h1tzxlih.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-26y96ccjq1ot.html"
-        },
-        {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-f1syu2hazyw2.html"
-        },
-        {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/5bld62fibyjr"
-        },
-        {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-uzshucyi2fi4.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-nqvft3yvnmqa.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-v0eam8q754r6.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

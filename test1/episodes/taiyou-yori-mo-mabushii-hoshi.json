@@ -576,7 +576,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-12-05 08:32:40",
+      "date": "2025-12-05 11:23:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=taiyou-yori-mo-mabushii-hoshi&episode=10",
       "image": "https://abdo12249.github.io/1/images/taiyou-yori-mo-mabushii-hoshi.webp",
       "servers": [
@@ -591,6 +591,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239167&hash=ecbb602c5211a16f&hd=3"
         },
         {
           "serverName": "videa",

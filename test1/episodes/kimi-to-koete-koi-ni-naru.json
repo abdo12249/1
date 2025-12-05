@@ -359,47 +359,43 @@
       ]
     },
     {
-      "number": 7,
-      "title": "الحلقة 7",
-      "date": "2025-12-05 08:32:51",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kimi-to-koete-koi-ni-naru&episode=7",
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-12-05 08:33:09",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kimi-to-koete-koi-ni-naru&episode=8",
       "image": "https://abdo12249.github.io/1/images/kimi-to-koete-koi-ni-naru.webp",
       "servers": [
         {
           "serverName": "megamax",
-          "url": "https://megamax.me/iframe/brmKLDs96m2su"
-        },
-        {
-          "serverName": "larhu",
-          "url": "https://larhu.com/embed-gu75j6760uyq.html"
+          "url": "https://megamax.me/iframe/hue2yORVDmiWX"
         },
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-rimui0zuapdo.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-esuwwtwlzofw.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/5hkdlgagudir"
         },
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.net/embed-squoczr1jbo7.html"
-        },
-        {
-          "serverName": "voe.sx",
-          "url": "https://voe.sx/e/wv3qpnxq5bsw"
-        },
-        {
-          "serverName": "uqload",
-          "url": "https://uqload.cx/embed-ulik0h7064ee.html"
-        },
-        {
           "serverName": "DoodStream",
-          "url": "https://dsvplay.com/e/six1th3c01zf"
+          "url": "https://dsvplay.com/e/dhbvd3olr23a"
         },
         {
           "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-wko8uxny0uj3.html"
+          "url": "https://file-upload.org/embed-gpatc0ljvt2r.html"
         },
         {
           "serverName": "Mp4upload",
@@ -411,7 +407,7 @@
         },
         {
           "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-935h6kog1u0e.html"
+          "url": "https://file-upload.org/embed-6azv43z0piq1.html"
         },
         {
           "serverName": "Mp4upload",
@@ -423,7 +419,7 @@
         },
         {
           "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-5m2z72m3o0b8.html"
+          "url": "https://file-upload.org/embed-vfyvsuu5n1lr.html"
         },
         {
           "serverName": "Mp4upload",

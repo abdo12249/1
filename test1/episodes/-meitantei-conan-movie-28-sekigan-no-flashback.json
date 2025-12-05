@@ -4,7 +4,7 @@
     {
       "number": "غير معروف",
       "title": "الحلقة غير معروف",
-      "date": "2025-12-05 08:33:09",
+      "date": "2025-12-05 11:24:46",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=-meitantei-conan-movie-28-sekigan-no-flashback&episode=غير معروف",
       "image": "https://abdo12249.github.io/1/images/-meitantei-conan-movie-28-sekigan-no-flashback.webp",
       "servers": [
@@ -31,6 +31,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240393&hash=190022846908051b&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

@@ -645,7 +645,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-12-05 08:33:00",
+      "date": "2025-12-05 11:24:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kakuriyo-no-yadomeshi-ni&episode=10",
       "image": "https://abdo12249.github.io/1/images/kakuriyo-no-yadomeshi-ni.webp",
       "servers": [
@@ -672,6 +672,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240399&hash=41024583ebcfec47&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

@@ -795,6 +795,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 12,
+      "title": "الحلقة 12",
+      "date": "2025-12-05 08:28:37",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mofa-gongzhu-de-xiao-fannao&episode=12",
+      "image": "https://abdo12249.github.io/1/images/mofa-gongzhu-de-xiao-fannao.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/u7gkZxqnsj3Pv"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-h2591owdo8zu.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-v43rxa0rbafn.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/8ddt0czj8i7v"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-bl2vgo52w2s0.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/jo0za9rhrbji"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-xrcxqvnjbh74.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-300fgnpd84sh.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pw3hcb0n2k5o.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

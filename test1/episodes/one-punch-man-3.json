@@ -750,6 +750,75 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "الحلقة 8",
+      "date": "2025-12-05 08:28:37",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=one-punch-man-3&episode=8",
+      "image": "https://abdo12249.github.io/1/images/one-punch-man-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/CULf3lAGcG0zf"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-4bs77ku5avo7.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-h0gh46hitc29.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hwsohakwkzgm"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ft85jac0r8sh.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/sj5tui4p9zzj"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-mphkmjbsph04.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-5abivafb0bam.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pvzti13ov8hz.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

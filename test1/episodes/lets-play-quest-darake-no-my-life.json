@@ -653,7 +653,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-12-05 08:32:51",
+      "date": "2025-12-05 11:23:55",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=lets-play-quest-darake-no-my-life&episode=10",
       "image": "https://abdo12249.github.io/1/images/lets-play-quest-darake-no-my-life.webp",
       "servers": [
@@ -680,6 +680,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240401&hash=c42d56cb467d7737&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

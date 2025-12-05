@@ -507,7 +507,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-05 08:32:53",
+      "date": "2025-12-05 11:24:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tensei-akujo-no-kuro-rekishi&episode=9",
       "image": "https://abdo12249.github.io/1/images/tensei-akujo-no-kuro-rekishi.webp",
       "servers": [
@@ -534,6 +534,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240400&hash=eed96b58c1cc3c3b&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

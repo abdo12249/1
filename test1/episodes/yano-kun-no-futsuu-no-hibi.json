@@ -576,6 +576,75 @@
           "url": "https://mp4upload.com/embed-8kl0qc7jtdaw.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-05 08:33:00",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yano-kun-no-futsuu-no-hibi&episode=10",
+      "image": "https://abdo12249.github.io/1/images/yano-kun-no-futsuu-no-hibi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/m4AtzpAvtNbhA"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-91s26renio3y.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ork83a7h1exs.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ubijf0k49nxz"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/ymno5r4wyax1"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6tbdpromuyx5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-sw2eny62q2e6.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-bfamgx8p87lg.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -361,7 +361,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-12-05 08:33:09",
+      "date": "2025-12-05 11:24:46",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kimi-to-koete-koi-ni-naru&episode=8",
       "image": "https://abdo12249.github.io/1/images/kimi-to-koete-koi-ni-naru.webp",
       "servers": [
@@ -388,6 +388,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240394&hash=40288f9b9ee50993&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",
@@ -420,83 +424,6 @@
         {
           "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-vfyvsuu5n1lr.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "الحلقة 7",
-      "date": "2025-12-05 11:23:55",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kimi-to-koete-koi-ni-naru&episode=7",
-      "image": "https://abdo12249.github.io/1/images/kimi-to-koete-koi-ni-naru.webp",
-      "servers": [
-        {
-          "serverName": "megamax",
-          "url": "https://megamax.me/iframe/brmKLDs96m2su"
-        },
-        {
-          "serverName": "larhu",
-          "url": "https://larhu.com/embed-gu75j6760uyq.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239164&hash=900c45a3a6599b02&hd=3"
-        },
-        {
-          "serverName": "videa",
-          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vidmoly",
-          "url": "https://vidmoly.net/embed-squoczr1jbo7.html"
-        },
-        {
-          "serverName": "voe.sx",
-          "url": "https://voe.sx/e/wv3qpnxq5bsw"
-        },
-        {
-          "serverName": "uqload",
-          "url": "https://uqload.cx/embed-ulik0h7064ee.html"
-        },
-        {
-          "serverName": "DoodStream",
-          "url": "https://dsvplay.com/e/six1th3c01zf"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-wko8uxny0uj3.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-935h6kog1u0e.html"
-        },
-        {
-          "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
-        },
-        {
-          "serverName": "mega بدون اعلانات",
-          "url": "about:blank"
-        },
-        {
-          "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-5m2z72m3o0b8.html"
         },
         {
           "serverName": "Mp4upload",

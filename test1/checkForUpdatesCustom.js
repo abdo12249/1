@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/boku-no-hero-academia-final-season.json", "https://myanima.ddns.net/test1/episodes/watashi-wo-tabetai-hitodenashi.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/digimon-beatbreak.json"]);

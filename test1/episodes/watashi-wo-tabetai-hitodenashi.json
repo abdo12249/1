@@ -576,6 +576,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-12-05 08:27:53",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watashi-wo-tabetai-hitodenashi&episode=9",
+      "image": "https://abdo12249.github.io/1/images/watashi-wo-tabetai-hitodenashi.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/nW480cFILrD5o"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-yo30rkf4lf7m.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/xpb36krd9ceq"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-uetg1dkh6b4n.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-dbrd3evzqhfe.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/gsvcygy38aem"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-191sks5oshll.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-5fz4m22fuyr6.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-y4zaab8kdebx.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

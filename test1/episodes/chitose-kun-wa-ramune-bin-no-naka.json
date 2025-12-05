@@ -264,7 +264,7 @@
     {
       "number": 6,
       "title": "الحلقة 6",
-      "date": "2025-12-05 08:33:02",
+      "date": "2025-12-05 11:24:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chitose-kun-wa-ramune-bin-no-naka&episode=6",
       "image": "https://abdo12249.github.io/1/images/chitose-kun-wa-ramune-bin-no-naka.webp",
       "servers": [
@@ -291,6 +291,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240396&hash=5ca37899e0b2e91f&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

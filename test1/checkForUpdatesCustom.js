@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/digimon-beatbreak.json", "https://myanima.ddns.net/test1/episodes/one-piece.json", "https://myanima.ddns.net/test1/episodes/potion-wagami-wo-tasukeru.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/digimon-beatbreak.json", "https://myanima.ddns.net/test1/episodes/one-piece.json", "https://myanima.ddns.net/test1/episodes/potion-wagami-wo-tasukeru.json", "https://myanima.ddns.net/test1/episodes/sozai-saishuka-no-isekai-ryokouki.json"]);

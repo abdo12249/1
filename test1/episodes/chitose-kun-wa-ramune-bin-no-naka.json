@@ -260,6 +260,75 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "الحلقة 6",
+      "date": "2025-12-05 08:33:02",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chitose-kun-wa-ramune-bin-no-naka&episode=6",
+      "image": "https://abdo12249.github.io/1/images/chitose-kun-wa-ramune-bin-no-naka.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/TrjFwlJG4DKqG"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-qtjnaqer46d9.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/6hpbm1if3wy6"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-zcglo1n0i7e0.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/d104fhh2wyty"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-dcrmz6c5wcdy.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-a9n9xgf5dsoo.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jhh5ur7wb70q.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

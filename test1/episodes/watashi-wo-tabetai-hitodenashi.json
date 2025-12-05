@@ -580,7 +580,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-12-05 08:32:40",
+      "date": "2025-12-05 11:23:56",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watashi-wo-tabetai-hitodenashi&episode=10",
       "image": "https://abdo12249.github.io/1/images/watashi-wo-tabetai-hitodenashi.webp",
       "servers": [
@@ -595,6 +595,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-234326837&id=456239032&hash=d7b37438412cf6c8&hd=3"
         },
         {
           "serverName": "videa",

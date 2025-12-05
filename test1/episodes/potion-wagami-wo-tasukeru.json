@@ -438,80 +438,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 19:08:46",
+      "date": "2025-12-05 08:28:28",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=potion-wagami-wo-tasukeru&episode=9",
       "image": "https://abdo12249.github.io/1/images/potion-wagami-wo-tasukeru.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/tlh7UPEBhrF1I"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/Swr1MBX5PrnMM"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/tlh7UPEBhrF1I"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-dalv2bglaj1w.html"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-lktqaq3zelxv.html"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239139&autoplay=1"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/jupiwyxla89g"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/qkzbhcjiiuhb"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-qs8l8gzte2xj.html"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-8wq7091r59wu.html"
         },
         {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-liuqa7dp47lk.html"
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-t5wag8r8ftgc.html"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/20860s6zo8x7"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/nshcyndm65nd"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-3slgo3vh8h2n.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-y7uho7bw7jxy.html"
         },
         {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-2fpx9c28sva3.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-q0gg224di8ky.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-zperafnl22tl.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-a72a4sx06dse.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

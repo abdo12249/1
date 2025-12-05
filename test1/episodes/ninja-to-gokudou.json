@@ -495,7 +495,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-05 08:33:00",
+      "date": "2025-12-05 11:24:22",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ninja-to-gokudou&episode=9",
       "image": "https://abdo12249.github.io/1/images/ninja-to-gokudou.webp",
       "servers": [
@@ -518,6 +518,14 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/lbpilifwpz5u"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240398&hash=9dcabb5bc3d55973&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240398&hash=9dcabb5bc3d55973&hd=3&autoplay=1"
         },
         {
           "serverName": "videa",

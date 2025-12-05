@@ -653,80 +653,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 22:10:49",
+      "date": "2025-12-05 08:28:37",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha&episode=9",
       "image": "https://abdo12249.github.io/1/images/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/T4EcxqSZmzJQI"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/t0nL4XmDno7Lb"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/T4EcxqSZmzJQI"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-cx9sho5i9mla.html"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-e6ie6v10bu6y.html"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239134&autoplay=1"
-        },
-        {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "megaFHD",
-          "url": "about:blank"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-bysucb6mg5lx.html"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-pwf1r4c0bng3.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/bpkd4ben58hj"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-uzevkm5gb6s9.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/jxvgeyxmxp71"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-twe5dehagz1z.html"
+        },
+        {
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/y9wvelq2v5eu"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-7l03ajkqjut5.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-oqauagnqu0zx.html"
-        },
-        {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-yn558r171wka.html"
-        },
-        {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/p8iozqzl72wq"
-        },
-        {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-dgilf4hppvlc.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-wjh8wb0ut7r1.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-05d9w7ggdkqz.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

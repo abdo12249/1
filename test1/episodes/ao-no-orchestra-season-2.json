@@ -377,76 +377,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 20:14:07",
+      "date": "2025-12-05 08:33:10",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ao-no-orchestra-season-2&episode=9",
       "image": "https://abdo12249.github.io/1/images/ao-no-orchestra-season-2.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/C7Xr8A4E5rrhg"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/QCkINZAF0Uu6o"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/C7Xr8A4E5rrhg"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-u6rmxopcpgg3.html"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-ugf3grlqczc9.html"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239137&autoplay=1"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-j0cgx01gdkek.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-4qun58lfimb7.html"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/vyd9hkylqpn7"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/6ou3283h3mkf"
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-cs3ze2tli3ui.html"
         },
         {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-3xhmg1s2tfp1.html"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/k5cir57hgqj5"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-qllp5dshmq6s.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-j5tfccu4i2wd.html"
         },
         {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-4sdj82nrim00.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-xcvulbso5pci.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-yzt3ppwpxwpk.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-xzjx81dwssij.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

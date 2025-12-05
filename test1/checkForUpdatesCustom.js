@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/watashi-wo-tabetai-hitodenashi.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/watashi-wo-tabetai-hitodenashi.json", "https://myanima.ddns.net/test1/episodes/taiyou-yori-mo-mabushii-hoshi.json", "https://myanima.ddns.net/test1/episodes/akujiki-reijou-to-kyouketsu-koushaku.json", "https://myanima.ddns.net/test1/episodes/futari-solo-camp.json"]);

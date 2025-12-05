@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/yano-kun-no-futsuu-no-hibi.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/yano-kun-no-futsuu-no-hibi.json", "https://myanima.ddns.net/test1/episodes/sozai-saishuka-no-isekai-ryokouki.json"]);

@@ -148,331 +148,51 @@ iframe {
 
     
 <!-- قسم الحلقات الجديدة -->
-<main>
-  <div class="section-header">
-    <h1>الحلقات الجديدة</h1>
-    <button class="watch-button"><a href="new.html" style="color: inherit;"> المزيد</a></button>
-  </div>
-  <div class="anime-grid" id="animeGridNew"></div>
+<script>
+const maxItemsToShow = 5;
 
-  <!-- شاشة التحميل -->
-  <div id="loadingOverlay" class="loading-overlay" style="display: none;">
-    <div class="spinner"></div>
-    <span>جاري تحميل الأنمي...</span>
-  </div>
+async function loadEpisodes() {
+  try {
+    const response = await fetch("الجديد.json");
+    const episodes = await response.json();
 
-  <script>
-    let allEpisodes = []; // سيتم تخزين جميع الحلقات هنا
-    const maxItemsToShow = 5; // عدد الحلقات المراد عرضها في هذا القسم
-    const cacheDuration = 24 * 60 * 60 * 1000; // 24 ساعة بالمللي ثانية
+    // أخذ أول 5 حلقات فقط
+    const topEpisodes = episodes.slice(0, maxItemsToShow);
 
-    // ثوابت IndexedDB
-    const DB_NAME = 'AnimeDB';
-    const DB_VERSION = 1;
-    const STORE_NAME = 'episodesCache';
-    const CACHE_KEY = 'cachedEpisodes'; // المفتاح لتخزين كائن التخزين المؤقت الوحيد في IndexedDB
+    renderEpisodes(topEpisodes);
 
-    let db; // متغير للاحتفاظ بنسخة قاعدة بيانات IndexedDB
+  } catch (error) {
+    console.error("خطأ في تحميل الجديد.json:", error);
+  }
+}
 
-    /**
-     * دالة لفتح قاعدة بيانات IndexedDB.
-     * @returns {Promise<IDBDatabase>} وعد يتم حله بنسخة قاعدة البيانات.
-     */
-    function openDatabase() {
-      return new Promise((resolve, reject) => {
-        const request = indexedDB.open(DB_NAME, DB_VERSION);
+function renderEpisodes(list) {
+  const animeGrid = document.getElementById("animeGridNew");
+  animeGrid.innerHTML = "";
 
-        request.onupgradeneeded = (event) => {
-          db = event.target.result;
-          // إنشاء مخزن الكائنات إذا لم يكن موجودًا
-          if (!db.objectStoreNames.contains(STORE_NAME)) {
-            db.createObjectStore(STORE_NAME);
-          }
-        };
+  list.forEach(ep => {
+    const card = document.createElement("div");
+    card.className = "anime-card";
 
-        request.onsuccess = (event) => {
-          db = event.target.result;
-          resolve(db);
-        };
+    card.innerHTML = `
+      <div class="anime-image">
+        <img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy">
+      </div>
+      <div class="anime-info">
+        <h3>${ep.animeTitle}</h3>
+        <div class="anime-meta">
+          <span>${ep.title}</span>
+          <a href="${ep.link}" class="watch-button">شاهد الآن</a>
+        </div>
+      </div>
+    `;
 
-        request.onerror = (event) => {
-          console.error("خطأ في فتح IndexedDB:", event.target.error);
-          reject(event.target.error);
-        };
-      });
-    }
+    animeGrid.appendChild(card);
+  });
+}
 
-    /**
-     * دالة لقراءة البيانات من IndexedDB.
-     * @param {string} key المفتاح لاسترداد البيانات.
-     * @returns {Promise<any>} وعد يتم حله بالبيانات المستردة.
-     */
-    async function readFromIndexedDB(key) {
-      if (!db) {
-        await openDatabase(); // التأكد من فتح قاعدة البيانات قبل القراءة
-      }
-      return new Promise((resolve, reject) => {
-        const transaction = db.transaction([STORE_NAME], 'readonly');
-        const store = transaction.objectStore(STORE_NAME);
-        const request = store.get(key);
-
-        request.onsuccess = (event) => {
-          resolve(event.target.result);
-        };
-
-        request.onerror = (event) => {
-          console.error("خطأ في قراءة IndexedDB:", event.target.error);
-          reject(event.target.error);
-        };
-      });
-    }
-
-    /**
-     * دالة لكتابة البيانات إلى IndexedDB.
-     * @param {string} key المفتاح لتخزين البيانات تحته.
-     * @param {any} data البيانات المراد تخزينها.
-     * @returns {Promise<void>} وعد يتم حله عند كتابة البيانات.
-     */
-    async function writeToIndexedDB(key, data) {
-      if (!db) {
-        await openDatabase(); // التأكد من فتح قاعدة البيانات قبل الكتابة
-      }
-      return new Promise((resolve, reject) => {
-        const transaction = db.transaction([STORE_NAME], 'readwrite');
-        const store = transaction.objectStore(STORE_NAME);
-        const request = store.put(data, key); // استخدام put للإضافة أو التحديث
-
-        request.onsuccess = () => {
-          resolve();
-        };
-
-        request.onerror = (event) => {
-          console.error("خطأ في كتابة IndexedDB:", event.target.error);
-          reject(event.target.error);
-        };
-      });
-    }
-
-    /**
-     * دالة لإظهار شاشة التحميل.
-     */
-    function showLoading() {
-      document.getElementById('loadingOverlay').style.display = 'flex';
-    }
-
-    /**
-     * دالة لإخفاء شاشة التحميل.
-     */
-    function hideLoading() {
-      document.getElementById('loadingOverlay').style.display = 'none';
-    }
-
-    /**
-     * دالة لعرض الحلقات في الشبكة.
-     */
-    function renderEpisodes() {
-      const animeGrid = document.getElementById("animeGridNew");
-      animeGrid.innerHTML = ""; // مسح المحتوى الحالي
-
-      // عرض فقط عدد maxItemsToShow من الحلقات
-      const episodesToShow = allEpisodes.slice(0, maxItemsToShow);
-
-      episodesToShow.forEach(ep => {
-        const card = document.createElement("div");
-        card.className = "anime-card";
-        card.innerHTML = `
-          <div class="anime-image">
-            <img src="${ep.image}" alt="${ep.animeTitle}" loading="lazy">
-          </div>
-          <div class="anime-info">
-            <h3>${ep.animeTitle}</h3>
-            <div class="anime-meta">
-              <span>${ep.title}</span>
-              <a href="${ep.link}" class="watch-button">شاهد الآن</a>
-            </div>
-          </div>
-        `;
-        animeGrid.appendChild(card);
-      });
-
-      // إضافة مراقب للتحميل التدريجي للصور
-      const lazyImages = document.querySelectorAll('#animeGridNew img[loading="lazy"]');
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((entries, observer) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              const img = entry.target;
-              img.classList.add('loaded'); // إضافة فئة لتغيير الشفافية
-              observer.unobserve(img); // إيقاف المراقبة بعد التحميل
-            }
-          });
-        });
-        lazyImages.forEach(img => observer.observe(img));
-      } else {
-        // بديل للمتصفحات التي لا تدعم IntersectionObserver
-        lazyImages.forEach(img => img.classList.add('loaded'));
-      }
-    }
-
-    /**
-     * دالة لجلب عناوين URL بحد أقصى للطلبات المتزامنة.
-     * @param {string[]} urls مصفوفة من عناوين URL المراد جلبها.
-     * @param {number} limit الحد الأقصى لعدد الطلبات المتزامنة.
-     * @returns {Promise<any[]>} وعد يتم حله بمصفوفة من البيانات التي تم جلبها.
-     */
-    async function fetchWithConcurrencyLimit(urls, limit) {
-        const results = [];
-        const queue = [...urls]; // إنشاء نسخة قابلة للتعديل من عناوين URL
-
-        async function worker() {
-            while (queue.length > 0) {
-                const url = queue.shift(); // الحصول على عنوان URL التالي من قائمة الانتظار
-                if (!url) continue; // تخطي إذا كانت قائمة الانتظار فارغة
-
-                try {
-                    const response = await fetch(url);
-                    const data = await response.json();
-                    results.push(data);
-                } catch (error) {
-                    console.error(`فشل تحميل: ${url}`, error);
-                    results.push(null); // إضافة null للطلبات الفاشلة
-                }
-            }
-        }
-
-        // بدء عدد 'limit' من العمال
-        const workers = Array(limit).fill(null).map(() => worker());
-        await Promise.all(workers); // انتظار جميع العمال لإكمال عملهم
-        return results;
-    }
-
-    /**
-     * دالة لجلب البيانات من API ومقارنتها مع البيانات المخزنة، ثم التحديث إذا تغيرت.
-     */
-    async function fetchAndCompareAndUpdate() {
-      let networkEpisodes = [];
-      let shouldRender = false; // علامة لتحديد ما إذا كان عرض الواجهة مطلوبًا
-
-      try {
-        // جلب ملف الجديد.json
-        const response = await fetch('الجديد.json');
-        const data = await response.json();
-        const animeLinks = data.animes;
-
-        // جلب جميع ملفات الأنمي الفردية بالتوازي مع تحديد حد للطلبات المتزامنة
-        const concurrencyLimit = 50; // يمكنك تعديل هذه القيمة حسب الحاجة
-        const fetchedAnimeData = await fetchWithConcurrencyLimit(animeLinks, concurrencyLimit);
-
-        const fetchedEpisodes = [];
-        fetchedAnimeData.forEach(animeData => {
-          if (!animeData) return; // تخطي البيانات الفارغة
-
-          animeData.episodes.forEach(ep => {
-            let dateValue = ep.date ? new Date(ep.date) : new Date("1970-01-01");
-
-            fetchedEpisodes.push({
-              animeTitle: animeData.animeTitle,
-              image: ep.image,
-              link: ep.link,
-              number: ep.number,
-              title: ep.title,
-              date: dateValue.toISOString() // حفظ التاريخ كسلسلة ISO لسهولة المقارنة
-            });
-          });
-        });
-
-        // فرز الحلقات حسب التاريخ (الأحدث أولاً)
-        fetchedEpisodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-        networkEpisodes = fetchedEpisodes;
-
-        // تحويل allEpisodes الحالية إلى سلسلة ISO لمقارنة متسقة
-        const currentAllEpisodesISO = allEpisodes.map(ep => ({...ep, date: ep.date.toISOString()}));
-
-        // مقارنة البيانات الجديدة من الشبكة مع البيانات الحالية (المخزنة مؤقتًا أو المعروضة)
-        if (JSON.stringify(networkEpisodes) !== JSON.stringify(currentAllEpisodesISO)) {
-          console.log("تم اكتشاف تغييرات في البيانات. تحديث IndexedDB والواجهة.");
-          const cacheObject = {
-            episodes: networkEpisodes,
-            timestamp: Date.now() // تحديث الطابع الزمني عند التغيير
-          };
-          await writeToIndexedDB(CACHE_KEY, cacheObject); // حفظ البيانات الجديدة في IndexedDB
-
-          // تحديث المتغير العام allEpisodes
-          allEpisodes = networkEpisodes.map(ep => ({
-            ...ep,
-            date: new Date(ep.date) // تحويل التاريخ مرة أخرى إلى كائن Date
-          }));
-          shouldRender = true; // الإشارة إلى أن العرض مطلوب
-        } else {
-          console.log("البيانات لم تتغير. استخدام البيانات الموجودة.");
-        }
-
-      } catch (error) {
-        console.error("خطأ في جلب البيانات من الشبكة أو معالجتها:", error);
-        // في حالة فشل جلب الشبكة، وإذا كانت allEpisodes فارغة (مما يعني عدم تحميل أي كاش في البداية)،
-        // سنحاول التحميل من الكاش كبديل.
-        if (allEpisodes.length === 0) {
-            try {
-                const cachedData = await readFromIndexedDB(CACHE_KEY);
-                if (cachedData && cachedData.episodes) {
-                    allEpisodes = cachedData.episodes.map(ep => ({
-                        ...ep,
-                        date: new Date(ep.date)
-                    }));
-                    console.log("تم تحميل البيانات من IndexedDB بسبب فشل الجلب.");
-                    shouldRender = true; // العرض إذا تم التحميل من الكاش بسبب فشل الشبكة
-                } else {
-                    console.error("لا توجد بيانات في IndexedDB. لا يمكن عرض أي حلقات.");
-                }
-            } catch (dbError) {
-                console.error("خطأ في قراءة IndexedDB بعد فشل الجلب:", dbError);
-            }
-        }
-      } finally {
-        // دائمًا قم بالعرض إذا كان هناك تغيير أو إذا كانت هناك حلقات لعرضها
-        if (shouldRender || allEpisodes.length > 0) {
-          renderEpisodes();
-        }
-        hideLoading(); // إخفاء شاشة التحميل
-      }
-    }
-
-    /**
-     * دالة للتهيئة.
-     */
-    async function init() {
-      await openDatabase(); // فتح IndexedDB عند التهيئة
-
-      const cachedObject = await readFromIndexedDB(CACHE_KEY);
-      const now = Date.now();
-      let renderedFromCache = false;
-
-      // حاول التحميل من الكاش أولاً للعرض الفوري
-      if (cachedObject && cachedObject.episodes && cachedObject.episodes.length > 0 && (now - cachedObject.timestamp) < cacheDuration) {
-        allEpisodes = cachedObject.episodes.map(ep => ({
-          ...ep,
-          date: new Date(ep.date)
-        }));
-        console.log("تم تحميل البيانات الأولية من IndexedDB.");
-        renderEpisodes(); // العرض فورًا من الكاش
-        renderedFromCache = true;
-      } else {
-        console.log("لا توجد بيانات في IndexedDB أو انتهت صلاحيتها. سيتم جلب البيانات من الشبكة.");
-      }
-
-      // إظهار شاشة التحميل فقط إذا لم يتم العرض من الكاش
-      if (!renderedFromCache) {
-        showLoading();
-      }
-
-      // دائمًا حاول جلب البيانات وتحديثها من الشبكة في الخلفية
-      // سيتولى هذا ضبط allEpisodes وإعادة العرض إذا لزم الأمر.
-      await fetchAndCompareAndUpdate();
-    }
-
-    init(); // بدء التهيئة عند تحميل الصفحة
-  </script>
-</main>
+loadEpisodes();
+</script>
 
 
 
@@ -592,6 +312,7 @@ iframe {
 
 </body>
 </html>
+
 
 
 

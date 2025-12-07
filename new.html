@@ -54,7 +54,7 @@
   </div>
 
 <script>
-const ITEMS_PER_PAGE = 30; // عدد الحلقات في كل صفحة
+const ITEMS_PER_PAGE = 30;
 let allEpisodes = [];
 
 async function loadEpisodes() {
@@ -62,8 +62,7 @@ async function loadEpisodes() {
     const response = await fetch("الجديد.json");
     allEpisodes = await response.json();
 
-    // عكس الترتيب بحيث آخر حلقة تظهر أولاً
-    allEpisodes = allEpisodes.slice().reverse();
+    allEpisodes = allEpisodes.slice().reverse(); // آخر حلقة أولاً
 
     const urlParams = new URLSearchParams(window.location.search);
     const currentPage = parseInt(urlParams.get("page")) || 1;
@@ -111,10 +110,8 @@ function renderPagination(currentPage) {
 
   const totalPages = Math.ceil(allEpisodes.length / ITEMS_PER_PAGE);
 
-  // الصفحة 1–5
   for (let i = 1; i <= 5; i++) {
     if (i > totalPages) break;
-
     const btn = document.createElement("button");
     btn.className = "watch-button" + (i === currentPage ? " active" : "");
     btn.textContent = i;
@@ -122,14 +119,12 @@ function renderPagination(currentPage) {
     pagination.appendChild(btn);
   }
 
-  // النقاط ... لو فيه صفحات كتير
   if (totalPages > 6) {
     const dots = document.createElement("span");
     dots.textContent = "...";
     pagination.appendChild(dots);
   }
 
-  // آخر صفحة
   if (totalPages > 5) {
     const lastBtn = document.createElement("button");
     lastBtn.className = "watch-button";
@@ -138,7 +133,6 @@ function renderPagination(currentPage) {
     pagination.appendChild(lastBtn);
   }
 
-  // زر التالي →
   if (currentPage < totalPages) {
     const nextBtn = document.createElement("button");
     nextBtn.className = "watch-button";
@@ -156,6 +150,7 @@ loadEpisodes();
 </script>
 
 
+
 </main>
 
 <script>
@@ -168,6 +163,7 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+
 
 
 

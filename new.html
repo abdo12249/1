@@ -54,27 +54,36 @@
   </div>
 
 <script>
+const ITEMS_PER_PAGE = 30; // عدد الحلقات في كل صفحة
+let allEpisodes = [];
+
 async function loadEpisodes() {
   try {
     const response = await fetch("الجديد.json");
-    const episodes = await response.json();
+    allEpisodes = await response.json();
 
     // عكس الترتيب بحيث آخر حلقة تظهر أولاً
-    const reversedEpisodes = episodes.slice().reverse();
+    allEpisodes = allEpisodes.slice().reverse();
 
-    // أخذ آخر 5 حلقات فقط
-    const lastFiveEpisodes = reversedEpisodes.slice(0, 25);
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentPage = parseInt(urlParams.get("page")) || 1;
 
-    renderEpisodes(lastFiveEpisodes);
+    renderPage(currentPage);
+    renderPagination(currentPage);
 
   } catch (error) {
     console.error("خطأ في تحميل الجديد.json:", error);
   }
 }
 
-function renderEpisodes(list) {
-  const animeGrid = document.getElementById("animeGrid"); // ← تعديل هنا
+function renderPage(page) {
+  const animeGrid = document.getElementById("animeGrid");
   animeGrid.innerHTML = "";
+
+  const start = (page - 1) * ITEMS_PER_PAGE;
+  const end = start + ITEMS_PER_PAGE;
+
+  const list = allEpisodes.slice(start, end);
 
   list.forEach(ep => {
     const card = document.createElement("div");
@@ -92,14 +101,60 @@ function renderEpisodes(list) {
         </div>
       </div>
     `;
-
     animeGrid.appendChild(card);
   });
 }
 
+function renderPagination(currentPage) {
+  const pagination = document.getElementById("pagination");
+  pagination.innerHTML = "";
+
+  const totalPages = Math.ceil(allEpisodes.length / ITEMS_PER_PAGE);
+
+  // الصفحة 1–5
+  for (let i = 1; i <= 5; i++) {
+    if (i > totalPages) break;
+
+    const btn = document.createElement("button");
+    btn.className = "watch-button" + (i === currentPage ? " active" : "");
+    btn.textContent = i;
+    btn.onclick = () => goToPage(i);
+    pagination.appendChild(btn);
+  }
+
+  // النقاط ... لو فيه صفحات كتير
+  if (totalPages > 6) {
+    const dots = document.createElement("span");
+    dots.textContent = "...";
+    pagination.appendChild(dots);
+  }
+
+  // آخر صفحة
+  if (totalPages > 5) {
+    const lastBtn = document.createElement("button");
+    lastBtn.className = "watch-button";
+    lastBtn.textContent = totalPages;
+    lastBtn.onclick = () => goToPage(totalPages);
+    pagination.appendChild(lastBtn);
+  }
+
+  // زر التالي →
+  if (currentPage < totalPages) {
+    const nextBtn = document.createElement("button");
+    nextBtn.className = "watch-button";
+    nextBtn.textContent = "التالي →";
+    nextBtn.onclick = () => goToPage(currentPage + 1);
+    pagination.appendChild(nextBtn);
+  }
+}
+
+function goToPage(page) {
+  window.location.href = `new.html?page=${page}`;
+}
 
 loadEpisodes();
 </script>
+
 
 </main>
 
@@ -113,6 +168,7 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+
 
 
 

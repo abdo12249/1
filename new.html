@@ -73,7 +73,7 @@ async function loadEpisodes() {
 }
 
 function renderEpisodes(list) {
-  const animeGrid = document.getElementById("animeGridNew");
+  const animeGrid = document.getElementById("animeGrid"); // ← تعديل هنا
   animeGrid.innerHTML = "";
 
   list.forEach(ep => {
@@ -97,6 +97,7 @@ function renderEpisodes(list) {
   });
 }
 
+
 loadEpisodes();
 </script>
 
@@ -112,4 +113,5 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+
 

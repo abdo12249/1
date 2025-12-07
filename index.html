@@ -167,10 +167,13 @@ async function loadEpisodes() {
     const response = await fetch("الجديد.json");
     const episodes = await response.json();
 
-    // عكس ترتيب الحلقات بحيث تبدأ من آخر حلقة
+    // عكس الترتيب بحيث آخر حلقة تظهر أولاً
     const reversedEpisodes = episodes.slice().reverse();
 
-    renderEpisodes(reversedEpisodes);
+    // أخذ آخر 5 حلقات فقط
+    const lastFiveEpisodes = reversedEpisodes.slice(0, 5);
+
+    renderEpisodes(lastFiveEpisodes);
 
   } catch (error) {
     console.error("خطأ في تحميل الجديد.json:", error);
@@ -204,7 +207,6 @@ function renderEpisodes(list) {
 
 loadEpisodes();
 </script>
-
 
 </main>
 
@@ -326,6 +328,7 @@ loadEpisodes();
 
 </body>
 </html>
+
 
 
 

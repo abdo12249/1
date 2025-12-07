@@ -148,7 +148,20 @@ iframe {
 
     
 <!-- قسم الحلقات الجديدة -->
-<script>
+<main>
+  <div class="section-header">
+    <h1>الحلقات الجديدة</h1>
+    <button class="watch-button"><a href="new.html" style="color: inherit;"> المزيد</a></button>
+  </div>
+  <div class="anime-grid" id="animeGridNew"></div>
+
+  <!-- شاشة التحميل -->
+  <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+    <div class="spinner"></div>
+    <span>جاري تحميل الأنمي...</span>
+  </div>
+
+ <script>
 const maxItemsToShow = 5;
 
 async function loadEpisodes() {
@@ -193,6 +206,8 @@ function renderEpisodes(list) {
 
 loadEpisodes();
 </script>
+
+</main>
 
 
 
@@ -312,7 +327,5 @@ loadEpisodes();
 
 </body>
 </html>
-
-
 
 

@@ -8,6 +8,10 @@
 <script src="navbar.js" defer></script>
 <link rel="icon" href="https://abdo12249.github.io/1/navbar/favicon.ico" type="image/x-icon" />
 
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
 <style>
 /* Pagination styling */
 .pagination { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
@@ -51,19 +55,6 @@
   <div id="loadingOverlay" class="loading-overlay" style="display: none;">
     <div class="spinner"></div>
     <span id="loadingText">جاري تحميل الأنمي...</span>
-  </div>
-
-<main>
-  <div class="section-header">
-    <h1>الحلقات الجديدة</h1>
-    <button class="watch-button"><a href="new.html" style="color: inherit;"> المزيد</a></button>
-  </div>
-  <div class="anime-grid" id="animeGridNew"></div>
-
-  <!-- شاشة التحميل -->
-  <div id="loadingOverlay" class="loading-overlay" style="display: none;">
-    <div class="spinner"></div>
-    <span>جاري تحميل الأنمي...</span>
   </div>
 
 <script>
@@ -113,8 +104,6 @@ function renderEpisodes(list) {
 loadEpisodes();
 </script>
 
-</main>
-
 <script>
 fetch('navbar.html')
   .then(res=>res.text())
@@ -125,5 +114,4 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
-
 

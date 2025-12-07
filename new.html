@@ -63,7 +63,7 @@ async function loadEpisodes() {
     const reversedEpisodes = episodes.slice().reverse();
 
     // أخذ آخر 5 حلقات فقط
-    const lastFiveEpisodes = reversedEpisodes.slice(0, 5);
+    const lastFiveEpisodes = reversedEpisodes.slice(0, 25);
 
     renderEpisodes(lastFiveEpisodes);
 
@@ -113,5 +113,6 @@ fetch('navbar.html')
 </main>
 </body>
 </html>
+
 
 

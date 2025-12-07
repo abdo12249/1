@@ -161,18 +161,16 @@ iframe {
     <span>جاري تحميل الأنمي...</span>
   </div>
 
- <script>
-const maxItemsToShow = 5;
-
+<script>
 async function loadEpisodes() {
   try {
     const response = await fetch("الجديد.json");
     const episodes = await response.json();
 
-    // أخذ أول 5 حلقات فقط
-    const topEpisodes = episodes.slice(0, maxItemsToShow);
+    // عكس ترتيب الحلقات بحيث تبدأ من آخر حلقة
+    const reversedEpisodes = episodes.slice().reverse();
 
-    renderEpisodes(topEpisodes);
+    renderEpisodes(reversedEpisodes);
 
   } catch (error) {
     console.error("خطأ في تحميل الجديد.json:", error);
@@ -206,6 +204,7 @@ function renderEpisodes(list) {
 
 loadEpisodes();
 </script>
+
 
 </main>
 
@@ -327,5 +326,6 @@ loadEpisodes();
 
 </body>
 </html>
+
 
 

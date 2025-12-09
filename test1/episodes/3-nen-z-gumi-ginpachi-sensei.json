@@ -523,6 +523,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 9,
+      "title": "الحلقة 9",
+      "date": "2025-12-09 11:41:40",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=3-nen-z-gumi-ginpachi-sensei&episode=9",
+      "image": "https://abdo12249.github.io/1/images/3-nen-z-gumi-ginpachi-sensei.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/r8xVWWiYAbZD6"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-pgmcs7o8vh5u.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239175&hash=04747dae3fa7d08d&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-5iwd31xgjj2v.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hkawnw2dbe0e"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-vrl3um26u1c1.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/cbx33h9w0vk4"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-9yogcvi9x7z9.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-khtxsfg9yvzt.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-3xunv14kwhd5.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

@@ -645,6 +645,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:38:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shabake&episode=10",
+      "image": "https://abdo12249.github.io/1/images/shabake.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/UsfEMsQqYy9sd"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-vck00x7b549a.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/x9q8qyxzl78y"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ehe6e7q89lit.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240407&hash=f95801b3a14dce74&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/3xyfip9xglz9"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-mpj81o8nhzh4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-g90fst7pmp2p.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-7rtwugelure3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-94tzhglvgl5x.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-vmbbw1pyqey6.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-gop6qrp3pkva.html"
+        }
+      ]
     }
   ]
 }

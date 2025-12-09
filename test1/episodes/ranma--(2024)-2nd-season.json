@@ -556,7 +556,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:30",
+      "date": "2025-12-09 11:33:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ranma--(2024)-2nd-season&episode=9",
       "image": "https://abdo12249.github.io/1/images/ranma--(2024)-2nd-season.webp",
       "servers": [
@@ -571,6 +571,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239153&hash=e76fb8a0ba8296a0&hd=3"
         },
         {
           "serverName": "videa",

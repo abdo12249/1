@@ -799,7 +799,7 @@
     {
       "number": 12,
       "title": "الحلقة 12",
-      "date": "2025-12-05 08:28:37",
+      "date": "2025-12-09 11:24:04",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mofa-gongzhu-de-xiao-fannao&episode=12",
       "image": "https://abdo12249.github.io/1/images/mofa-gongzhu-de-xiao-fannao.webp",
       "servers": [
@@ -814,6 +814,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239156&hash=5224d7adc20e02c0&hd=3"
         },
         {
           "serverName": "videa",

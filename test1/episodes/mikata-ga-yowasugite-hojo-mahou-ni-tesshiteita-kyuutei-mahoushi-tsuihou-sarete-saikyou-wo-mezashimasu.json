@@ -645,7 +645,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:54",
+      "date": "2025-12-09 11:34:20",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu&episode=9",
       "image": "https://abdo12249.github.io/1/images/mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu.webp",
       "servers": [
@@ -660,6 +660,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239151&hash=004477fa98444eb1&hd=3"
         },
         {
           "serverName": "videa",

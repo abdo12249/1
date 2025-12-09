@@ -584,7 +584,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-05 08:33:13",
+      "date": "2025-12-09 11:36:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga&episode=9",
       "image": "https://abdo12249.github.io/1/images/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.webp",
       "servers": [
@@ -611,6 +611,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240392&hash=9d07aa5f79bfc826&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

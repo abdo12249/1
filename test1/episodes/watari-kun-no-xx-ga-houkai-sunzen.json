@@ -1414,6 +1414,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 23,
+      "title": "الحلقة 23",
+      "date": "2025-12-09 11:38:43",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=watari-kun-no-xx-ga-houkai-sunzen&episode=23",
+      "image": "https://abdo12249.github.io/1/images/watari-kun-no-xx-ga-houkai-sunzen.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/PTgA9aV8y2SQi"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-dozbm9ozu8k9.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/cnmp5prdu89u"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-3hrssn2x9zw1.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240408&hash=770d367b8bc4df7f&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/jqcte6uf7w5a"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-gxn9ofjmf05f.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jtw16d144ucr.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-3z9l1plv5916.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

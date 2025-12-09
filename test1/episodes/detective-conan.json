@@ -833,6 +833,75 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 1183,
+      "title": "الحلقة 1183",
+      "date": "2025-12-09 11:38:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=detective-conan&episode=1183",
+      "image": "https://abdo12249.github.io/1/images/detective-conan.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/wkvKU0RmyvVz5"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-25enum449kzz.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/rckgblb7kj58"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-ueoruk2us32y.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240405&hash=0df787e1d28c2117&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jfpzlpa7ngqt.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-qqgsxg8urstt.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-wjr6lifzyc9y.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

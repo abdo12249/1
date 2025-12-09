@@ -438,7 +438,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-05 08:28:28",
+      "date": "2025-12-09 11:36:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=potion-wagami-wo-tasukeru&episode=9",
       "image": "https://abdo12249.github.io/1/images/potion-wagami-wo-tasukeru.webp",
       "servers": [
@@ -453,6 +453,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239160&hash=1aaafb0da08289dd&hd=3"
         },
         {
           "serverName": "videa",

@@ -605,7 +605,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:30",
+      "date": "2025-12-09 11:33:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=9",
       "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
       "servers": [
@@ -634,6 +634,10 @@
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240382&hash=bd05b81a8845046e&hd=3&autoplay=1"
+        },
+        {
           "serverName": "DoodStream",
           "url": "https://dsvplay.com/e/bib4u4auekxc"
         },
@@ -643,7 +647,7 @@
         },
         {
           "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "url": "https://mp4upload.com/embed-bx2sa0oblb43.html"
         },
         {
           "serverName": "mega بدون اعلانات",
@@ -655,7 +659,7 @@
         },
         {
           "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "url": "https://mp4upload.com/embed-3u0ub7g3t9f2.html"
         },
         {
           "serverName": "mega بدون اعلانات",
@@ -667,7 +671,7 @@
         },
         {
           "serverName": "Mp4upload",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "url": "https://mp4upload.com/embed-3hhk6rtit7fy.html"
         }
       ]
     }

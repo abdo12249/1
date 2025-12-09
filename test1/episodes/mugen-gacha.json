@@ -568,6 +568,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:38:17",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mugen-gacha&episode=10",
+      "image": "https://abdo12249.github.io/1/images/mugen-gacha.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/zoSAweqQTuvv6"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-e9ecd7kag0un.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239171&hash=e3168ec0247ea8b9&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/8nmj3c5ruwsd"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-yp7pop5ip6ly.html"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-6419ufuz57cy.html"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-fy8276i0cuxy.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ua1urj8h6fyt.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-anmbzcac1zub.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

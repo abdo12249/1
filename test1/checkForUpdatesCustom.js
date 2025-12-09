@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/kimi-to-koete-koi-ni-naru.json", "https://myanima.ddns.net/test1/episodes/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/kimi-to-koete-koi-ni-naru.json", "https://myanima.ddns.net/test1/episodes/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.json", "https://myanima.ddns.net/test1/episodes/sozai-saishuka-no-isekai-ryokouki.json"]);

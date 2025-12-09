@@ -803,6 +803,67 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-12-09 11:38:16",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=yasei-no-last-boss-ga-arawareta!&episode=11",
+      "image": "https://abdo12249.github.io/1/images/yasei-no-last-boss-ga-arawareta!.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/VbX1Ozszbf8Jb"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-g9q6cvmevtw7.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/onr4fo1ahgb3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-10o2jxgyxbwb.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240411&hash=35bfb5f06d2c7ca1&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/hqn8fg3f02ed"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-qeukarliq218.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-mgp7vl64gzfg.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

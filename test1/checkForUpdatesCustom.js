@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/gachiakuta.json", "https://myanima.ddns.net/test1/episodes/kikaijikake-no-marie.json", "https://myanima.ddns.net/test1/episodes/si-vis-the-sound-of-heroes.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/gachiakuta.json", "https://myanima.ddns.net/test1/episodes/kikaijikake-no-marie.json", "https://myanima.ddns.net/test1/episodes/si-vis-the-sound-of-heroes.json", "https://myanima.ddns.net/test1/episodes/alma-chan-wa-kazoku-ni-naritai.json"]);

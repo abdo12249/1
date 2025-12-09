@@ -645,7 +645,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-09 11:34:20",
+      "date": "2025-11-30 20:21:42",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=9",
       "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
       "servers": [
@@ -668,10 +668,6 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/pgn5ekgs1f41"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240378&hash=d54080b9b76d66ca&hd=3&autoplay=1"
         },
         {
           "serverName": "videa",
@@ -708,6 +704,67 @@
         {
           "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-hxi53klxje75.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:37:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=10",
+      "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/8WJUv179BbzdM"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-5emsav6wa47i.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-u1mpis0zoem6.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/fhtvkksy7p3l"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240414&hash=65178b8baa477150&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/p1an5kyw8zxr"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-1vckk5tuumk0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-v2cdklxsztfs.html"
         },
         {
           "serverName": "Mp4upload",

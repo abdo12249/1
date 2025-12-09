@@ -645,7 +645,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:42",
+      "date": "2025-12-09 11:34:20",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=nageki-no-bourei-wa-intai-shitai-part-2&episode=9",
       "image": "https://abdo12249.github.io/1/images/nageki-no-bourei-wa-intai-shitai-part-2.webp",
       "servers": [
@@ -668,6 +668,10 @@
         {
           "serverName": "voe.sx",
           "url": "https://voe.sx/e/pgn5ekgs1f41"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240378&hash=d54080b9b76d66ca&hd=3&autoplay=1"
         },
         {
           "serverName": "videa",

@@ -524,72 +524,68 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 17:12:58",
+      "date": "2025-12-09 11:37:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=9",
       "image": "https://abdo12249.github.io/1/images/gnosia.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/TVX1f8DqdbvYV"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/GhtlQhIKwGasO"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/TVX1f8DqdbvYV"
-        },
-        {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-i74y289j6yxi.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-5ldvtfdmfcvi.html"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-bi8jdtkhbdsv.html"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-cnx8rlf4ye5b.html"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/nccit63uelwt"
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/nrbcbgai983t"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240354&hash=639650230ad29738&autoplay=1"
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240416&hash=2073c1df0e137ad2&hd=3&autoplay=1"
         },
         {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/4p1milbkm6pq"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/uh8oy3gelvk5"
         },
         {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-qmugajhcsvfv.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ys5li3imczab.html"
         },
         {
-          "serverName": "mp4uploadHD",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-m2zmpfsovws5.html"
         },
         {
-          "serverName": "megaFHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-a3sf5clmnjw7.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ymbn57w156r7.html"
         },
         {
-          "serverName": "mp4uploadFHD",
-          "url": "https://www.mp4upload.com/exo1.html"
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-bwpuy4tcn15g.html"
         }
       ]
     },
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-12-09 11:33:53",
+      "date": "2025-12-05 08:28:51",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=8",
       "image": "https://abdo12249.github.io/1/images/gnosia.webp",
       "servers": [
@@ -616,10 +612,6 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240381&hash=a42231b8f43f2900&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

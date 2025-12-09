@@ -157,13 +157,23 @@
 playButton.addEventListener("click", () => {
   const ep = episodes[currentEpisodeIndex];
 
-  // ✨ أي فيديو قديم يتم إيقافه قبل التشغيل
-  videoPlayer.src = ""; 
-  void videoPlayer.offsetWidth; // إعادة تحميل iframe لتفادي استمرار التشغيل القديم
+  // أي فيديو قديم يتم إيقافه
+  videoPlayer.src = "";
+  void videoPlayer.offsetWidth;
   videoPlayer.src = ep.servers[0].url;
   videoPlayer.style.display = "block";
   imageWrapper.style.display = "none";
+
+  // ✅ استدعاء RS.js فقط عند الضغط على الزر
+  if (!window.RSModuleLoaded) { // تأكد أنه لم يُحمّل من قبل
+    const script = document.createElement("script");
+    script.type = "module";
+    script.src = "/RS.js";
+    document.body.appendChild(script);
+    window.RSModuleLoaded = true; // علامة أنه تم التحميل
+  }
 });
+
 
 
     function startVideo(url) {
@@ -224,4 +234,5 @@ playButton.addEventListener("click", () => {
 
 </body>
 </html>
+
 

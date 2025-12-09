@@ -535,80 +535,72 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-24 19:09:16",
+      "date": "2025-12-09 11:41:14",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chanto-suenai-kyuuketsuki-chan&episode=9",
       "image": "https://abdo12249.github.io/1/images/chanto-suenai-kyuuketsuki-chan.webp",
       "servers": [
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/JEgxcxBdNN4RJ"
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/OUueu5pvioy6X"
         },
         {
-          "serverName": "megamax meHD",
-          "url": "https://megamax.me/iframe/JEgxcxBdNN4RJ"
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
         },
         {
-          "serverName": "larhuHD",
-          "url": "https://larhu.com/embed-fdmcyzjl9m62.html"
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-c9x0f47hy698.html"
         },
         {
-          "serverName": "vkvideo ruHD",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239131&hash=a530056ac31e2d8c&autoplay=1"
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-pew00c9px6z2.html"
         },
         {
-          "serverName": "videa huHD",
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/hwsfv7i2c5h0"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240424&hash=f3e080f0e110b05a&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "megaFHD",
-          "url": "about:blank"
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/4iomem4w3fc3"
         },
         {
-          "serverName": "file-upload orgFHD",
-          "url": "https://file-upload.org/embed-ye68u4mdugyu.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-24rke11kuq5v.html"
         },
         {
-          "serverName": "mp4uploadFHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaHD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "vidmolyHD",
-          "url": "https://vidmoly.net/embed-paj3p3yvo6pd.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-qvt3qdf0ua69.html"
         },
         {
-          "serverName": "voe sxHD",
-          "url": "https://voe.sx/e/ldbvvwiwwuwq"
-        },
-        {
-          "serverName": "uqload cxHD",
-          "url": "https://uqload.cx/embed-07y9xo0c4bpg.html"
-        },
-        {
-          "serverName": "dsvplayHD",
-          "url": "https://dsvplay.com/e/qa2ifch03zj7"
-        },
-        {
-          "serverName": "file-upload orgHD",
-          "url": "https://file-upload.org/embed-cjfm23rydc8z.html"
-        },
-        {
-          "serverName": "mp4uploadHD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         },
         {
-          "serverName": "megaSD",
+          "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
-          "serverName": "file-upload orgSD",
-          "url": "https://file-upload.org/embed-v2vcektjknmg.html"
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-di451yucb39u.html"
         },
         {
-          "serverName": "mp4uploadSD",
+          "serverName": "Mp4upload",
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]

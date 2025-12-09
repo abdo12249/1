@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/mofa-gongzhu-de-xiao-fannao.json", "https://myanima.ddns.net/test1/episodes/one-punch-man-3.json", "https://myanima.ddns.net/test1/episodes/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.json"]);

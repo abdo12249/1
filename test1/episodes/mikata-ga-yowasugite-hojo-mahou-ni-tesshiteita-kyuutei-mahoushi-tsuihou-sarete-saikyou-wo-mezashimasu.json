@@ -645,7 +645,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-12-09 11:34:20",
+      "date": "2025-11-30 20:21:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu&episode=9",
       "image": "https://abdo12249.github.io/1/images/mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu.webp",
       "servers": [
@@ -660,10 +660,6 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
-        },
-        {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239151&hash=004477fa98444eb1&hd=3"
         },
         {
           "serverName": "videa",
@@ -712,6 +708,67 @@
         {
           "serverName": "file-upload.org",
           "url": "https://file-upload.org/embed-5xzil470b6en.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:37:51",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu&episode=10",
+      "image": "https://abdo12249.github.io/1/images/mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/cebHUFqMxOf4j"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-uj1e27iuunc8.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-0usk205ljfy0.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/1xrr3d6yrnsj"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240412&hash=4fe31c029ba8954d&hd=3"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/dnmnmqo8sow7"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-jegowjraljs0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-1x0ggrlvldno.html"
         },
         {
           "serverName": "Mp4upload",

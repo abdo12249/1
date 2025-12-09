@@ -649,6 +649,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:17:43",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga&episode=10",
+      "image": "https://abdo12249.github.io/1/images/ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/RWlWrR2cvuiOI"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-za9chr8dxbze.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239180&hd=3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-bcv8kw3zc8yo.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ogq1lycn1kxp"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-ur47fnr6rf6m.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/1m4ms77m7axp"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-guld0emc8tds.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ezjqhp6e4p14.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-uym9p69oubvz.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

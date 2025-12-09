@@ -653,7 +653,7 @@
     {
       "number": 10,
       "title": "الحلقة 10",
-      "date": "2025-12-05 08:28:28",
+      "date": "2025-12-09 11:36:33",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=10",
       "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
       "servers": [
@@ -680,6 +680,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240391&hash=3e60b3050d9bbd7f&hd=3&autoplay=1"
         },
         {
           "serverName": "uqload",

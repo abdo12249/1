@@ -714,6 +714,67 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:41:40",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=fumetsu-no-anata-e-season-3&episode=10",
+      "image": "https://abdo12249.github.io/1/images/fumetsu-no-anata-e-season-3.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/2BwNH9twIPPnH"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-xkcomonoi0fh.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/htezj1ul8gcs"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-fviu7tlmwhe4.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240417&hash=27497fc0c1cb810c&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/10sznhyt4sml"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-znyghkjbw45k.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-wkllzdp62oq1.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

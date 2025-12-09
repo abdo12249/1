@@ -693,7 +693,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:30",
+      "date": "2025-12-09 11:33:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=kingdom-6th-season&episode=9",
       "image": "https://abdo12249.github.io/1/images/kingdom-6th-season.webp",
       "servers": [
@@ -708,6 +708,10 @@
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-232816323&id=456239063&hash=9957d97e93eee45e&hd=3"
         },
         {
           "serverName": "videa",

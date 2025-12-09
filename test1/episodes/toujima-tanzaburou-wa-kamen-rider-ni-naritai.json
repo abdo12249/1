@@ -674,6 +674,67 @@
           "url": "https://mp4upload.com/embed-3hhk6rtit7fy.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:41:40",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=toujima-tanzaburou-wa-kamen-rider-ni-naritai&episode=10",
+      "image": "https://abdo12249.github.io/1/images/toujima-tanzaburou-wa-kamen-rider-ni-naritai.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/PUrnBtaHiPtMQ"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-1u247douhdr0.html"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-0b23w0tjie0d.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/jkgcwds44vqk"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240418&hash=ec5ca52276852d5d&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/f3c9dndacmcv"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ziyd4c8ttedu.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-4x1b34bv9sqh.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-p4h1t8enzefb.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://mp4upload.com/embed-xmtc9ffg67cm.html"
+        }
+      ]
     }
   ]
 }

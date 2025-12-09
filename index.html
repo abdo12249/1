@@ -132,7 +132,7 @@
     <h1>الحلقات الجديدة</h1>
     <button class="watch-button"><a href="new.html" style="color: inherit;"> المزيد</a></button>
   </div>
-  <div class="anime-grid" id="animeGridNew"></div>
+  <div class="anime-grid" id="animeGrid"></div>
 
   <!-- شاشة التحميل -->
   <div id="loadingOverlay" class="loading-overlay" style="display: none;">
@@ -160,7 +160,7 @@ async function loadEpisodes() {
 }
 
 function renderEpisodes(list) {
-  const animeGrid = document.getElementById("animeGridNew");
+  const animeGrid = document.getElementById("animeGrid");
   animeGrid.innerHTML = "";
 
   list.forEach(ep => {
@@ -301,6 +301,7 @@ loadEpisodes();
 
 </body>
 </html>
+
 
 
 

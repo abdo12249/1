@@ -117,40 +117,54 @@
       });
     }
 
-    function playEpisode(index, autoPlay = false) {
-      currentEpisodeIndex = index;
-      const ep = episodes[index];
+    function playEpisode(index) {
+  currentEpisodeIndex = index;
+  const ep = episodes[index];
 
-      episodeTitle.textContent = `رقم الحلقة: ${ep.number}`;
+  episodeTitle.textContent = `رقم الحلقة: ${ep.number}`;
 
-      // عرض التاريخ والوقت
-      if (ep.date) {
-        const dateObj = new Date(ep.date);
-        episodeDate.textContent = `تاريخ ووقت النشر: ${dateObj.toLocaleString("ar-EG", { 
-          year: "numeric", month: "long", day: "numeric", 
-          hour: "2-digit", minute: "2-digit" 
-        })}`;
-      } else {
-        episodeDate.textContent = "";
-      }
+  // عرض التاريخ والوقت
+  if (ep.date) {
+    const dateObj = new Date(ep.date);
+    episodeDate.textContent = `تاريخ ووقت النشر: ${dateObj.toLocaleString("ar-EG", { 
+      year: "numeric", month: "long", day: "numeric", 
+      hour: "2-digit", minute: "2-digit" 
+    })}`;
+  } else {
+    episodeDate.textContent = "";
+  }
 
-      document.title = `${animeTitle.textContent} - الحلقة ${ep.number}`;
-      currentServerName = ep.servers[0].serverName;
+  document.title = `${animeTitle.textContent} - الحلقة ${ep.number}`;
+  currentServerName = ep.servers[0].serverName;
 
-      // تحديث صورة الحلقة
-      if (ep.image) {
-        episodeImage.src = ep.image;
-        imageWrapper.style.display = "block";
-      } else {
-        imageWrapper.style.display = "none";
-        if (autoPlay) startVideo(ep.servers[0].url);
-      }
+  // عرض صورة الحلقة + زر التشغيل دائمًا
+  if (ep.image) {
+    episodeImage.src = ep.image;
+  } else {
+    episodeImage.src = ""; // لو مفيش صورة
+  }
+  imageWrapper.style.display = "block";
 
-      if (autoPlay && !ep.image) startVideo(ep.servers[0].url);
+  // إيقاف أي فيديو قديم
+  videoPlayer.src = "";
+  videoPlayer.style.display = "none";
 
-      loadServerButtons();
-      loadEpisodes();
-    }
+  loadServerButtons();
+  loadEpisodes();
+}
+
+// عند الضغط على زر التشغيل
+playButton.addEventListener("click", () => {
+  const ep = episodes[currentEpisodeIndex];
+
+  // ✨ أي فيديو قديم يتم إيقافه قبل التشغيل
+  videoPlayer.src = ""; 
+  void videoPlayer.offsetWidth; // إعادة تحميل iframe لتفادي استمرار التشغيل القديم
+  videoPlayer.src = ep.servers[0].url;
+  videoPlayer.style.display = "block";
+  imageWrapper.style.display = "none";
+});
+
 
     function startVideo(url) {
       videoPlayer.src = url;
@@ -210,3 +224,4 @@
 
 </body>
 </html>
+

@@ -726,6 +726,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-09 11:40:50",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha&episode=10",
+      "image": "https://abdo12249.github.io/1/images/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/H8RieFSfHaAbc"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-rx3exlff2f11.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/lnokh6h6u8wb"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-eo032agthbkx.html"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240427&hash=0ab35e2d9beb416a&hd=3&autoplay=1"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/bql5nfrittrm"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-h88bx9d708d4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6evhcfdk3iqu.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-pquiz2qf8sh0.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

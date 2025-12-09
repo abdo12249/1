@@ -722,6 +722,83 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 11,
+      "title": "الحلقة 11",
+      "date": "2025-12-09 11:17:42",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=sozai-saishuka-no-isekai-ryokouki&episode=11",
+      "image": "https://abdo12249.github.io/1/images/sozai-saishuka-no-isekai-ryokouki.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/i4mb4VoT7XUU9"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-3m2las0ndu61.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239179&hash=999c27e4c62c3554&hd=3"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-7xzk9gf7lgrl.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/aaile1piczlx"
+        },
+        {
+          "serverName": "uqload",
+          "url": "https://uqload.cx/embed-5exm3ycd6jyt.html"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/69glluh8utll"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-kjlnyg9ddnh4.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-6y2bzazyclj3.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-ly84wphjg58j.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

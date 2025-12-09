@@ -556,7 +556,7 @@
     {
       "number": 9,
       "title": "الحلقة 9",
-      "date": "2025-11-30 20:21:30",
+      "date": "2025-12-09 11:33:54",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=tomodachi-no-imouto-ga-ore-ni-dake-uzai&episode=9",
       "image": "https://abdo12249.github.io/1/images/tomodachi-no-imouto-ga-ore-ni-dake-uzai.webp",
       "servers": [
@@ -583,6 +583,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240383&hash=6aec2b6dc819fd0d&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

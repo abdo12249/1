@@ -589,7 +589,7 @@
     {
       "number": 8,
       "title": "الحلقة 8",
-      "date": "2025-12-05 08:28:51",
+      "date": "2025-12-09 11:33:53",
       "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=gnosia&episode=8",
       "image": "https://abdo12249.github.io/1/images/gnosia.webp",
       "servers": [
@@ -616,6 +616,10 @@
         {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240381&hash=a42231b8f43f2900&hd=3&autoplay=1"
         },
         {
           "serverName": "DoodStream",

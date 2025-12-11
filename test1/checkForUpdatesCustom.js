@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/shuumatsu-no-walkre-iii.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/shuumatsu-no-walkre-iii.json", "https://myanima.ddns.net/test1/episodes/tensei-akujo-no-kuro-rekishi.json"]);

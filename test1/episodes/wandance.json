@@ -434,6 +434,79 @@
           "url": "https://www.mp4upload.com/exo1.html"
         }
       ]
+    },
+    {
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-11 17:06:58",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=wandance&episode=10",
+      "image": "https://abdo12249.github.io/1/images/wandance.webp",
+      "servers": [
+        {
+          "serverName": "megamax",
+          "url": "https://megamax.me/iframe/OU51Sms9jw1BB"
+        },
+        {
+          "serverName": "larhu",
+          "url": "https://larhu.com/embed-n0oas3w56z4s.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239185&hash=f6ef0204c40486c0&hd=3"
+        },
+        {
+          "serverName": "videa",
+          "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
+        },
+        {
+          "serverName": "vidmoly",
+          "url": "https://vidmoly.net/embed-1dz0df1hlklo.html"
+        },
+        {
+          "serverName": "voe.sx",
+          "url": "https://voe.sx/e/ykmpufbb0key"
+        },
+        {
+          "serverName": "DoodStream",
+          "url": "https://dsvplay.com/e/dkbsrikowryi"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-2jr97ghz2duu.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-a1ba9u05qh94.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        },
+        {
+          "serverName": "mega بدون اعلانات",
+          "url": "about:blank"
+        },
+        {
+          "serverName": "file-upload.org",
+          "url": "https://file-upload.org/embed-e8h0kd7ci4rs.html"
+        },
+        {
+          "serverName": "Mp4upload",
+          "url": "https://www.mp4upload.com/exo1.html"
+        }
+      ]
     }
   ]
 }

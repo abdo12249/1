@@ -96,47 +96,47 @@
       ]
     },
     {
-      "number": 11,
-      "title": "الحلقة 11",
-      "date": "2025-12-11 17:06:00",
-      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shuumatsu-no-walkre-iii&episode=11",
+      "number": 10,
+      "title": "الحلقة 10",
+      "date": "2025-12-11 17:06:01",
+      "link": "https://abdo12249.github.io/1/test1/المشاهده.html?id=shuumatsu-no-walkre-iii&episode=10",
       "image": "https://abdo12249.github.io/1/images/shuumatsu-no-walkre-iii.webp",
       "servers": [
         {
           "serverName": "megamax",
-          "url": "https://megamax.me/iframe/gfYipMFnxts9h"
+          "url": "https://megamax.me/iframe/NLkNBoBZGfaHr"
         },
         {
           "serverName": "larhu",
-          "url": "https://larhu.com/embed-wzfzdtmu1ptm.html"
+          "url": "https://larhu.com/embed-qzbyvfhtq7du.html"
         },
         {
           "serverName": "mega بدون اعلانات",
           "url": "about:blank"
         },
         {
+          "serverName": "vk",
+          "url": "https://vkvideo.ru/video_ext.php?oid=-230564661&id=456240438&hash=a6ea55b8bf1643f8&hd=3"
+        },
+        {
           "serverName": "videa",
           "url": "https://www.googletagmanager.com/ns.html?id=GTM-KJ8VMQ2"
         },
         {
-          "serverName": "vk",
-          "url": "https://vkvideo.ru/video_ext.php?oid=-230608608&id=456239196&hash=e365c3b88a1cb4fc&hd=3"
-        },
-        {
           "serverName": "vidmoly",
-          "url": "https://vidmoly.net/embed-3exodxsnv6ou.html"
+          "url": "https://vidmoly.net/embed-yd833u9phgg6.html"
         },
         {
           "serverName": "voe.sx",
-          "url": "https://voe.sx/e/vdrhako0a2on"
+          "url": "https://voe.sx/e/lbhgk129kubh"
         },
         {
           "serverName": "DoodStream",
-          "url": "https://dsvplay.com/e/2ax91ipxbfz5"
+          "url": "https://dsvplay.com/e/gt4xdb2pijqf"
         },
         {
           "serverName": "file-upload.org",
-          "url": "https://file-upload.org/embed-9rcry415uros.html"
+          "url": "https://file-upload.org/embed-2dqm6aana74u.html"
         }
       ]
     }

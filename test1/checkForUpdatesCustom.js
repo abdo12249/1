@@ -1,1 +1,1 @@
-checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/shuumatsu-no-walkre-iii.json", "https://myanima.ddns.net/test1/episodes/tensei-akujo-no-kuro-rekishi.json"]);
+checkForUpdatesCustom(["https://myanima.ddns.net/test1/episodes/shuumatsu-no-walkre-iii.json", "https://myanima.ddns.net/test1/episodes/tensei-akujo-no-kuro-rekishi.json", "https://myanima.ddns.net/test1/episodes/disney-twisted-wonderland-the-animation-episode-of-heartslabyul.json"]);
